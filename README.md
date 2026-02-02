@@ -1,7 +1,7 @@
-# the-big-list
+# Standup Coder Database
 
 ## 项目介绍
-the-big-list 是一个全面的企业清单项目，专注于收集和整理各类权威企业榜单及 IT 行业各个维度的企业信息。项目覆盖全国多个城市的科技企业，以及财富500强、专精特新、独角兽等国家级/国际级权威榜单，旨在为程序员、运维人员、行业研究者、投资者、求职者等提供有价值的参考资料。
+Standup Coder Database 是一个全面的企业清单数据库项目，专注于收集和整理各类权威企业榜单及 IT 行业各个维度的企业信息。项目覆盖全国多个城市的科技企业，以及财富500强、专精特新、独角兽等国家级/国际级权威榜单，旨在为程序员、运维人员、行业研究者、投资者、求职者等提供有价值的参考资料。
 
 ## 项目用途
 - **求职参考**：了解不同领域的企业分布，寻找适合自己的职业机会
@@ -19,8 +19,14 @@ the-big-list 是一个全面的企业清单项目，专注于收集和整理各�
 | 类型 | 文件数量 | 说明 |
 |------|----------|------|
 | [权威榜单](#权威企业榜单8个) | 8个 | 财富500强、专精特新、独角兽等国家级榜单 |
-| [行业清单](#行业企业清单) | 74个 | 按行业+城市分类的企业清单 |
-| [专题榜单](#专题企业榜单6个) | 6个 | 科技创新、国外企业在华、远程工作等专题榜单 |
+| [行业清单](#行业企业清单) | 83个 | 按行业+城市分类的企业清单 |
+| [专题榜单](#专题企业榜单5个) | 5个 | 科技创新、国外企业在华、远程工作等专题榜单 |
+| [VC投资](#vc投资专题6个) | 6个 | 风险投资机构、投资人、投资趋势等专题 |
+| [技术活动](#技术活动专题1个) | 1个 | 黑客马拉松、编程竞赛、开发者大会等技术活动 |
+| [求职招聘](#求职招聘专题1个) | 1个 | 主要招聘平台、求职网站、企业信息查询平台 |
+| [劳动仲裁](#劳动仲裁专题1个) | 1个 | 劳动争议处理、仲裁程序、法律实务指南 |
+| [竞业协议](#竞业协议专题1个) | 1个 | 竞业限制条款、法律风险、实务操作指南 |
+| [裁员指南](#裁员指南专题1个) | 1个 | 裁员流程、补偿标准、权益保护指南 |
 
 ### 按检索维度
 - [按城市查找](#按城市查找)
@@ -44,8 +50,6 @@ the-big-list 是一个全面的企业清单项目，专注于收集和整理各�
 | 专精特新"小巨人" | [specialized-sme-xiaojuren.md](list/specialized-sme-xiaojuren.md) | 工信部 | 1.2万+ | 细分领域隐形冠军 |
 | 制造业单项冠军 | [manufacturing-champion.md](list/manufacturing-champion.md) | 工信部 | 1500+ | 细分产品市场占有率领先 |
 | 中国民营企业500强 | [private-enterprise-500.md](list/private-enterprise-500.md) | 全国工商联 | 500家 | 民营经济风向标 |
-| 中国互联网企业100强 | [internet-100.md](list/internet-100.md) | 中国互联网协会 | 100家 | 互联网行业权威排名 |
-| 中国软件百强 | [software-100.md](list/software-100.md) | 工信部 | 100家 | 软件行业权威排名 |
 
 ### 创投榜单
 | 榜单名称 | 文件 | 发布机构 | 规模 | 说明 |
@@ -55,7 +59,7 @@ the-big-list 是一个全面的企业清单项目，专注于收集和整理各�
 
 ---
 
-## 行业企业清单
+## 行业企业清单（83个）
 
 ### 行业覆盖（13大领域）
 | 行业 | 文件前缀 | 覆盖城市 | 说明 |
@@ -73,6 +77,12 @@ the-big-list 是一个全面的企业清单项目，专注于收集和整理各�
 | 网络安全 | `security-` | 8城 | 网络安全、数据安全、云安全、工控安全 |
 | 互联网 | `internet-` | 1城 | 互联网平台、电商、社交 |
 | 软件 | `software-` | 1城 | 企业软件、工业软件、基础软件 |
+
+### 综合榜单（2个）
+| 榜单名称 | 文件 | 发布机构 | 规模 | 说明 |
+|----------|------|----------|------|------|
+| 中国互联网企业100强 | [internet-100.md](list/internet-100.md) | 中国互联网协会 | 100家 | 互联网行业权威排名 |
+| 中国软件百强 | [software-100.md](list/software-100.md) | 工信部 | 100家 | 软件行业权威排名 |
 
 ### 城市覆盖（16城）
 
@@ -114,43 +124,77 @@ the-big-list 是一个全面的企业清单项目，专注于收集和整理各�
 
 ---
 
-## 专题企业榜单（6个）
+### 专题企业榜单（5个）
+
+### VC投资专题（6个）
+| 榜单名称 | 文件 | 说明 |
+|----------|------|------|
+| 中国顶级风险投资机构 | [top-domestic-vc.md](investment/top-domestic-vc.md) | 红杉中国、深创投、IDG资本等国内顶级VC |
+| 全球顶级风险投资机构 | [top-global-vc.md](investment/top-global-vc.md) | Sequoia、SoftBank、a16z等国际顶级VC |
+| 知名风险投资人 | [famous-vcs.md](investment/famous-vcs.md) | 沈南鹏、徐新、张颖等知名投资人 |
+| VC投资趋势与分析 | [vc-trends-analysis.md](investment/vc-trends-analysis.md) | 2025年VC投资市场趋势研究报告 |
+| VC投资实用指南 | [vc-practical-guide.md](investment/vc-practical-guide.md) | 创业者和投资人实操指南 |
 
 ### 科技创新榜单
 | 榜单名称 | 文件 | 覆盖城市 | 说明 |
 |----------|------|----------|------|
-| 北京科技创新企业榜单 | [tech-innovation-beijing.md](list/tech-innovation-beijing.md) | 北京 | 百度、字节跳动、旷视科技等 |
-| 上海科技创新企业榜单 | [tech-innovation-shanghai.md](list/tech-innovation-shanghai.md) | 上海 | 商汤科技、依图科技、壁仞科技等 |
-| 深圳科技创新企业榜单 | [tech-innovation-shenzhen.md](list/tech-innovation-shenzhen.md) | 深圳 | 腾讯、华为、比亚迪、大疆等 |
-| 全国科技创新企业综合榜单 | [tech-innovation-national.md](list/tech-innovation-national.md) | 全国 | 汇总全国科技创新企业 |
+| 北京科技创新企业榜单 | [tech-innovation-beijing.md](topics/tech-innovation-beijing.md) | 北京 | 百度、字节跳动、旷视科技等 |
+| 上海科技创新企业榜单 | [tech-innovation-shanghai.md](topics/tech-innovation-shanghai.md) | 上海 | 商汤科技、依图科技、壁仞科技等 |
+| 深圳科技创新企业榜单 | [tech-innovation-shenzhen.md](topics/tech-innovation-shenzhen.md) | 深圳 | 腾讯、华为、比亚迪、大疆等 |
+| 全国科技创新企业综合榜单 | [tech-innovation-national.md](topics/tech-innovation-national.md) | 全国 | 汇总全国科技创新企业 |
 
 ### 国外企业在华榜单
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 国外科技公司在华业务榜单 | [foreign-tech-companies-china.md](list/foreign-tech-companies-china.md) | 微软、苹果、谷歌、特斯拉等 |
+| 国外科技公司在华业务榜单 | [foreign-tech-companies-china.md](topics/foreign-tech-companies-china.md) | 微软、苹果、谷歌、特斯拉等 |
 
 ### 工作方式榜单
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 支持远程工作的公司榜单 | [remote-work-companies.md](list/remote-work-companies.md) | 字节跳动、腾讯、阿里巴巴等 |
+| 支持远程工作的公司榜单 | [remote-work-companies.md](topics/remote-work-companies.md) | 字节跳动、腾讯、阿里巴巴等 |
+
+### 技术活动专题（1个）
+| 榜单名称 | 文件 | 说明 |
+|----------|------|------|
+| 黑客马拉松及技术活动清单 | [hackathon-events.md](events/hackathon-events.md) | 国内外知名黑客马拉松、编程竞赛、开发者大会 |
+
+### 求职招聘专题（1个）
+| 榜单名称 | 文件 | 说明 |
+|----------|------|------|
+| 主要招聘平台及信息来源清单 | [job-platforms.md](careers/job-platforms.md) | 综合招聘平台、垂直领域招聘、企业信息查询平台 |
+
+### 劳动仲裁专题（1个）
+| 榜单名称 | 文件 | 说明 |
+|----------|------|------|
+| 劳动仲裁全流程指南 | [labor-arbitration.md](legal/labor-arbitration.md) | 从HR、法律、职工角度的劳动争议处理指南 |
+
+### 竞业协议专题（1个）
+| 榜单名称 | 文件 | 说明 |
+|----------|------|------|
+| 竞业协议全流程指南 | [compete-agreement.md](legal/compete-agreement.md) | 从HR、法律、职工角度的竞业限制实务指南 |
+
+### 裁员指南专题（1个）
+| 榜单名称 | 文件 | 说明 |
+|----------|------|------|
+| 裁员全流程指南 | [layoff-guide.md](legal/layoff-guide.md) | 从HR、法律、职工角度的裁员实务操作指南 |
 
 ---
 
-## 完整文件清单（88个）
+## 完整文件清单（97个）
 
 ### 人工智能行业（10个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [ai-beijing.md](list/ai-beijing.md) | 北京 | 百度、字节跳动、旷视、商汤、寒武纪等 |
-| [ai-shanghai.md](list/ai-shanghai.md) | 上海 | 依图、云从、商汤上海、第四范式等 |
-| [ai-guangzhou.md](list/ai-guangzhou.md) | 广州 | 云从科技、佳都科技、小鹏汽车等 |
-| [ai-shenzhen.md](list/ai-shenzhen.md) | 深圳 | 大疆、优必选、云天励飞、奥比中光等 |
-| [ai-hangzhou.md](list/ai-hangzhou.md) | 杭州 | 海康威视、大华、宇树科技、涂鸦智能等 |
-| [ai-nanjing.md](list/ai-nanjing.md) | 南京 | 南瑞科技、亿嘉和、埃斯顿等 |
-| [ai-xian.md](list/ai-xian.md) | 西安 | 航天四院、西飞、陕鼓等 |
-| [ai-kunming.md](list/ai-kunming.md) | 昆明 | 南天信息、昆船智能等 |
-| [ai-shenyang.md](list/ai-shenyang.md) | 沈阳 | 新松机器人、东软等 |
-| [ai-harbin.md](list/ai-harbin.md) | 哈尔滨 | 哈工大机器人、思哲睿医疗等 |
+| [ai-beijing.md](industry/ai-beijing.md) | 北京 | 百度、字节跳动、旷视、商汤、寒武纪等 |
+| [ai-shanghai.md](industry/ai-shanghai.md) | 上海 | 依图、云从、商汤上海、第四范式等 |
+| [ai-guangzhou.md](industry/ai-guangzhou.md) | 广州 | 云从科技、佳都科技、小鹏汽车等 |
+| [ai-shenzhen.md](industry/ai-shenzhen.md) | 深圳 | 大疆、优必选、云天励飞、奥比中光等 |
+| [ai-hangzhou.md](industry/ai-hangzhou.md) | 杭州 | 海康威视、大华、宇树科技、涂鸦智能等 |
+| [ai-nanjing.md](industry/ai-nanjing.md) | 南京 | 南瑞科技、亿嘉和、埃斯顿等 |
+| [ai-xian.md](industry/ai-xian.md) | 西安 | 航天四院、西飞、陕鼓等 |
+| [ai-kunming.md](industry/ai-kunming.md) | 昆明 | 南天信息、昆船智能等 |
+| [ai-shenyang.md](industry/ai-shenyang.md) | 沈阳 | 新松机器人、东软等 |
+| [ai-harbin.md](industry/ai-harbin.md) | 哈尔滨 | 哈工大机器人、思哲睿医疗等 |
 
 ### 大数据行业（5个）
 | 文件 | 城市 | 说明 |
@@ -427,9 +471,9 @@ the-big-list 是一个全面的企业清单项目，专注于收集和整理各�
 
 ---
 
-**更新时间**：2026年1月27日  
-**版本**：v3.2.0  
-**文件总数**：96个
+**更新时间**：2026年2月2日  
+**版本**：v5.0.0  
+**文件总数**：97个
 
 ---
 
@@ -452,7 +496,7 @@ the-big-list 是一个全面的企业清单项目，专注于收集和整理各�
 | internet-100.md | ✅ 已检查 | 中国互联网协会 isc.org.cn |
 | software-100.md | ✅ 已检查 | 工信部、中国电子信息行业联合会 |
 
-### 行业清单文件（74个）
+### 行业清单文件（77个）
 详细检查记录见上方"已检查文件清单"部分。
 
 ### 已删除的虚假文件（95个）
@@ -464,10 +508,18 @@ the-big-list 是一个全面的企业清单项目，专注于收集和整理各�
 
 | 维度 | 数量 |
 |------|------|
-| 文件总数 | 96个 |
+| 文件总数 | 97个 |
 | 权威榜单 | 8个 |
-| 行业清单 | 82个 |
-| 专题榜单 | 6个 |
+| 行业清单 | 83个 |
+| 专题榜单 | 5个 |
+| VC投资专题 | 6个 |
+| 技术活动专题 | 1个 |
+| 求职招聘专题 | 1个 |
+| 劳动仲裁专题 | 1个 |
+| 竞业协议专题 | 1个 |
+| 裁员指南专题 | 1个 |
 | 覆盖城市 | 16个 |
 | 覆盖行业 | 13个 |
 | 收录企业 | 6500+ |
+| 收录投资机构 | 50+ |
+| 收录投资人 | 30+ |
