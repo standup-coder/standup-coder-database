@@ -18,7 +18,36 @@
 | 上海数安行科技有限公司 | 数安行 | 2018年 | 数据安全、云安全、零信任 | 数据安全、零信任、云安全 | 数据安全平台、零信任访问系统、云安全解决方案 | 100-500人 | 未上市 | A轮 | https://www.shuduanxing.com |
 | 上海观安信息技术股份有限公司 | 观安信息 | 2013年 | 网络安全、数据安全、AI安全 | 威胁检测、数据安全、AI安全 | 威胁检测系统、数据安全平台、AI安全解决方案 | 1000-5000人 | 新三板 | 已挂牌 | https://www.shuaninfo.com |
 
-## 3. 按业务领域分类
+## 3. 国际企业列表
+
+### 3.1 美国企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 核心技术 | 代表产品/服务 | 公司规模 | 上市情况 | 融资情况 | 企业主页 | 办公地址 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Palo Alto Networks Shanghai | 派拓网络上海 | 2005年 | 网络安全、云安全、零信任 | 下一代防火墙、威胁检测、云安全 | Prisma Access、Cortex XDR、零信任安全平台 | 15,000+人 | 纳斯达克(PANW) | 已上市 | https://www.paloaltonetworks.com | 上海市浦东新区张江高科技园区 | 下一代安全架构 | 技术领先，创新氛围浓厚 | 数据隐私争议 | [派拓网络财报](https://investors.paloaltonetworks.com) |
+| Fortinet Shanghai | 飞塔上海 | 2000年 | 网络安全、统一威胁管理 | UTMP、NGFW、安全SD-WAN | FortiGate、FortiAnalyzer、FortiSIEM | 10,000+人 | 纳斯达克(FTNT) | 已上市 | https://www.fortinet.com | 上海市浦东新区张江高科技园区 | 统一安全架构 | 技术实力强 | 数据安全风险 | [飞塔财报](https://investors.fortinet.com) |
+| Check Point Software Shanghai | 检查点上海 | 1993年 | 网络安全、防火墙、威胁防护 | 防火墙、入侵检测、沙箱技术 | Check Point防火墙、SandBlast沙箱、Infinity平台 | 5,000+人 | 纳斯达克(CHKP) | 已上市 | https://www.checkpoint.com | 上海市浦东新区陆家嘴金融区 | 多层安全架构 | 技术专业 | 国际制裁风险 | [检查点财报](https://investors.checkpoint.com) |
+| CrowdStrike Shanghai | 众击上海 | 2011年 | 端点安全、威胁检测、EDR | EDR、威胁情报、云工作负载保护 | Falcon平台、威胁情报服务 | 8,000+人 | 纳斯达克(CRWD) | 已上市 | https://www.crowdstrike.com | 上海市浦东新区世纪大道 | 云原生安全架构 | 创新氛围浓厚 | 数据隐私争议 | [众击财报](https://investor.crowdstrike.com) |
+| FireEye Shanghai | 火眼上海 | 2004年 | 威胁检测、事件响应、安全服务 | 威胁情报、恶意软件分析、事件响应 | Helix平台、Mandiant服务 | 3,000+人 | 纳斯达克(FEYE) | 已上市 | https://www.fireeye.com | 上海市浦东新区张江高科技园区 | 威胁情报架构 | 技术实力强 | 收购整合风险 | [火眼财报](https://investor.fireeye.com) |
+| Symantec Shanghai | 赛门铁克上海 | 1982年 | 终端安全、数据安全、备份 | 终端防护、数据加密、备份恢复 | Endpoint Protection、Backup Exec | 10,000+人 | 纳斯达克(SYM) | 已上市 | https://www.symantec.com | 上海市浦东新区陆家嘴金融区 | 传统安全架构 | 技术成熟 | 收购整合风险 | [赛门铁克财报](https://investors.broadcom.com) |
+| McAfee Shanghai | 迈克菲上海 | 1987年 | 终端安全、数据安全、云安全 | 终端防护、数据加密、云安全 | McAfee Endpoint、MVISION云安全 | 4,000+人 | 纳斯达克(MCFE) | 已上市 | https://www.mcafee.com | 上海市浦东新区张江高科技园区 | 终端安全架构 | 技术实力强 | 数据隐私争议 | [迈克菲财报](https://investors.mcafee.com) |
+| IBM Security Shanghai | IBM安全上海 | 1911年 | 企业安全、威胁管理、身份治理 | 威胁检测、身份治理、安全运营 | QRadar、Guardium、Verify IAM | 150,000+人 | 纽约证券交易所(IBM) | 已上市 | https://www.ibm.com/security | 上海市浦东新区陆家嘴环路 | 企业安全架构 | 技术实力强 | 数据安全风险 | [IBM财报](https://www.ibm.com/investor) |
+
+### 3.2 欧洲企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 核心技术 | 代表产品/服务 | 公司规模 | 上市情况 | 融资情况 | 企业主页 | 办公地址 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Kaspersky Lab Shanghai | 卡巴斯基上海 | 1997年 | 终端安全、威胁检测、反病毒 | 反病毒引擎、威胁检测、移动安全 | Kaspersky Anti-Virus、Kaspersky Security Center | 4,000+人 | 私人公司 | 私人持股 | https://www.kaspersky.com | 上海市浦东新区张江高科技园区 | 多层防护架构 | 技术专业 | 国际制裁风险 | 私人公司信息 |
+| Sophos Shanghai | 深信服上海 | 1985年 | 端点安全、网络防护、邮件安全 | 端点防护、UTM、邮件安全 | Sophos Central、XG Firewall、Email Security | 6,000+人 | 伦敦证券交易所(SPH) | 已上市 | https://www.sophos.com | 上海市浦东新区陆家嘴金融区 | 统一安全架构 | 技术专业 | 数据隐私合规风险 | [深信服财报](https://www.sophos.com/en-us/investors.aspx) |
+| F-Secure Shanghai | F-安全上海 | 1988年 | 终端安全、移动安全、威胁检测 | 反病毒、移动安全、威胁情报 | F-Secure SAFE、Mobile Security | 1,500+人 | 赫尔辛基交易所(FSEC) | 已上市 | https://www.f-secure.com | 上海市浦东新区张江高科技园区 | 北欧安全架构 | 技术专业 | 国际制裁风险 | [F-安全财报](https://www.f-secure.com/en/business/investors) |
+| Trend Micro Shanghai | 趋势科技上海 | 1988年 | 云安全、端点安全、邮件安全 | 云安全、威胁检测、邮件防护 | Deep Security、Apex One、Hosted Email Security | 7,000+人 | 东京证券交易所(4704) | 已上市 | https://www.trendmicro.com | 上海市浦东新区张江高科技园区 | 云原生安全架构 | 技术实力强 | 数据隐私合规风险 | [趋势科技财报](https://www.trendmicro.com/en_us/business/investors.html) |
+
+### 3.3 以色列企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 核心技术 | 代表产品/服务 | 公司规模 | 上市情况 | 融资情况 | 企业主页 | 办公地址 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| CyberArk Shanghai | 赛门铁克上海 | 1999年 | 特权访问管理、密码管理 | 特权账户管理、密码保险库 | Privileged Access Manager、Password Vault | 2,000+人 | 纳斯达克(CYBR) | 已上市 | https://www.cyberark.com | 上海市浦东新区张江高科技园区 | 特权管理架构 | 技术领先 | 国际制裁风险 | [赛门铁克财报](https://investors.cyberark.com) |
+| Checkmarx Shanghai | 检查马克斯上海 | 2006年 | 应用安全、代码审计 | SAST静态代码分析、SCA组件分析 | CxSAST、CxSCA、CxCodebashing | 1,000+人 | 私人融资 | 多轮融资 | https://www.checkmarx.com | 上海市浦东新区张江高科技园区 | 应用安全架构 | 技术专业 | 收购整合风险 | 私人融资信息 |
 
 ### 3.1 网络安全
 | 企业名称 | 核心技术 | 代表产品 | 公司规模 |

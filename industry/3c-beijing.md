@@ -80,7 +80,40 @@
 - 招股说明书及年报
 - 招聘平台公开信息
 
-## 5. 备注
+## 5. 国际企业列表
+
+### 5.1 美国企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Apple Inc. | Apple | 1976年 | 消费电子、移动设备 | iPhone、iPad、Mac、Apple Watch | 160,000+人 | [https://www.apple.com](https://www.apple.com) | 纳斯达克(AAPL) | 已上市 | 硬件销售、软件服务、App Store分成 | A系列芯片、iOS系统 | 美国加州库比蒂诺Apple Park | Twitter: @Apple | 私有代码 | 自研A系列芯片、iOS生态系统 | 创新氛围浓厚，工作强度大 | 反垄断调查 | [Apple财报](https://investor.apple.com/) |
+| Intel Corporation | Intel | 1968年 | 半导体、处理器 | Core处理器、Xeon服务器CPU | 120,000+人 | [https://www.intel.com](https://www.intel.com) | 纳斯达克(INTC) | 已上市 | 芯片销售、IP授权 | x86架构、Intel 7工艺 | 美国加州圣克拉拉 | Twitter: @Intel | [https://github.com/intel](https://github.com/intel) | x86架构、制程工艺 | 技术实力强但转型压力大 | 专利诉讼、反垄断风险 | [Intel财报](https://www.intel.com/content/www/us/en/investor-relations/financials.html) |
+| Qualcomm Incorporated | Qualcomm | 1985年 | 半导体、通信技术 | 骁龙处理器、5G基带芯片 | 50,000+人 | [https://www.qualcomm.com](https://www.qualcomm.com) | 纳斯达克(QCOM) | 已上市 | 芯片销售、专利授权 | Snapdragon平台、5G技术 | 美国加州圣地亚哥 | Twitter: @Qualcomm | [https://github.com/quic](https://github.com/quic) | ARM架构、5G标准 | 通信技术领先但竞争激烈 | 专利纠纷、监管审查 | [Qualcomm财报](https://investor.qualcomm.com/) |
+| Dell Technologies Inc. | Dell | 1984年 | 计算机、服务器 | 戴尔笔记本、PowerEdge服务器 | 130,000+人 | [https://www.dell.com](https://www.dell.com) | 纽约证券交易所(DELL) | 已上市 | 硬件销售、IT服务 | PowerEdge服务器、存储解决方案 | 美国德州朗德罗克 | Twitter: @Dell | [https://github.com/dell](https://github.com/dell) | x86服务器架构、虚拟化技术 | 企业级市场强势但消费端较弱 | 供应链风险、市场竞争 | [Dell财报](https://investors.dell.com/) |
+| Microsoft Corporation | Microsoft | 1975年 | 软件、云计算 | Windows、Surface、Azure | 220,000+人 | [https://www.microsoft.com](https://www.microsoft.com) | 纳斯达克(MSFT) | 已上市 | 软件许可、云服务、硬件销售 | Surface平板、Azure云平台 | 美国华盛顿州雷德蒙德 | Twitter: @Microsoft | [https://github.com/microsoft](https://github.com/microsoft) | Windows NT内核、.NET框架 | 技术创新强但企业文化争议 | 反垄断诉讼历史 | [Microsoft财报](https://www.microsoft.com/investor) |
+
+### 5.2 欧洲企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Siemens AG | 西门子 | 1847年 | 工业自动化、数字化 | 数字化工厂、工业软件 | 300,000+人 | [https://www.siemens.com](https://www.siemens.com) | 德国DAX指数 | 已上市 | 工业设备销售、数字化服务 | SIMATIC控制系统、MindSphere平台 | 德国慕尼黑 | Twitter: @Siemens | [https://github.com/siemens](https://github.com/siemens) | 工业4.0架构、边缘计算 | 工业巨头底蕴深厚 | 合规要求严格 | [Siemens财报](https://www.siemens.com/global/en/company/investor-relations.html) |
+| SAP SE | SAP | 1972年 | 企业软件、云计算 | ERP系统、S/4HANA | 100,000+人 | [https://www.sap.com](https://www.sap.com) | 德国DAX指数 | 已上市 | 软件许可、云订阅 | S/4HANA、BusinessObjects | 德国沃尔多夫 | Twitter: @SAP | [https://github.com/SAP](https://github.com/SAP) | ABAP语言、内存计算 | 企业软件领导者但创新压力大 | 数据保护法规合规 | [SAP财报](https://www.sap.com/investors.html) |
+| ASML Holding N.V. | ASML | 1984年 | 半导体设备 | EUV光刻机 | 30,000+人 | [https://www.asml.com](https://www.asml.com) | 荷兰Euronext | 已上市 | 设备销售、维护服务 | EUV光刻设备、DUV设备 | 荷兰费尔德霍芬 | Twitter: @ASMLcompany | [https://github.com/asml](https://github.com/asml) | 光刻技术、精密机械 | 技术壁垒极高但客户集中度高 | 出口管制风险 | [ASML财报](https://www.asml.com/en/sustainability/results-and-reports/annual-report) |
+| Ericsson AB | 爱立信 | 1876年 | 通信设备、5G | 5G基站、网络设备 | 90,000+人 | [https://www.ericsson.com](https://www.ericsson.com) | 瑞典OMX | 已上市 | 设备销售、网络服务 | 5G RAN设备、核心网 | 瑞典斯德哥尔摩 | Twitter: @Ericsson | [https://github.com/Ericsson](https://github.com/Ericsson) | 5G标准、网络切片 | 通信设备传统优势明显 | 5G市场竞争激烈 | [Ericsson财报](https://www.ericsson.com/en/investors/reports-and-publications) |
+| STMicroelectronics N.V. | 意法半导体 | 1987年 | 半导体 | 微控制器、功率器件 | 45,000+人 | [https://www.st.com](https://www.st.com) | 法国Euronext | 已上市 | 芯片销售、IP授权 | STM32微控制器、功率IC | 瑞士日内瓦 | Twitter: @STMicro | [https://github.com/stm32duino](https://github.com/stm32duino) | ARM Cortex架构、嵌入式系统 | MCU市场领导者 | 行业周期性波动 | [ST财报](https://www.st.com/content/st_com/en/about/investor-relations/shareholder-information.html) |
+
+### 5.3 亚洲其他国家企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Samsung Electronics Co., Ltd. | 三星电子 | 1969年 | 消费电子、半导体 | 三星手机、存储芯片、显示屏 | 260,000+人 | [https://www.samsung.com](https://www.samsung.com) | 韩国KOSPI | 已上市 | 硬件销售、组件供应 | Exynos处理器、DRAM存储 | 韩国首尔三星电子城 | Twitter: @Samsung | 私有代码 | 自研Exynos芯片、AMOLED显示 | 垂直整合优势明显 | 专利纠纷较多 | [Samsung财报](https://www.samsung.com/global/business/ir/financial-information/financial-statements/) |
+| Sony Corporation | 索尼 | 1946年 | 消费电子、娱乐 | PlayStation、相机、电视 | 110,000+人 | [https://www.sony.com](https://www.sony.com) | 东京证券交易所 | 已上市 | 硬件销售、内容服务 | PlayStation 5、Alpha相机 | 日本东京索尼大厦 | Twitter: @Sony | [https://github.com/sony](https://github.com/sony) | 自研图像传感器、游戏引擎 | 娱乐与硬件并重 | 内容监管风险 | [Sony财报](https://www.sony.com/en/SonyInfo/IR/library/annual-reports/) |
+| Toshiba Corporation | 东芝 | 1875年 | 半导体、存储 | 闪存芯片、硬盘 | 120,000+人 | [https://www.toshiba.com](https://www.toshiba.com) | 东京证券交易所 | 已上市 | 存储器销售、设备制造 | NAND闪存、机械硬盘 | 日本东京东芝总部 | Twitter: @ToshibaCorp | 私有代码 | 存储技术、电力设备 | 传统制造业转型中 | 财务重组风险 | [Toshiba财报](https://www.toshiba.co.jp/about/ir/e/index.htm) |
+| LG Electronics Inc. | LG电子 | 1958年 | 消费电子、家电 | LG手机、电视、家电 | 75,000+人 | [https://www.lg.com](https://www.lg.com) | 韩国KOSPI | 已上市 | 硬件销售、家电制造 | OLED电视、手机 | 韩国首尔LG双子座大厦 | Twitter: @LGnewsroom | 私有代码 | OLED显示技术、家电IoT | 家电业务稳健但手机业务萎缩 | 市场竞争激烈 | [LG财报](https://www.lg.com/global/investor-relations/financial-information) |
+| Sharp Corporation | 夏普 | 1912年 | 显示屏、家电 | 液晶电视、手机 | 50,000+人 | [https://www.sharp.com](https://www.sharp.com) | 东京证券交易所 | 已上市 | 显示设备销售、家电制造 | IGZO显示屏、AQUOS电视 | 日本大阪夏普总部 | Twitter: @SHARP_Corp | 私有代码 | IGZO显示技术、液晶面板 | 显示技术专业但整体业务下滑 | 经营改善压力 | [Sharp财报](https://www.sharp.co.jp/english/ir/library/annual_report/) |
+
+## 6. 备注
 - 企业信息截至2026年1月
 - 仅收录总部位于北京的企业
 - 公司规模数据来源于公开招聘信息和企业年报
+- 国际企业信息基于公开资料整理

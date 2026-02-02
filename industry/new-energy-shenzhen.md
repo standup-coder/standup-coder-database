@@ -98,8 +98,41 @@
 - 招聘平台公开信息
 - 企业财报和融资公告
 
-## 4. 备注
+## 4. 国际企业列表
+
+### 4.1 美国企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Tesla, Inc. | 特斯拉 | 2003年 | 电动汽车、储能系统 | Model系列电动车、Powerwall储能 | 120,000+人 | [https://www.tesla.com](https://www.tesla.com) | 纳斯达克(TSLA) | 已上市 | 电动车销售、储能产品销售、能源服务 | 4680电池、Megapack储能系统 | 美国得州奥斯汀超级工厂 | Twitter: @Tesla | [https://github.com/teslamotors](https://github.com/teslamotors) | 电池包技术、储能系统 | 创新氛围浓厚但工作强度大 | 自动驾驶安全监管 | [Tesla财报](https://ir.tesla.com/) |
+| Rivian Automotive, Inc. | Rivian | 2009年 | 电动皮卡、商用车 | R1T电动皮卡、R1S SUV | 15,000+人 | [https://rivian.com](https://rivian.com) | 纳斯达克(RIVN) | 已上市 | 电动车销售 | R1T电动皮卡 | 美国伊利诺伊州诺默尔工厂 | Twitter: @Rivian | 私有代码 | 滑板底盘技术、线控转向 | 创新型车企但交付能力待验证 | 产能爬坡风险 | [Rivian财报](https://rivian.com/investors) |
+| Lucid Motors, Inc. | Lucid Motors | 2007年 | 豪华电动汽车 | Lucid Air轿车、Gravity SUV | 5,000+人 | [https://www.lucidmotors.com](https://www.lucidmotors.com) | 纳斯达克(LCID) | 已上市 | 豪华电动车销售 | Lucid Air Dream Edition | 美国加州纽瓦克工厂 | Twitter: @LucidMotors | 私有代码 | 900V平台、Wunderbox充电 | 技术先进但规模较小 | 竞争压力大 | [Lucid财报](https://ir.lucidmotors.com/) |
+| General Motors Company | 通用汽车 | 1908年 | 电动汽车、燃料电池 | Chevrolet Bolt、Hydrogen Fuel Cell | 160,000+人 | [https://www.gm.com](https://www.gm.com) | 纽约证券交易所(GM) | 已上市 | 汽车销售、新能源技术授权 | Ultium电池平台 | 美国密歇根州底特律通用总部 | Twitter: @GM | [https://github.com/gm](https://github.com/gm) | Ultium电池平台、燃料电池 | 传统车企转型但技术积累深厚 | 传统业务转型压力 | [通用财报](https://investor.gm.com/) |
+| Ford Motor Company | 福特汽车 | 1903年 | 电动汽车、混合动力 | Mustang Mach-E、F-150 Lightning | 170,000+人 | [https://www.ford.com](https://www.ford.com) | 纽约证券交易所(F) | 已上市 | 汽车销售、新能源技术 | F-150 Lightning电动皮卡 | 美国密歇根州迪尔伯恩福特总部 | Twitter: @Ford | [https://github.com/ford](https://github.com/ford) | 电动皮卡技术、智能网联 | 皮卡市场领导者 | 传统业务下滑压力 | [福特财报](https://investors.ford.com/) |
+
+### 4.2 欧洲企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| BMW Group | 宝马集团 | 1916年 | 电动汽车、氢燃料电池 | i系列电动车、氢能源汽车 | 120,000+人 | [https://www.bmwgroup.com](https://www.bmwgroup.com) | 德国DAX指数 | 已上市 | 汽车销售、电池技术授权 | iX系列电动车、第五代eDrive技术 | 德国慕尼黑宝马总部 | Twitter: @BMWGroup | 私有代码 | 电池技术、电动驱动 | 豪华品牌技术实力强 | 碳排放法规压力 | [BMW财报](https://www.bmwgroup.com/en/investor-relations/financial-calendar.html) |
+| Volkswagen AG | 大众汽车 | 1937年 | 电动汽车、电池技术 | ID系列电动车、MEB平台 | 660,000+人 | [https://www.volkswagenag.com](https://www.volkswagenag.com) | 德国DAX指数 | 已上市 | 汽车销售、电池技术合作 | MEB电动平台、磷酸铁锂电池 | 德国沃尔夫斯堡大众总部 | Twitter: @VWGroup | 私有代码 | MEB电动平台、电池技术 | 规模优势明显但转型成本高 | 排放门后续影响 | [大众财报](https://www.volkswagenag.com/en/investor-relations/publications/annual-reports.html) |
+| Mercedes-Benz Group AG | 奔驰集团 | 1926年 | 豪华电动汽车、燃料电池 | EQ系列电动车、氢能源卡车 | 170,000+人 | [https://www.mercedes-benz.com](https://www.mercedes-benz.com) | 德国DAX指数 | 已上市 | 豪华汽车销售、新能源技术 | EQS豪华电动车 | 德国斯图加特奔驰总部 | Twitter: @MercedesBenz | 私有代码 | 豪华电动车平台、燃料电池 | 豪华品牌技术领先 | 高端市场竞争激烈 | [奔驰财报](https://group.mercedes-benz.com/investor-relations/publications/annual-report/) |
+| Volvo Cars AB | 沃尔沃汽车 | 1927年 | 电动汽车、安全技术 | C40 Recharge、XC40 Recharge | 40,000+人 | [https://www.volvocars.com](https://www.volvocars.com) | 瑞典纳斯达克斯托克霍姆 | 已上市 | 汽车销售、安全技术服务 | 纯电动SUV系列 | 瑞典哥德堡沃尔沃总部 | Twitter: @VolvoCars | [https://github.com/volvocars](https://github.com/volvocars) | SPA可扩展平台、安全系统 | 安全技术专家但规模相对较小 | 市场竞争激烈 | [沃尔沃财报](https://www.volvocars.com/global/about-us/investor-relations/financial-reports) |
+| Renault Group | 雷诺集团 | 1899年 | 电动汽车、共享出行 | Zoe电动车、Twingo电动版 | 180,000+人 | [https://www.renaultgroup.com](https://www.renaultgroup.com) | 法国Euronext | 已上市 | 汽车销售、出行服务 | Zoe电动车平台 | 法国布洛涅-比扬古雷诺总部 | Twitter: @RenaultGroup | 私有代码 | 电动小型车技术、共享出行 | 欧洲市场基础好但盈利能力弱 | 业务重组风险 | [雷诺财报](https://group.renault.com/en/investors/results-publications/) |
+
+### 4.3 亚洲其他国家企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Nissan Motor Co., Ltd. | 日产汽车 | 1933年 | 电动汽车、电池技术 | Leaf电动车、e-POWER混动 | 130,000+人 | [https://www.nissan-global.com](https://www.nissan-global.com) | 东京证券交易所 | 已上市 | 汽车销售、电池技术授权 | Leaf电动车平台 | 日本横滨日产总部 | Twitter: @NissanGlobal | [https://github.com/nissan](https://github.com/nissan) | 电动驱动技术、电池管理 | 技术起步早但创新能力下降 | 传统业务下滑压力 | [日产财报](https://www.nissan-global.com/EN/IR/LIBRARY/AR/) |
+| Hyundai Motor Company | 现代汽车 | 1967年 | 电动汽车、氢燃料电池 | Ioniq系列电动车、Nexo氢燃料车 | 120,000+人 | [https://www.hyundai.com](https://www.hyundai.com) | 韩国KOSPI | 已上市 | 汽车销售、新能源技术 | E-GMP电动平台 | 韩国首尔现代总部 | Twitter: @HyundaiGlobal | [https://github.com/hyundai](https://github.com/hyundai) | E-GMP平台、氢燃料技术 | 技术全面但品牌溢价较低 | 市场竞争激烈 | [现代财报](https://www.hyundai.com/worldwide/en/company/ir-center/financial-info/annual-report) |
+| Toyota Motor Corporation | 丰田汽车 | 1937年 | 混合动力、氢燃料电池 | Prius混动、Mirai氢燃料车 | 360,000+人 | [https://www.toyota.com](https://www.toyota.com) | 东京证券交易所 | 已上市 | 汽车销售、混合动力技术授权 | THS混动系统、氢燃料技术 | 日本丰田市丰田总部 | Twitter: @ToyotaGlobal | [https://github.com/toyota](https://github.com/toyota) | 混合动力技术、氢燃料系统 | 技术稳健但电动化转型较慢 | 碳中和目标压力 | [丰田财报](https://www.toyota-global.com/investors/library/annual_report/) |
+| Honda Motor Co., Ltd. | 本田汽车 | 1948年 | 混合动力、燃料电池 | Clarity Fuel Cell、Honda e | 220,000+人 | [https://www.honda.com](https://www.honda.com) | 东京证券交易所 | 已上市 | 汽车销售、动力系统技术 | i-MMD混动系统 | 日本东京本田总部 | Twitter: @Honda | [https://github.com/honda](https://github.com/honda) | 混合动力技术、燃料电池 | 技术实力强但电动化布局较晚 | 传统业务转型压力 | [本田财报](https://www.honda.com/investors/library/annual-report/) |
+| Suzuki Motor Corporation | 铃木汽车 | 1920年 | 小型电动车、混合动力 | Alto电动车、Swift混动版 | 17,000+人 | [https://www.suzuki.com](https://www.suzuki.com) | 东京证券交易所 | 已上市 | 小型车销售、动力技术 | 轻型电动车平台 | 日本静冈县滨松市铃木总部 | Twitter: @Suzuki_Global | 私有代码 | 小型车电动化技术 | 小型车市场专家但规模有限 | 市场细分风险 | [铃木财报](https://www.suzuki.co.jp/english/ir/library/annual_report/) |
+
+## 5. 备注
 - 企业信息截至2026年1月
 - 仅收录总部位于深圳的新能源企业
 - 公司规模数据来源于公开招聘信息和企业年报
 - 业务领域和代表产品根据企业官网和公开报道整理
+- 国际企业信息基于公开资料整理

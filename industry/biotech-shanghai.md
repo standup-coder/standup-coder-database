@@ -20,7 +20,35 @@
 | 上海奕瑞光电子科技股份有限公司 | 奕瑞科技 | 2011年 | 医疗器械 | X射线探测器 | 1500+人 | [iraychina.com](http://www.iraychina.com) | 科创板：688301 | 上海市浦东新区张江高科技园区 |
 | 上海美迪西生物医药股份有限公司 | 美迪西 | 2004年 | CRO | 临床前研究 | 5000+人 | [medicilon.com](https://www.medicilon.com) | 科创板：688202 | 上海市浦东新区张江高科技园区 |
 
-## 3. 按维度分类的企业列表
+## 3. 国际企业列表
+
+### 3.1 美国企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 办公地址 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Roche Diagnostics Shanghai | 罗氏诊断上海 | 1896年 | 诊断试剂、制药 | 分子诊断、免疫诊断 | 100,000+人 | [https://diagnostics.roche.com](https://diagnostics.roche.com) | 瑞士证券交易所(ROG) | 已上市 | 上海市浦东新区张江高科技园区 | 分子诊断技术 | 技术实力强 | 监管合规风险 | [罗氏财报](https://www.roche.com/investors/reports) |
+| Novartis Pharma Shanghai | 诺华制药上海 | 1996年 | 创新药、仿制药 | 诺欣妥、Cosentyx | 110,000+人 | [https://www.novartis.com](https://www.novartis.com) | 瑞士证券交易所(NVS) | 已上市 | 上海市浦东新区张江高科技园区 | 创新药研发 | 技术领先 | 监管合规风险 | [诺华财报](https://www.novartis.com/investors) |
+| Merck Sharp & Dohme Shanghai | 默沙东上海 | 1891年 | 创新药、疫苗 | Keytruda、Gardasil | 70,000+人 | [https://www.msd.com](https://www.msd.com) | 纽约证券交易所(MRK) | 已上市 | 上海市浦东新区张江高科技园区 | 疫苗技术 | 技术实力强 | 监管合规风险 | [默沙东财报](https://www.msd.com/investors) |
+| Johnson & Johnson Shanghai | 强生上海 | 1886年 | 医疗器械、制药 | 心脏支架、药物涂层球囊 | 150,000+人 | [https://www.jnj.com](https://www.jnj.com) | 纽约证券交易所(JNJ) | 已上市 | 上海市浦东新区张江高科技园区 | 医疗器械技术 | 福利待遇好 | 监管合规风险 | [强生财报](https://www.jnj.com/investors) |
+| Pfizer Inc. Shanghai | 辉瑞上海 | 1849年 | 创新药、疫苗 | Comirnaty、Xeljanz | 80,000+人 | [https://www.pfizer.com](https://www.pfizer.com) | 纽约证券交易所(PFE) | 已上市 | 上海市浦东新区张江高科技园区 | 创新药研发 | 技术实力强 | 监管合规风险 | [辉瑞财报](https://investors.pfizer.com) |
+| AbbVie Inc. Shanghai | 艾伯维上海 | 2013年 | 生物制药 | Humira、Skyrizi | 50,000+人 | [https://www.abbvie.com](https://www.abbvie.com) | 纽约证券交易所(ABBV) | 已上市 | 上海市浦东新区张江高科技园区 | 生物制药技术 | 技术领先 | 监管合规风险 | [艾伯维财报](https://investors.abbvie.com) |
+| Amgen Inc. Shanghai | 安进上海 | 1980年 | 生物制药 | Enbrel、Neulasta | 25,000+人 | [https://www.amgen.com](https://www.amgen.com) | 纳斯达克(AMGN) | 已上市 | 上海市浦东新区张江高科技园区 | 生物制药技术 | 技术实力强 | 监管合规风险 | [安进财报](https://investors.amgen.com) |
+
+### 3.2 欧洲企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 办公地址 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Sanofi Shanghai | 赛诺菲上海 | 1973年 | 创新药、疫苗 | Dupixent、流感疫苗 | 100,000+人 | [https://www.sanofi.com](https://www.sanofi.com) | 泛欧交易所(SAN) | 已上市 | 上海市浦东新区张江高科技园区 | 疫苗技术 | 技术实力强 | 监管合规风险 | [赛诺菲财报](https://www.sanofi.com/investors) |
+| Bayer AG Shanghai | 拜耳上海 | 1863年 | 制药、生命科学 | Xarelto、Eylea | 100,000+人 | [https://www.bayer.com](https://www.bayer.com) | 泛欧交易所(BAYN) | 已上市 | 上海市浦东新区张江高科技园区 | 制药技术 | 技术实力强 | 监管合规风险 | [拜耳财报](https://www.bayer.com/investors) |
+| GlaxoSmithKline Shanghai | 葛兰素史克上海 | 2000年 | 创新药、疫苗 | Shingrix、Advair | 90,000+人 | [https://www.gsk.com](https://www.gsk.com) | 伦敦证券交易所(GSK) | 已上市 | 上海市浦东新区张江高科技园区 | 疫苗技术 | 技术实力强 | 监管合规风险 | [葛兰素史克财报](https://www.gsk.com/investors) |
+| AstraZeneca Shanghai | 阿斯利康上海 | 1999年 | 创新药、肿瘤药 | Tagrisso、Imfinzi | 80,000+人 | [https://www.astrazeneca.com](https://www.astrazeneca.com) | 伦敦证券交易所(AZN) | 已上市 | 上海市浦东新区张江高科技园区 | 肿瘤药研发 | 技术领先 | 监管合规风险 | [阿斯利康财报](https://www.astrazeneca.com/investors) |
+
+### 3.3 日本企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 办公地址 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Takeda Pharmaceutical Shanghai | 武田制药上海 | 1781年 | 创新药、消化道疾病 | Entyvio、Adcetris | 50,000+人 | [https://www.takeda.com](https://www.takeda.com) | 东京证券交易所(4502) | 已上市 | 上海市浦东新区张江高科技园区 | 创新药研发 | 技术实力强 | 监管合规风险 | [武田制药财报](https://www.takeda.com/investors) |
+| Astellas Pharma Shanghai | 安斯泰来上海 | 2005年 | 创新药、泌尿系统 | XTANDI、Myrbetriq | 15,000+人 | [https://www.astellas.com](https://www.astellas.com) | 东京证券交易所(4503) | 已上市 | 上海市浦东新区张江高科技园区 | 创新药研发 | 技术实力强 | 监管合规风险 | [安斯泰来财报](https://www.astellas.com/investors) |
 
 ### 3.1 按上市情况分类
 

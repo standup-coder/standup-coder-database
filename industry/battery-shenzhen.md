@@ -60,7 +60,40 @@
 - 上市公司公开财报
 - 招聘平台公开信息
 
-## 5. 备注
+## 5. 国际企业列表
+
+### 5.1 美国企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Tesla, Inc. | 特斯拉 | 2003年 | 电动汽车、储能系统 | Model系列电动车、Powerwall储能 | 120,000+人 | [https://www.tesla.com](https://www.tesla.com) | 纳斯达克(TSLA) | 已上市 | 电动车销售、储能产品销售、能源服务 | 4680电池、Megapack储能系统 | 美国得州奥斯汀超级工厂 | Twitter: @Tesla | [https://github.com/teslamotors](https://github.com/teslamotors) | 电池包技术、储能系统 | 创新氛围浓厚但工作强度大 | 自动驾驶安全监管 | [Tesla财报](https://ir.tesla.com/) |
+| Contemporary Amperex Technology Co. Limited | 宁德时代 | 2011年 | 动力电池、储能电池 | 动力电池、储能系统 | 35,000+人 | [https://www.catl.com](https://www.catl.com) | 深交所：300750 | 已上市 | 电池销售、储能系统销售 | 磷酸铁锂电池、三元锂电池 | 中国福建宁德 | Twitter: @CATLGroup | 私有代码 | 电池技术、储能技术 | 技术领先但产能扩张压力大 | 供应链安全审查 | [CATL财报](https://www.catl.com/en/investor_relations/financial_reports) |
+| LG Energy Solution Ltd. | LG新能源 | 1995年 | 动力电池、储能电池 | 动力电池、储能系统 | 15,000+人 | [https://www.lgensol.com](https://www.lgensol.com) | 韩国KOSPI | 已上市 | 电池销售、储能系统销售 | 软包电池、圆柱电池 | 韩国首尔LG双子座大厦 | Twitter: @LGEnergySolution | 私有代码 | 电池技术、储能技术 | 技术实力强但市场竞争激烈 | 专利纠纷风险 | [LGES财报](https://www.lgensol.com/eng/investor/ir_center/financial_information.do) |
+| Panasonic Corporation | 松下电器 | 1918年 | 动力电池、消费电池 | NCA电池、消费电池 | 230,000+人 | [https://www.panasonic.com](https://www.panasonic.com) | 东京证券交易所 | 已上市 | 电池销售、储能产品销售 | NCA电池、家用储能系统 | 日本大阪松下总部 | Twitter: @PanasonicGlobal | [https://github.com/panasonic](https://github.com/panasonic) | 电池技术、储能系统 | 产品线丰富但电池业务盈利困难 | 业务转型压力 | [松下财报](https://holdings.panasonic/global/ir/library/annualreport/) |
+| BYD Company Limited | 比亚迪 | 1995年 | 动力电池、电动汽车 | 磷酸铁锂电池、电动车 | 60,000+人 | [https://www.byd.com](https://www.byd.com) | 深交所：002594 | 已上市 | 电池销售、电动车销售 | 刀片电池、DM-i混动系统 | 中国深圳比亚迪总部 | Twitter: @BYDGlobal | [https://github.com/byd-auto](https://github.com/byd-auto) | 刀片电池技术、垂直整合 | 垂直整合优势明显 | 补贴政策变化风险 | [比亚迪财报](https://www.byd.cn/investor/financial_reports/) |
+
+### 5.2 欧洲企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| BMW Group | 宝马集团 | 1916年 | 电动汽车、电池技术 | i系列电动车、电池技术 | 120,000+人 | [https://www.bmwgroup.com](https://www.bmwgroup.com) | 德国DAX指数 | 已上市 | 汽车销售、电池技术授权 | iX系列电动车、第五代eDrive技术 | 德国慕尼黑宝马总部 | Twitter: @BMWGroup | 私有代码 | 电池技术、电动驱动 | 豪华品牌技术实力强 | 碳排放法规压力 | [BMW财报](https://www.bmwgroup.com/en/investor-relations/financial-calendar.html) |
+| Volkswagen AG | 大众汽车 | 1937年 | 电动汽车、电池技术 | ID系列电动车、MEB平台 | 660,000+人 | [https://www.volkswagenag.com](https://www.volkswagenag.com) | 德国DAX指数 | 已上市 | 汽车销售、电池技术合作 | MEB电动平台、磷酸铁锂电池 | 德国沃尔夫斯堡大众总部 | Twitter: @VWGroup | 私有代码 | MEB电动平台、电池技术 | 规模优势明显但转型成本高 | 排放门后续影响 | [大众财报](https://www.volkswagenag.com/en/investor-relations/publications/annual-reports.html) |
+| Northvolt AB | 北伏科技 | 2016年 | 动力电池、储能电池 | 动力电池、储能系统 | 5,000+人 | [https://www.northvolt.com](https://www.northvolt.com) | 私有公司 | 多轮融资 | 电池销售、储能系统销售 | NCMA四元电池、Northvolt Ett工厂 | 瑞典斯德哥尔摩 | Twitter: @northvolt | [https://github.com/northvolt](https://github.com/northvolt) | 欧洲本土电池技术 | 绿色电池理念但量产能力待验证 | 供应链建设风险 | [北伏财报](https://northvolt.com/media/news/northvolt-publishes-first-annual-report/) |
+| Enel X | 意大利国家电力 | 1962年 | 储能系统、能源服务 | 储能系统、虚拟电厂 | 50,000+人 | [https://www.enelx.com](https://www.enelx.com) | 私有公司 | 私有 | 储能系统销售、能源服务 | 储能系统、Demand Response | 意大利罗马 | Twitter: @EnelX | [https://github.com/enelx](https://github.com/enelx) | 储能系统、能源管理系统 | 能源转型经验丰富 | 政策依赖性强 | [Enel财报](https://www.enel.com/investors/financial-results) |
+| SMA Solar Technology AG | SMA太阳能 | 1985年 | 储能逆变器、光伏系统 | 储能逆变器、光伏逆变器 | 3,500+人 | [https://www.sma.de](https://www.sma.de) | 德国SDAX | 已上市 | 逆变器销售、储能系统销售 | Sunny Boy储能逆变器 | 德国尼德尔斯泰因哈根 | Twitter: @SMAsolar | [https://github.com/smamodules](https://github.com/smamodules) | 储能逆变器技术 | 逆变器技术领先 | 市场竞争激烈 | [SMA财报](https://www.sma.de/en/company/investor-relations/annual-report.html) |
+
+### 5.3 亚洲其他国家企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| SK On Co., Ltd. | SK On | 1991年 | 动力电池、储能电池 | 动力电池、储能系统 | 6,000+人 | [https://www.sk-on.com](https://www.sk-on.com) | 韩国KOSPI | 已上市 | 电池销售、储能系统销售 | NCM电池、磷酸铁锂电池 | 韩国首尔SK大厦 | Twitter: @SKOnOfficial | 私有代码 | 电池技术、储能技术 | 技术实力强但产能利用率待提升 | 供应链安全审查 | [SK On财报](https://www.sk-on.com/eng/ir/financial-info/annual-report.do) |
+| GS Yuasa Corporation | 汤浅蓄电池 | 1918年 | 动力电池、储能电池 | 铅酸电池、锂离子电池 | 15,000+人 | [https://www.gs-yuasa.com](https://www.gs-yuasa.com) | 东京证券交易所 | 已上市 | 电池销售、储能系统销售 | 铅酸电池、锂离子电池 | 日本京都汤浅总部 | Twitter: @GSYuasaCorp | 私有代码 | 电池技术、储能系统 | 传统电池技术专家 | 传统业务下滑压力 | [汤浅财报](https://www.gs-yuasa.com/english/ir/library/annual_report/) |
+| Hitachi Astemo, Ltd. | 日立安斯泰莫 | 2021年 | 电动汽车零部件、电池系统 | 电机、电池包、电驱系统 | 130,000+人 | [https://www.hitachi-astemo.com](https://www.hitachi-astemo.com) | 东京证券交易所 | 已上市 | 汽车零部件销售、电池系统销售 | 电驱系统、电池包 | 日本东京日立总部 | Twitter: @HitachiAstemo | 私有代码 | 电驱技术、电池系统 | 汽车零部件技术强 | 业务整合风险 | [日立财报](https://www.hitachi.com/IR/library/ar/index.html) |
+| Toshiba Corporation | 东芝 | 1875年 | 储能电池、电池材料 | 锂电池、钠硫电池 | 120,000+人 | [https://www.toshiba.com](https://www.toshiba.com) | 东京证券交易所 | 已上市 | 电池销售、储能系统销售 | SCiB钛酸锂电池、钠硫电池 | 日本东京东芝总部 | Twitter: @ToshibaCorp | 私有代码 | 储能技术、电池材料 | 储能技术专业但整体业务转型中 | 财务重组风险 | [东芝财报](https://www.toshiba.co.jp/about/ir/e/index.htm) |
+| NEC Corporation | 日立NEC | 1899年 | 储能系统、电池技术 | 储能系统、电池管理系统 | 110,000+人 | [https://www.nec.com](https://www.nec.com) | 东京证券交易所 | 已上市 | 储能系统销售、技术服务 | 储能系统、AEMS平台 | 日本东京NEC总部 | Twitter: @NEC_corp | [https://github.com/nec](https://github.com/nec) | 储能系统、能源管理 | ICT技术融合优势 | 业务多元化分散 | [NEC财报](https://www.nec.com/en/global/ir/library/annual_report/index.html) |
+
+## 6. 备注
 - 企业信息截至2026年1月
 - 亿纬锂能总部位于惠州，未列入本清单
 - 深圳电池储能产业链完整，覆盖电池材料、电芯、Pack、BMS、储能系统等环节
+- 国际企业信息基于公开资料整理

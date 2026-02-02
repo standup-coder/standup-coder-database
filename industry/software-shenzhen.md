@@ -189,9 +189,42 @@
 - 企业财报和融资公告
 - 社交媒体公开信息
 
-## 5. 备注
+## 5. 国际企业列表
+
+### 5.1 美国企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Microsoft Corporation | 微软 | 1975年 | 企业软件、云计算、操作系统 | Windows、Office 365、Azure | 220,000+人 | [https://www.microsoft.com](https://www.microsoft.com) | 纳斯达克(MSFT) | 已上市 | 软件许可、云服务、硬件销售 | Azure云平台、Windows Server | 美国华盛顿州雷德蒙德 | Twitter: @Microsoft | [https://github.com/microsoft](https://github.com/microsoft) | Windows NT内核、.NET框架 | 技术创新强但企业文化争议 | 反垄断诉讼历史 | [Microsoft财报](https://www.microsoft.com/investor) |
+| Oracle Corporation | 甲骨文 | 1977年 | 数据库、企业软件、云计算 | Oracle Database、ERP云、CRM | 130,000+人 | [https://www.oracle.com](https://www.oracle.com) | 纽约证券交易所(ORCL) | 已上市 | 软件许可、云服务、技术支持 | Oracle Cloud、Database 19c | 美国加州红木滩 | Twitter: @Oracle | [https://github.com/oracle](https://github.com/oracle) | 数据库技术、Java平台 | 数据库技术领先但创新放缓 | 反垄断审查 | [Oracle财报](https://www.oracle.com/investor-relations/) |
+| Salesforce.com, Inc. | SalesForce | 1999年 | CRM软件、SaaS平台 | Sales Cloud、Service Cloud、Marketing Cloud | 70,000+人 | [https://www.salesforce.com](https://www.salesforce.com) | 纽约证券交易所(CRM) | 已上市 | SaaS订阅、咨询服务 | Customer 360平台 | 美国加州旧金山Salesforce Tower | Twitter: @salesforce | [https://github.com/salesforce](https://github.com/salesforce) | 多租户架构、低代码平台 | CRM市场领导者但竞争加剧 | 数据隐私监管 | [Salesforce财报](https://investor.salesforce.com/) |
+| SAP SE | SAP | 1972年 | 企业软件、云计算 | ERP系统、S/4HANA、SuccessFactors | 100,000+人 | [https://www.sap.com](https://www.sap.com) | 德国DAX指数 | 已上市 | 软件许可、云订阅 | S/4HANA、BusinessObjects | 德国沃尔多夫 | Twitter: @SAP | [https://github.com/SAP](https://github.com/SAP) | ABAP语言、内存计算 | 企业软件领导者但创新压力大 | 数据保护法规合规 | [SAP财报](https://www.sap.com/investors.html) |
+| Adobe Inc. | Adobe | 1982年 | 创意软件、营销软件 | Photoshop、Illustrator、Adobe Experience Cloud | 25,000+人 | [https://www.adobe.com](https://www.adobe.com) | 纳斯达克(ADBE) | 已上市 | 软件订阅、云服务 | Creative Cloud、Document Cloud | 美国加州圣何塞 | Twitter: @Adobe | [https://github.com/adobe](https://github.com/adobe) | Creative Suite、PDF技术 | 创意软件霸主但订阅转型争议 | 版权保护压力 | [Adobe财报](https://www.adobe.com/investor-relations.html) |
+
+### 5.2 欧洲企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| SAP SE | SAP | 1972年 | 企业软件、云计算 | ERP系统、S/4HANA、SuccessFactors | 100,000+人 | [https://www.sap.com](https://www.sap.com) | 德国DAX指数 | 已上市 | 软件许可、云订阅 | S/4HANA、BusinessObjects | 德国沃尔多夫 | Twitter: @SAP | [https://github.com/SAP](https://github.com/SAP) | ABAP语言、内存计算 | 企业软件领导者但创新压力大 | 数据保护法规合规 | [SAP财报](https://www.sap.com/investors.html) |
+| Siemens AG | 西门子 | 1847年 | 工业软件、数字化 | 数字化工厂、工业软件 | 300,000+人 | [https://www.siemens.com](https://www.siemens.com) | 德国DAX指数 | 已上市 | 工业设备销售、数字化服务 | SIMATIC控制系统、MindSphere平台 | 德国慕尼黑 | Twitter: @Siemens | [https://github.com/siemens](https://github.com/siemens) | 工业4.0架构、边缘计算 | 工业巨头底蕴深厚 | 合规要求严格 | [Siemens财报](https://www.siemens.com/global/en/company/investor-relations.html) |
+| Dassault Systèmes SE | 达索系统 | 1981年 | CAD/CAE软件、PLM | CATIA、SolidWorks、ENOVIA | 20,000+人 | [https://www.3ds.com](https://www.3ds.com) | 法国Euronext | 已上市 | 软件许可、云订阅 | 3DEXPERIENCE平台 | 法国沃吕克斯 | Twitter: @Dassault3DS | [https://github.com/DassaultSystemes](https://github.com/DassaultSystemes) | PLM技术、3D建模 | 工业设计软件领导者 | 技术标准推广 | [达索财报](https://www.3ds.com/investors/financial-results/) |
+| Autodesk, Inc. | 欧特克 | 1982年 | CAD软件、设计软件 | AutoCAD、Revit、Maya | 10,000+人 | [https://www.autodesk.com](https://www.autodesk.com) | 纳斯达克(ADSK) | 已上市 | 软件订阅、云服务 | AutoCAD、Fusion 360 | 美国加州旧金山 | Twitter: @autodesk | [https://github.com/Autodesk](https://github.com/Autodesk) | CAD技术、BIM平台 | 设计软件专家但订阅转型争议 | 版权保护压力 | [Autodesk财报](https://www.autodesk.com/investor-relations) |
+| Ericsson AB | 爱立信 | 1876年 | 通信软件、5G | 5G基站、网络设备 | 90,000+人 | [https://www.ericsson.com](https://www.ericsson.com) | 瑞典OMX | 已上市 | 设备销售、网络服务 | 5G RAN设备、核心网 | 瑞典斯德哥尔摩 | Twitter: @Ericsson | [https://github.com/Ericsson](https://github.com/Ericsson) | 5G标准、网络切片 | 通信设备传统优势明显 | 5G市场竞争激烈 | [Ericsson财报](https://www.ericsson.com/en/investors/reports-and-publications) |
+
+### 5.3 亚洲其他国家企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| NEC Corporation | NEC | 1899年 | 企业软件、ICT | 企业软件、ICT解决方案 | 110,000+人 | [https://www.nec.com](https://www.nec.com) | 东京证券交易所 | 已上市 | 软件销售、系统集成 | UNIVERGE平台、Enterprise Software | 日本东京NEC总部 | Twitter: @NEC_corp | [https://github.com/nec](https://github.com/nec) | ICT集成技术、企业软件 | ICT技术融合优势 | 业务多元化分散 | [NEC财报](https://www.nec.com/en/global/ir/library/annual_report/index.html) |
+| Fujitsu Limited | 富士通 | 1935年 | 企业软件、IT服务 | 企业软件、云计算服务 | 120,000+人 | [https://www.fujitsu.com](https://www.fujitsu.com) | 东京证券交易所 | 已上市 | 软件销售、IT服务 | GLOVIA ERP、Primergy服务器 | 日本东京富士通总部 | Twitter: @Fujitsu_Global | [https://github.com/fujitsu](https://github.com/fujitsu) | 企业级IT架构、云计算 | IT服务综合能力强 | 传统业务转型压力 | [富士通财报](https://www.fujitsu.com/global/about/business/finance/annual-report/) |
+| Hitachi, Ltd. | 日立 | 1910年 | 企业软件、工业软件 | 企业软件、工业控制系统 | 350,000+人 | [https://www.hitachi.com](https://www.hitachi.com) | 东京证券交易所 | 已上市 | 软件销售、系统集成 | Lumada平台、工业软件 | 日本东京日立总部 | Twitter: @HitachiGlobal | [https://github.com/hitachi](https://github.com/hitachi) | 工业软件、数据分析 | 工业集团技术全面 | 业务整合风险 | [日立财报](https://www.hitachi.com/IR/library/ar/index.html) |
+| Panasonic Corporation | 松下电器 | 1918年 | 嵌入式软件、IoT | 嵌入式系统、智能家居软件 | 230,000+人 | [https://www.panasonic.com](https://www.panasonic.com) | 东京证券交易所 | 已上市 | 软件销售、硬件集成 | HomeX智能家居平台 | 日本大阪松下总部 | Twitter: @PanasonicGlobal | [https://github.com/panasonic](https://github.com/panasonic) | 嵌入式系统、IoT平台 | 产品线丰富但缺乏核心优势 | 业务多元化分散 | [松下财报](https://holdings.panasonic/global/ir/library/annualreport/) |
+| Sony Corporation | 索尼 | 1946年 | 娱乐软件、游戏引擎 | PlayStation、游戏引擎 | 110,000+人 | [https://www.sony.com](https://www.sony.com) | 东京证券交易所 | 已上市 | 软件销售、内容服务 | PlayStation SDK、游戏引擎 | 日本东京索尼大厦 | Twitter: @Sony | [https://github.com/sony](https://github.com/sony) | 游戏引擎、娱乐软件 | 娱乐与软件并重 | 内容监管风险 | [索尼财报](https://www.sony.com/en/SonyInfo/IR/library/annual-reports/) |
+
+## 6. 备注
 - 企业信息截至2026年1月
 - 公司规模数据来源于公开招聘信息和企业年报
 - 业务领域和代表产品根据企业官网和公开报道整理
 - 上市情况、融资情况等信息来源于公开财报和融资公告
 - 员工口碑信息来源于招聘平台和员工评价
+- 国际企业信息基于公开资料整理

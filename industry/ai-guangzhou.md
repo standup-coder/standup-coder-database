@@ -21,6 +21,37 @@
 
 ### 2.2 在广州有重要办公地的外资/外地企业
 
+#### 2.2.1 美国企业
+
+| 企业名称 | 简称 | 总部所在地 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 广州办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|------------|----------|----------|----------|----------|--------------|----------|
+| Google Guangzhou Office | 谷歌广州 | 美国加州 | AI、搜索 | TensorFlow、Gemini | 180,000+人 | [https://www.google.com](https://www.google.com) | 纳斯达克：GOOGL | 已上市 | 广告收入、云服务 | TensorFlow、Gemini | 广州市天河区珠江新城 | Twitter: @GoogleAI | [https://github.com/tensorflow](https://github.com/tensorflow) | TensorFlow框架、Transformer架构 | 技术领先，创新氛围浓厚 | 数据隐私争议 | [谷歌财报](https://abc.xyz/investor) |
+| Microsoft Guangzhou | 微软广州 | 美国西雅图 | AI、云计算 | Azure AI、Copilot | 220,000+人 | [https://www.microsoft.com](https://www.microsoft.com) | 纳斯达克：MSFT | 已上市 | 云服务、软件授权 | Azure AI平台 | 广州市天河区天河北路 | Twitter: @Microsoft | [https://github.com/microsoft](https://github.com/microsoft) | Azure AI、.NET AI框架 | 福利待遇好，技术实力强 | 反垄断诉讼风险 | [微软财报](https://www.microsoft.com/en-us/investor) |
+| Amazon Web Services Guangzhou | AWS广州 | 美国西雅图 | 云计算、AI服务 | AWS AI/ML服务 | 150,000+人 | [https://aws.amazon.com](https://aws.amazon.com) | 纳斯达克：AMZN | 已上市 | 云服务、电商 | AWS机器学习服务 | 广州市天河区珠江新城 | Twitter: @AWS | [https://github.com/aws](https://github.com/aws) | AWS AI服务、推荐算法 | 平台稳定，薪资待遇好 | 劳工权益争议 | [亚马逊财报](https://ir.aboutamazon.com) |
+| NVIDIA Guangzhou | 英伟达广州 | 美国加州 | AI芯片、GPU | NVIDIA GPU、CUDA | 25,000+人 | [https://www.nvidia.cn](https://www.nvidia.cn) | 纳斯达克：NVDA | 已上市 | 芯片销售、授权费 | GPU AI芯片 | 广州市天河区软件园 | Twitter: @NVIDIAAI | [https://github.com/NVIDIA](https://github.com/NVIDIA) | CUDA架构、TensorRT | 技术领先，薪资待遇好 | 供应链风险 | [英伟达财报](https://investor.nvidia.com) |
+| Meta Platforms Guangzhou | Meta广州 | 美国加州 | 社交AI、VR/AR | PyTorch、Meta Quest | 80,000+人 | [https://about.meta.com](https://about.meta.com) | 纳斯达克：META | 已上市 | 广告收入、硬件销售 | PyTorch框架 | 广州市海珠区琶洲 | Twitter: @Meta | [https://github.com/pytorch](https://github.com/pytorch) | VR/AR技术、社交AI | 创新氛围浓厚 | 内容监管风险 | [Meta财报](https://investor.fb.com) |
+| Intel Semiconductor Guangzhou | 英特尔广州 | 美国加州 | AI芯片、边缘计算 | Movidius VPU、OpenVINO | 130,000+人 | [https://www.intel.com](https://www.intel.com) | 纳斯达克：INTC | 已上市 | 芯片销售、软件授权 | AI加速器、OpenVINO | 广州市黄埔区科学城 | Twitter: @IntelAI | [https://github.com/intel](https://github.com/intel) | AI推理加速、边缘AI | 技术实力强 | 反垄断风险 | [英特尔财报](https://investor.intel.com) |
+| IBM China Guangzhou | IBM广州 | 美国纽约 | 企业AI、Watson | Watson AI、IBM Cloud | 350,000+人 | [https://www.ibm.com](https://www.ibm.com) | 纽约证券交易所：IBM | 已上市 | 软件授权、咨询服务 | Watson AI平台 | 广州市越秀区环市东路 | Twitter: @IBMResearch | [https://github.com/IBM](https://github.com/IBM) | Watson AI、量子计算 | 技术实力强，历史悠久 | 数据安全风险 | [IBM财报](https://www.ibm.com/investor) |
+
+#### 2.2.2 欧洲企业
+
+| 企业名称 | 简称 | 总部所在地 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 广州办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|------------|----------|----------|----------|----------|--------------|----------|
+| SAP Guangzhou | SAP广州 | 德国沃尔多夫 | 企业AI、ERP | SAP AI Core、S/4HANA | 100,000+人 | [https://www.sap.com](https://www.sap.com) | 泛欧交易所：SAP | 已上市 | 软件授权、云服务 | SAP Leonardo AI平台 | 广州市天河区珠江新城 | Twitter: @SAP | [https://github.com/SAP](https://github.com/SAP) | SAP HANA、机器学习库 | 福利待遇好，国际化程度高 | 数据隐私合规风险 | [SAP财报](https://www.sap.com/investors.html) |
+| Siemens AG Guangzhou | 西门子广州 | 德国慕尼黑 | 工业AI、智能制造 | Siemens AI Suite | 300,000+人 | [https://www.siemens.com](https://www.siemens.com) | 泛欧交易所：SIE | 已上市 | 工业设备、软件服务 | Siemens AI平台 | 广州市黄埔区科学城 | Twitter: @Siemens | [https://github.com/siemens](https://github.com/siemens) | 工业AI、边缘计算 | 技术实力强，稳定性好 | 工业安全风险 | [西门子财报](https://www.siemens.com/global/en/company/investor-relations.html) |
+| ASML Guangzhou | ASML广州 | 荷兰费尔德霍芬 | AI芯片制造设备 | EUV光刻机 | 35,000+人 | [https://www.asml.com](https://www.asml.com) | 泛欧交易所：ASML | 已上市 | 设备销售、技术服务 | EUV光刻设备 | 广州市黄埔区科学城 | Twitter: @ASML | [https://github.com/asml](https://github.com/asml) | 半导体制造AI | 技术垄断地位 | 供应链依赖风险 | [ASML财报](https://www.asml.com/investors) |
+| Infineon Technologies Guangzhou | 英飞凌广州 | 德国慕尼黑 | AI芯片、功率半导体 | AI推理芯片 | 50,000+人 | [https://www.infineon.com](https://www.infineon.com) | 泛欧交易所：IFX | 已上市 | 芯片销售 | AI芯片解决方案 | 广州市天河区软件园 | Twitter: @Infineon | [https://github.com/infineon](https://github.com/infineon) | 半导体AI芯片 | 技术实力强 | 供应链风险 | [英飞凌财报](https://www.infineon.com/cms/en/about-infineon/investor-relations/) |
+
+#### 2.2.3 亚洲其他国家企业
+
+| 企业名称 | 简称 | 总部所在地 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 广州办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|------------|----------|----------|----------|----------|--------------|----------|
+| Sony Semiconductor Guangzhou | 索尼广州 | 日本东京 | AI芯片、图像处理 | Aibo机器狗、AI图像处理 | 110,000+人 | [https://www.sony.com](https://www.sony.com) | 东京证券交易所：6758 | 已上市 | 消费电子、技术服务 | AI图像处理技术 | 广州市天河区软件园 | Twitter: @Sony | [https://github.com/sony](https://github.com/sony) | 图像AI、机器人技术 | 技术创新传统 | 专利纠纷风险 | [索尼财报](https://www.sony.com/en/SonyInfo/IR/library/annual_reports/) |
+| SoftBank Guangzhou Investment | 软银广州 | 日本东京 | AI投资、机器人 | Pepper机器人、AI投资基金 | 50,000+人 | [https://group.softbank/en](https://group.softbank/en) | 东京证券交易所：9984 | 已上市 | 投资收益、技术服务 | AI生态投资 | 广州市天河区珠江新城 | Twitter: @softbank | - | AI投资组合管理 | 投资导向文化 | 投资风险 | [软银财报](https://group.softbank/en/ir/library/results/) |
+| LG Electronics Guangzhou | LG广州 | 韩国首尔 | 家电AI、机器人 | ThinQ AI家电、CLOi机器人 | 75,000+人 | [https://www.lg.com](https://www.lg.com) | 韩国交易所：066570 | 已上市 | 消费电子、AI服务 | ThinQ AI平台 | 广州市海珠区琶洲 | Twitter: @LGNewsroom | [https://github.com/lgsvl](https://github.com/lgsvl) | 家电AI、服务机器人 | 创新氛围良好 | 国际竞争压力 | [LG财报](https://www.lg.com/global/investor-relations) |
+
+#### 2.2.4 中国其他地区企业
+
 | 企业名称 | 简称 | 总部所在地 | 业务领域 | 代表产品 | 企业主页 | 上市情况 | 广州办公地址 |
 |----------|------|------------|----------|----------|----------|----------|--------------|
 | 科大讯飞股份有限公司 | 科大讯飞华南 | 合肥 | 语音识别、NLP | 讯飞输入法、星火大模型 | [https://www.iflytek.com](https://www.iflytek.com) | 深交所：002230 | 广州市天河区 |

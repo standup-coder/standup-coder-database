@@ -102,8 +102,41 @@
 - 招聘平台公开信息
 - 企业财报和融资公告
 
-## 4. 备注
+## 4. 国际企业列表
+
+### 4.1 美国企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| DuPont de Nemours, Inc. | 杜邦公司 | 1802年 | 高性能材料、电子材料 | 特氟龙、Kevlar、电子材料 | 95,000+人 | [https://www.dupont.com](https://www.dupont.com) | 纽约证券交易所(DD) | 已上市 | 材料销售、技术服务 | 特氟龙涂层、Kevlar纤维 | 美国特拉华州威尔明顿杜邦总部 | Twitter: @DuPont_News | [https://github.com/DuPont](https://github.com/DuPont) | 高分子材料技术、表面处理 | 材料科学百年老店但创新能力下降 | 环保法规压力 | [杜邦财报](https://investors.dupont.com/) |
+| 3M Company | 3M公司 | 1902年 | 工业材料、电子材料 | Scotch胶带、电子材料、过滤材料 | 95,000+人 | [https://www.3m.com](https://www.3m.com) | 纽约证券交易所(MMM) | 已上市 | 材料销售、解决方案服务 | 高性能胶带、电子薄膜 | 美国明尼苏达州圣保罗3M总部 | Twitter: @3M | [https://github.com/3M](https://github.com/3M) | 多功能材料技术、纳米技术 | 创新文化深厚但增长放缓 | 反垄断诉讼风险 | [3M财报](https://investors.3m.com/) |
+| Dow Inc. | 陶氏化学 | 1897年 | 化工材料、高性能塑料 | 硅胶、聚氨酯、工程塑料 | 37,000+人 | [https://www.dow.com](https://www.dow.com) | 纽约证券交易所(DOW) | 已上市 | 化工材料销售、技术服务 | 硅酮密封胶、聚氨酯泡沫 | 美国密歇根州米德兰陶氏总部 | Twitter: @DowNewsroom | [https://github.com/Dow](https://github.com/Dow) | 高分子化学、材料科学 | 化工材料专家但环保压力大 | 环境污染诉讼 | [陶氏财报](https://investors.dow.com/) |
+| Honeywell International Inc. | 霍尼韦尔 | 1906年 | 高性能材料、电子材料 | 尼龙树脂、电子材料、过滤器 | 100,000+人 | [https://www.honeywell.com](https://www.honeywell.com) | 纽约证券交易所(HON) | 已上市 | 材料销售、技术服务 | 高性能尼龙、电子薄膜 | 美国新泽西州莫里斯镇 | Twitter: @HoneywellNow | [https://github.com/honeywell](https://github.com/honeywell) | 高温材料技术、电子材料 | 技术全面但材料业务占比小 | 反垄断审查 | [霍尼韦尔财报](https://www.honeywell.com/us/en/investor-relations) |
+| Corning Incorporated | 康宁公司 | 1851年 | 特种玻璃、陶瓷材料 | Gorilla玻璃、光纤、陶瓷基板 | 65,000+人 | [https://www.corning.com](https://www.corning.com) | 纽约证券交易所(GLW) | 已上市 | 材料销售、光学器件 | Gorilla玻璃、光纤光缆 | 美国纽约州康宁市 | Twitter: @CorningInc | [https://github.com/Corning](https://github.com/Corning) | 玻璃陶瓷技术、光纤技术 | 材料技术创新但下游依赖性强 | 供应链波动风险 | [康宁财报](https://investors.corning.com/) |
+
+### 4.2 欧洲企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| BASF SE | 巴斯夫 | 1865年 | 化工材料、工程塑料 | 工程塑料、涂料、催化剂 | 110,000+人 | [https://www.basf.com](https://www.basf.com) | 德国DAX指数 | 已上市 | 化工材料销售、技术服务 | Ultradur工程塑料、涂料 | 德国路德维希港巴斯夫总部 | Twitter: @BASF | [https://github.com/BASF](https://github.com/BASF) | 高分子化学、催化技术 | 化工巨头但环保压力大 | 环境法规合规 | [巴斯夫财报](https://www.basf.com/global/en/company/investor-relations/financial-results.html) |
+| Bayer AG | 拜耳 | 1863年 | 医药材料、聚合物 | 医疗材料、聚碳酸酯 | 100,000+人 | [https://www.bayer.com](https://www.bayer.com) | 德国DAX指数 | 已上市 | 材料销售、医药业务 | 聚碳酸酯板材、医疗植入材料 | 德国勒沃库森拜耳总部 | Twitter: @BayerGlobal | [https://github.com/Bayer](https://github.com/Bayer) | 医疗材料技术、聚合物技术 | 医药材料结合但业务分散 | 产品责任诉讼 | [拜耳财报](https://www.bayer.com/en/investor-relations/financial-reporting) |
+| Solvay SA | 索尔维 | 1863年 | 高性能聚合物、特种化学品 | 聚酰胺、特种工程塑料 | 22,000+人 | [https://www.solvay.com](https://www.solvay.com) | 比利时Euronext | 已上市 | 高性能材料销售 | Technyl聚酰胺、砜类聚合物 | 比利布鲁塞尔索尔维总部 | Twitter: @SolvayGroup | [https://github.com/Solvay](https://github.com/Solvay) | 高性能聚合物技术 | 特种材料专家但规模有限 | 行业周期性波动 | [索尔维财报](https://www.solvay.com/en/investors/financial-results) |
+| Saint-Gobain S.A. | 圣戈班 | 1665年 | 建筑材料、高性能玻璃 | 玻璃材料、建筑陶瓷 | 170,000+人 | [https://www.saint-gobain.com](https://www.saint-gobain.com) | 法国Euronext | 已上市 | 建筑材料销售、玻璃制品 | 高性能玻璃、陶瓷材料 | 法国巴黎圣戈班总部 | Twitter: @SaintGobain | [https://github.com/SaintGobain](https://github.com/SaintGobain) | 玻璃陶瓷技术、建筑材料 | 建材巨头历史悠久 | 能源成本上涨压力 | [圣戈班财报](https://www.saint-gobain.com/en/investors/financial-publications) |
+| Arkema S.A. | 阿科玛 | 2004年 | 特种化学品、高性能材料 | 氟聚合物、热塑性弹性体 | 20,000+人 | [https://www.arkema.com](https://www.arkema.com) | 法国Euronext | 已上市 | 特种化学品销售 | PVDF氟聚合物、PEEK材料 | 法国巴黎阿科玛总部 | Twitter: @ArkemaGroup | [https://github.com/Arkema](https://github.com/Arkema) | 氟化学技术、高性能材料 | 特种化学品专业但业务单一 | 原材料价格波动 | [阿科玛财报](https://www.arkema.com/group/en/investors/financial-publications) |
+
+### 4.3 亚洲其他国家企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Toray Industries, Inc. | 东丽株式会社 | 1926年 | 碳纤维、薄膜材料 | 碳纤维、聚酰亚胺薄膜 | 45,000+人 | [https://www.toray.com](https://www.toray.com) | 东京证券交易所 | 已上市 | 材料销售、技术服务 | T700碳纤维、聚酰亚胺薄膜 | 日本东京东丽总部 | Twitter: @TorayOfficial | [https://github.com/Toray](https://github.com/Toray) | 碳纤维技术、高分子薄膜 | 材料技术领先但增长放缓 | 业务多元化压力 | [东丽财报](https://www.toray.com/english/ir/library/annual_report/) |
+| Mitsubishi Chemical Holdings | 三菱化学 | 1950年 | 化工材料、电子材料 | 聚碳酸酯、电子化学品 | 70,000+人 | [https://www.mitsubishi-chemical.com](https://www.mitsubishi-chemical.com) | 东京证券交易所 | 已上市 | 化工材料销售 | 聚碳酸酯板材、电子化学品 | 日本东京三菱化学总部 | Twitter: @MCHC_Group | [https://github.com/MitsubishiChemical](https://github.com/MitsubishiChemical) | 高分子化学、电子材料 | 化工集团业务广泛 | 传统业务转型压力 | [三菱化学财报](https://www.mitsubishi-chemical.com/en/ir/library/annual_report/) |
+| Sumitomo Chemical Co., Ltd. | 住友化学 | 1940年 | 化工材料、电子材料 | 聚丙烯、电子化学品 | 30,000+人 | [https://www.sumitomo-chem.co.jp](https://www.sumitomo-chem.co.jp) | 东京证券交易所 | 已上市 | 化工材料销售 | 聚丙烯树脂、电子化学品 | 日本东京住友化学总部 | Twitter: @SumitomoChem | [https://github.com/SumitomoChemical](https://github.com/SumitomoChemical) | 高分子材料、精细化工 | 材料技术全面但创新不足 | 行业竞争激烈 | [住友化学财报](https://www.sumitomo-chem.co.jp/english/ir/library/annual_report/) |
+| Asahi Kasei Corporation | 旭化成 | 1922年 | 工程塑料、电子材料 | 尼龙66、电子陶瓷 | 40,000+人 | [https://www.asahikasei.com](https://www.asahikasei.com) | 东京证券交易所 | 已上市 | 材料销售、技术服务 | Leona尼龙66、电子陶瓷 | 日本东京旭化成总部 | Twitter: @AsahiKaseiCorp | [https://github.com/AsahiKasei](https://github.com/AsahiKasei) | 工程塑料技术、电子陶瓷 | 材料技术专业但市场有限 | 业务结构调整 | [旭化成财报](https://www.asahikasei.com/en/investor/library/annual_report/) |
+| DIC Corporation | DIC株式会社 | 1908年 | 功能材料、印刷材料 | 功能性薄膜、印刷油墨 | 12,000+人 | [https://www.dic.co.jp](https://www.dic.co.jp) | 东京证券交易所 | 已上市 | 材料销售、印刷服务 | 功能性薄膜、特种油墨 | 日本东京DIC总部 | Twitter: @DIC_CORP | [https://github.com/DIC](https://github.com/DIC) | 功能材料技术、印刷技术 | 专业材料制造商 | 市场规模有限 | [DIC财报](https://www.dic.co.jp/english/ir/library/annual_report/) |
+
+## 5. 备注
 - 企业信息截至2026年1月
 - 仅收录总部位于深圳的新材料企业
 - 公司规模数据来源于公开招聘信息和企业年报
 - 业务领域和代表产品根据企业官网和公开报道整理
+- 国际企业信息基于公开资料整理

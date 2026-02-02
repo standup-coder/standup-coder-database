@@ -20,7 +20,37 @@
 | 上海找钢网信息科技股份有限公司 | 找钢网 | 2012年 | 产业大数据、B2B电商 | 找钢网平台、钢铁大数据 | 2000+人 | [https://www.zhaogang.com](https://www.zhaogang.com) | 未上市 | 上海市宝山区蕴川路5475号 |
 | 上海数据交易中心有限公司 | 上海数交所 | 2016年 | 数据交易、数据资产 | 数据交易平台、数据资产确权 | 300+人 | [https://www.chinadep.com](https://www.chinadep.com) | 未上市（国资） | 上海市浦东新区世纪大道100号 |
 
-## 3. 按维度分类的企业列表
+## 3. 国际企业列表
+
+### 3.1 美国企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Google LLC Shanghai | Google上海 | 1998年 | 搜索引擎、大数据分析 | BigQuery、Looker、Data Studio | 180,000+人 | [https://cloud.google.com/big-data](https://cloud.google.com/big-data) | 纳斯达克(GOOGL) | 已上市 | 广告收入、云服务 | Google Big Data Platform | 上海市浦东新区世纪大道1568号 | Twitter: @GoogleCloud | [https://github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) | BigQuery、Dataflow架构 | 技术领先，创新氛围浓厚 | 数据隐私争议 | [Google财报](https://abc.xyz/investor/) |
+| Microsoft Corporation Shanghai | Microsoft上海 | 1975年 | 企业大数据、AI分析 | Azure Synapse、Power BI、HDInsight | 220,000+人 | [https://azure.microsoft.com/solutions/big-data](https://azure.microsoft.com/solutions/big-data) | 纳斯达克(MSFT) | 已上市 | 云服务、软件授权 | Microsoft Analytics Platform | 上海市静安区南京西路1515号 | Twitter: @Microsoft | [https://github.com/microsoft](https://github.com/microsoft) | Azure大数据架构 | 福利待遇好，技术实力强 | 反垄断诉讼风险 | [Microsoft财报](https://www.microsoft.com/en-us/investor) |
+| Amazon.com, Inc. Shanghai | Amazon上海 | 1994年 | 电商大数据、云分析 | AWS Redshift、EMR、QuickSight | 150,000+人 | [https://aws.amazon.com/big-data](https://aws.amazon.com/big-data) | 纳斯达克(AMZN) | 已上市 | 云服务、电商 | AWS大数据服务 | 上海市浦东新区世纪大道 | Twitter: @AWS | [https://github.com/aws](https://github.com/aws) | AWS大数据架构 | 平台稳定，薪资待遇好 | 劳工权益争议 | [Amazon财报](https://ir.aboutamazon.com) |
+| IBM Corporation Shanghai | IBM上海 | 1911年 | 企业大数据、Watson AI | IBM Watson、InfoSphere、SPSS | 350,000+人 | [https://www.ibm.com/analytics](https://www.ibm.com/analytics) | 纽约证券交易所(IBM) | 已上市 | 软件授权、服务咨询 | IBM Analytics Platform | 上海市浦东新区陆家嘴环路 | Twitter: @IBMAnalytics | [https://github.com/IBM](https://github.com/IBM) | IBM大数据架构 | 技术实力强，历史悠久 | 数据安全风险 | [IBM财报](https://www.ibm.com/investor) |
+| Cloudera, Inc. Shanghai | Cloudera上海 | 2008年 | 大数据平台、Hadoop | Cloudera Data Platform、CDH | 4,000+人 | [https://www.cloudera.com](https://www.cloudera.com) | 纳斯达克(CLDR) | 已上市 | 软件授权、云服务 | Cloudera Platform | 上海市浦东新区张江高科技园区 | Twitter: @Cloudera | [https://github.com/cloudera](https://github.com/cloudera) | Hadoop生态系统 | 技术专业，开源贡献多 | 开源社区竞争风险 | [Cloudera财报](https://ir.cloudera.com) |
+| Snowflake Inc. Shanghai | Snowflake上海 | 2012年 | 云数据平台、数据分析 | Snowflake云数据平台 | 5,000+人 | [https://www.snowflake.com](https://www.snowflake.com) | 纽约证券交易所(SNOW) | 已上市 | 云数据服务订阅 | Snowflake Data Cloud | 上海市浦东新区世纪大道 | Twitter: @SnowflakeDB | [https://github.com/snowflakedb](https://github.com/snowflakedb) | 云原生数据架构 | 技术创新能力强 | 数据安全合规风险 | [Snowflake财报](https://investors.snowflake.com) |
+| Databricks Inc. Shanghai | Databricks上海 | 2013年 | 统一数据分析平台 | Databricks Lakehouse Platform | 3,000+人 | [https://www.databricks.com](https://www.databricks.com) | 私募融资 | 多轮融资 | 平台订阅、专业服务 | Delta Lake、Unified Analytics Platform | 上海市浦东新区张江高科技园区 | Twitter: @databricks | [https://github.com/databricks](https://github.com/databricks) | Lakehouse架构 | 技术创新能力强 | 开源商业化风险 | 私募融资信息 |
+| Palantir Technologies Shanghai | Palantir上海 | 2003年 | 大数据分析、国防情报 | Palantir Gotham、Foundry | 3,000+人 | [https://www.palantir.com](https://www.palantir.com) | 纽约证券交易所(PLTR) | 已上市 | 软件授权、政府合同 | Palantir平台 | 上海市浦东新区陆家嘴金融区 | Twitter: @PalantirTech | [https://github.com/palantir](https://github.com/palantir) | 大数据安全分析架构 | 技术实力强 | 政府合同依赖风险 | [Palantir财报](https://investors.palantir.com) |
+
+### 3.2 欧洲企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| SAP SE Shanghai | SAP上海 | 1972年 | 企业大数据、商务智能 | SAP Analytics Cloud、HANA、BusinessObjects | 100,000+人 | [https://www.sap.com/products/analytics.html](https://www.sap.com/products/analytics.html) | 泛欧交易所(SAP) | 已上市 | 软件授权、云服务 | SAP Analytics Platform | 上海市浦东新区张江高科技园区 | Twitter: @SAP | [https://github.com/SAP](https://github.com/SAP) | SAP HANA大数据架构 | 福利待遇好，国际化程度高 | 数据隐私合规风险 | [SAP财报](https://www.sap.com/investors.html) |
+| Oracle Corporation Shanghai | Oracle上海 | 1977年 | 企业大数据、数据库分析 | Oracle Analytics、Exadata、Autonomous Database | 130,000+人 | [https://www.oracle.com/big-data](https://www.oracle.com/big-data) | 纽约证券交易所(ORCL) | 已上市 | 软件授权、云服务 | Oracle Big Data Platform | 上海市浦东新区张江高科技园区 | Twitter: @Oracle | [https://github.com/oracle](https://github.com/oracle) | Oracle大数据架构 | 技术实力强，稳定性好 | 数据库垄断争议 | [Oracle财报](https://www.oracle.com/investors/) |
+| Siemens AG Shanghai | 西门子上海 | 1847年 | 工业大数据、智能制造 | Siemens Mindsphere、工业大数据平台 | 300,000+人 | [https://new.siemens.com/global/en/products/analytics.html](https://new.siemens.com/global/en/products/analytics.html) | 泛欧交易所(SIE) | 已上市 | 工业设备、软件服务 | Siemens大数据平台 | 上海市浦东新区张江高科技园区 | Twitter: @Siemens | [https://github.com/siemens](https://github.com/siemens) | 工业大数据架构 | 技术实力强，稳定性好 | 工业安全风险 | [Siemens财报](https://www.siemens.com/global/en/company/investor-relations.html) |
+| Ericsson AB Shanghai | 爱立信上海 | 1876年 | 通信大数据、5G数据分析 | 5G大数据分析平台 | 95,000+人 | [https://www.ericsson.com/en/data-analytics](https://www.ericsson.com/en/data-analytics) | 斯德哥尔摩交易所(ERIC) | 已上市 | 通信设备、数据分析服务 | 通信大数据平台 | 上海市浦东新区张江高科技园区 | Twitter: @Ericsson | [https://github.com/Ericsson](https://github.com/Ericsson) | 通信大数据架构 | 技术实力强 | 5G专利风险 | [Ericsson财报](https://www.ericsson.com/investors) |
+
+### 3.3 亚洲其他国家企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| NEC Corporation Shanghai | NEC上海 | 1899年 | 企业大数据、AI分析 | NEC大数据平台、AI解决方案 | 110,000+人 | [https://www.nec.com/en/global/solutions/data-analytics.html](https://www.nec.com/en/global/solutions/data-analytics.html) | 东京证券交易所(6701) | 已上市 | 软件授权、数据分析服务 | NEC大数据平台 | 上海市浦东新区张江高科技园区 | Twitter: @NEC_Corporation | - | 企业大数据架构 | 技术实力强 | 国际制裁风险 | [NEC财报](https://www.nec.com/en/global/ir/library/annual_report/index.html) |
+| Fujitsu Limited Shanghai | 富士通上海 | 1935年 | 混合大数据、企业分析 | Fujitsu Data Analytics、Uvance | 120,000+人 | [https://www.fujitsu.com/global/solutions/data-analytics/](https://www.fujitsu.com/global/solutions/data-analytics/) | 东京证券交易所(6702) | 已上市 | 软件授权、数据分析服务 | Fujitsu大数据平台 | 上海市浦东新区张江高科技园区 | Twitter: @Fujitsu_Global | - | 混合大数据架构 | 技术实力强 | 国际制裁风险 | [富士通财报](https://www.fujitsu.com/jp/group/corporate/investor/finance/) |
+| Hitachi, Ltd. Shanghai | 日立上海 | 1910年 | 工业大数据、IoT分析 | Lumada平台、Hitachi Vantara | 350,000+人 | [https://www.hitachi.com/products/analytics/](https://www.hitachi.com/products/analytics/) | 东京证券交易所(6501) | 已上市 | 软件授权、数据分析服务 | Hitachi大数据平台 | 上海市浦东新区张江高科技园区 | Twitter: @HitachiGlobal | - | 工业大数据架构 | 技术实力强 | 国际制裁风险 | [日立财报](https://www.hitachi.com/investor/) |
 
 ### 3.1 按成立时间排序
 

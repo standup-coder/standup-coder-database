@@ -172,9 +172,42 @@
 - 企业财报和融资公告
 - 社交媒体公开信息
 
-## 5. 备注
+## 5. 国际企业列表
+
+### 5.1 美国企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Alphabet Inc. | 谷歌母公司 | 2015年 | 搜索引擎、云计算、AI | Google搜索、YouTube、Google Cloud | 180,000+人 | [https://abc.xyz](https://abc.xyz) | 纳斯达克(GOOGL) | 已上市 | 广告收入、云服务、硬件销售 | Gemini AI、TensorFlow | 美国加州山景城Google总部 | Twitter: @Google | [https://github.com/google](https://github.com/google) | TensorFlow框架、搜索引擎技术 | 技术领先，创新氛围浓厚 | 数据隐私争议 | [Google财报](https://abc.xyz/investor/) |
+| Meta Platforms, Inc. | Meta | 2004年 | 社交网络、元宇宙 | Facebook、Instagram、WhatsApp、Meta Quest | 85,000+人 | [https://about.meta.com](https://about.meta.com) | 纳斯达克(META) | 已上市 | 广告收入、硬件销售、元宇宙服务 | Meta Quest VR、Spark AR | 美国加州门洛帕克Meta总部 | Twitter: @Meta | [https://github.com/facebook](https://github.com/facebook) | 社交网络技术、VR/AR平台 | 社交媒体霸主但隐私争议大 | 数据隐私监管 | [Meta财报](https://investor.fb.com/) |
+| Amazon.com, Inc. | 亚马逊 | 1994年 | 电商、云计算、AI | Amazon购物、AWS、Alexa | 150,000+人 | [https://www.amazon.com](https://www.amazon.com) | 纳斯达克(AMZN) | 已上市 | 电商销售、云服务、广告收入 | AWS云平台、Alexa语音助手 | 美国华盛顿州西雅图亚马逊总部 | Twitter: @amazon | [https://github.com/aws](https://github.com/aws) | 电商技术、云计算架构 | 电商巨头但工作强度大 | 反垄断诉讼 | [Amazon财报](https://ir.aboutamazon.com/) |
+| Netflix, Inc. | 奈飞 | 1997年 | 流媒体、内容制作 | Netflix流媒体、原创内容 | 12,000+人 | [https://www.netflix.com](https://www.netflix.com) | 纳斯达克(NFLX) | 已上市 | 订阅收入、广告收入 | Netflix流媒体平台 | 美国加州洛杉矶Netflix总部 | Twitter: @netflix | 私有代码 | 流媒体技术、内容推荐算法 | 内容创新强但竞争激烈 | 内容成本压力 | [Netflix财报](https://s22.q4cdn.com/959164568/files/doc_financials/2023/q4/Netflix-Inc-Q4-2023-Earnings-Release.pdf) |
+| eBay Inc. | 易趣 | 1995年 | 电商、拍卖 | eBay平台、PayPal支付 | 12,000+人 | [https://www.ebay.com](https://www.ebay.com) | 纳斯达克(EBAY) | 已上市 | 交易佣金、广告收入、支付服务 | eBay拍卖平台 | 美国加州圣何塞eBay总部 | Twitter: @eBay | [https://github.com/eBay](https://github.com/eBay) | 电商拍卖技术、支付系统 | 电商先驱但增长放缓 | 市场竞争压力 | [eBay财报](https://investors.ebayinc.com/) |
+
+### 5.2 欧洲企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Spotify Technology S.A. | Spotify | 2006年 | 音乐流媒体、播客 | Spotify音乐、播客内容 | 9,000+人 | [https://www.spotify.com](https://www.spotify.com) | 纽约证券交易所(SPOT) | 已上市 | 订阅收入、广告收入 | Spotify流媒体平台 | 瑞典斯德哥尔摩Spotify总部 | Twitter: @Spotify | [https://github.com/spotify](https://github.com/spotify) | 音乐推荐算法、音频流媒体 | 音乐流媒体领导者但盈利困难 | 版权成本压力 | [Spotify财报](https://investors.spotify.com/) |
+| Booking Holdings Inc. | Booking | 1996年 | 在线旅游、住宿预订 | Booking.com、Kayak、Priceline | 25,000+人 | [https://www.bookingholdings.com](https://www.bookingholdings.com) | 纳斯达克(BKNG) | 已上市 | 预订佣金、广告收入 | Booking.com预订平台 | 荷兰阿姆斯特丹Booking总部 | Twitter: @Booking | [https://github.com/bookingcom](https://github.com/bookingcom) | 旅游预订技术、大数据分析 | 旅游预订龙头但增长放缓 | 旅游业周期性影响 | [Booking财报](https://ir.bookingholdings.com/) |
+| Delivery Hero SE | 美团外卖欧洲 | 2011年 | 外卖配送、本地生活 | Foodpanda、Delivery Hero平台 | 25,000+人 | [https://www.deliveryhero.com](https://www.deliveryhero.com) | 德国SDAX | 已上市 | 配送佣金、广告收入 | Foodpanda配送平台 | 德国柏林Delivery Hero总部 | Twitter: @DeliveryHero | [https://github.com/deliveryhero](https://github.com/deliveryhero) | 外卖配送技术、实时调度 | 外卖配送专家但盈利能力弱 | 市场竞争激烈 | [Delivery Hero财报](https://www.deliveryhero.com/investors/) |
+| Prosus N.V. | Prosus | 2019年 | 互联网投资、分类广告 | OLX、Letgo、Travelstart | 5,000+人 | [https://www.prosus.com](https://www.prosus.com) | 阿姆斯特丹泛欧交易所 | 已上市 | 投资收益、平台佣金 | OLX分类广告平台 | 荷兰阿姆斯特丹Prosus总部 | Twitter: @ProsusInvest | [https://github.com/prosus](https://github.com/prosus) | 分类广告技术、投资组合管理 | 互联网投资专家但业务分散 | 投资组合风险 | [Prosus财报](https://www.prosus.com/investors/) |
+| Just Eat Takeaway.com N.V. | Just Eat | 2000年 | 外卖配送、餐饮服务 | Just Eat、Takeaway.com | 15,000+人 | [https://www.justeattakeaway.com](https://www.justeattakeaway.com) | 阿姆斯特丹泛欧交易所 | 已上市 | 配送佣金、广告收入 | Just Eat配送平台 | 荷兰阿姆斯特丹Just Eat总部 | Twitter: @justeattakeaway | [https://github.com/justeat](https://github.com/justeat) | 外卖配送技术、餐厅管理 | 外卖配送专业但整合挑战大 | 整合协同风险 | [Just Eat财报](https://www.justeattakeaway.com/investors/) |
+
+### 5.3 亚洲其他国家企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Rakuten Group, Inc. | 乐天 | 1997年 | 电商、金融科技、通信 | 乐天市场、乐天银行、乐天移动 | 15,000+人 | [https://global.rakuten.com](https://global.rakuten.com) | 东京证券交易所 | 已上市 | 电商销售、金融服务、通信服务 | 乐天市场平台 | 日本东京乐天总部 | Twitter: @RakutenGlobal | [https://github.com/rakuten](https://github.com/rakuten) | 电商技术、金融科技 | 日本电商龙头但国际化困难 | 市场竞争压力 | [乐天财报](https://global.rakuten.com/corp/investors/library/annual_report/) |
+| SoftBank Group Corp. | 软银 | 1981年 | 投资、电信、互联网 | Vision Fund、Yahoo Japan、Line | 70,000+人 | [https://www.softbank.jp](https://www.softbank.jp) | 东京证券交易所 | 已上市 | 投资收益、电信服务 | Vision Fund投资组合 | 日本东京软银总部 | Twitter: @softbank | [https://github.com/softbank](https://github.com/softbank) | 投资组合管理、电信技术 | 投资帝国但风险集中 | 投资组合风险 | [软银财报](https://www.softbank.jp/en/investors/library/annual_report/) |
+| LINE Corporation | 连我 | 2011年 | 即时通讯、社交、支付 | LINE通讯、LINE Pay、LINE购物 | 5,000+人 | [https://linecorp.com](https://linecorp.com) | 东京证券交易所 | 已上市 | 广告收入、支付服务、电商销售 | LINE通讯平台 | 日本东京LINE总部 | Twitter: @LINEjp_official | [https://github.com/line](https://github.com/line) | 即时通讯技术、移动支付 | 日本社交霸主但海外拓展困难 | 数据隐私监管 | [LINE财报](https://linecorp.com/ja/pr/library/) |
+| Naver Corporation | 纳伟士 | 1999年 | 搜索引擎、内容平台 | Naver搜索、Webtoon漫画 | 6,000+人 | [https://www.navercorp.com](https://www.navercorp.com) | 韩国KOSPI | 已上市 | 广告收入、内容付费、电商销售 | Naver搜索平台 | 韩国首尔Naver总部 | Twitter: @NAVER_Global | [https://github.com/naver](https://github.com/naver) | 搜索引擎技术、内容平台 | 韩国互联网巨头但国际化有限 | 内容监管风险 | [Naver财报](https://www.navercorp.com/ir/financials) |
+| Kakao Corporation | 卡考 | 2010年 | 即时通讯、移动支付 | KakaoTalk、KakaoPay、KakaoTaxi | 4,000+人 | [https://www.kakaocorp.com](https://www.kakaocorp.com) | 韩国KOSPI | 已上市 | 广告收入、支付服务、出行服务 | KakaoTalk通讯平台 | 韩国首尔Kakao总部 | Twitter: @KakaoCorp | [https://github.com/kakao](https://github.com/kakao) | 即时通讯技术、移动生态 | 韩国移动生态领导者 | 反垄断审查 | [Kakao财报](https://www.kakaocorp.com/page/service/kakao/ir) |
+
+## 6. 备注
 - 企业信息截至2026年1月
 - 公司规模数据来源于公开招聘信息和企业年报
 - 业务领域和代表产品根据企业官网和公开报道整理
 - 上市情况、融资情况等信息来源于公开财报和融资公告
 - 员工口碑信息来源于招聘平台和员工评价
+- 国际企业信息基于公开资料整理

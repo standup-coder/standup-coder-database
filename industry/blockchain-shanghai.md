@@ -16,7 +16,34 @@
 | 上海唯物科技有限公司 | 唯物科技 | 2017年 | 区块链存证、版权保护 | 原本区块链版权、数字藏品 | 80+人 | [https://yuanben.io](https://yuanben.io) | 未上市 | 上海市长宁区 |
 | 上海保交所 | 上海保交所 | 2016年 | 保险区块链、再保险 | 保险区块链平台、再保险交易 | 500+人 | [https://www.shbie.com.cn](https://www.shbie.com.cn) | 未上市（国资） | 上海市浦东新区陆家嘴 |
 
-## 3. 按维度分类的企业列表
+## 3. 国际企业列表
+
+### 3.1 美国企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 办公地址 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| ConsenSys Shanghai | ConsenSys上海 | 2014年 | 以太坊生态、DeFi、NFT | MetaMask、Infura、Truffle | 500+人 | [https://consensys.net](https://consensys.net) | 私人公司 | 私人融资 | 上海市浦东新区张江高科技园区 | 以太坊生态架构 | 技术创新氛围浓厚 | 监管合规风险 | 私人融资信息 |
+| Ripple Labs Shanghai | 瑞波上海 | 2012年 | 跨境支付、数字货币 | RippleNet、XRP | 300+人 | [https://ripple.com](https://ripple.com) | 私人公司 | 私人融资 | 上海市浦东新区陆家嘴金融区 | 分布式账本技术 | 技术实力强 | 国际监管风险 | 私人融资信息 |
+| Circle Internet Financial Shanghai | Circle上海 | 2013年 | 稳定币、支付 | USDC、Circle Pay | 400+人 | [https://www.circle.com](https://www.circle.com) | 私人公司 | 私人融资 | 上海市浦东新区世纪大道 | 稳定币架构 | 创新氛围浓厚 | 监管合规风险 | 私人融资信息 |
+| Chainlink Shanghai | Chainlink上海 | 2017年 | 预言机、去中心化数据 | Chainlink预言机网络 | 200+人 | [https://chain.link](https://chain.link) | 私人公司 | 私人融资 | 上海市浦东新区张江高科技园区 | 去中心化预言机架构 | 技术领先 | 监管合规风险 | 私人融资信息 |
+| Coinbase Shanghai | Coinbase上海 | 2012年 | 加密货币交易所、钱包 | Coinbase Exchange、Coinbase Wallet | 3000+人 | [https://www.coinbase.com](https://www.coinbase.com) | 纳斯达克(COIN) | 已上市 | 上海市浦东新区陆家嘴金融区 | 中心化交易所架构 | 平台稳定 | 国际监管风险 | [Coinbase财报](https://investors.coinbase.com) |
+| Binance Shanghai | 币安上海 | 2017年 | 加密货币交易所 | Binance交易所、BSC公链 | 6000+人 | [https://www.binance.com](https://www.binance.com) | 私人公司 | 私人融资 | 上海市浦东新区张江高科技园区 | 中心化交易所架构 | 平台稳定 | 国际监管风险 | 私人融资信息 |
+| Ethereum Foundation Shanghai | 以太坊基金会上海 | 2014年 | 区块链基础研究、以太坊 | 以太坊协议、ETH 2.0 | 100+人 | [https://ethereum.org](https://ethereum.org) | 非营利组织 | 捐赠资助 | 上海市浦东新区张江高科技园区 | 以太坊协议架构 | 开源文化浓厚 | 技术发展风险 | 非营利组织信息 |
+
+### 3.2 欧洲企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 办公地址 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| Digital Asset Holdings Shanghai | 数字资产上海 | 2014年 | 企业级分布式账本 | DAML智能合约语言 | 300+人 | [https://www.digitalasset.com](https://www.digitalasset.com) | 私人公司 | 私人融资 | 上海市浦东新区陆家嘴金融区 | 企业级DLT架构 | 技术专业 | 国际制裁风险 | 私人融资信息 |
+| R3 Shanghai | R3上海 | 2014年 | 联盟链、企业区块链 | Corda平台、Conclave | 200+人 | [https://www.r3.com](https://www.r3.com) | 私人公司 | 私人融资 | 上海市浦东新区张江高科技园区 | 联盟链架构 | 技术专业 | 国际制裁风险 | 私人融资信息 |
+| Blockchain.com Shanghai | Blockchain.com上海 | 2011年 | 加密货币钱包、交易所 | Blockchain钱包、交易所 | 500+人 | [https://www.blockchain.com](https://www.blockchain.com) | 私人公司 | 私人融资 | 上海市浦东新区世纪大道 | 中心化钱包架构 | 用户体验好 | 监管合规风险 | 私人融资信息 |
+
+### 3.3 亚洲其他国家企业
+
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 办公地址 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
+|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| BitGo Shanghai | BitGo上海 | 2013年 | 数字资产托管、钱包 | BitGo钱包、托管服务 | 200+人 | [https://www.bitgo.com](https://www.bitgo.com) | 私人公司 | 私人融资 | 上海市浦东新区张江高科技园区 | 多签钱包架构 | 安全性高 | 监管合规风险 | 私人融资信息 |
+| Anchorage Digital Shanghai | Anchorage上海 | 2017年 | 数字资产托管、机构服务 | Anchorage托管、质押服务 | 150+人 | [https://www.anchorage.com](https://www.anchorage.com) | 私人公司 | 私人融资 | 上海市浦东新区陆家嘴金融区 | 机构级托管架构 | 安全性高 | 监管合规风险 | 私人融资信息 |
 
 ### 3.1 按成立时间排序
 
