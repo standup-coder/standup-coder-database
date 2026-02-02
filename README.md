@@ -20,6 +20,7 @@ the-big-list 是一个全面的企业清单项目，专注于收集和整理各�
 |------|----------|------|
 | [权威榜单](#权威企业榜单8个) | 8个 | 财富500强、专精特新、独角兽等国家级榜单 |
 | [行业清单](#行业企业清单) | 74个 | 按行业+城市分类的企业清单 |
+| [专题榜单](#专题企业榜单6个) | 6个 | 科技创新、国外企业在华、远程工作等专题榜单 |
 
 ### 按检索维度
 - [按城市查找](#按城市查找)
@@ -56,7 +57,7 @@ the-big-list 是一个全面的企业清单项目，专注于收集和整理各�
 
 ## 行业企业清单
 
-### 行业覆盖（12大领域）
+### 行业覆盖（13大领域）
 | 行业 | 文件前缀 | 覆盖城市 | 说明 |
 |------|----------|----------|------|
 | 人工智能 | `ai-` | 10城 | 机器学习、深度学习、CV、NLP、机器人 |
@@ -69,6 +70,7 @@ the-big-list 是一个全面的企业清单项目，专注于收集和整理各�
 | 生物技术 | `biotech-` | 6城 | 生物医药、生物农业、生物制造 |
 | 3C电子 | `3c-` | 5城 | 消费电子、硬件设备、智能终端 |
 | 云计算 | `cloud-` | 16城 | 云服务、IaaS、PaaS、SaaS |
+| 网络安全 | `security-` | 8城 | 网络安全、数据安全、云安全、工控安全 |
 | 互联网 | `internet-` | 1城 | 互联网平台、电商、社交 |
 | 软件 | `software-` | 1城 | 企业软件、工业软件、基础软件 |
 
@@ -77,18 +79,18 @@ the-big-list 是一个全面的企业清单项目，专注于收集和整理各�
 #### 一线城市（5城）
 | 城市 | 覆盖行业数 | 文件列表 |
 |------|------------|----------|
-| 北京 | 11个行业 | ai, bigdata, blockchain, iot, smart-manufacturing, new-energy, new-materials, biotech, 3c, cloud |
-| 上海 | 10个行业 | ai, bigdata, blockchain, iot, smart-manufacturing, new-energy, new-materials, biotech, 3c, cloud |
-| 深圳 | 16个行业 | ai, bigdata, blockchain, iot, smart-manufacturing, new-energy, new-materials, biotech, 3c, cloud, internet, software, ev, automation, battery, drone |
-| 广州 | 10个行业 | ai, bigdata, blockchain, iot, smart-manufacturing, new-energy, new-materials, biotech, 3c, cloud |
-| 杭州 | 10个行业 | ai, bigdata, blockchain, iot, smart-manufacturing, new-energy, new-materials, biotech, 3c, cloud |
+| 北京 | 12个行业 | ai, bigdata, blockchain, iot, smart-manufacturing, new-energy, new-materials, biotech, 3c, cloud, security |
+| 上海 | 11个行业 | ai, bigdata, blockchain, iot, smart-manufacturing, new-energy, new-materials, biotech, 3c, cloud, security |
+| 深圳 | 17个行业 | ai, bigdata, blockchain, iot, smart-manufacturing, new-energy, new-materials, biotech, 3c, cloud, internet, software, ev, automation, battery, drone, security |
+| 广州 | 11个行业 | ai, bigdata, blockchain, iot, smart-manufacturing, new-energy, new-materials, biotech, 3c, cloud, security |
+| 杭州 | 11个行业 | ai, bigdata, blockchain, iot, smart-manufacturing, new-energy, new-materials, biotech, 3c, cloud, security |
 
 #### 新一线/二线城市（6城）
 | 城市 | 覆盖行业 | 文件列表 |
 |------|----------|----------|
-| 南京 | ai, cloud | [ai-nanjing.md](list/ai-nanjing.md), [cloud-nanjing.md](list/cloud-nanjing.md) |
-| 西安 | ai, cloud | [ai-xian.md](list/ai-xian.md), [cloud-xian.md](list/cloud-xian.md) |
-| 苏州 | biotech, cloud | [biotech-suzhou.md](list/biotech-suzhou.md), [cloud-suzhou.md](list/cloud-suzhou.md) |
+| 南京 | ai, cloud, security | [ai-nanjing.md](list/ai-nanjing.md), [cloud-nanjing.md](list/cloud-nanjing.md), [security-nanjing.md](list/security-nanjing.md) |
+| 西安 | ai, cloud, security | [ai-xian.md](list/ai-xian.md), [cloud-xian.md](list/cloud-xian.md), [security-xian.md](list/security-xian.md) |
+| 苏州 | biotech, cloud, security | [biotech-suzhou.md](list/biotech-suzhou.md), [cloud-suzhou.md](list/cloud-suzhou.md), [security-suzhou.md](list/security-suzhou.md) |
 | 无锡 | cloud | [cloud-wuxi.md](list/cloud-wuxi.md) |
 | 常州 | cloud | [cloud-changzhou.md](list/cloud-changzhou.md) |
 | 昆明 | ai, cloud | [ai-kunming.md](list/ai-kunming.md), [cloud-kunming.md](list/cloud-kunming.md) |
@@ -112,7 +114,29 @@ the-big-list 是一个全面的企业清单项目，专注于收集和整理各�
 
 ---
 
-## 完整文件清单（82个）
+## 专题企业榜单（6个）
+
+### 科技创新榜单
+| 榜单名称 | 文件 | 覆盖城市 | 说明 |
+|----------|------|----------|------|
+| 北京科技创新企业榜单 | [tech-innovation-beijing.md](list/tech-innovation-beijing.md) | 北京 | 百度、字节跳动、旷视科技等 |
+| 上海科技创新企业榜单 | [tech-innovation-shanghai.md](list/tech-innovation-shanghai.md) | 上海 | 商汤科技、依图科技、壁仞科技等 |
+| 深圳科技创新企业榜单 | [tech-innovation-shenzhen.md](list/tech-innovation-shenzhen.md) | 深圳 | 腾讯、华为、比亚迪、大疆等 |
+| 全国科技创新企业综合榜单 | [tech-innovation-national.md](list/tech-innovation-national.md) | 全国 | 汇总全国科技创新企业 |
+
+### 国外企业在华榜单
+| 榜单名称 | 文件 | 说明 |
+|----------|------|------|
+| 国外科技公司在华业务榜单 | [foreign-tech-companies-china.md](list/foreign-tech-companies-china.md) | 微软、苹果、谷歌、特斯拉等 |
+
+### 工作方式榜单
+| 榜单名称 | 文件 | 说明 |
+|----------|------|------|
+| 支持远程工作的公司榜单 | [remote-work-companies.md](list/remote-work-companies.md) | 字节跳动、腾讯、阿里巴巴等 |
+
+---
+
+## 完整文件清单（88个）
 
 ### 人工智能行业（10个）
 | 文件 | 城市 | 说明 |
@@ -221,6 +245,18 @@ the-big-list 是一个全面的企业清单项目，专注于收集和整理各�
 | [cloud-hongkong.md](list/cloud-hongkong.md) | 香港 | AWS香港、阿里云香港等 |
 | [cloud-macau.md](list/cloud-macau.md) | 澳门 | 澳门电讯云服务等 |
 | [cloud-lhasa.md](list/cloud-lhasa.md) | 拉萨 | 西藏云计算中心等 |
+
+### 网络安全行业（8个）
+| 文件 | 城市 | 说明 |
+|------|------|------|
+| [security-beijing.md](list/security-beijing.md) | 北京 | 启明星辰、天融信、奇安信、绿盟科技等 |
+| [security-shanghai.md](list/security-shanghai.md) | 上海 | 安恒信息、众人科技、格尔软件、三零卫士等 |
+| [security-shenzhen.md](list/security-shenzhen.md) | 深圳 | 深信服、华为安全、任子行、绿盟科技等 |
+| [security-guangzhou.md](list/security-guangzhou.md) | 广州 | 云从科技、安恒信息广州、绿盟科技广州等 |
+| [security-hangzhou.md](list/security-hangzhou.md) | 杭州 | 安恒信息、阿里安全、迪普科技、海康威视等 |
+| [security-nanjing.md](list/security-nanjing.md) | 南京 | 擎天科技、联创科技、南瑞信通、科远智慧等 |
+| [security-xian.md](list/security-xian.md) | 西安 | 西电捷通、天和防务、晨曦航空等 |
+| [security-suzhou.md](list/security-suzhou.md) | 苏州 | 苏州科达、中科创达、固德威等 |
 
 ### 深圳特色行业（6个）
 | 文件 | 行业 | 说明 |
@@ -391,9 +427,9 @@ the-big-list 是一个全面的企业清单项目，专注于收集和整理各�
 
 ---
 
-**更新时间**：2026年1月21日  
-**版本**：v3.0.0  
-**文件总数**：82个
+**更新时间**：2026年1月27日  
+**版本**：v3.2.0  
+**文件总数**：96个
 
 ---
 
@@ -428,9 +464,10 @@ the-big-list 是一个全面的企业清单项目，专注于收集和整理各�
 
 | 维度 | 数量 |
 |------|------|
-| 文件总数 | 82个 |
+| 文件总数 | 96个 |
 | 权威榜单 | 8个 |
-| 行业清单 | 74个 |
+| 行业清单 | 82个 |
+| 专题榜单 | 6个 |
 | 覆盖城市 | 16个 |
-| 覆盖行业 | 12个 |
-| 收录企业 | 5000+ |
+| 覆盖行业 | 13个 |
+| 收录企业 | 6500+ |
