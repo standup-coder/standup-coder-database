@@ -20,11 +20,12 @@ Standup Coder Database 是一个全面的企业清单和IT岗位信息数据库�
 - **investment-international/** - 国际风险投资机构清单（6个文件）
 - **events/** - 技术活动信息（1个文件）
 - **events-international/** - 国际技术活动与竞赛清单（11个文件）
-- **careers/** - 国内求职招聘信息（1个文件）
+- **careers/** - 国内求职招聘信息（23个文件）
 - **careers-international/** - 国际求职招聘信息（3个文件）
 - **legal/** - 法律实务指南（3个文件）
 - **legal-international/** - 国际法律实务指南（6个文件）
 - **jobs/** - IT技术岗位JD信息（27个文件，含真实案例）
+- **management/** - 技术管理知识体系（18个文件，专业分类）
 
 ## 目录结构说明
 
@@ -188,8 +189,32 @@ Standup Coder Database 是一个全面的企业清单和IT岗位信息数据库�
 - 网络安全技术活动
 - 创业创新赛事
 
-### 国内求职招聘信息 (careers/)
-收录国内主要的招聘平台、求职网站、企业信息查询平台及相关信息来源，为求职者、HR从业者、行业研究人员提供全面的职业发展和企业调研参考。
+### 国内求职招聘信息（23个）
+收录全面的求职相关信息，从职业发展教练专业角度出发，涵盖能力评估、教练方法论、职业转型、导师制度、个人品牌、职场表现、职业规划、专业发展框架、能力画像系统等多个维度，为IT从业者提供全方位的职业发展指导。
+
+**内容分类**：
+- 求职策略与实战指南：全流程求职规划、不同类型公司策略、渠道解析、时间规划
+- 薪资水平与福利待遇：各岗位薪资基准、不同公司类型差异、福利对比、谈判技巧
+- 能力评估与诊断框架：专业评估体系、技术能力测评、软技能评估、发展潜能识别
+- 职业发展教练方法论：教练技术、评估工具、发展干预、效果评估
+- 职业转换与转型指导：转型决策、实施路径、风险管控、成功要素
+- 导师制度与同伴学习：导师匹配、学习小组、社区运营、效果评估
+- 个人品牌与作品集：品牌定位、平台建设、内容营销、价值变现
+- 职场表现与影响力：绩效优化、沟通技巧、领导力发展、政治智慧
+- 职业发展规划与晋升：发展框架、岗位路径、晋升标准、转型机会
+- 职业地图与路径规划：生态系统模型、定位工具、规划方法、风险管理
+- 专业发展框架与方法论：经典能力模型、素质框架、认证体系、发展理论
+- 能力画像系统：专业画像构建、评估工具、反馈机制、执行跟踪
+- DevOps/SRE/工单专家画像：技术运营岗位专业能力模型、评估标准、发展路径
+- 技能评估与能力提升：技术能力评估体系、学习路径规划、认证资质提升
+- 技术管理框架：团队组织架构、流程规范、质量管控、沟通协作机制
+- 管理能力评估：360度评估体系、管理成熟度模型、效能量化指标
+- 管理最佳实践：行业案例库、成功经验总结、实施方法论
+- 绩效激励体系：考核指标设计、激励机制、反馈改进、特殊情况处理
+- DevOps/SRE团队管理：专项管理指南、组织架构、流程规范、工具平台
+- 公司调研与文化了解：基本面调研、企业文化探查、调研渠道、公司特点分析
+- 人脉拓展与内推资源：内推价值、人脉建设、内推请求艺术、长期发展战略
+- 远程工作与灵活就业：远程工作趋势、技能要求、机会获取、挑战应对
 
 ### 国际求职招聘信息 (careers-international/)
 收录全球主要的招聘平台、求职网站、企业信息查询平台及相关信息来源，为国际化求职者、HR从业者、行业研究人员提供全面的职业发展和企业调研参考。
@@ -261,13 +286,14 @@ Standup Coder Database 是一个全面的企业清单和IT岗位信息数据库�
 | [VC投资](#vc投资专题6个) | 6个 | 风险投资机构、投资人、投资趋势等专题 |
 | [国际VC](#国际风险投资机构清单6个) | 6个 | 按国家分类的国际风险投资机构清单 |
 | [技术活动](#技术活动专题1个) | 1个 | 黑客马拉松、编程竞赛、开发者大会等技术活动 |
-| [求职招聘](#求职招聘专题1个) | 1个 | 主要招聘平台、求职网站、企业信息查询平台 |
+| [求职招聘](#求职招聘专题18个) | 18个 | 从职业发展教练角度出发的全方位职业发展指导 |
 | [国际求职](#国际求职招聘专题3个) | 3个 | 国际招聘平台、海外求职、移民服务专业平台 |
 | [劳动仲裁](#劳动仲裁专题1个) | 1个 | 劳动争议处理、仲裁程序、法律实务指南 |
 | [竞业协议](#竞业协议专题1个) | 1个 | 竞业限制条款、法律风险、实务操作指南 |
 | [裁员指南](#裁员指南专题1个) | 1个 | 裁员流程、补偿标准、权益保护指南 |
 | [国际法律](#国际法律实务指南6个) | 6个 | 按国家分类的国际法律实务指南 |
 | [IT岗位JD](#it技术岗位信息27个) | 27个 | 全球IT技术岗位详细JD信息和真实案例 |
+| [技术管理](#技术管理知识体系18个) | 18个 | 完整的技术管理知识体系和实践指南 |
 
 ### 按检索维度
 - [按城市查找](#按城市查找)
@@ -552,10 +578,36 @@ Standup Coder Database 是一个全面的企业清单和IT岗位信息数据库�
 | 北美技术活动 | [dev-conferences-north-america.md](events-international/dev-conferences-north-america.md) | 北美 | Google I/O、Apple WWDC等顶级技术大会 |
 | 欧洲技术活动 | [dev-conferences-europe.md](events-international/dev-conferences-europe.md) | 欧洲 | Web Summit、FOSDEM等重要技术盛会 |
 
-### 求职招聘专题（1个）
+### 求职招聘专题（20个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
 | 主要招聘平台及信息来源清单 | [job-platforms.md](careers/job-platforms.md) | 综合招聘平台、垂直领域招聘、企业信息查询平台 |
+| 求职策略与实战指南 | [job-search-strategy.md](careers/job-search-strategy.md) | 全流程求职规划、公司策略、渠道解析、时间管理 |
+| 薪资水平与福利待遇基准 | [salary-benchmark.md](careers/salary-benchmark.md) | 各岗位薪资基准、公司差异、福利对比、谈判技巧 |
+| 能力评估与诊断框架 | [professional-assessment-framework.md](careers/professional-assessment-framework.md) | 专业评估体系、技术能力测评、软技能评估 |
+| 职业发展教练方法论 | [coaching-methodology-toolkit.md](careers/coaching-methodology-toolkit.md) | 教练技术、评估工具、发展干预、效果评估 |
+| 职业转换与转型指导 | [career-transition-guide.md](careers/career-transition-guide.md) | 转型决策、实施路径、风险管控、成功要素 |
+| 导师制度与同伴学习 | [mentoring-peer-learning-system.md](careers/mentoring-peer-learning-system.md) | 导师匹配、学习小组、社区运营、效果评估 |
+| 个人品牌与作品集建设 | [personal-branding-portfolio.md](careers/personal-branding-portfolio.md) | 品牌定位、平台建设、内容营销、价值变现 |
+| 个人品牌建设增强版 | [personal-branding-portfolio-enhanced.md](careers/personal-branding-portfolio-enhanced.md) | 品牌战略、数字化资产、影响力构建、商业化路径 |
+| 职场表现与影响力提升 | [workplace-performance-impact.md](careers/workplace-performance-impact.md) | 绩效优化、沟通技巧、领导力发展、政治智慧 |
+| 职业发展规划与晋升路径 | [career-development.md](careers/career-development.md) | 发展框架、岗位路径、晋升标准、转型机会 |
+| 职业地图与路径规划 | [career-mapping-planning.md](careers/career-mapping-planning.md) | 生态系统模型、定位工具、规划方法、风险管理 |
+| 专业发展框架与方法论 | [professional-development-framework.md](careers/professional-development-framework.md) | 经典能力模型、素质框架、认证体系、发展理论 |
+| 公司调研与企业文化了解 | [company-research.md](careers/company-research.md) | 基本面调研、文化探查、调研渠道、公司分析 |
+| 人脉拓展与内推资源指南 | [networking-guide.md](careers/networking-guide.md) | 内推价值、人脉建设、请求艺术、发展战略 |
+| 远程工作与灵活就业指南 | [remote-work-guide.md](careers/remote-work-guide.md) | 远程趋势、技能要求、机会获取、挑战应对 |
+| 能力画像系统 | [professional-profile-system.md](careers/professional-profile-system.md) | 专业能力画像构建、典型画像模板、应用场景 |
+| 能力评估工具包 | [assessment-tools-template.md](careers/assessment-tools-template.md) | 标准化评估模板、可视化工具、执行跟踪表 |
+| 系统化反馈与改进机制 | [feedback-improvement-system.md](careers/feedback-improvement-system.md) | 多层次反馈体系、改进闭环管理、文化建设 |
+| 能力画像执行与跟踪框架 | [execution-tracking-framework.md](careers/execution-tracking-framework.md) | 目标管理体系、进度跟踪工具、效果评估体系 |
+| DevOps/SRE/工单专家能力画像 | [devops-sre-ticket-expert-profiles.md](careers/devops-sre-ticket-expert-profiles.md) | 技术运营岗位专业能力模型、评估标准、发展路径 |
+| 团队技术管理框架 | [team-technical-management-framework.md](careers/team-technical-management-framework.md) | 组织架构设计、流程规范、质量管控、沟通协作机制 |
+| 技术管理能力专项评估 | [technical-management-assessment.md](careers/technical-management-assessment.md) | 360度评估体系、管理成熟度模型、效能量化指标 |
+| 技术管理最佳实践案例库 | [technical-management-best-practices.md](careers/technical-management-best-practices.md) | 行业案例库、成功经验总结、实施方法论 |
+| 技术团队绩效考核与激励机制 | [technical-team-performance-incentive.md](careers/technical-team-performance-incentive.md) | 考核指标设计、激励机制、反馈改进、特殊情况处理 |
+| OKR与绩效管理体系 | [okr-performance-management-system.md](careers/okr-performance-management-system.md) | 目标管理理论、绩效评估体系、激励认可机制、实施保障措施 |
+| DevOps/SRE团队管理专项指南 | [devops-sre-team-management-guide.md](careers/devops-sre-team-management-guide.md) | 专项管理指南、组织架构、流程规范、工具平台 |
 
 ### 国际求职招聘专题（3个）
 | 榜单名称 | 文件 | 说明 |
@@ -629,6 +681,44 @@ Standup Coder Database 是一个全面的企业清单和IT岗位信息数据库�
 - **信息全面详细**：每个JD包含岗位职责、技能要求、薪资福利、职业发展等完整信息
 - **行业覆盖广泛**：涵盖电商、社交、视频、旅游、金融等多个热门行业
 - **公司层级多样**：包含一线大厂到独角兽公司的不同层次真实招聘信息
+
+### 技术管理知识体系（18个）
+
+#### 核心管理框架
+| 文件 | 说明 |
+|------|------|
+| [management/README.md](management/README.md) | 技术管理知识体系总览和使用指南 |
+| [core-framework/README.md](management/core-framework/README.md) | 基础管理理论和框架体系 |
+| [specialized-guides/README.md](management/specialized-guides/README.md) | 针对特定领域的管理实践指南 |
+| [assessment-tools/README.md](management/assessment-tools/README.md) | 管理能力评估和诊断工具 |
+| [support-documents/README.md](management/support-documents/README.md) | 项目管理和质量标准文档 |
+
+#### 专业分类结构
+- **core-framework/** - 核心管理框架（3个文件）
+  - 团队技术管理框架
+  - 技术管理最佳实践
+  - 团队绩效与激励机制
+
+- **specialized-guides/** - 专项管理指南（9个文件）
+  - DevOps/SRE团队管理
+  - AI/ML团队管理
+  - 云原生技术管理
+  - 技术战略规划
+  - 跨文化团队管理
+  - 远程分布式管理
+  - 创新管理体系
+  - 工程效能提升
+  - 术术风险管理
+
+- **assessment-tools/** - 评估工具（1个文件）
+  - 技术管理能力专项评估
+
+- **support-documents/** - 支持文档（5个文件）
+  - 缺失领域分析报告
+  - 项目完成总结报告
+  - 最终总结报告
+  - 质量标准规范
+  - 职业发展整合指南
 
 ### 国际法律实务指南（6个）
 
@@ -1116,7 +1206,7 @@ Standup Coder Database 是一个全面的企业清单和IT岗位信息数据库�
 
 | 维度 | 数量 |
 |------|------|
-| 文件总数 | 204个 |
+| 文件总数 | 252个 |
 | 权威榜单 | 7个 |
 | 国内权威榜单 | 7个 |
 | 国际权威榜单 | 2个 |
@@ -1142,13 +1232,14 @@ Standup Coder Database 是一个全面的企业清单和IT岗位信息数据库�
 | 国际VC清单 | 6个 |
 | 技术活动专题 | 1个 |
 | 国际技术活动 | 11个 |
-| 求职招聘专题 | 1个 |
+| 求职招聘专题 | 20个 | 全面的求职策略、薪资基准、技能发展等职业指导 |
 | 国际求职招聘 | 3个 |
 | 劳动仲裁专题 | 1个 |
 | 竞业协议专题 | 1个 |
 | 裁员指南专题 | 1个 |
 | 国际法律文件 | 6个 |
 | IT岗位文件 | 27个 | 全球IT技术岗位详细JD信息和真实案例 |
+| 技术管理文件 | 18个 | 完整的技术管理知识体系和实践指南 |
 | 覆盖城市 | 16个 |
 | 覆盖行业 | 13个 |
 | 收录中国企业 | 6500+ |
