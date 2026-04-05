@@ -1,0 +1,104 @@
+# 数据源配置文件
+# 注意：API密钥请通过环境变量设置，不要直接写在此文件中
+
+data_sources:
+  crunchbase:
+    name: "CrunchBase"
+    api_key: ${CRUNCHBASE_API_KEY}
+    base_url: "https://api.crunchbase.com/v4"
+    rate_limit: 100  # 每小时请求数
+    enabled: false  # 需要API密钥才能启用
+    
+  tianyancha:
+    name: "天眼查"
+    api_key: ${TIANYANCHA_API_KEY}
+    base_url: "https://api.tianyancha.com"
+    rate_limit: 500  # 每天请求数
+    enabled: false  # 需要API密钥才能启用
+    
+  qichacha:
+    name: "企查查"
+    api_key: ${QICHACHA_API_KEY}
+    base_url: "https://api.qichacha.com"
+    rate_limit: 300  # 每天请求数
+    enabled: false  # 需要API密钥才能启用
+    
+  itjuzi:
+    name: "IT桔子"
+    api_key: ${ITJUZI_API_KEY}
+    base_url: "https://www.itjuzi.com/api"
+    rate_limit: 200  # 每天请求数
+    enabled: false  # 需要API密钥才能启用
+
+# 免费/开放数据源
+free_sources:
+  company_website:
+    name: "企业官网"
+    enabled: true
+    description: "从企业官网提取公开信息"
+    
+  github:
+    name: "GitHub"
+    enabled: true
+    api_url: "https://api.github.com"
+    rate_limit: 60  # 未认证每小时请求数
+    description: "获取企业开源项目信息"
+    
+  linkedin:
+    name: "LinkedIn"
+    enabled: false
+    description: "需要特殊权限，暂不启用"
+
+# 更新规则
+update_rules:
+  funding_info:
+    name: "融资信息"
+    check_interval: weekly
+    priority: high
+    fields:
+      - funding_round
+      - funding_amount
+      - investors
+      - funding_date
+    
+  employee_count:
+    name: "员工规模"
+    check_interval: monthly
+    priority: medium
+    fields:
+      - employee_count
+      - employee_range
+      
+  company_status:
+    name: "公司状态"
+    check_interval: daily
+    priority: high
+    fields:
+      - company_status
+      - ipo_status
+      - stock_symbol
+      
+  contact_info:
+    name: "联系信息"
+    check_interval: monthly
+    priority: low
+    fields:
+      - website
+      - email
+      - phone
+      - address
+
+# 数据验证规则
+validation_rules:
+  employee_count:
+    min: 1
+    max: 1000000
+    
+  funding_amount:
+    min: 0
+    max: 100000000000  # 1000亿美元
+    
+  company_name:
+    required: true
+    min_length: 2
+    max_length: 100

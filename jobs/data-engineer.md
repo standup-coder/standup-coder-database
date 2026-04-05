@@ -142,7 +142,7 @@ Senior Data Engineer → Data Team Lead → Data Platform Manager
 - **官网链接**：www.company.com/jobs/data-engineer
 
 ---
-**发布日期**：2026年2月  
+**发布日期**：2026年初  
 **有效期**：长期有效  
 **招聘状态**：📊 数据团队扩招中
 
@@ -218,3 +218,7 @@ Senior Data Engineer → Data Team Lead → Data Platform Manager
 - 股票期权
 - 弹性工作制
 - 免费三餐下午茶
+
+---
+
+**数据来源声明**：本文件信息来源于公开渠道整理，仅供参考，使用者请自行核实关键信息。

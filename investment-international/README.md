@@ -143,3 +143,7 @@ This directory provides comprehensive information about international venture ca
 ---
 **Last Updated**: February 2026  
 **Maintained by**: Standup Coder Investment Team
+
+---
+
+**数据来源声明**：本文件信息来源于公开渠道整理，仅供参考，使用者请自行核实关键信息。

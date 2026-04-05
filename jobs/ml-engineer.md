@@ -142,6 +142,10 @@ Senior ML Engineer → ML Team Lead → AI Platform Manager
 - **官网链接**：www.company.com/jobs/ml-engineer
 
 ---
-**发布日期**：2026年2月  
+**发布日期**：2026年初  
 **有效期**：长期有效  
 **招聘状态**：🤖 机器学习团队急招中
+
+---
+
+**数据来源声明**：本文件信息来源于公开渠道整理，仅供参考，使用者请自行核实关键信息。

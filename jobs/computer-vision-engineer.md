@@ -143,6 +143,10 @@ Senior CV Engineer → CV Team Lead → AI Lab Director
 - **官网链接**：www.company.com/jobs/computer-vision
 
 ---
-**发布日期**：2026年2月  
+**发布日期**：2026年初  
 **有效期**：长期有效  
 **招聘状态**：👁️ 计算机视觉团队急招中
+
+---
+
+**数据来源声明**：本文件信息来源于公开渠道整理，仅供参考，使用者请自行核实关键信息。

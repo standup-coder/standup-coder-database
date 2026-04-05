@@ -144,7 +144,7 @@ Senior AI Engineer → AI Team Lead → AI Lab Director
 - **官网链接**：www.company.com/jobs/ai-engineer
 
 ---
-**发布日期**：2026年2月  
+**发布日期**：2026年初  
 **有效期**：长期有效  
 **招聘状态**：🤖 AI团队急招中
 
@@ -219,3 +219,7 @@ Senior AI Engineer → AI Team Lead → AI Lab Director
 - 股票期权
 - 弹性工作制
 - 技术培训支持
+
+---
+
+**数据来源声明**：本文件信息来源于公开渠道整理，仅供参考，使用者请自行核实关键信息。
