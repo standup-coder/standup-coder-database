@@ -895,11 +895,15 @@ resume-skills/ 简历技巧：
 ├── 蒸馏的案例库 → 简历中的项目经验描述
 └── 蒸馏的技能清单 → 简历中的技能板块
 
-super-individual/ 超级个体：
-├── personal-ip-guide.md     ← 蒸馏的方法论→内容输出→个人IP
-├── digital-product-guide.md ← 蒸馏成果→课程/电子书/工具包
-├── ai-toolchain-guide.md    ← 蒸馏成果→Cursor Rules/RAG
-└── freelancing-guide.md     ← 蒸馏的专业知识→咨询服务
+super-individual/ 超级个体与OPC：
+├── opc-comprehensive-guide.md  ← 蒸馏成果→OPC知识资产
+├── opc-policy-ecosystem-2026.md ← 蒸馏成果→政策咨询OPC
+├── ai-agent-workflow-guide.md  ← 蒸馏成果→AI Agent训练/定制服务
+├── opc-global-expansion.md     ← 蒸馏成果→全球化OPC服务
+├── personal-ip-guide.md        ← 蒸馏的方法论→内容输出→个人IP
+├── digital-product-guide.md    ← 蒸馏成果→课程/电子书/工具包
+├── ai-toolchain-guide.md       ← 蒸馏成果→Cursor Rules/RAG
+└── freelancing-guide.md        ← 蒸馏的专业知识→咨询服务
 
 interview-skills/ 面试技巧：
 └── 蒸馏的案例库+方法论 → 面试中的深度回答
@@ -907,4 +911,4 @@ interview-skills/ 面试技巧：
 
 ---
 
-*最后更新：2026年4月*
+*最后更新：2026年4月 | 已关联OPC一人公司知识体系最新文档*

@@ -16,7 +16,7 @@
 ---
 
 ## 项目介绍
-Standup Coder Database 是一个全面的企业清单和IT岗位信息数据库项目，采用清晰的文件夹结构组织各类权威企业榜单、行业信息以及IT技术岗位详细信息。项目包含权威榜单、行业清单、专题榜单、投资信息、技术活动、求职招聘、法律实务、IT岗位JD、超级个体等九大类别，覆盖全国多个城市的科技企业，以及财富500强、专精特新、独角兽等国家级/国际级权威榜单，同时提供全球IT技术岗位的详细JD信息和真实案例，以及面向超级个体的工商注册、自媒体运营、AI工具链、个人IP、自由职业、数字产品、财税合规、副业规划等全方位实操指南，旨在为程序员、运维人员、行业研究者、投资者、求职者、独立创业者等提供有价值的**参考资料**。
+Standup Coder Database 是一个全面的企业清单和IT岗位信息数据库项目，采用清晰的文件夹结构组织各类权威企业榜单、行业信息以及IT技术岗位详细信息。项目包含权威榜单、行业清单、专题榜单、投资信息、技术活动、求职招聘、法律实务、IT岗位JD、超级个体等九大类别，覆盖全国多个城市的科技企业，以及财富500强、专精特新、独角兽等国家级/国际级权威榜单，同时提供全球IT技术岗位的详细JD信息和真实案例，以及面向超级个体和OPC（One Person Company，一人公司）的工商注册、自媒体运营、AI工具链、个人IP、自由职业、数字产品、财税合规、副业规划、AI Agent工作流、OPC政策红利、全球化扩张等全方位实操指南，旨在为程序员、运维人员、行业研究者、投资者、求职者、独立创业者、OPC创业者等提供有价值的**参考资料**。
 
 ### 🚀 Web 控制台
 项目配套提供了一个现代化的 Web 控制台，支持多维度查询和数据可视化：
@@ -59,7 +59,7 @@ npm run dev
 - **legal-international/** - 国际法律实务指南（6个文件）
 - **jobs/** - IT技术岗位JD信息（27个文件，含真实案例）
 - **management/** - 技术管理知识体系（18个文件，专业分类）
-- **super-individual/** - 超级个体知识体系（10个文件，全面覆盖工商注册、自媒体、AI工具链、个人IP、自由职业、数字产品、财税合规、副业规划、程序员技能蒸馏）
+- **super-individual/** - 超级个体与OPC一人公司知识体系（22个文件，全面覆盖OPC速查手册、OPC完全指南、OPC政策红利、AI Agent工作流、Vibe Coding、OPC全球化扩张、OPC案例研究、OPC融资指南、OPC增长营销、OPC产品设计、OPC数据驱动、OPC心理健康、工商注册、自媒体、AI工具链、个人IP、自由职业、数字产品、财税合规、副业规划、程序员技能蒸馏）
 
 ## 目录结构说明
 
@@ -328,7 +328,7 @@ npm run dev
 | [国际法律](#国际法律实务指南6个) | 6个 | 按国家分类的国际法律实务指南 |
 | [IT岗位JD](#it技术岗位信息27个) | 27个 | 全球IT技术岗位详细JD信息和真实案例 |
 | [技术管理](#技术管理知识体系18个) | 18个 | 完整的技术管理知识体系和实践指南 |
-| [超级个体](#超级个体知识体系10个) | 10个 | 工商注册、自媒体、AI工具链、个人IP、自由职业、财税合规、程序员蒸馏等超级个体全链路指南 |
+| [超级个体与OPC](#超级个体与opc一人公司知识体系22个) | 22个 | OPC速查手册、OPC完全指南、OPC政策红利、AI Agent工作流、Vibe Coding、OPC全球化、OPC案例研究、OPC融资指南、OPC增长营销、OPC产品设计、OPC数据驱动、OPC心理健康、工商注册、自媒体、AI工具链、个人IP、自由职业、财税合规、程序员蒸馏等全链路指南 |
 
 ### 按检索维度
 - [按城市查找](#按城市查找)
@@ -772,7 +772,27 @@ npm run dev
 
 ---
 
-### 超级个体知识体系（10个）
+### 超级个体与OPC一人公司知识体系（22个）
+
+#### OPC核心指南
+| 文件 | 说明 |
+|------|------|
+| [opc-comprehensive-guide.md](super-individual/opc-comprehensive-guide.md) | **OPC一人公司完全指南（2026最新）**——OPC定义、五大赛道、构建方法论、AI Agent工作流、增长路径、风险管理 |
+| [opc-policy-ecosystem-2026.md](super-individual/opc-policy-ecosystem-2026.md) | **2026年OPC政策与生态红利手册**——国家及20+城市政策、孵化器、申请实操、政策趋势前瞻 |
+| [opc-global-expansion.md](super-individual/opc-global-expansion.md) | **OPC全球化扩张指南**——出海策略、地缘套利、数字游民、Product Hunt发布、全球获客 |
+
+#### 快速入门
+| 文件 | 说明 |
+|------|------|
+| [opc-quick-reference.md](super-individual/opc-quick-reference.md) | OPC速查手册——起步checklist、成本速算、最小工具栈、关键指标、政策速查、常见问答（建议首先阅读） |
+
+#### AI赋能
+| 文件 | 说明 |
+|------|------|
+| [ai-agent-workflow-guide.md](super-individual/ai-agent-workflow-guide.md) | **AI Agent驱动的一人公司工作流（2026最新）**——OpenClaw"养龙虾"、多Agent协作、n8n自动化中枢、数字分身 |
+| [vibe-coding-guide.md](super-individual/vibe-coding-guide.md) | **Vibe Coding（氛围编程）完全指南**——Cursor深度工作流、.cursorrules最佳实践、Prompt工程、48小时MVP实战 |
+| [ai-toolchain-guide.md](super-individual/ai-toolchain-guide.md) | AI工具链与效率提升——大模型应用、AI编程、AI写作、AI设计、AI视频全场景工具 |
+| [productivity-toolchain-guide.md](super-individual/productivity-toolchain-guide.md) | 生产力工具链指南——项目管理、知识管理、设计工具、自动化工具、协同办公 |
 
 #### 基础入门
 | 文件 | 说明 |
@@ -786,23 +806,31 @@ npm run dev
 | [self-media-guide.md](super-individual/self-media-guide.md) | 自媒体运营全攻略——平台选择、内容策略、涨粉方法、变现模式 |
 | [personal-ip-guide.md](super-individual/personal-ip-guide.md) | 个人IP打造与商业变现——IP定位、内容体系、品牌矩阵、商业合作 |
 
-#### 工具赋能
-| 文件 | 说明 |
-|------|------|
-| [ai-toolchain-guide.md](super-individual/ai-toolchain-guide.md) | AI工具链与效率提升——大模型应用、AI编程、AI写作、AI设计、AI视频全场景工具 |
-| [productivity-toolchain-guide.md](super-individual/productivity-toolchain-guide.md) | 生产力工具链指南——项目管理、知识管理、设计工具、自动化工具、协同办公 |
-
 #### 商业模式
 | 文件 | 说明 |
 |------|------|
 | [freelancing-guide.md](super-individual/freelancing-guide.md) | 自由职业与独立开发者指南——接单平台、定价策略、合同管理、独立开发 |
-| [digital-product-guide.md](super-individual/digital-product-guide.md) | 数字产品与知识付费指南——课程开发、电子书、SaaS工具、付费社区 |
-| [side-business-guide.md](super-individual/side-business-guide.md) | 副业规划与多元收入指南——副业选择、时间管理、收入结构优化、风险控制 |
+| [digital-product-guide.md](super-individual/digital-product-guide.md) | 数字产品与知识付费指南——课程开发、电子书、SaaS工具、付费社区、AI Agent服务、Vibe Coding产品 |
+| [side-business-guide.md](super-individual/side-business-guide.md) | 副业规划与多元收入指南——副业选择、时间管理、收入结构优化、风险控制、OPC升级路径 |
 
-#### 技能萃取
+#### 案例与资本
+| 文件 | 说明 |
+|------|------|
+| [opc-case-studies.md](super-individual/opc-case-studies.md) | OPC案例研究与深度分析——Pieter Levels、Marc Lou、烁谷科技、SeaArt海艺、碎瓜、14岁少年开发者等成功案例，失败模式教训，SoloNest社群数据 |
+| [opc-funding-capital.md](super-individual/opc-funding-capital.md) | OPC融资与资本运作指南——RBF收入共享、OPC友好型VC、政府基金、估值方法、出售实操、Bootstrap策略 |
+
+#### 增长与产品
+| 文件 | 说明 |
+|------|------|
+| [opc-growth-marketing.md](super-individual/opc-growth-marketing.md) | OPC增长黑客与营销实战——SEO长期主义、Build in Public、Product Hunt发布全攻略、内容工厂工业化、病毒传播设计 |
+| [opc-product-design.md](super-individual/opc-product-design.md) | OPC产品设计方法论——需求验证五步法、AI辅助原型设计、UX设计原则、onboarding设计、设计系统 |
+| [opc-data-driven.md](super-individual/opc-data-driven.md) | OPC数据驱动决策指南——北极星指标、2026 SaaS基准数据、coefficient留存分析、RFM分群、LTV预测 |
+
+#### 技能萃取与心态
 | 文件 | 说明 |
 |------|------|
 | [programmer-distillation-guide.md](super-individual/programmer-distillation-guide.md) | 如何蒸馏一个程序员——四层知识金字塔、七种萃取技术、30天自蒸馏计划、AI辅助蒸馏 |
+| [opc-mental-health.md](super-individual/opc-mental-health.md) | OPC心理健康与可持续发展指南——七大心理挑战、孤独感管理、burnout预防、支持系统建设、幸福评估框架 |
 
 ---
 
