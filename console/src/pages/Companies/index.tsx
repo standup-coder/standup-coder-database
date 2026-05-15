@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { 
   Card, 
@@ -23,7 +23,7 @@ import {
 } from '@ant-design/icons';
 import { useCompanies, useFilterOptions, useCompanySearch } from '../../hooks/useCompanies';
 import { useSearchStore } from '../../stores/searchStore';
-import { CompanyQuery } from '../../types/company';
+import { Company, CompanyQuery } from '../../types/company';
 import { formatScale, calculateCompanyAge, extractDomain } from '../../utils/formatter';
 
 const { Option } = Select;
@@ -31,26 +31,25 @@ const { Option } = Select;
 export function Companies() {
   const [searchParams, setSearchParams] = useSearchParams();
   const { keyword, setKeyword, query, setQuery, resetQuery } = useSearchStore();
-  const [selectedCompany, setSelectedCompany] = useState<any>(null);
+  const [selectedCompany, setSelectedCompany] = useState<Company | null>(null);
   const [drawerVisible, setDrawerVisible] = useState(false);
-  const [isInitialized, setIsInitialized] = useState(false);
+  const initializedRef = useRef(false);
   
   const { data: companies, isLoading: loadingCompanies } = useCompanies();
   const { data: filterOptions, isLoading: loadingOptions } = useFilterOptions();
   const { data: searchResult, isLoading: searching } = useCompanySearch(companies, query);
   
-  // 从 URL 参数初始化搜索状态
+  // 从 URL 参数初始化搜索状态（使用 ref 避免同步 setState）
   useEffect(() => {
-    if (isInitialized) return;
+    if (initializedRef.current) return;
+    initializedRef.current = true;
     
     const urlKeyword = searchParams.get('keyword');
     if (urlKeyword) {
       setKeyword(urlKeyword);
       setQuery({ keyword: urlKeyword, page: 1 });
     }
-    
-    setIsInitialized(true);
-  }, [searchParams, setKeyword, setQuery, isInitialized]);
+  }, [searchParams, setKeyword, setQuery]);
   
   // 表格列定义
   const columns = [
@@ -58,7 +57,7 @@ export function Companies() {
       title: '企业名称',
       dataIndex: 'name',
       key: 'name',
-      render: (text: string, record: any) => (
+      render: (text: string, record: Company) => (
         <Space direction="vertical" size={0}>
           <span className="font-medium text-blue-600">{text || '-'}</span>
           {record.alias && <span className="text-xs text-gray-400">{record.alias}</span>}
@@ -122,7 +121,7 @@ export function Companies() {
       title: '操作',
       key: 'action',
       width: 100,
-      render: (_: any, record: any) => (
+      render: (_: string, record: Company) => (
         <Button 
           type="text" 
           icon={<EyeOutlined />}
@@ -134,7 +133,7 @@ export function Companies() {
     },
   ];
   
-  const showCompanyDetail = (company: any) => {
+  const showCompanyDetail = (company: Company) => {
     setSelectedCompany(company);
     setDrawerVisible(true);
   };
@@ -149,8 +148,8 @@ export function Companies() {
     }
   };
   
-  const handleFilterChange = (key: keyof CompanyQuery, value: any) => {
-    setQuery({ [key]: value, page: 1 });
+  const handleFilterChange = <K extends keyof CompanyQuery>(key: K, value: CompanyQuery[K]) => {
+    setQuery({ [key]: value, page: 1 } as Partial<CompanyQuery>);
   };
   
   const handlePageChange = (page: number, pageSize?: number) => {

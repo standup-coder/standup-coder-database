@@ -1,16 +1,17 @@
 // API 客户端
 
 import { Company, CompanyQuery, CompanyFilterOptions } from '../types/company';
+import { StatsData } from '../types/stats';
 import { PaginationResult } from '../types/common';
 
 const BASE_URL = '/data';
 
 // 内存缓存
-const cache = new Map<string, any>();
+const cache = new Map<string, unknown>();
 
 async function fetchJson<T>(url: string): Promise<T> {
   if (cache.has(url)) {
-    return cache.get(url);
+    return cache.get(url) as T;
   }
   
   const response = await fetch(url);
@@ -44,8 +45,8 @@ export async function fetchFilterOptions(): Promise<CompanyFilterOptions> {
 }
 
 // 获取统计数据
-export async function fetchStats() {
-  return fetchJson(`${BASE_URL}/stats.json`);
+export async function fetchStats(): Promise<StatsData> {
+  return fetchJson<StatsData>(`${BASE_URL}/stats.json`);
 }
 
 // 搜索企业

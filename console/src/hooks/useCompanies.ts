@@ -1,6 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import { fetchCompanies, fetchFilterOptions, fetchStats, searchCompanies } from '../api/client';
-import { CompanyQuery } from '../types/company';
+import { Company, CompanyQuery } from '../types/company';
+import { StatsData } from '../types/stats';
 
 // 获取所有企业
 export function useCompanies() {
@@ -22,7 +23,7 @@ export function useFilterOptions() {
 
 // 获取统计数据
 export function useStats() {
-  return useQuery({
+  return useQuery<StatsData>({
     queryKey: ['stats'],
     queryFn: fetchStats,
     staleTime: 5 * 60 * 1000,
@@ -30,7 +31,7 @@ export function useStats() {
 }
 
 // 搜索企业（客户端搜索）
-export function useCompanySearch(companies: any[] | undefined, query: CompanyQuery) {
+export function useCompanySearch(companies: Company[] | undefined, query: CompanyQuery) {
   return useQuery({
     queryKey: ['companySearch', query, companies?.length],
     queryFn: () => {

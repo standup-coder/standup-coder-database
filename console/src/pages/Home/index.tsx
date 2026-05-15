@@ -1,4 +1,4 @@
-import { Card, Row, Col, Statistic, Button, List, Tag, Skeleton } from 'antd';
+import { Card, Row, Col, Statistic, Button, List, Tag, Skeleton, Spin } from 'antd';
 import { 
   BankOutlined, 
   FileTextOutlined, 
@@ -9,11 +9,14 @@ import {
 import { useNavigate } from 'react-router-dom';
 import { useStats, useCompanies } from '../../hooks/useCompanies';
 import { Space } from 'antd';
-import { Pie, Column } from '@ant-design/charts';
+import { lazy, Suspense } from 'react';
+
+const Pie = lazy(() => import('@ant-design/charts').then(m => ({ default: m.Pie })));
+const Column = lazy(() => import('@ant-design/charts').then(m => ({ default: m.Column })));
 
 export function Home() {
   const navigate = useNavigate();
-  const { data: stats, isLoading: statsLoading } = useStats() as { data: any, isLoading: boolean };
+  const { data: stats, isLoading: statsLoading } = useStats();
   const { data: companies, isLoading: companiesLoading } = useCompanies();
   
   const isLoading = statsLoading || companiesLoading;
@@ -108,7 +111,9 @@ export function Home() {
             extra={<Button type="link" onClick={() => navigate('/analytics')}>更多</Button>}
           >
             <Skeleton loading={isLoading} active>
-              <Pie {...industryChartConfig} height={300} />
+              <Suspense fallback={<div className="h-[300px] flex items-center justify-center"><Spin /></div>}>
+                <Pie {...industryChartConfig} height={300} />
+              </Suspense>
             </Skeleton>
           </Card>
         </Col>
@@ -118,8 +123,10 @@ export function Home() {
                   extra={<Button type="link" onClick={() => navigate('/analytics')}>更多</Button>}
                 >
                   <Skeleton loading={isLoading} active>
-                    {stats?.cityDistribution?.length > 0 ? (
-                      <Column {...cityChartConfig} height={300} />
+                    {(stats?.cityDistribution?.length ?? 0) > 0 ? (
+                      <Suspense fallback={<div className="h-[300px] flex items-center justify-center"><Spin /></div>}>
+                        <Column {...cityChartConfig} height={300} />
+                      </Suspense>
                     ) : (
                       <div className="h-[300px] flex items-center justify-center text-gray-400">
                         暂无数据

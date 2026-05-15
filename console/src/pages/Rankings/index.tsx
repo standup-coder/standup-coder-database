@@ -1,7 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState, useMemo } from 'react';
 import { Card, Tabs, Table, Tag, Statistic, Row, Col, Select, Space, Skeleton, Typography, Empty } from 'antd';
 import { TrophyOutlined, RiseOutlined, StarOutlined, GlobalOutlined, CrownOutlined } from '@ant-design/icons';
 import { useRankings } from '../../hooks/useRankings';
+import type { RankingItem } from '../../types/ranking';
 
 const { Option } = Select;
 const { Title, Text } = Typography;
@@ -9,17 +10,17 @@ const { Title, Text } = Typography;
 export function Rankings() {
   const { data, isLoading } = useRankings();
   const [selectedYear, setSelectedYear] = useState<string>('2025');
-  const [activeTab, setActiveTab] = useState<string>('');
+  const [userSelectedTab, setUserSelectedTab] = useState<string>('');
   
-  // 获取当前年份的榜单
-  const currentRankings = data?.byYear?.[selectedYear] || [];
+  // 获取当前年份的榜单（useMemo 避免每次渲染创建新数组）
+  const currentRankings = useMemo(() => data?.byYear?.[selectedYear] || [], [data, selectedYear]);
   
-  // 设置默认选中的榜单（使用 useEffect 避免渲染时直接调用 setState）
-  useEffect(() => {
-    if (currentRankings.length > 0 && !activeTab) {
-      setActiveTab(currentRankings[0].id);
-    }
-  }, [currentRankings, activeTab]);
+  // 派生 activeTab：验证用户选择是否在当前榜单中，否则回退到第一个
+  const activeTab = useMemo(() => {
+    if (currentRankings.length === 0) return '';
+    const exists = currentRankings.some(r => r.id === userSelectedTab);
+    return exists ? userSelectedTab : currentRankings[0].id;
+  }, [currentRankings, userSelectedTab]);
   
   // 表格列定义
   const getColumns = (rankingId: string) => {
@@ -49,7 +50,7 @@ export function Rankings() {
         title: '企业名称',
         dataIndex: 'name',
         key: 'name',
-        render: (name: string, record: any) => (
+        render: (name: string, record: RankingItem) => (
           <div>
             <div className="font-medium text-blue-600">{name}</div>
             {record.alias && (
@@ -63,7 +64,7 @@ export function Rankings() {
         dataIndex: 'city',
         key: 'city',
         width: 120,
-        render: (city: string, record: any) => {
+        render: (city: string, record: RankingItem) => {
           // 优先显示city，如果没有则显示country
           const location = city || record.country || '-';
           const color = city ? 'blue' : 'orange';
@@ -238,7 +239,7 @@ export function Rankings() {
           {currentRankings.length > 0 ? (
             <Tabs
               activeKey={activeTab}
-              onChange={setActiveTab}
+              onChange={setUserSelectedTab}
               type="card"
               items={currentRankings.map(ranking => ({
                 key: ranking.id,
