@@ -1,3 +1,10 @@
+---
+title: 技术团队绩效考核与激励机制方案
+category: management
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 技术团队绩效考核与激励机制方案
 
 ## 1. 绩效管理体系设计

@@ -1,3 +1,11 @@
+---
+title: Standup Coder Database
+category: other
+tags: [3C, 网络安全, 区块链, 生物技术, 新能源]
+lastUpdated: 2026年2月
+aiGenerated: true
+---
+
 # Standup Coder Database
 
 ## ⚠️ 重要声明

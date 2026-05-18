@@ -1,3 +1,11 @@
+---
+title: 欧洲人工智能企业清单
+category: industry
+tags: [物联网, 软件, 智能制造, 人工智能, 大数据]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 欧洲人工智能企业清单
 
 ## 主题介绍

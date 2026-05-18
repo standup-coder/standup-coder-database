@@ -1,3 +1,11 @@
+---
+title: 昆明云计算企业清单
+category: industry
+tags: [云计算, 物联网, 大数据, kunming]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 昆明云计算企业清单
 
 ## 1. 主题介绍

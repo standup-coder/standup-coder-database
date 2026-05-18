@@ -1,3 +1,11 @@
+---
+title: 亚太地区技术活动与竞赛清单
+category: events
+tags: [网络安全, 物联网, 软件, 互联网, 金融科技]
+lastUpdated: 2026年2月
+aiGenerated: true
+---
+
 # 亚太地区技术活动与竞赛清单
 
 ## 地区技术生态概览

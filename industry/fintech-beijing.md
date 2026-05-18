@@ -1,3 +1,11 @@
+---
+title: 北京金融科技企业清单
+category: industry
+tags: [金融科技, 区块链, 软件, 互联网, beijing]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 北京金融科技企业清单
 
 ## 1. 主题介绍

@@ -1,3 +1,10 @@
+---
+title: 工具链与变现指南
+category: super-individual
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 工具链与变现指南
 
 超级个体开发 App 所需的工具链、变现方式与用户增长完整指南。

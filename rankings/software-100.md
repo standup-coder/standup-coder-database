@@ -1,3 +1,12 @@
+---
+title: 中国软件百强企业清单（2025年）
+category: rankings
+tags: [金融科技, 3C, 网络安全, 软件, 互联网]
+dataSource: 2025年度软件和信息技术服务竞争力前百家企业榜单
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 中国软件百强企业清单（2025年）
 
 ## 1. 主题介绍

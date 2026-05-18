@@ -1,3 +1,10 @@
+---
+title: 国际投资法律实务指南
+category: legal
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 国际投资法律实务指南
 
 ## 法律体系概述

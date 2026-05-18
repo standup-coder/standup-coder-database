@@ -1,3 +1,11 @@
+---
+title: 通用流程指南
+category: super-individual
+tags: [软件]
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 通用流程指南
 
 App 发布过程中各个环节都需要了解的通用知识。

@@ -1,3 +1,12 @@
+---
+title: 中国民营企业500强清单（2025年）
+category: rankings
+tags: [云计算, 新能源, 新材料, 互联网, 金融科技]
+dataSource: 全国工商联2025年8月28日发布的民营企业500强榜单
+lastUpdated: 2025年8月
+aiGenerated: true
+---
+
 # 中国民营企业500强清单（2025年）
 
 ## 1. 主题介绍

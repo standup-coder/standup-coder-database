@@ -1,3 +1,11 @@
+---
+title: 产品经理职位描述(JD)
+category: jobs
+tags: [软件, 互联网]
+lastUpdated: 2025年4月
+aiGenerated: true
+---
+
 # 产品经理职位描述(JD)
 
 ## 岗位基本信息

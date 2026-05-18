@@ -1,3 +1,11 @@
+---
+title: 德国科技企业清单
+category: industry
+tags: [生物技术, 物联网, 软件, 智能制造, 互联网]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 德国科技企业清单
 
 ## 主题介绍

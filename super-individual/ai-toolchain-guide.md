@@ -1,3 +1,10 @@
+---
+title: AI工具链与效率提升全指南
+category: super-individual
+lastUpdated: 2026年4月
+aiGenerated: true
+---
+
 # AI工具链与效率提升全指南
 
 ## 1. 概述

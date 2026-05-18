@@ -1,3 +1,13 @@
+---
+title: OPC一人公司案例研究与深度分析
+category: super-individual
+tags: [人工智能]
+lastUpdated: 2026年4月
+aiGenerated: false
+dataSource: 公开报道、创始人分享、SoloNest社群调研
+verificationLevel: partial  # 部分案例已验证，部分基于估算
+---
+
 # OPC一人公司案例研究与深度分析
 
 ## 1. 概述

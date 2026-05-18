@@ -1,3 +1,11 @@
+---
+title: 印度IT外包公司清单
+category: outsourcing
+tags: [网络安全, 软件, 互联网, 云计算, 人工智能]
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 印度IT外包公司清单
 
 ## 主题介绍

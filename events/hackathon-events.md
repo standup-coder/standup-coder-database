@@ -1,3 +1,11 @@
+---
+title: 黑客马拉松及编程竞赛活动清单
+category: events
+tags: [网络安全, 区块链, 软件, 互联网, 云计算]
+lastUpdated: 2026年2月
+aiGenerated: true
+---
+
 # 黑客马拉松及编程竞赛活动清单
 
 ## 1. 概述

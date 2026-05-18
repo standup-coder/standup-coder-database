@@ -1,3 +1,11 @@
+---
+title: 广州智能制造行业企业清单
+category: industry
+tags: [软件, 智能制造, 新能源, guangzhou]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 广州智能制造行业企业清单
 
 ## 1. 主题介绍

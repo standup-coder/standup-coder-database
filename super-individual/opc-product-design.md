@@ -1,3 +1,10 @@
+---
+title: OPC产品设计方法论：一人如何做出好产品
+category: super-individual
+lastUpdated: 2026年4月
+aiGenerated: true
+---
+
 # OPC产品设计方法论：一人如何做出好产品
 
 ## 1. 概述

@@ -1,3 +1,11 @@
+---
+title: 软件开发类岗位清单
+category: jobs
+tags: [区块链, 软件]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 软件开发类岗位清单
 
 ## 岗位分类概览

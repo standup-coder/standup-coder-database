@@ -1,3 +1,11 @@
+---
+title: 远程工作与灵活就业指南
+category: careers
+tags: [软件, 互联网]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 远程工作与灵活就业指南
 
 ## 1. 远程工作现状与趋势

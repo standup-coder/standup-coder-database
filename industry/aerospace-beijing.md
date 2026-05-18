@@ -1,3 +1,11 @@
+---
+title: 北京商业航天企业清单
+category: industry
+tags: [软件, 互联网, 大数据, beijing]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 北京商业航天企业清单
 
 ## 主题介绍

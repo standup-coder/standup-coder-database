@@ -1,3 +1,10 @@
+---
+title: Advanced International Resume Strategy
+category: resume-skills
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # Advanced International Resume Strategy
 
 ## 1. Strategic Resume Planning

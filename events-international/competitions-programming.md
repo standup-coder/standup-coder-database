@@ -1,3 +1,11 @@
+---
+title: 全球编程竞赛清单
+category: events
+tags: [软件]
+lastUpdated: 2026年2月
+aiGenerated: true
+---
+
 # 全球编程竞赛清单
 
 ## 项目介绍

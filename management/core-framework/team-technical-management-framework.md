@@ -1,3 +1,10 @@
+---
+title: 团队技术管理框架
+category: management
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 团队技术管理框架
 
 ## 1. 管理体系概述

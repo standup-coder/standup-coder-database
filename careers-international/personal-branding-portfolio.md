@@ -1,3 +1,10 @@
+---
+title: Personal Branding & Portfolio Development Professional Guide
+category: careers
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # Personal Branding & Portfolio Development Professional Guide
 
 ## 1. Strategic Personal Brand Architecture

@@ -1,3 +1,11 @@
+---
+title: 哈尔滨人工智能行业企业清单
+category: industry
+tags: [物联网, 人工智能, harbin, 大数据]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 哈尔滨人工智能行业企业清单
 
 ## 1. 主题介绍

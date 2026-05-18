@@ -1,3 +1,10 @@
+---
+title: International Technology Topics
+category: topics
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # International Technology Topics
 
 ## Overview

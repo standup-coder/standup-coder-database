@@ -318,11 +318,11 @@ class DataCleaner:
     def validate_required_fields(self, data: Dict[str, Any], required_fields: List[str]) -> List[str]:
         """
         验证必填字段
-        
+
         Args:
             data: 数据字典
             required_fields: 必填字段列表
-            
+
         Returns:
             缺失字段列表
         """
@@ -331,3 +331,136 @@ class DataCleaner:
             if not data.get(field):
                 missing.append(field)
         return missing
+
+    def validate_markdown_quality(self, content: str) -> Dict[str, Any]:
+        """
+        验证Markdown内容质量
+
+        Args:
+            content: Markdown文件内容
+
+        Returns:
+            验证结果字典
+        """
+        import re
+
+        result = {
+            'passed': True,
+            'warnings': [],
+            'errors': []
+        }
+
+        # 检查1: frontmatter
+        if not content.startswith('---'):
+            result['warnings'].append('缺少frontmatter')
+
+        # 检查2: 标题
+        if not re.search(r'^#\s+', content, re.MULTILINE):
+            result['errors'].append('缺少标题')
+            result['passed'] = False
+
+        # 检查3: 连续空行
+        if '\n\n\n' in content:
+            result['warnings'].append('存在连续空行')
+
+        # 检查4: 链接语法
+        links = re.findall(r'\[([^\]]+)\]\(([^)]+)\)', content)
+        for text, url in links:
+            if url.startswith('http') and not re.match(r'^https?://\S+$', url):
+                result['warnings'].append(f'可疑链接格式: {url[:50]}')
+
+        # 检查5: AI生成声明
+        if 'AI辅助生成' not in content and '仅供参考' not in content:
+            if any(kw in content for kw in ['企业清单', '榜单', '排名']):
+                result['warnings'].append('缺少AI生成/免责声明')
+
+        return result
+
+    def validate_table_consistency(self, tables: List[str], expected_cols: int = 17) -> Dict[str, Any]:
+        """
+        验证表格结构一致性
+
+        Args:
+            tables: 表格列表
+            expected_cols: 期望列数
+
+        Returns:
+            验证结果
+        """
+        result = {
+            'total_tables': len(tables),
+            'consistent_tables': 0,
+            'inconsistent_tables': [],
+            'column_distribution': {}
+        }
+
+        for i, table in enumerate(tables):
+            lines = table.split('\n')
+            col_count = 0
+            for line in lines:
+                if line.startswith('|') and '---' not in line:
+                    cols = [c.strip() for c in line.split('|') if c.strip()]
+                    col_count = len(cols)
+                    break
+
+            if col_count not in result['column_distribution']:
+                result['column_distribution'][col_count] = 0
+            result['column_distribution'][col_count] += 1
+
+            if col_count == expected_cols:
+                result['consistent_tables'] += 1
+            else:
+                result['inconsistent_tables'].append({
+                    'table_index': i + 1,
+                    'actual_columns': col_count,
+                    'expected_columns': expected_cols
+                })
+
+        return result
+
+    def check_data_freshness(self, content: str, max_age_months: int = 6) -> Dict[str, Any]:
+        """
+        检查数据新鲜度
+
+        Args:
+            content: 内容
+            max_age_months: 最大允许月数
+
+        Returns:
+            新鲜度评估
+        """
+        import re
+        from datetime import datetime
+
+        result = {
+            'has_timestamp': False,
+            'age_months': None,
+            'is_fresh': True,
+            'warning': None
+        }
+
+        # 查找时间戳
+        patterns = [
+            r'最后更新[：:]\s*(\d{4})年(\d{1,2})月(\d{1,2})日',
+            r'数据截至\s*(\d{4})年(\d{1,2})月',
+            r'(\d{4})年(\d{1,2})月',
+        ]
+
+        for pattern in patterns:
+            match = re.search(pattern, content)
+            if match:
+                result['has_timestamp'] = True
+                year, month = int(match.group(1)), int(match.group(2))
+                try:
+                    current_year = datetime.now().year
+                    current_month = datetime.now().month
+                    age_months = (current_year - year) * 12 + (current_month - month)
+                    result['age_months'] = age_months
+                    result['is_fresh'] = age_months <= max_age_months
+                    if not result['is_fresh']:
+                        result['warning'] = f'数据可能已过时（{age_months}个月前）'
+                except:
+                    pass
+                break
+
+        return result

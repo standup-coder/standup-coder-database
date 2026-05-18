@@ -1,3 +1,11 @@
+---
+title: 昆明人工智能行业企业清单
+category: industry
+tags: [kunming, 网络安全, 软件, 金融科技, 人工智能]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 昆明人工智能行业企业清单
 
 ## 1. 主题介绍

@@ -1,3 +1,10 @@
+---
+title: OPC一人公司速查手册
+category: super-individual
+lastUpdated: 2026年4月
+aiGenerated: false
+---
+
 # OPC一人公司速查手册
 
 > **一句话定义**：OPC = 一个人 + AI Agent军团 + 自动化系统 = 传统10人团队的产出

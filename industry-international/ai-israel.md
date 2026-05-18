@@ -1,3 +1,11 @@
+---
+title: 以色列人工智能企业清单
+category: industry
+tags: [软件, 人工智能, 网络安全]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 以色列人工智能企业清单
 
 ## 主题介绍

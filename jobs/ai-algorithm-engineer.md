@@ -1,3 +1,11 @@
+---
+title: AI算法工程师职位描述(JD)
+category: jobs
+tags: [云计算, 软件, 人工智能]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # AI算法工程师职位描述(JD)
 
 ## 岗位基本信息

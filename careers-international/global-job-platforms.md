@@ -1,3 +1,11 @@
+---
+title: 国际主要招聘平台清单
+category: careers
+tags: [软件]
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 国际主要招聘平台清单
 
 ## 1. 概述

@@ -1,3 +1,10 @@
+---
+title: 移动开发工程师职位描述(JD)
+category: jobs
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 移动开发工程师职位描述(JD)
 
 ## 岗位基本信息

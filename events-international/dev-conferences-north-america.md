@@ -1,3 +1,11 @@
+---
+title: 北美技术活动与竞赛清单
+category: events
+tags: [区块链, 物联网, 软件, 云计算, 人工智能]
+lastUpdated: 2026年2月
+aiGenerated: true
+---
+
 # 北美技术活动与竞赛清单
 
 ## 地区技术生态概览

@@ -1,3 +1,11 @@
+---
+title: 成都物联网企业清单
+category: industry
+tags: [chengdu, 物联网, 软件, 智能制造, 人工智能]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 成都物联网企业清单
 
 ## 1. 主题介绍

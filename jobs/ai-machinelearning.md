@@ -1,3 +1,11 @@
+---
+title: 人工智能类岗位清单
+category: jobs
+tags: [云计算, 人工智能, 互联网]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 人工智能类岗位清单
 
 ## 岗位分类概览

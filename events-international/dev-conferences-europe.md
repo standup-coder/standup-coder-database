@@ -1,3 +1,11 @@
+---
+title: 欧洲技术活动与竞赛清单
+category: events
+tags: [网络安全, 区块链, 物联网, 软件, 互联网]
+lastUpdated: 2026年2月
+aiGenerated: true
+---
+
 # 欧洲技术活动与竞赛清单
 
 ## 地区技术生态概览

@@ -1,3 +1,11 @@
+---
+title: 英国科技企业清单
+category: industry
+tags: [金融科技, 网络安全, 生物技术, 物联网, 软件]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 英国科技企业清单
 
 ## 主题介绍

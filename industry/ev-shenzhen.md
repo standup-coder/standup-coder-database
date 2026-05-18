@@ -1,3 +1,11 @@
+---
+title: 深圳新能源汽车企业清单
+category: industry
+tags: [新能源, shenzhen]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 深圳新能源汽车企业清单
 
 ## 1. 主题介绍

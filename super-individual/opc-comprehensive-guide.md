@@ -1,4 +1,20 @@
+---
+title: OPC一人公司（One Person Company）完全指南
+category: super-individual
+tags: [软件, 人工智能]
+lastUpdated: 2026年4月
+aiGenerated: true
+dataSource: Carta, OpenAI, a16z, 行业报告综合
+verificationLevel: medium  # 数据基于公开报告，但部分预测性内容需谨慎判断
+---
+
 # OPC一人公司（One Person Company）完全指南
+
+## ⚠️ 数据说明
+
+> 本指南中的统计数据和市场预测来自Carta、OpenAI、a16z等机构的公开报告。**预测性数据**（如"2033年AI Agent市场规模1830亿美元"）基于当前趋势推算，实际结果可能受技术发展、市场变化等多种因素影响。建议将此类数据作为参考而非绝对依据。
+
+---
 
 ## 1. 概述
 

@@ -1,3 +1,11 @@
+---
+title: IT外包公司清单
+category: outsourcing
+tags: [网络安全, 区块链, 物联网, 软件, 智能制造]
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # IT外包公司清单
 
 ## 主题介绍

@@ -1,3 +1,11 @@
+---
+title: IT行业个人职业发展专业框架与方法论
+category: careers
+tags: [云计算, 软件]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # IT行业个人职业发展专业框架与方法论
 
 ## 1. 经典能力模型集成

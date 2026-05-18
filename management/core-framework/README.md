@@ -1,3 +1,10 @@
+---
+title: 核心管理框架
+category: management
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 核心管理框架
 
 ## 概述

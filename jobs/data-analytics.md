@@ -1,3 +1,11 @@
+---
+title: 数据技术类岗位清单
+category: jobs
+tags: [大数据]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 数据技术类岗位清单
 
 ## 岗位分类概览

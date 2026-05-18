@@ -1,3 +1,10 @@
+---
+title: OPC数据驱动决策指南
+category: super-individual
+lastUpdated: 2026年4月
+aiGenerated: false
+---
+
 # OPC数据驱动决策指南
 
 ## 1. 概述

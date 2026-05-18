@@ -1,3 +1,11 @@
+---
+title: 欧洲IT外包服务提供商清单
+category: outsourcing
+tags: [网络安全, 物联网, 软件, 智能制造, 云计算]
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 欧洲IT外包服务提供商清单
 
 ## 市场概况

@@ -1,3 +1,11 @@
+---
+title: 计算机视觉工程师职位描述(JD)
+category: jobs
+tags: [软件]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 计算机视觉工程师职位描述(JD)
 
 ## 岗位基本信息

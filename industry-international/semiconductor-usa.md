@@ -1,3 +1,11 @@
+---
+title: 美国半导体企业清单
+category: industry
+tags: [新材料, 物联网, 智能制造]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 美国半导体企业清单
 
 ## 主题介绍

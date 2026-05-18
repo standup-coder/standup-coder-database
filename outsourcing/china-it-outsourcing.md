@@ -1,3 +1,11 @@
+---
+title: 中国IT外包公司清单
+category: outsourcing
+tags: [网络安全, 软件, 智能制造, 互联网, 云计算]
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 中国IT外包公司清单
 
 ## 主题介绍

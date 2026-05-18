@@ -1,3 +1,10 @@
+---
+title: 国际行为面试指南
+category: interview-skills
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 国际行为面试指南
 
 ## 1. 核心行为面试理念

@@ -1,3 +1,11 @@
+---
+title: 杭州人工智能行业企业清单
+category: industry
+tags: [金融科技, 物联网, 软件, 云计算, 人工智能]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 杭州人工智能行业企业清单
 
 ## 1. 主题介绍

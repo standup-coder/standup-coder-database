@@ -1,3 +1,11 @@
+---
+title: 上海云计算企业清单
+category: industry
+tags: [云计算, 软件, shanghai, 网络安全]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 上海云计算企业清单
 
 ## 1. 主题介绍

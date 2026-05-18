@@ -1,3 +1,11 @@
+---
+title: 深圳大数据行业企业清单
+category: industry
+tags: [区块链, shenzhen, 软件, 互联网, 云计算]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 深圳大数据行业企业清单
 
 ## 1. 主题介绍

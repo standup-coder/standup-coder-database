@@ -1,3 +1,11 @@
+---
+title: 武汉云计算企业清单
+category: industry
+tags: [wuhan, 软件, 互联网, 云计算, 人工智能]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 武汉云计算企业清单
 
 ## 1. 主题介绍

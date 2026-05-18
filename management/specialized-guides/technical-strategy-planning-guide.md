@@ -1,3 +1,11 @@
+---
+title: 技术战略规划指南
+category: management
+tags: [金融科技, 互联网]
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 技术战略规划指南
 
 ## 概述

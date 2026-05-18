@@ -1,3 +1,11 @@
+---
+title: 如何蒸馏一个程序员：技能萃取与知识留存全指南
+category: super-individual
+tags: [大数据]
+lastUpdated: 2026年4月
+aiGenerated: true
+---
+
 # 如何蒸馏一个程序员：技能萃取与知识留存全指南
 
 ## 1. 概述

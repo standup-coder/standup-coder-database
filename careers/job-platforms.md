@@ -1,3 +1,11 @@
+---
+title: 主要招聘平台及信息来源清单
+category: careers
+tags: [互联网]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 主要招聘平台及信息来源清单
 
 ## 1. 概述

@@ -1,3 +1,11 @@
+---
+title: 上海新能源汽车企业清单
+category: industry
+tags: [互联网, shanghai, 新能源]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 上海新能源汽车企业清单
 
 ## 1. 主题介绍

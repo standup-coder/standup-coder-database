@@ -1,3 +1,11 @@
+---
+title: 广州大数据行业企业清单
+category: industry
+tags: [guangzhou, 软件, 智能制造, 互联网, 云计算]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 广州大数据行业企业清单
 
 ## 1. 主题介绍

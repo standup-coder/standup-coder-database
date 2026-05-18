@@ -1,3 +1,11 @@
+---
+title: 上海新材料行业企业清单
+category: industry
+tags: [新材料, shanghai, 新能源]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 上海新材料行业企业清单
 
 ## 1. 主题介绍

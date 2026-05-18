@@ -1,3 +1,10 @@
+---
+title: International Technology Foundations
+category: tech-foundations
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # International Technology Foundations
 
 ## Overview

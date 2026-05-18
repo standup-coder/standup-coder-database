@@ -1,3 +1,11 @@
+---
+title: 沈阳云计算企业清单
+category: industry
+tags: [云计算, 物联网, 软件, shenyang, 人工智能]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 沈阳云计算企业清单
 
 ## 1. 主题介绍

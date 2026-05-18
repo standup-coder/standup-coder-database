@@ -1,3 +1,11 @@
+---
+title: 深圳生物技术行业企业列表
+category: industry
+tags: [生物技术, 人工智能, 大数据, shenzhen]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 深圳生物技术行业企业列表
 
 ## 1. 企业汇总表

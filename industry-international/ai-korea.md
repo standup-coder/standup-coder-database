@@ -1,3 +1,11 @@
+---
+title: 韩国科技企业清单
+category: industry
+tags: [金融科技, 新能源, 物联网, 软件, 互联网]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 韩国科技企业清单
 
 ## 主题介绍

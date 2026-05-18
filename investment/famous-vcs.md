@@ -1,3 +1,11 @@
+---
+title: 知名风险投资人清单
+category: investment
+tags: [区块链, 新材料, 物联网, 互联网, 金融科技]
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 知名风险投资人清单
 
 ## 主题介绍

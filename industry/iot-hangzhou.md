@@ -1,3 +1,11 @@
+---
+title: 杭州物联网行业企业清单
+category: industry
+tags: [云计算, 物联网, hangzhou, 网络安全]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 杭州物联网行业企业清单
 
 ## 1. 主题介绍

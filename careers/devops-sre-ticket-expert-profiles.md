@@ -1,3 +1,11 @@
+---
+title: DevOps、SRE与工单专家能力画像体系
+category: careers
+tags: [软件, 人工智能]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # DevOps、SRE与工单专家能力画像体系
 
 ## 1. 专业角色概述

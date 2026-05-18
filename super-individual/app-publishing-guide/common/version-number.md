@@ -1,3 +1,11 @@
+---
+title: 版号申请流程指南
+category: super-individual
+tags: [软件]
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 版号申请流程指南
 
 ## 什么是版号

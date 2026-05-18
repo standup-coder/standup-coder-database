@@ -1,3 +1,11 @@
+---
+title: 厦门物联网企业清单
+category: industry
+tags: [物联网, 软件, 智能制造, 互联网]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 厦门物联网企业清单
 
 ## 1. 主题介绍

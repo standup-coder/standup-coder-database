@@ -1,3 +1,11 @@
+---
+title: 腾讯应用宝发布指南
+category: super-individual
+tags: [软件]
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 腾讯应用宝发布指南
 
 ## 腾讯开放平台

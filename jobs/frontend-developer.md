@@ -1,3 +1,11 @@
+---
+title: 前端开发工程师职位描述(JD)
+category: jobs
+tags: [互联网]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 前端开发工程师职位描述(JD)
 
 ## 岗位基本信息

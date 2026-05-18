@@ -1,3 +1,11 @@
+---
+title: 区块链开发工程师职位描述(JD)
+category: jobs
+tags: [区块链]
+lastUpdated: 2025年4月
+aiGenerated: true
+---
+
 # 区块链开发工程师职位描述(JD)
 
 ## 岗位基本信息

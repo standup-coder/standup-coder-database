@@ -1,3 +1,11 @@
+---
+title: 杭州智能制造行业企业清单
+category: industry
+tags: [网络安全, 软件, 智能制造, 互联网, hangzhou]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 杭州智能制造行业企业清单
 
 ## 1. 主题介绍

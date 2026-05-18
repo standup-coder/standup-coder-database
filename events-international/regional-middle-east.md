@@ -1,3 +1,11 @@
+---
+title: 中东地区技术活动与竞赛清单
+category: events
+tags: [金融科技, 人工智能, 网络安全]
+lastUpdated: 2026年2月
+aiGenerated: true
+---
+
 # 中东地区技术活动与竞赛清单
 
 ## 地区技术生态概览

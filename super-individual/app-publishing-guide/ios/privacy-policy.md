@@ -1,3 +1,10 @@
+---
+title: 隐私政策配置
+category: super-individual
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 隐私政策配置
 
 ## 为什么必须提供隐私政策

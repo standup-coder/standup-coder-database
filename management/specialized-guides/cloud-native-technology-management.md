@@ -1,3 +1,11 @@
+---
+title: 云原生技术管理框架
+category: management
+tags: [云计算, 软件, 网络安全]
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 云原生技术管理框架
 
 ## 概述

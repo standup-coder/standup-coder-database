@@ -1,3 +1,11 @@
+---
+title: OPC全球化扩张指南：从一人公司到微型跨国企业
+category: super-individual
+tags: [软件]
+lastUpdated: 2026年1月
+aiGenerated: false
+---
+
 # OPC全球化扩张指南：从一人公司到微型跨国企业
 
 ## 1. 概述

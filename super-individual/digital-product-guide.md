@@ -1,3 +1,10 @@
+---
+title: 数字产品与知识付费全指南
+category: super-individual
+lastUpdated: 2026年4月
+aiGenerated: true
+---
+
 # 数字产品与知识付费全指南
 
 ## 1. 概述

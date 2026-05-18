@@ -1,3 +1,11 @@
+---
+title: 杭州电子商务企业清单
+category: industry
+tags: [金融科技, 区块链, 物联网, 互联网, 云计算]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 杭州电子商务企业清单
 
 ## 1. 主题介绍

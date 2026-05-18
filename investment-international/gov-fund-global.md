@@ -1,3 +1,11 @@
+---
+title: 全球政府引导基金清单
+category: investment
+tags: [网络安全, 生物技术, 新能源, 新材料, 物联网]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 全球政府引导基金清单
 
 ## 主题介绍

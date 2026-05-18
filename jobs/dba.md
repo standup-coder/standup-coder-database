@@ -1,3 +1,10 @@
+---
+title: 数据库管理员职位描述(JD)
+category: jobs
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 数据库管理员职位描述(JD)
 
 ## 岗位基本信息

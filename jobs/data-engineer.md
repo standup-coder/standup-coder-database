@@ -1,3 +1,11 @@
+---
+title: 数据工程师职位描述(JD)
+category: jobs
+tags: [物联网, 大数据]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 数据工程师职位描述(JD)
 
 ## 岗位基本信息

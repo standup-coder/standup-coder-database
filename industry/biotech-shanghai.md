@@ -1,3 +1,11 @@
+---
+title: 上海生物技术行业企业清单
+category: industry
+tags: [生物技术, shanghai]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 上海生物技术行业企业清单
 
 ## 1. 主题介绍

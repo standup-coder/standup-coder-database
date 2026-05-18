@@ -1,3 +1,11 @@
+---
+title: DevOps/SRE团队管理专项指南
+category: management
+tags: [软件]
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # DevOps/SRE团队管理专项指南
 
 ## 1. 团队组织架构设计

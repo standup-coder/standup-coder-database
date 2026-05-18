@@ -1,3 +1,11 @@
+---
+title: 杭州新能源行业企业清单
+category: industry
+tags: [新材料, 物联网, 新能源, hangzhou]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 杭州新能源行业企业清单
 
 ## 1. 主题介绍

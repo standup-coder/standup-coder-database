@@ -1,3 +1,11 @@
+---
+title: 个人IP打造与商业变现全指南
+category: super-individual
+tags: [软件, 互联网]
+lastUpdated: 2026年4月
+aiGenerated: false
+---
+
 # 个人IP打造与商业变现全指南
 
 ## 1. 概述

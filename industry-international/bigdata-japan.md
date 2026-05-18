@@ -1,3 +1,11 @@
+---
+title: 日本大数据企业清单
+category: industry
+tags: [物联网, 软件, 智能制造, 互联网, 大数据]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 日本大数据企业清单
 
 ## 主题介绍

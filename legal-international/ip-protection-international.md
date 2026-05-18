@@ -1,3 +1,11 @@
+---
+title: 国际知识产权保护实务指南
+category: legal
+tags: [区块链, 生物技术, 物联网, 软件, 人工智能]
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 国际知识产权保护实务指南
 
 ## 法律体系概述

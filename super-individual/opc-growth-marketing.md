@@ -1,3 +1,10 @@
+---
+title: OPC增长黑客与营销实战指南
+category: super-individual
+lastUpdated: 2026年4月
+aiGenerated: true
+---
+
 # OPC增长黑客与营销实战指南
 
 ## 1. 概述

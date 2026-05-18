@@ -1,3 +1,10 @@
+---
+title: 敏捷教练/Scrum Master职位描述(JD)
+category: jobs
+lastUpdated: 2025年4月
+aiGenerated: true
+---
+
 # 敏捷教练/Scrum Master职位描述(JD)
 
 ## 岗位基本信息

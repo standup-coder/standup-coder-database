@@ -1,3 +1,11 @@
+---
+title: 瞪羚企业清单（2025年）
+category: rankings
+tags: [新能源, 智能制造, 金融科技, 人工智能, 大数据]
+lastUpdated: 2025年12月
+aiGenerated: true
+---
+
 # 瞪羚企业清单（2025年）
 
 ## 1. 主题介绍

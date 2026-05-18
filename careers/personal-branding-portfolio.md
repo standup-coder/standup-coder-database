@@ -1,3 +1,11 @@
+---
+title: 个人品牌与作品集建设指导
+category: careers
+tags: [软件]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 个人品牌与作品集建设指导
 
 ## 1. 个人品牌战略规划

@@ -1,3 +1,11 @@
+---
+title: 裁员全流程指南
+category: legal
+tags: [金融科技, 互联网]
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 裁员全流程指南
 
 ## 1. 概述

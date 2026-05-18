@@ -1,3 +1,11 @@
+---
+title: 超级个体与OPC一人公司知识体系
+category: super-individual
+tags: [互联网]
+lastUpdated: 2026年4月
+aiGenerated: false
+---
+
 # 超级个体与OPC一人公司知识体系
 
 ## 概述

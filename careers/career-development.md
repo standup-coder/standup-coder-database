@@ -1,3 +1,11 @@
+---
+title: IT职业发展规划与晋升路径
+category: careers
+tags: [区块链, 互联网, 大数据]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # IT职业发展规划与晋升路径
 
 ## 1. 职业发展总体框架

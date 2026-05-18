@@ -1,3 +1,11 @@
+---
+title: 杭州3C行业企业清单
+category: industry
+tags: [物联网, 互联网, 云计算, 3C, hangzhou]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 杭州3C行业企业清单
 
 ## 1. 主题介绍

@@ -1,3 +1,11 @@
+---
+title: 国际清洁能源科技企业清单
+category: industry
+tags: [新能源]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 国际清洁能源科技企业清单
 
 ## 主题介绍

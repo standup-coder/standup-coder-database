@@ -1,3 +1,11 @@
+---
+title: 个人品牌建设与影响力提升专业指南
+category: careers
+tags: [软件, 互联网, 大数据]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 个人品牌建设与影响力提升专业指南
 
 ## 1. 个人品牌战略顶层设计

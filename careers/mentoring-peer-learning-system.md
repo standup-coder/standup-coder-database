@@ -1,3 +1,11 @@
+---
+title: 导师制度与同伴学习体系
+category: careers
+tags: [软件]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 导师制度与同伴学习体系
 
 ## 1. 导师制度建设

@@ -1,3 +1,11 @@
+---
+title: 欧洲劳动法律实务指南
+category: legal
+tags: [人工智能]
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 欧洲劳动法律实务指南
 
 ## 法律体系概述

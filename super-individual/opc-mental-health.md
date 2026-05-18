@@ -1,3 +1,10 @@
+---
+title: OPC一人公司心理健康与可持续发展指南
+category: super-individual
+lastUpdated: 2026年4月
+aiGenerated: false
+---
+
 # OPC一人公司心理健康与可持续发展指南
 
 ## 1. 概述

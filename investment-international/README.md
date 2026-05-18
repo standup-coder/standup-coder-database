@@ -1,3 +1,10 @@
+---
+title: International Investment Resources
+category: investment
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # International Investment Resources
 
 ## Overview

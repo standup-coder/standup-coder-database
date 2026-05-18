@@ -1,3 +1,11 @@
+---
+title: 国际航空航天科技企业清单
+category: industry
+tags: [互联网, 网络安全]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 国际航空航天科技企业清单
 
 ## 主题介绍

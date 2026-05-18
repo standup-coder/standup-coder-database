@@ -1,3 +1,11 @@
+---
+title: 小米应用商店发布指南
+category: super-individual
+tags: [软件]
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 小米应用商店发布指南
 
 ## 小米开放平台

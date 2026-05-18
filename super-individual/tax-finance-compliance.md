@@ -1,3 +1,11 @@
+---
+title: 财税合规与财务管理全指南
+category: super-individual
+tags: [软件]
+lastUpdated: 2026年4月
+aiGenerated: false
+---
+
 # 财税合规与财务管理全指南
 
 ## 1. 概述

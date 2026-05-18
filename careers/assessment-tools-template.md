@@ -1,3 +1,11 @@
+---
+title: 能力画像评估工具包
+category: careers
+tags: [软件]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 能力画像评估工具包
 
 ## 1. 标准化评估模板

@@ -1,3 +1,11 @@
+---
+title: 美国云计算企业清单
+category: industry
+tags: [区块链, 软件, 云计算, 人工智能, 大数据]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 美国云计算企业清单
 
 ## 主题介绍

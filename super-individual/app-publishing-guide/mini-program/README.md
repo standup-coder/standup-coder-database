@@ -1,3 +1,10 @@
+---
+title: 小程序发布指南
+category: super-individual
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 小程序发布指南
 
 微信、支付宝、抖音等小程序平台发布全攻略。

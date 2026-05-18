@@ -1,3 +1,11 @@
+---
+title: 华为 AppGallery 发布指南
+category: super-individual
+tags: [软件]
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 华为 AppGallery 发布指南
 
 ## 华为开发者平台

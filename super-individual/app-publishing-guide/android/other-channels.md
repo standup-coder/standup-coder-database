@@ -1,3 +1,11 @@
+---
+title: 国内其他渠道指南
+category: super-individual
+tags: [软件]
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 国内其他渠道指南
 
 ## 百度手机助手

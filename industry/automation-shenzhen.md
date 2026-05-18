@@ -1,3 +1,11 @@
+---
+title: 深圳工业自动化企业清单
+category: industry
+tags: [网络安全, 新能源, shenzhen, 物联网, 软件]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 深圳工业自动化企业清单
 
 ## 1. 主题介绍

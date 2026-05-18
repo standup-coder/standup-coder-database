@@ -1,3 +1,11 @@
+---
+title: 美国生物技术企业清单
+category: industry
+tags: [生物技术, 软件, 人工智能]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 美国生物技术企业清单
 
 ## 主题介绍

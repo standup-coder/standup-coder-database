@@ -1,3 +1,11 @@
+---
+title: 深度学习工程师职位描述(JD)
+category: jobs
+tags: [互联网, 大数据]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 深度学习工程师职位描述(JD)
 
 ## 岗位基本信息

@@ -1,3 +1,11 @@
+---
+title: 教育科技企业清单
+category: industry
+tags: [互联网, 软件, 人工智能, 大数据]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 教育科技企业清单
 
 ## 1. 主题介绍

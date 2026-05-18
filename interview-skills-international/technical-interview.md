@@ -1,3 +1,10 @@
+---
+title: 国际技术面试指南
+category: interview-skills
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 国际技术面试指南
 
 ## 1. 面试前准备

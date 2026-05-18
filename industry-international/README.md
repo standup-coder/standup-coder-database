@@ -1,3 +1,10 @@
+---
+title: International Industry Analysis
+category: industry
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # International Industry Analysis
 
 ## Overview

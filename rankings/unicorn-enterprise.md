@@ -1,3 +1,11 @@
+---
+title: 中国独角兽企业清单（2025年）
+category: rankings
+tags: [金融科技, 人工智能, 新能源, 互联网]
+lastUpdated: 2025年6月
+aiGenerated: true
+---
+
 # 中国独角兽企业清单（2025年）
 
 ## 1. 主题介绍

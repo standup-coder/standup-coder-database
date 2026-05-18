@@ -1,3 +1,11 @@
+---
+title: 美国3C电子企业清单
+category: industry
+tags: [云计算, 物联网, 人工智能, 3C]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 美国3C电子企业清单
 
 ## 主题介绍

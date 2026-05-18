@@ -1,3 +1,11 @@
+---
+title: 软件著作权申请指南
+category: super-individual
+tags: [软件]
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 软件著作权申请指南
 
 ## 什么是软件著作权

@@ -1,3 +1,11 @@
+---
+title: 武汉生物技术企业清单
+category: industry
+tags: [生物技术, wuhan, 大数据]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 武汉生物技术企业清单
 
 ## 1. 主题介绍

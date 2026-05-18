@@ -1,3 +1,11 @@
+---
+title: 职业地图与路径规划工具
+category: careers
+tags: [金融科技, 网络安全, 区块链, 物联网, 云计算]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 职业地图与路径规划工具
 
 ## 1. 职业地图设计框架

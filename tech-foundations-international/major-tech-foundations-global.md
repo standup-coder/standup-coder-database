@@ -1,3 +1,10 @@
+---
+title: 国际科技基金会名录
+category: tech-foundations
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 国际科技基金会名录
 
 ## 1. 项目介绍

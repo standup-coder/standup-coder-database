@@ -1,3 +1,11 @@
+---
+title: 西安人工智能与航空航天行业企业清单
+category: industry
+tags: [人工智能, xian]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 西安人工智能与航空航天行业企业清单
 
 ## 1. 主题介绍

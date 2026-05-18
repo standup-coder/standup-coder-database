@@ -1,3 +1,11 @@
+---
+title: 用户增长与 ASO 指南
+category: super-individual
+tags: [软件]
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 用户增长与 ASO 指南
 
 ## 什么是 ASO

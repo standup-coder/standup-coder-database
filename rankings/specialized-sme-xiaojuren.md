@@ -1,3 +1,12 @@
+---
+title: 国家级专精特新"小巨人"企业清单
+category: rankings
+tags: [新能源, 新材料, 物联网, 软件, 智能制造]
+dataSource: 工信部第一至第五批专精特新"小巨人"企业公示名单
+lastUpdated: 2025年12月
+aiGenerated: true
+---
+
 # 国家级专精特新"小巨人"企业清单
 
 ## 1. 主题介绍

@@ -1,3 +1,11 @@
+---
+title: 香港云计算企业清单
+category: industry
+tags: [云计算, hongkong]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 香港云计算企业清单
 
 ## 1. 主题介绍

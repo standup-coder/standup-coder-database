@@ -1,3 +1,11 @@
+---
+title: 杭州大数据行业企业清单
+category: industry
+tags: [金融科技, 软件, 云计算, 大数据, hangzhou]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 杭州大数据行业企业清单
 
 ## 1. 主题介绍

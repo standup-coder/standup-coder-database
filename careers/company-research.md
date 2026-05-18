@@ -1,3 +1,11 @@
+---
+title: 公司调研与企业文化了解指南
+category: careers
+tags: [互联网]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 公司调研与企业文化了解指南
 
 ## 1. 公司基本面调研

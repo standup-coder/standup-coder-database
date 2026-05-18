@@ -1,3 +1,11 @@
+---
+title: 日本人工智能企业清单
+category: industry
+tags: [网络安全, 区块链, 物联网, 软件, 智能制造]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 日本人工智能企业清单
 
 ## 主题介绍

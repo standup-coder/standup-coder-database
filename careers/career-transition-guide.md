@@ -1,3 +1,11 @@
+---
+title: 职业转换与转型指导手册
+category: careers
+tags: [云计算, 软件, 互联网]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 职业转换与转型指导手册
 
 ## 1. 转型决策框架

@@ -1,3 +1,11 @@
+---
+title: 加拿大人工智能企业清单
+category: industry
+tags: [金融科技, 物联网, 人工智能, 智能制造]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 加拿大人工智能企业清单
 
 ## 主题介绍

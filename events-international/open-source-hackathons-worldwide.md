@@ -1,3 +1,11 @@
+---
+title: 全球开源黑客马拉松清单
+category: events
+tags: [软件, 互联网]
+lastUpdated: 2026年2月
+aiGenerated: true
+---
+
 # 全球开源黑客马拉松清单
 
 ## 项目介绍

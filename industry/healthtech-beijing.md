@@ -1,3 +1,11 @@
+---
+title: 北京医疗健康科技企业清单
+category: industry
+tags: [生物技术, 软件, 互联网, beijing, 人工智能]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 北京医疗健康科技企业清单
 
 ## 1. 主题介绍

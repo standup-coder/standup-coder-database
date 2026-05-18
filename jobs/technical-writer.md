@@ -1,3 +1,11 @@
+---
+title: 技术文档工程师职位描述(JD)
+category: jobs
+tags: [软件]
+lastUpdated: 2025年4月
+aiGenerated: true
+---
+
 # 技术文档工程师职位描述(JD)
 
 ## 岗位基本信息

@@ -1,3 +1,11 @@
+---
+title: 上海物联网行业企业清单
+category: industry
+tags: [网络安全, 物联网, 软件, 互联网, shanghai]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 上海物联网行业企业清单
 
 ## 1. 主题介绍

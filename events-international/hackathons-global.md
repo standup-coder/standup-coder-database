@@ -1,3 +1,11 @@
+---
+title: 国际黑客马拉松活动清单
+category: events
+tags: [区块链, 金融科技, 互联网]
+lastUpdated: 2026年2月
+aiGenerated: true
+---
+
 # 国际黑客马拉松活动清单
 
 ## 项目介绍

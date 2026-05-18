@@ -1,3 +1,10 @@
+---
+title: IT从业者专业能力画像系统
+category: careers
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # IT从业者专业能力画像系统
 
 ## 1. 能力画像体系概述

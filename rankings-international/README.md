@@ -1,3 +1,10 @@
+---
+title: International Rankings and Benchmarking
+category: rankings
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # International Rankings and Benchmarking
 
 ## Overview
@@ -11,6 +18,18 @@ This directory provides comprehensive international rankings and benchmarking da
 - Revenue-based company listings
 - Industry sector breakdowns
 - Performance trend analysis
+
+### 2. Global Unicorn Rankings
+**Global Unicorn 2025** - [global-unicorn-2025.md](global-unicorn-2025.md)
+- World's fastest growing private companies
+- Valuation over $1 billion
+- Industry and geographic distribution
+
+### 3. Global Gazelle Rankings
+**Global Gazelle 2025** - [global-gazelle-2025.md](global-gazelle-2025.md)
+- High-growth startup enterprises
+- Annual growth rate exceeding 60%
+- Next-generation unicorn pipeline
 
 ## Ranking Methodologies
 

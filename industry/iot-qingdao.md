@@ -1,3 +1,11 @@
+---
+title: 青岛物联网企业清单
+category: industry
+tags: [新能源, 物联网, 软件, 智能制造, 人工智能]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 青岛物联网企业清单
 
 ## 1. 主题介绍

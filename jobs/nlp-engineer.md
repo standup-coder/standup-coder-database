@@ -1,3 +1,11 @@
+---
+title: 自然语言处理工程师职位描述(JD)
+category: jobs
+tags: [云计算, 软件]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 自然语言处理工程师职位描述(JD)
 
 ## 岗位基本信息

@@ -1,3 +1,11 @@
+---
+title: 全球科技巨头黑客马拉松清单
+category: events
+tags: [区块链, 物联网, 人工智能, 云计算]
+lastUpdated: 2026年2月
+aiGenerated: true
+---
+
 # 全球科技巨头黑客马拉松清单
 
 ## 地区活动概览

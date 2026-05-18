@@ -1,3 +1,11 @@
+---
+title: 苏州云计算企业清单
+category: industry
+tags: [suzhou, 云计算, 软件, 大数据]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 苏州云计算企业清单
 
 ## 1. 主题介绍

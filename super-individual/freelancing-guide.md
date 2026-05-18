@@ -1,3 +1,11 @@
+---
+title: 自由职业与独立开发者指南
+category: super-individual
+tags: [软件]
+lastUpdated: 2026年4月
+aiGenerated: false
+---
+
 # 自由职业与独立开发者指南
 
 ## 1. 概述

@@ -1,3 +1,10 @@
+---
+title: 数据分析配置指南
+category: super-individual
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 数据分析配置指南
 
 ## 为什么需要数据分析

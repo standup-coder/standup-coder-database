@@ -1,3 +1,11 @@
+---
+title: 上海人工智能企业清单
+category: industry
+tags: [软件, 智能制造, 云计算, 人工智能, shanghai]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 上海人工智能企业清单
 
 ## 1. 主题介绍

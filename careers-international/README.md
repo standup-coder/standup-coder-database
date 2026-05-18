@@ -1,3 +1,10 @@
+---
+title: International Career Development Resources
+category: careers
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # International Career Development Resources
 
 ## Overview

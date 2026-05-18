@@ -1,3 +1,10 @@
+---
+title: 抖音小程序发布指南
+category: super-individual
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 抖音小程序发布指南
 
 ## 抖音开放平台

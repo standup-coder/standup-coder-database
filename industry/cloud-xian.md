@@ -1,3 +1,11 @@
+---
+title: 西安云计算企业清单
+category: industry
+tags: [xian, 软件, 互联网, 云计算, 大数据]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 西安云计算企业清单
 
 ## 1. 主题介绍

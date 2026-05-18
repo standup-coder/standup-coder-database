@@ -1,3 +1,11 @@
+---
+title: 合肥量子计算企业清单
+category: industry
+tags: [hefei, 软件, 人工智能, 互联网]
+lastUpdated: 2017年9月
+aiGenerated: true
+---
+
 # 合肥量子计算企业清单
 
 ## 1. 主题介绍

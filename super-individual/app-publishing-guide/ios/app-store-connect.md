@@ -1,3 +1,10 @@
+---
+title: App Store Connect 配置
+category: super-individual
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # App Store Connect 配置
 
 ## 创建 App Record

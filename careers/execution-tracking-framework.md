@@ -1,3 +1,10 @@
+---
+title: 能力画像执行与跟踪框架
+category: careers
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 能力画像执行与跟踪框架
 
 ## 1. 执行管理体系

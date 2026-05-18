@@ -1,3 +1,11 @@
+---
+title: 技术管理内容缺失领域分析报告
+category: management
+tags: [软件, 大数据]
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 技术管理内容缺失领域分析报告
 
 ## 分析背景

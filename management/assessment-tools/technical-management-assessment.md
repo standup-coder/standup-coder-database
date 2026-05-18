@@ -1,3 +1,10 @@
+---
+title: 技术管理能力专项评估体系
+category: management
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 技术管理能力专项评估体系
 
 ## 1. 管理能力评估框架

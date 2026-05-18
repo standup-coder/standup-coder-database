@@ -1,3 +1,10 @@
+---
+title: 专项管理指南
+category: management
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 专项管理指南
 
 ## 概述

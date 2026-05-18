@@ -1,3 +1,11 @@
+---
+title: 北京量子计算企业清单
+category: industry
+tags: [软件, 人工智能, 互联网, beijing]
+lastUpdated: 2017年9月
+aiGenerated: true
+---
+
 # 北京量子计算企业清单
 
 ## 1. 主题介绍

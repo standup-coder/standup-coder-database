@@ -1,3 +1,11 @@
+---
+title: 北京云计算企业清单
+category: industry
+tags: [云计算, 网络安全, 软件, beijing]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 北京云计算企业清单
 
 ## 1. 主题介绍

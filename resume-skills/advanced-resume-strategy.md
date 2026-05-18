@@ -1,3 +1,11 @@
+---
+title: 高级简历优化技巧
+category: resume-skills
+tags: [金融科技]
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 高级简历优化技巧
 
 ## 1. 战略性简历规划

@@ -1,3 +1,11 @@
+---
+title: 北京AR/VR/MR企业清单
+category: industry
+tags: [软件, 互联网, 大数据, beijing]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 北京AR/VR/MR企业清单
 
 ## 1. 主题介绍

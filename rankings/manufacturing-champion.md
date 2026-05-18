@@ -1,3 +1,12 @@
+---
+title: 国家级制造业单项冠军企业清单
+category: rankings
+tags: [新材料, 软件, 新能源, 3C]
+dataSource: 工信部第一至第九批制造业单项冠军企业公示名单
+lastUpdated: 2025年12月
+aiGenerated: true
+---
+
 # 国家级制造业单项冠军企业清单
 
 ## 1. 主题介绍

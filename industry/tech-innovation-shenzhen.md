@@ -1,3 +1,11 @@
+---
+title: 深圳科技创新企业榜单
+category: industry
+tags: [金融科技, 网络安全, 新能源, shenzhen, 新材料]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 深圳科技创新企业榜单
 
 ## 1. 主题介绍

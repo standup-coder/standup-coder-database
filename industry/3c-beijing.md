@@ -1,3 +1,11 @@
+---
+title: 北京3C电子行业企业清单
+category: industry
+tags: [物联网, 软件, beijing, 云计算, 3C]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 北京3C电子行业企业清单
 
 ## 1. 主题介绍

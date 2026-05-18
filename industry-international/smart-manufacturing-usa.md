@@ -1,3 +1,11 @@
+---
+title: 美国智能制造企业清单
+category: industry
+tags: [物联网, 软件, 智能制造, 互联网, 人工智能]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 美国智能制造企业清单
 
 ## 主题介绍

@@ -1,3 +1,10 @@
+---
+title: 日本劳动法律实务指南
+category: legal
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 日本劳动法律实务指南
 
 ## 法律体系概述

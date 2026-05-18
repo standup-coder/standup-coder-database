@@ -1,3 +1,11 @@
+---
+title: 技术风险管理手册
+category: management
+tags: [互联网, 网络安全]
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 技术风险管理手册
 
 ## 概述

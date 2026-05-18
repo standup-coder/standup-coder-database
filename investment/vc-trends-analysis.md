@@ -1,3 +1,11 @@
+---
+title: VC投资趋势与市场分析报告
+category: investment
+tags: [云计算, 物联网, 人工智能, 新能源]
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # VC投资趋势与市场分析报告
 
 ## 报告概述

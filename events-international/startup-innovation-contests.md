@@ -1,3 +1,11 @@
+---
+title: 国际创业创新竞赛清单
+category: events
+tags: [云计算]
+lastUpdated: 2026年2月
+aiGenerated: true
+---
+
 # 国际创业创新竞赛清单
 
 ## 地区活动概览

@@ -1,3 +1,11 @@
+---
+title: Standup Coder Database 项目评估报告
+category: other
+tags: [3C, 网络安全, 区块链, 生物技术, 新能源]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # Standup Coder Database 项目评估报告
 
 > **评估时间**: 2025-05-15

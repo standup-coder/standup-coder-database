@@ -1,3 +1,10 @@
+---
+title: CI/CD 自动化发布指南
+category: super-individual
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # CI/CD 自动化发布指南
 
 ## 什么是 CI/CD

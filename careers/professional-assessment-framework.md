@@ -1,3 +1,11 @@
+---
+title: 职业发展能力评估与诊断框架
+category: careers
+tags: [大数据]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 职业发展能力评估与诊断框架
 
 ## 1. 专业评估体系概述

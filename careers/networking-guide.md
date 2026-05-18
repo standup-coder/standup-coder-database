@@ -1,3 +1,10 @@
+---
+title: 人脉拓展与内推资源指南
+category: careers
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 人脉拓展与内推资源指南
 
 ## 1. 内推的重要性与价值

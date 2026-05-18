@@ -1,3 +1,11 @@
+---
+title: 深圳新能源行业企业列表
+category: industry
+tags: [智能制造, 新能源, 3C, shenzhen]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 深圳新能源行业企业列表
 
 ## 1. 企业汇总表

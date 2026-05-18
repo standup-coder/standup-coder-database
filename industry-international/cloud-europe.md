@@ -1,3 +1,11 @@
+---
+title: 欧洲云计算企业清单
+category: industry
+tags: [云计算, 智能制造]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 欧洲云计算企业清单
 
 ## 主题介绍

@@ -1,3 +1,11 @@
+---
+title: 英国人工智能企业清单
+category: industry
+tags: [金融科技, 物联网, 软件, 人工智能]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 英国人工智能企业清单
 
 ## 主题介绍

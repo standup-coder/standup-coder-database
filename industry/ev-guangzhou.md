@@ -1,3 +1,11 @@
+---
+title: 广州新能源汽车企业清单
+category: industry
+tags: [智能制造, 新能源, guangzhou]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 广州新能源汽车企业清单
 
 ## 1. 主题介绍

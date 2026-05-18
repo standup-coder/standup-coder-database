@@ -1,3 +1,11 @@
+---
+title: 北京生物技术行业企业清单
+category: industry
+tags: [生物技术, beijing]
+lastUpdated: 2026年1月
+aiGenerated: true
+---
+
 # 北京生物技术行业企业清单
 
 ## 1. 主题介绍

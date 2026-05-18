@@ -1,3 +1,10 @@
+---
+title: 变现指南
+category: super-individual
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 变现指南
 
 App 变现方式与用户增长完整指南。

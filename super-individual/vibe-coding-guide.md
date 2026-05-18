@@ -1,3 +1,10 @@
+---
+title: Vibe Coding（氛围编程）完全指南：AI时代的编程新范式
+category: super-individual
+lastUpdated: 2026年4月
+aiGenerated: true
+---
+
 # Vibe Coding（氛围编程）完全指南：AI时代的编程新范式
 
 ## 1. 概述

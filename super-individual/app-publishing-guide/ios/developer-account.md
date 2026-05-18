@@ -1,3 +1,10 @@
+---
+title: Apple 开发者账号注册
+category: super-individual
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # Apple 开发者账号注册
 
 ## 账号类型

@@ -1,3 +1,11 @@
+---
+title: 成都云计算企业清单
+category: industry
+tags: [区块链, chengdu, 软件, 互联网, 云计算]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 成都云计算企业清单
 
 ## 1. 主题介绍

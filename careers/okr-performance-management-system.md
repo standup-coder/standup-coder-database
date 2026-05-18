@@ -1,3 +1,11 @@
+---
+title: OKR与绩效管理体系
+category: careers
+tags: [软件]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # OKR与绩效管理体系
 
 ## 1. OKR基础理论与实践框架

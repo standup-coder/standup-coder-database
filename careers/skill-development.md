@@ -1,3 +1,11 @@
+---
+title: IT技能评估与能力提升指南
+category: careers
+tags: [云计算, 软件, 人工智能]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # IT技能评估与能力提升指南
 
 ## 1. 技术能力评估体系

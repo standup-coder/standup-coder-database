@@ -1,3 +1,11 @@
+---
+title: IT行业薪资水平与福利待遇基准
+category: careers
+tags: [金融科技, 互联网]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # IT行业薪资水平与福利待遇基准
 
 ## 1. 2026年中国IT行业薪资概览

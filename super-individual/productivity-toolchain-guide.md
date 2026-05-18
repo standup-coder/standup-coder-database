@@ -1,3 +1,11 @@
+---
+title: 生产力工具链指南
+category: super-individual
+tags: [软件, 网络安全]
+lastUpdated: 2026年4月
+aiGenerated: false
+---
+
 # 生产力工具链指南
 
 ## 1. 概述

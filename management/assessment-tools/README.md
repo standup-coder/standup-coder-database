@@ -1,3 +1,10 @@
+---
+title: 管理评估工具
+category: management
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # 管理评估工具
 
 ## 概述

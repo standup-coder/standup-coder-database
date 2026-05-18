@@ -1,3 +1,11 @@
+---
+title: 上海商业航天企业清单
+category: industry
+tags: [智能制造, shanghai]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 上海商业航天企业清单
 
 ## 主题介绍

@@ -1,3 +1,11 @@
+---
+title: 香港区块链行业企业清单
+category: industry
+tags: [区块链, hongkong]
+lastUpdated: 2023年6月
+aiGenerated: true
+---
+
 # 香港区块链行业企业清单
 
 ## 1. 主题介绍

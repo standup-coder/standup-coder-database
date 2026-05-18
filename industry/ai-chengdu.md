@@ -1,3 +1,11 @@
+---
+title: 成都人工智能企业清单
+category: industry
+tags: [网络安全, chengdu, 物联网, 软件, 云计算]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 成都人工智能企业清单
 
 ## 1. 主题介绍

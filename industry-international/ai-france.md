@@ -1,3 +1,11 @@
+---
+title: 法国人工智能企业清单
+category: industry
+tags: [人工智能, 大数据]
+lastUpdated: 2023年4月
+aiGenerated: true
+---
+
 # 法国人工智能企业清单
 
 ## 1. 主题介绍

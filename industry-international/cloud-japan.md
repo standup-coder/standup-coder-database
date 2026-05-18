@@ -1,3 +1,11 @@
+---
+title: 日本云计算企业清单
+category: industry
+tags: [网络安全, 物联网, 软件, 云计算, 人工智能]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 日本云计算企业清单
 
 ## 主题介绍

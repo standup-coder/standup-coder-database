@@ -1,3 +1,11 @@
+---
+title: 中国主要科技基金会清单
+category: tech-foundations
+tags: [软件, 人工智能, 新能源, 大数据]
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 中国主要科技基金会清单
 
 ## 1. 项目介绍

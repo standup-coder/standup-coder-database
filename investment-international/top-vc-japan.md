@@ -1,3 +1,11 @@
+---
+title: 日本风险投资机构清单
+category: investment
+tags: [金融科技, 网络安全, 区块链, 物联网, 软件]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 日本风险投资机构清单
 
 ## 主题介绍

@@ -1,3 +1,11 @@
+---
+title: BI工程师职位描述(JD)
+category: jobs
+tags: [大数据]
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # BI工程师职位描述(JD)
 
 ## 岗位基本信息

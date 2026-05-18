@@ -1,3 +1,11 @@
+---
+title: 美国IT外包服务提供商清单
+category: outsourcing
+tags: [网络安全, 区块链, 物联网, 软件, 云计算]
+lastUpdated: 2026年2月
+aiGenerated: false
+---
+
 # 美国IT外包服务提供商清单
 
 ## 市场概况

@@ -1,3 +1,11 @@
+---
+title: 工商注册与公司设立全指南
+category: super-individual
+tags: [软件, 互联网]
+lastUpdated: 2026年4月
+aiGenerated: false
+---
+
 # 工商注册与公司设立全指南
 
 ## 1. 概述

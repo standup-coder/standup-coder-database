@@ -1,3 +1,10 @@
+---
+title: International Technology Events & Conferences
+category: events
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # International Technology Events & Conferences
 
 ## Overview

@@ -1,3 +1,10 @@
+---
+title: International Interview Skills Guide
+category: interview-skills
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # International Interview Skills Guide
 
 ## Overview

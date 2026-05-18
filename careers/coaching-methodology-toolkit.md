@@ -1,3 +1,10 @@
+---
+title: 技术辅导方法论工具包
+category: careers
+lastUpdated: 2026年05月
+aiGenerated: true
+---
+
 # 技术辅导方法论工具包
 
 ## 1. 辅导概述

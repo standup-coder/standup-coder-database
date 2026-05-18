@@ -1,3 +1,11 @@
+---
+title: Android App 发布指南
+category: super-individual
+tags: [软件]
+lastUpdated: 2026年05月
+aiGenerated: false
+---
+
 # Android App 发布指南
 
 国内安卓渠道分发全攻略，包括华为、小米、OPPO、vivo、TapTap 等。
