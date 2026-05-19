@@ -2,7 +2,7 @@
 title: 深圳软件企业清单
 category: industry
 tags: [网络安全, 区块链, shenzhen, 软件, 互联网]
-lastUpdated: 2026年1月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 

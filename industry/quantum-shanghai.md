@@ -2,7 +2,7 @@
 title: 上海量子科技企业清单
 category: industry
 tags: [金融科技, 软件, shanghai]
-lastUpdated: 2026年05月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 

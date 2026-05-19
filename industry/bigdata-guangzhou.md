@@ -2,7 +2,7 @@
 title: 广州大数据行业企业清单
 category: industry
 tags: [guangzhou, 软件, 智能制造, 互联网, 云计算]
-lastUpdated: 2026年1月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 
@@ -15,17 +15,17 @@ aiGenerated: true
 
 ### 2.1 总部在广州的企业
 
-| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 办公地址 |
-|----------|------|----------|----------|---------------|----------|----------|----------|----------|
-| 广州佳都科技集团股份有限公司 | 佳都科技 | 1992年 | 智能安防、大数据、轨道交通 | 智慧城市解决方案、AI视觉 | 8000+人 | [https://www.pci-suntektech.com](https://www.pci-suntektech.com) | 上交所：600728 | 广州市天河区天河路385号 |
-| 广州视源电子科技股份有限公司 | 视源股份 | 2005年 | 智能显示、大数据、教育科技 | 希沃教育平板、MAXHUB会议平板 | 10000+人 | [https://www.cvte.com](https://www.cvte.com) | 深交所：002841 | 广州市黄埔区科学城科学大道中99号 |
-| 广州欢聚时代科技有限公司 | 欢聚集团 | 2005年 | 直播、社交、大数据推荐 | YY直播、BIGO | 8000+人 | [https://www.joyy.com](https://www.joyy.com) | 纳斯达克：YY | 广州市番禺区万博CBD万达广场 |
-| 广州浩云科技股份有限公司 | 浩云科技 | 2001年 | 智能安防、大数据 | 金融安防解决方案、智慧园区 | 1500+人 | [https://www.haoyuntech.com](https://www.haoyuntech.com) | 深交所：300448 | 广州市番禺区南村镇万博二路79号 |
-| 广州智度科技股份有限公司 | 智度股份 | 1996年 | 数字营销、大数据 | 数字广告平台、营销大数据 | 2000+人 | [https://www.zd.cn](https://www.zd.cn) | 深交所：000676 | 广州市天河区珠江新城 |
-| 广州达安基因股份有限公司 | 达安基因 | 1988年 | 基因检测、医疗大数据 | 基因检测试剂、医疗诊断大数据 | 5000+人 | [https://www.daangene.com](https://www.daangene.com) | 深交所：002030 | 广州市黄埔区科学城科汇金谷 |
-| 广州极飞科技股份有限公司 | 极飞科技 | 2007年 | 农业科技、大数据 | 农业无人机、农业大数据平台 | 2000+人 | [https://www.xag.cn](https://www.xag.cn) | 未上市 | 广州市天河区高普路168号 |
-| 广州唯品会信息科技有限公司 | 唯品会 | 2008年 | 电商、大数据推荐 | 唯品会APP、品牌特卖 | 12000+人 | [https://www.vip.com](https://www.vip.com) | 纽交所：VIPS | 广州市荔湾区花地大道南890号 |
-| 广州虎牙信息科技有限公司 | 虎牙直播 | 2014年 | 游戏直播、大数据推荐 | 虎牙直播APP | 3000+人 | [https://www.huya.com](https://www.huya.com) | 纽交所：HUYA | 广州市番禺区万博CBD |
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| 广州佳都科技集团股份有限公司 | 佳都科技 | 1992年 | 智能安防、大数据、轨道交通 | 智慧城市解决方案、AI视觉 | 8000+人 | [https://www.pci-suntektech.com](https://www.pci-suntektech.com) | 上交所：600728 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 广州市天河区天河路385号 |
+| 广州视源电子科技股份有限公司 | 视源股份 | 2005年 | 智能显示、大数据、教育科技 | 希沃教育平板、MAXHUB会议平板 | 10000+人 | [https://www.cvte.com](https://www.cvte.com) | 深交所：002841 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 广州市黄埔区科学城科学大道中99号 |
+| 广州欢聚时代科技有限公司 | 欢聚集团 | 2005年 | 直播、社交、大数据推荐 | YY直播、BIGO | 8000+人 | [https://www.joyy.com](https://www.joyy.com) | 纳斯达克：YY | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 广州市番禺区万博CBD万达广场 |
+| 广州浩云科技股份有限公司 | 浩云科技 | 2001年 | 智能安防、大数据 | 金融安防解决方案、智慧园区 | 1500+人 | [https://www.haoyuntech.com](https://www.haoyuntech.com) | 深交所：300448 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 广州市番禺区南村镇万博二路79号 |
+| 广州智度科技股份有限公司 | 智度股份 | 1996年 | 数字营销、大数据 | 数字广告平台、营销大数据 | 2000+人 | [https://www.zd.cn](https://www.zd.cn) | 深交所：000676 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 广州市天河区珠江新城 |
+| 广州达安基因股份有限公司 | 达安基因 | 1988年 | 基因检测、医疗大数据 | 基因检测试剂、医疗诊断大数据 | 5000+人 | [https://www.daangene.com](https://www.daangene.com) | 深交所：002030 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 广州市黄埔区科学城科汇金谷 |
+| 广州极飞科技股份有限公司 | 极飞科技 | 2007年 | 农业科技、大数据 | 农业无人机、农业大数据平台 | 2000+人 | [https://www.xag.cn](https://www.xag.cn) | 未上市 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 广州市天河区高普路168号 |
+| 广州唯品会信息科技有限公司 | 唯品会 | 2008年 | 电商、大数据推荐 | 唯品会APP、品牌特卖 | 12000+人 | [https://www.vip.com](https://www.vip.com) | 纽交所：VIPS | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 广州市荔湾区花地大道南890号 |
+| 广州虎牙信息科技有限公司 | 虎牙直播 | 2014年 | 游戏直播、大数据推荐 | 虎牙直播APP | 3000+人 | [https://www.huya.com](https://www.huya.com) | 纽交所：HUYA | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 广州市番禺区万博CBD |
 
 ### 2.2 在广州有重要办公地的外资/外地企业
 
@@ -54,9 +54,9 @@ aiGenerated: true
 
 | 企业名称 | 简称 | 总部所在地 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 广州办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
 |----------|------|------------|----------|----------|----------|----------|--------------|----------|
-| NEC Corporation Guangzhou | NEC广州 | 日本东京 | 企业大数据、AI分析 | NEC大数据平台、AI解决方案 | 110,000+人 | [https://www.nec.com/en/global/solutions/data-analytics.html](https://www.nec.com/en/global/solutions/data-analytics.html) | 东京证券交易所(6701) | 已上市 | 软件授权、数据分析服务 | NEC大数据平台 | 广州市天河区软件园 | Twitter: @NEC_Corporation | - | 企业大数据架构 | 技术实力强 | 国际制裁风险 | [NEC财报](https://www.nec.com/en/global/ir/library/annual_report/index.html) |
-| Fujitsu Limited Guangzhou | 富士通广州 | 日本东京 | 混合大数据、企业分析 | Fujitsu Data Analytics、Uvance | 120,000+人 | [https://www.fujitsu.com/global/solutions/data-analytics/](https://www.fujitsu.com/global/solutions/data-analytics/) | 东京证券交易所(6702) | 已上市 | 软件授权、数据分析服务 | Fujitsu大数据平台 | 广州市天河区软件园 | Twitter: @Fujitsu_Global | - | 混合大数据架构 | 技术实力强 | 国际制裁风险 | [富士通财报](https://www.fujitsu.com/jp/group/corporate/investor/finance/) |
-| Hitachi, Ltd. Guangzhou | 日立广州 | 日本东京 | 工业大数据、IoT分析 | Lumada平台、Hitachi Vantara | 350,000+人 | [https://www.hitachi.com/products/analytics/](https://www.hitachi.com/products/analytics/) | 东京证券交易所(6501) | 已上市 | 软件授权、数据分析服务 | Hitachi大数据平台 | 广州市黄埔区科学城 | Twitter: @HitachiGlobal | - | 工业大数据架构 | 技术实力强 | 国际制裁风险 | [日立财报](https://www.hitachi.com/investor/) |
+| NEC Corporation Guangzhou | NEC广州 | 日本东京 | 企业大数据、AI分析 | NEC大数据平台、AI解决方案 | 110,000+人 | [https://www.nec.com/en/global/solutions/data-analytics.html](https://www.nec.com/en/global/solutions/data-analytics.html) | 东京证券交易所(6701) | 已上市 | 软件授权、数据分析服务 | NEC大数据平台 | 广州市天河区软件园 | Twitter: @NEC_Corporation | [待补充] | 企业大数据架构 | 技术实力强 | 国际制裁风险 | [NEC财报](https://www.nec.com/en/global/ir/library/annual_report/index.html) |
+| Fujitsu Limited Guangzhou | 富士通广州 | 日本东京 | 混合大数据、企业分析 | Fujitsu Data Analytics、Uvance | 120,000+人 | [https://www.fujitsu.com/global/solutions/data-analytics/](https://www.fujitsu.com/global/solutions/data-analytics/) | 东京证券交易所(6702) | 已上市 | 软件授权、数据分析服务 | Fujitsu大数据平台 | 广州市天河区软件园 | Twitter: @Fujitsu_Global | [待补充] | 混合大数据架构 | 技术实力强 | 国际制裁风险 | [富士通财报](https://www.fujitsu.com/jp/group/corporate/investor/finance/) |
+| Hitachi, Ltd. Guangzhou | 日立广州 | 日本东京 | 工业大数据、IoT分析 | Lumada平台、Hitachi Vantara | 350,000+人 | [https://www.hitachi.com/products/analytics/](https://www.hitachi.com/products/analytics/) | 东京证券交易所(6501) | 已上市 | 软件授权、数据分析服务 | Hitachi大数据平台 | 广州市黄埔区科学城 | Twitter: @HitachiGlobal | [待补充] | 工业大数据架构 | 技术实力强 | 国际制裁风险 | [日立财报](https://www.hitachi.com/investor/) |
 
 #### 2.2.4 中国其他地区企业
 

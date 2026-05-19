@@ -2,7 +2,7 @@
 title: 农业科技企业清单
 category: industry
 tags: [生物技术, 物联网, 软件, 互联网, 人工智能]
-lastUpdated: 2026年05月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 

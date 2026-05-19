@@ -3,6 +3,8 @@ title: 生产力工具链指南
 category: super-individual
 tags: [软件, 网络安全]
 lastUpdated: 2026年4月
+dataSource: 待补充
+verificationLevel: medium  # 基于公开资料整理，部分内容需验证
 aiGenerated: false
 ---
 

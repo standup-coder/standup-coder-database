@@ -2,6 +2,7 @@
 title: OPC融资与资本运作指南
 category: super-individual
 dataSource: ├── Indie Hackers交易板块
+verificationLevel: medium  # 基于公开资料整理，部分内容需验证
 lastUpdated: 2026年4月
 aiGenerated: false
 ---

@@ -2,7 +2,7 @@
 title: 深圳新材料行业企业列表
 category: industry
 tags: [新材料, 智能制造, 新能源, shenzhen]
-lastUpdated: 2026年1月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 

@@ -2,7 +2,7 @@
 title: 上海大数据行业企业清单
 category: industry
 tags: [软件, 智能制造, 互联网, 金融科技, shanghai]
-lastUpdated: 2026年1月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 
@@ -13,20 +13,20 @@ aiGenerated: true
 
 ## 2. 企业列表
 
-| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 办公地址 |
-|----------|------|----------|----------|---------------|----------|----------|----------|----------|
-| 上海携程旅游网络技术有限公司 | 携程 | 1999年 | 在线旅游、大数据分析 | 携程旅行、去哪儿、Trip.com | 30000+人 | [https://www.ctrip.com](https://www.ctrip.com) | 纳斯达克：TCOM/港交所：9961 | 上海市长宁区金钟路968号凌空SOHO |
-| 上海寻梦信息技术有限公司 | 拼多多 | 2015年 | 电商大数据、推荐算法 | 拼多多APP、多多买菜 | 15000+人 | [https://www.pinduoduo.com](https://www.pinduoduo.com) | 纳斯达克：PDD | 上海市长宁区娄山关路533号 |
-| 上海哔哩哔哩科技有限公司 | B站 | 2009年 | 视频内容、推荐算法、大数据 | 哔哩哔哩APP、B站直播 | 12000+人 | [https://www.bilibili.com](https://www.bilibili.com) | 纳斯达克：BILI/港交所：9626 | 上海市杨浦区政立路485号国正中心 |
-| 上海行吟信息科技有限公司 | 小红书 | 2013年 | 社交电商、内容推荐、大数据 | 小红书APP | 10000+人 | [https://www.xiaohongshu.com](https://www.xiaohongshu.com) | 未上市 | 上海市黄浦区淮海中路300号 |
-| 上海陆金所信息技术有限公司 | 陆金所 | 2011年 | 金融科技、大数据风控 | 陆金所APP、智能投顾 | 5000+人 | [https://www.lu.com](https://www.lu.com) | 纽交所：LU | 上海市浦东新区陆家嘴环路1000号 |
-| 达达集团 | 达达 | 2014年 | 即时配送、零售大数据 | 达达快送、京东到家 | 8000+人 | [https://www.imdada.cn](https://www.imdada.cn) | 纳斯达克：DADA | 上海市浦东新区张江高科技园区 |
-| 上海盒马网络科技有限公司 | 盒马 | 2015年 | 新零售、供应链大数据 | 盒马鲜生APP | 50000+人 | [https://www.hema.cn](https://www.hema.cn) | 未上市（阿里巴巴旗下） | 上海市浦东新区世纪大道1600号 |
-| 上海拉扎斯信息科技有限公司 | 饿了么 | 2008年 | 本地生活、配送大数据 | 饿了么APP | 20000+人 | [https://www.ele.me](https://www.ele.me) | 未上市（阿里巴巴旗下） | 上海市普陀区近铁城市广场 |
-| 上海众安在线财产保险股份有限公司 | 众安保险 | 2013年 | 互联网保险、大数据风控 | 众安保险APP、智能核保 | 4000+人 | [https://www.zhongan.com](https://www.zhongan.com) | 港交所：6060 | 上海市黄浦区延安东路618号 |
-| 上海星环信息科技有限公司 | 星环科技 | 2013年 | 大数据平台、数据库 | TDH大数据平台、ArgoDB | 1500+人 | [https://www.transwarp.cn](https://www.transwarp.cn) | 科创板：688031 | 上海市闵行区紫竹高新区 |
-| 上海找钢网信息科技股份有限公司 | 找钢网 | 2012年 | 产业大数据、B2B电商 | 找钢网平台、钢铁大数据 | 2000+人 | [https://www.zhaogang.com](https://www.zhaogang.com) | 未上市 | 上海市宝山区蕴川路5475号 |
-| 上海数据交易中心有限公司 | 上海数交所 | 2016年 | 数据交易、数据资产 | 数据交易平台、数据资产确权 | 300+人 | [https://www.chinadep.com](https://www.chinadep.com) | 未上市（国资） | 上海市浦东新区世纪大道100号 |
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| 上海携程旅游网络技术有限公司 | 携程 | 1999年 | 在线旅游、大数据分析 | 携程旅行、去哪儿、Trip.com | 30000+人 | [https://www.ctrip.com](https://www.ctrip.com) | 纳斯达克：TCOM/港交所：9961 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 上海市长宁区金钟路968号凌空SOHO |
+| 上海寻梦信息技术有限公司 | 拼多多 | 2015年 | 电商大数据、推荐算法 | 拼多多APP、多多买菜 | 15000+人 | [https://www.pinduoduo.com](https://www.pinduoduo.com) | 纳斯达克：PDD | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 上海市长宁区娄山关路533号 |
+| 上海哔哩哔哩科技有限公司 | B站 | 2009年 | 视频内容、推荐算法、大数据 | 哔哩哔哩APP、B站直播 | 12000+人 | [https://www.bilibili.com](https://www.bilibili.com) | 纳斯达克：BILI/港交所：9626 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 上海市杨浦区政立路485号国正中心 |
+| 上海行吟信息科技有限公司 | 小红书 | 2013年 | 社交电商、内容推荐、大数据 | 小红书APP | 10000+人 | [https://www.xiaohongshu.com](https://www.xiaohongshu.com) | 未上市 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 上海市黄浦区淮海中路300号 |
+| 上海陆金所信息技术有限公司 | 陆金所 | 2011年 | 金融科技、大数据风控 | 陆金所APP、智能投顾 | 5000+人 | [https://www.lu.com](https://www.lu.com) | 纽交所：LU | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 上海市浦东新区陆家嘴环路1000号 |
+| 达达集团 | 达达 | 2014年 | 即时配送、零售大数据 | 达达快送、京东到家 | 8000+人 | [https://www.imdada.cn](https://www.imdada.cn) | 纳斯达克：DADA | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 上海市浦东新区张江高科技园区 |
+| 上海盒马网络科技有限公司 | 盒马 | 2015年 | 新零售、供应链大数据 | 盒马鲜生APP | 50000+人 | [https://www.hema.cn](https://www.hema.cn) | 未上市（阿里巴巴旗下） | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 上海市浦东新区世纪大道1600号 |
+| 上海拉扎斯信息科技有限公司 | 饿了么 | 2008年 | 本地生活、配送大数据 | 饿了么APP | 20000+人 | [https://www.ele.me](https://www.ele.me) | 未上市（阿里巴巴旗下） | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 上海市普陀区近铁城市广场 |
+| 上海众安在线财产保险股份有限公司 | 众安保险 | 2013年 | 互联网保险、大数据风控 | 众安保险APP、智能核保 | 4000+人 | [https://www.zhongan.com](https://www.zhongan.com) | 港交所：6060 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 上海市黄浦区延安东路618号 |
+| 上海星环信息科技有限公司 | 星环科技 | 2013年 | 大数据平台、数据库 | TDH大数据平台、ArgoDB | 1500+人 | [https://www.transwarp.cn](https://www.transwarp.cn) | 科创板：688031 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 上海市闵行区紫竹高新区 |
+| 上海找钢网信息科技股份有限公司 | 找钢网 | 2012年 | 产业大数据、B2B电商 | 找钢网平台、钢铁大数据 | 2000+人 | [https://www.zhaogang.com](https://www.zhaogang.com) | 未上市 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 上海市宝山区蕴川路5475号 |
+| 上海数据交易中心有限公司 | 上海数交所 | 2016年 | 数据交易、数据资产 | 数据交易平台、数据资产确权 | 300+人 | [https://www.chinadep.com](https://www.chinadep.com) | 未上市（国资） | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 上海市浦东新区世纪大道100号 |
 
 ## 3. 国际企业列表
 
@@ -56,9 +56,9 @@ aiGenerated: true
 
 | 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
 |----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
-| NEC Corporation Shanghai | NEC上海 | 1899年 | 企业大数据、AI分析 | NEC大数据平台、AI解决方案 | 110,000+人 | [https://www.nec.com/en/global/solutions/data-analytics.html](https://www.nec.com/en/global/solutions/data-analytics.html) | 东京证券交易所(6701) | 已上市 | 软件授权、数据分析服务 | NEC大数据平台 | 上海市浦东新区张江高科技园区 | Twitter: @NEC_Corporation | - | 企业大数据架构 | 技术实力强 | 国际制裁风险 | [NEC财报](https://www.nec.com/en/global/ir/library/annual_report/index.html) |
-| Fujitsu Limited Shanghai | 富士通上海 | 1935年 | 混合大数据、企业分析 | Fujitsu Data Analytics、Uvance | 120,000+人 | [https://www.fujitsu.com/global/solutions/data-analytics/](https://www.fujitsu.com/global/solutions/data-analytics/) | 东京证券交易所(6702) | 已上市 | 软件授权、数据分析服务 | Fujitsu大数据平台 | 上海市浦东新区张江高科技园区 | Twitter: @Fujitsu_Global | - | 混合大数据架构 | 技术实力强 | 国际制裁风险 | [富士通财报](https://www.fujitsu.com/jp/group/corporate/investor/finance/) |
-| Hitachi, Ltd. Shanghai | 日立上海 | 1910年 | 工业大数据、IoT分析 | Lumada平台、Hitachi Vantara | 350,000+人 | [https://www.hitachi.com/products/analytics/](https://www.hitachi.com/products/analytics/) | 东京证券交易所(6501) | 已上市 | 软件授权、数据分析服务 | Hitachi大数据平台 | 上海市浦东新区张江高科技园区 | Twitter: @HitachiGlobal | - | 工业大数据架构 | 技术实力强 | 国际制裁风险 | [日立财报](https://www.hitachi.com/investor/) |
+| NEC Corporation Shanghai | NEC上海 | 1899年 | 企业大数据、AI分析 | NEC大数据平台、AI解决方案 | 110,000+人 | [https://www.nec.com/en/global/solutions/data-analytics.html](https://www.nec.com/en/global/solutions/data-analytics.html) | 东京证券交易所(6701) | 已上市 | 软件授权、数据分析服务 | NEC大数据平台 | 上海市浦东新区张江高科技园区 | Twitter: @NEC_Corporation | [待补充] | 企业大数据架构 | 技术实力强 | 国际制裁风险 | [NEC财报](https://www.nec.com/en/global/ir/library/annual_report/index.html) |
+| Fujitsu Limited Shanghai | 富士通上海 | 1935年 | 混合大数据、企业分析 | Fujitsu Data Analytics、Uvance | 120,000+人 | [https://www.fujitsu.com/global/solutions/data-analytics/](https://www.fujitsu.com/global/solutions/data-analytics/) | 东京证券交易所(6702) | 已上市 | 软件授权、数据分析服务 | Fujitsu大数据平台 | 上海市浦东新区张江高科技园区 | Twitter: @Fujitsu_Global | [待补充] | 混合大数据架构 | 技术实力强 | 国际制裁风险 | [富士通财报](https://www.fujitsu.com/jp/group/corporate/investor/finance/) |
+| Hitachi, Ltd. Shanghai | 日立上海 | 1910年 | 工业大数据、IoT分析 | Lumada平台、Hitachi Vantara | 350,000+人 | [https://www.hitachi.com/products/analytics/](https://www.hitachi.com/products/analytics/) | 东京证券交易所(6501) | 已上市 | 软件授权、数据分析服务 | Hitachi大数据平台 | 上海市浦东新区张江高科技园区 | Twitter: @HitachiGlobal | [待补充] | 工业大数据架构 | 技术实力强 | 国际制裁风险 | [日立财报](https://www.hitachi.com/investor/) |
 
 ### 3.1 按成立时间排序
 

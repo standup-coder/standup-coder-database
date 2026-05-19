@@ -2,7 +2,7 @@
 title: 北京云计算企业清单
 category: industry
 tags: [云计算, 网络安全, 软件, beijing]
-lastUpdated: 2026年1月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 
@@ -20,9 +20,9 @@ aiGenerated: true
 | 金山云控股有限公司 | 金山云 | 2012年 | IaaS、PaaS、SaaS | 金山云服务器、金山云数据库 | 1000-5000人 | https://www.ksyun.com | 已上市(KC) | 已上市 | 云服务订阅 | 金山云平台 | 北京市海淀区小营西路33号金山软件大厦 | 微信公众号：金山云 | https://github.com/ksyun | 云计算架构 | 技术氛围好 | 数据安全风险 | [金山云财报](https://ir.ksyun.com/financial-reports/default.aspx) |
 | 青云科技股份有限公司 | 青云科技 | 2012年 | IaaS、PaaS、混合云 | 青云QingCloud、KubeSphere | 500-999人 | https://www.qingcloud.com | 已上市(688316) | 已上市 | 云服务订阅 | 青云QingCloud、KubeSphere | 北京市海淀区知春路63号中国卫星通信大厦 | 微信公众号：青云QingCloud | https://github.com/kubesphere | 云计算架构、K8s | 技术氛围好 | 数据安全风险 | [上交所公告](http://www.sse.com.cn/disclosure/listedinfo/regular/) |
 | 优刻得科技股份有限公司 | UCloud | 2012年 | IaaS、PaaS、容器云 | UCloud云服务器 | 1000-5000人 | https://www.ucloud.cn | 已上市(688158) | 已上市 | 云服务订阅 | UCloud云平台 | 北京市海淀区学院路30号科大天工大厦(北京办公室) | 微信公众号：UCloud优刻得 | https://github.com/ucloud | 云计算架构 | 技术氛围好 | 数据安全风险 | [上交所公告](http://www.sse.com.cn/disclosure/listedinfo/regular/) |
-| 北京启明星辰信息安全技术有限公司 | 启明星辰 | 1996年 | 网络安全、云安全 | 启明星辰云安全、SOC | 5000-10000人 | https://www.venustech.com.cn | 已上市(002439) | 已上市 | 安全产品销售 | 启明星辰SOC | 北京市海淀区东北旺西路8号中关村软件园 | 微信公众号：启明星辰 | - | 安全技术架构 | 技术实力强 | 网络安全风险 | [深交所公告](http://www.szse.cn/disclosure/listed/fixed/index.html) |
-| 北京天融信网络安全技术有限公司 | 天融信 | 1995年 | 网络安全、云安全 | 天融信防火墙、云安全 | 5000-10000人 | https://www.topsec.com.cn | 已上市(002212) | 已上市 | 安全产品销售 | 天融信防火墙 | 北京市海淀区上地信息路1号 | 微信公众号：天融信 | - | 安全技术架构 | 技术实力强 | 网络安全风险 | [深交所公告](http://www.szse.cn/disclosure/listed/fixed/index.html) |
-| 北京奇安信科技集团股份有限公司 | 奇安信 | 2014年 | 网络安全、云安全 | 奇安信EDR、云安全 | 5000-10000人 | https://www.qianxin.com | 已上市(688561) | 已上市 | 安全产品销售 | 奇安信EDR | 北京市海淀区学院路21号 | 微信公众号：奇安信 | - | 安全技术架构 | 技术实力强 | 网络安全风险 | [上交所公告](http://www.sse.com.cn/disclosure/listedinfo/regular/) |
+| 北京启明星辰信息安全技术有限公司 | 启明星辰 | 1996年 | 网络安全、云安全 | 启明星辰云安全、SOC | 5000-10000人 | https://www.venustech.com.cn | 已上市(002439) | 已上市 | 安全产品销售 | 启明星辰SOC | 北京市海淀区东北旺西路8号中关村软件园 | 微信公众号：启明星辰 | [待补充] | 安全技术架构 | 技术实力强 | 网络安全风险 | [深交所公告](http://www.szse.cn/disclosure/listed/fixed/index.html) |
+| 北京天融信网络安全技术有限公司 | 天融信 | 1995年 | 网络安全、云安全 | 天融信防火墙、云安全 | 5000-10000人 | https://www.topsec.com.cn | 已上市(002212) | 已上市 | 安全产品销售 | 天融信防火墙 | 北京市海淀区上地信息路1号 | 微信公众号：天融信 | [待补充] | 安全技术架构 | 技术实力强 | 网络安全风险 | [深交所公告](http://www.szse.cn/disclosure/listed/fixed/index.html) |
+| 北京奇安信科技集团股份有限公司 | 奇安信 | 2014年 | 网络安全、云安全 | 奇安信EDR、云安全 | 5000-10000人 | https://www.qianxin.com | 已上市(688561) | 已上市 | 安全产品销售 | 奇安信EDR | 北京市海淀区学院路21号 | 微信公众号：奇安信 | [待补充] | 安全技术架构 | 技术实力强 | 网络安全风险 | [上交所公告](http://www.sse.com.cn/disclosure/listedinfo/regular/) |
 
 ## 3. 国际企业列表
 

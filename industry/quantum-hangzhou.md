@@ -2,7 +2,7 @@
 title: 杭州量子科技企业清单
 category: industry
 tags: [云计算, 软件, 互联网, hangzhou]
-lastUpdated: 2026年05月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 

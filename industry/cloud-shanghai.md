@@ -2,7 +2,7 @@
 title: 上海云计算企业清单
 category: industry
 tags: [云计算, 软件, shanghai, 网络安全]
-lastUpdated: 2026年1月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 
@@ -17,10 +17,10 @@ aiGenerated: true
 |----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
 | 优刻得科技股份有限公司 | UCloud | 2012年 | IaaS、PaaS、容器云 | UCloud云服务器、UK8S | 1000-5000人 | https://www.ucloud.cn | 已上市(688158) | 已上市 | 云服务订阅 | UCloud云平台 | 上海市杨浦区隆昌路619号城市概念创意园区10号楼B座 | 微信公众号：UCloud优刻得 | https://github.com/ucloud | 云计算架构 | 技术氛围好 | 数据安全风险 | [上交所公告](http://www.sse.com.cn/disclosure/listedinfo/regular/) |
 | 上海七牛信息技术有限公司 | 七牛云 | 2011年 | 云存储、CDN、音视频云 | 七牛云存储、七牛CDN | 500-999人 | https://www.qiniu.com | 未上市 | 多轮融资 | 云存储服务 | 七牛云存储 | 上海市徐汇区桂平路391号新漕河泾国际商务中心 | 微信公众号：七牛云 | https://github.com/qiniu | 云存储架构 | 技术氛围好 | 数据安全风险 | 未公开 |
-| 世纪互联数据中心有限公司 | 世纪互联 | 1996年 | 数据中心、云计算、CDN | 世纪互联数据中心 | 5000-10000人 | https://www.21vianet.com | 已上市(VNET) | 已上市 | 数据中心服务 | 数据中心托管 | 上海市浦东新区张江高科技园区(上海分公司) | 微信公众号：世纪互联 | - | 数据中心架构 | 团队专业 | 数据安全风险 | [公司财报](https://ir.21vianet.com) |
-| 万国数据服务有限公司 | 万国数据 | 2000年 | 数据中心、云计算 | 数据中心托管、云灾备 | 5000-10000人 | https://www.gds-services.com | 已上市(GDS) | 已上市 | 数据中心服务 | 数据中心托管 | 上海市浦东新区张江高科技园区博云路2号 | 微信公众号：万国数据 | - | 数据中心架构 | 团队专业 | 数据安全风险 | [公司财报](https://ir.gds-services.com) |
-| 网宿科技股份有限公司 | 网宿科技 | 2000年 | CDN、云计算、云安全 | 网宿CDN、边缘计算 | 1000-5000人 | https://www.wangsu.com | 已上市(300017) | 已上市 | CDN服务 | 网宿CDN | 上海市徐汇区桂平路391号(上海总部) | 微信公众号：网宿科技 | - | CDN架构 | 技术氛围好 | 网络安全风险 | [深交所公告](http://www.szse.cn/disclosure/listed/fixed/index.html) |
-| 上海商汤科技开发有限公司 | 商汤科技 | 2014年 | AI云、计算机视觉 | SenseCore AI云、大模型 | 5000-10000人 | https://www.sensetime.com | 已上市(0020.HK) | 已上市 | AI产品+云服务 | SenseCore AI平台 | 上海市徐汇区漕宝路66号光大会展中心 | 微信公众号：商汤科技 | - | AI架构 | 技术实力强 | AI合规风险 | [港交所公告](https://www.hkex.com.hk) |
+| 世纪互联数据中心有限公司 | 世纪互联 | 1996年 | 数据中心、云计算、CDN | 世纪互联数据中心 | 5000-10000人 | https://www.21vianet.com | 已上市(VNET) | 已上市 | 数据中心服务 | 数据中心托管 | 上海市浦东新区张江高科技园区(上海分公司) | 微信公众号：世纪互联 | [待补充] | 数据中心架构 | 团队专业 | 数据安全风险 | [公司财报](https://ir.21vianet.com) |
+| 万国数据服务有限公司 | 万国数据 | 2000年 | 数据中心、云计算 | 数据中心托管、云灾备 | 5000-10000人 | https://www.gds-services.com | 已上市(GDS) | 已上市 | 数据中心服务 | 数据中心托管 | 上海市浦东新区张江高科技园区博云路2号 | 微信公众号：万国数据 | [待补充] | 数据中心架构 | 团队专业 | 数据安全风险 | [公司财报](https://ir.gds-services.com) |
+| 网宿科技股份有限公司 | 网宿科技 | 2000年 | CDN、云计算、云安全 | 网宿CDN、边缘计算 | 1000-5000人 | https://www.wangsu.com | 已上市(300017) | 已上市 | CDN服务 | 网宿CDN | 上海市徐汇区桂平路391号(上海总部) | 微信公众号：网宿科技 | [待补充] | CDN架构 | 技术氛围好 | 网络安全风险 | [深交所公告](http://www.szse.cn/disclosure/listed/fixed/index.html) |
+| 上海商汤科技开发有限公司 | 商汤科技 | 2014年 | AI云、计算机视觉 | SenseCore AI云、大模型 | 5000-10000人 | https://www.sensetime.com | 已上市(0020.HK) | 已上市 | AI产品+云服务 | SenseCore AI平台 | 上海市徐汇区漕宝路66号光大会展中心 | 微信公众号：商汤科技 | [待补充] | AI架构 | 技术实力强 | AI合规风险 | [港交所公告](https://www.hkex.com.hk) |
 
 ## 3. 国际企业列表
 
@@ -49,9 +49,9 @@ aiGenerated: true
 
 | 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
 |----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
-| NEC Corporation Shanghai | NEC上海 | 1899年 | 企业云、AI云 | NEC云平台、AI解决方案 | 110,000+人 | [https://www.nec.com](https://www.nec.com) | 东京证券交易所(6701) | 已上市 | 软件授权、云服务 | NEC云平台 | 上海市浦东新区张江高科技园区 | Twitter: @NEC_Corporation | - | 企业云架构 | 技术实力强 | 国际制裁风险 | [NEC财报](https://www.nec.com/en/global/ir/library/annual_report/index.html) |
-| Fujitsu Limited Shanghai | 富士通上海 | 1935年 | 混合云、企业云 | Fujitsu Cloud、Uvance | 120,000+人 | [https://www.fujitsu.com](https://www.fujitsu.com) | 东京证券交易所(6702) | 已上市 | 软件授权、云服务 | Fujitsu云平台 | 上海市浦东新区张江高科技园区 | Twitter: @Fujitsu_Global | - | 混合云架构 | 技术实力强 | 国际制裁风险 | [富士通财报](https://www.fujitsu.com/jp/group/corporate/investor/finance/) |
-| Hitachi, Ltd. Shanghai | 日立上海 | 1910年 | 工业云、IoT云 | Lumada平台、Hitachi Vantara | 350,000+人 | [https://www.hitachi.com](https://www.hitachi.com) | 东京证券交易所(6501) | 已上市 | 软件授权、云服务 | Hitachi云平台 | 上海市浦东新区张江高科技园区 | Twitter: @HitachiGlobal | - | 工业云架构 | 技术实力强 | 国际制裁风险 | [日立财报](https://www.hitachi.com/investor/) |
+| NEC Corporation Shanghai | NEC上海 | 1899年 | 企业云、AI云 | NEC云平台、AI解决方案 | 110,000+人 | [https://www.nec.com](https://www.nec.com) | 东京证券交易所(6701) | 已上市 | 软件授权、云服务 | NEC云平台 | 上海市浦东新区张江高科技园区 | Twitter: @NEC_Corporation | [待补充] | 企业云架构 | 技术实力强 | 国际制裁风险 | [NEC财报](https://www.nec.com/en/global/ir/library/annual_report/index.html) |
+| Fujitsu Limited Shanghai | 富士通上海 | 1935年 | 混合云、企业云 | Fujitsu Cloud、Uvance | 120,000+人 | [https://www.fujitsu.com](https://www.fujitsu.com) | 东京证券交易所(6702) | 已上市 | 软件授权、云服务 | Fujitsu云平台 | 上海市浦东新区张江高科技园区 | Twitter: @Fujitsu_Global | [待补充] | 混合云架构 | 技术实力强 | 国际制裁风险 | [富士通财报](https://www.fujitsu.com/jp/group/corporate/investor/finance/) |
+| Hitachi, Ltd. Shanghai | 日立上海 | 1910年 | 工业云、IoT云 | Lumada平台、Hitachi Vantara | 350,000+人 | [https://www.hitachi.com](https://www.hitachi.com) | 东京证券交易所(6501) | 已上市 | 软件授权、云服务 | Hitachi云平台 | 上海市浦东新区张江高科技园区 | Twitter: @HitachiGlobal | [待补充] | 工业云架构 | 技术实力强 | 国际制裁风险 | [日立财报](https://www.hitachi.com/investor/) |
 
 | 云服务商 | 上海区域节点 | 主要职能 |
 |----------|--------------|----------|

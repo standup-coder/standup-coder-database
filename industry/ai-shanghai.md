@@ -2,7 +2,7 @@
 title: 上海人工智能企业清单
 category: industry
 tags: [软件, 智能制造, 云计算, 人工智能, shanghai]
-lastUpdated: 2026年1月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 
@@ -59,7 +59,7 @@ aiGenerated: true
 | 企业名称 | 简称 | 总部所在地 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 上海办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
 |----------|------|------------|----------|----------|----------|----------|--------------|----------|
 | Sony Semiconductor Solutions (Shanghai) | 索尼上海 | 日本东京 | AI芯片、图像处理 | Aibo机器狗、AI图像处理 | 110,000+人 | [https://www.sony.com](https://www.sony.com) | 东京证券交易所：6758 | 已上市 | 消费电子、技术服务 | AI图像处理技术 | 上海市浦东新区张江高科技园区 | Twitter: @Sony | [https://github.com/sony](https://github.com/sony) | 图像AI、机器人技术 | 技术创新传统 | 专利纠纷风险 | [索尼财报](https://www.sony.com/en/SonyInfo/IR/library/annual_reports/) |
-| SoftBank Shanghai Investment | 软银上海 | 日本东京 | AI投资、机器人 | Pepper机器人、AI投资基金 | 50,000+人 | [https://group.softbank/en](https://group.softbank/en) | 东京证券交易所：9984 | 已上市 | 投资收益、技术服务 | AI生态投资 | 上海市浦东新区陆家嘴金融区 | Twitter: @softbank | - | AI投资组合管理 | 投资导向文化 | 投资风险 | [软银财报](https://group.softbank/en/ir/library/results/) |
+| SoftBank Shanghai Investment | 软银上海 | 日本东京 | AI投资、机器人 | Pepper机器人、AI投资基金 | 50,000+人 | [https://group.softbank/en](https://group.softbank/en) | 东京证券交易所：9984 | 已上市 | 投资收益、技术服务 | AI生态投资 | 上海市浦东新区陆家嘴金融区 | Twitter: @softbank | [待补充] | AI投资组合管理 | 投资导向文化 | 投资风险 | [软银财报](https://group.softbank/en/ir/library/results/) |
 | LG Electronics Shanghai | LG上海 | 韩国首尔 | 家电AI、机器人 | ThinQ AI家电、CLOi机器人 | 75,000+人 | [https://www.lg.com](https://www.lg.com) | 韩国交易所：066570 | 已上市 | 消费电子、AI服务 | ThinQ AI平台 | 上海市徐汇区漕溪北路 | Twitter: @LGNewsroom | [https://github.com/lgsvl](https://github.com/lgsvl) | 家电AI、服务机器人 | 创新氛围良好 | 国际竞争压力 | [LG财报](https://www.lg.com/global/investor-relations) |
 
 #### 2.2.4 中国其他地区企业

@@ -2,7 +2,7 @@
 title: 青岛人工智能企业清单
 category: industry
 tags: [物联网, 软件, 智能制造, 互联网, 金融科技]
-lastUpdated: 2026年05月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 

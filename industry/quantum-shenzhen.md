@@ -2,7 +2,7 @@
 title: 深圳量子科技企业清单
 category: industry
 tags: [软件, shenzhen, 网络安全]
-lastUpdated: 2026年05月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 

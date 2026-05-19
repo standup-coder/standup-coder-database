@@ -3,6 +3,8 @@ title: 自由职业与独立开发者指南
 category: super-individual
 tags: [软件]
 lastUpdated: 2026年4月
+dataSource: 待补充
+verificationLevel: medium  # 基于公开资料整理，部分内容需验证
 aiGenerated: false
 ---
 

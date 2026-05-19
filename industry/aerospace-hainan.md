@@ -1,7 +1,7 @@
 ---
 title: 海南商业航天企业清单
 category: industry
-lastUpdated: 2026年05月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 

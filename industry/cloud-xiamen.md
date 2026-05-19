@@ -2,7 +2,7 @@
 title: 厦门云计算企业清单
 category: industry
 tags: [云计算, 软件, 金融科技, 大数据]
-lastUpdated: 2026年05月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 

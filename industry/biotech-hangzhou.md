@@ -2,7 +2,7 @@
 title: 杭州生物技术行业企业清单
 category: industry
 tags: [生物技术, hangzhou]
-lastUpdated: 2026年1月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 

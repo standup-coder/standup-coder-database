@@ -2,7 +2,7 @@
 title: 深圳Web3/元宇宙企业清单
 category: industry
 tags: [金融科技, 区块链, shenzhen, 软件, 互联网]
-lastUpdated: 2026年05月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 

@@ -3,6 +3,8 @@ title: AI Agent驱动的一人公司工作流指南
 category: super-individual
 tags: [金融科技]
 lastUpdated: 2026年4月
+dataSource: 待补充
+verificationLevel: medium  # 基于公开资料整理，部分内容需验证
 aiGenerated: true
 ---
 

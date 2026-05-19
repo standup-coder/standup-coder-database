@@ -2,7 +2,7 @@
 title: 上海企业级网络安全服务清单
 category: industry
 tags: [网络安全, 软件, 互联网, shanghai, 大数据]
-lastUpdated: 2026年05月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 

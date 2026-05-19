@@ -2,7 +2,7 @@
 title: 深圳人工智能企业清单
 category: industry
 tags: [人工智能, shenzhen]
-lastUpdated: 2026年1月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 

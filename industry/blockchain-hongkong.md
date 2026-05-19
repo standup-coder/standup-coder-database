@@ -13,16 +13,16 @@ aiGenerated: true
 
 ## 2. 企业列表
 
-| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 办公地址 |
-|----------|------|----------|----------|---------------|----------|----------|----------|----------|
-| HashKey Group | HashKey | 2018年 | 数字资产交易、投资管理 | HashKey Exchange（持牌交易所）、HashKey Capital | 500+人 | [https://www.hashkey.com](https://www.hashkey.com) | 未上市 | 香港中环皇后大道中18号新世界大厦 |
-| OSL Digital Securities Limited | OSL | 2018年 | 数字资产交易、托管 | OSL Exchange（持牌交易所）、OSL Custody | 200+人 | [https://osl.com](https://osl.com) | BC科技集团：港交所0863 | 香港中环皇后大道中99号中环中心 |
-| 火币科技控股有限公司 | 火币科技 | 2019年 | 虚拟资产ETF、技术服务 | 火币虚拟资产ETF、区块链技术服务 | 300+人 | [https://www.huobitech.com](https://www.huobitech.com) | 港交所：1611 | 香港湾仔港湾道1号会展广场 |
-| Animoca Brands | Animoca | 2014年 | Web3游戏、NFT、元宇宙 | The Sandbox、Phantom Galaxies | 800+人 | [https://www.animocabrands.com](https://www.animocabrands.com) | 未上市（估值超50亿美元） | 香港铜锣湾勿地臣街1号时代广场 |
-| CertiK | CertiK | 2018年 | 区块链安全审计、智能合约审计 | 智能合约审计、链上监控Skynet | 300+人 | [https://www.certik.com](https://www.certik.com) | 未上市 | 香港中环德辅道中68号万宜大厦 |
-| Hex Trust | Hex Trust | 2018年 | 数字资产托管、机构服务 | Hex Safe托管服务、质押服务 | 100+人 | [https://hextrust.com](https://hextrust.com) | 未上市 | 香港中环皇后大道中9号 |
-| BitMEX | BitMEX | 2014年 | 加密衍生品交易 | 永续合约、期货交易 | 200+人 | [https://www.bitmex.com](https://www.bitmex.com) | 未上市 | 香港中环金融街8号 |
-| Matrixport | Matrixport | 2019年 | 数字资产管理、理财服务 | 数字资产理财、结构化产品 | 300+人 | [https://www.matrixport.com](https://www.matrixport.com) | 未上市 | 香港中环干诺道中200号信德中心 |
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| HashKey Group | HashKey | 2018年 | 数字资产交易、投资管理 | HashKey Exchange（持牌交易所）、HashKey Capital | 500+人 | [https://www.hashkey.com](https://www.hashkey.com) | 未上市 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 香港中环皇后大道中18号新世界大厦 |
+| OSL Digital Securities Limited | OSL | 2018年 | 数字资产交易、托管 | OSL Exchange（持牌交易所）、OSL Custody | 200+人 | [https://osl.com](https://osl.com) | BC科技集团：港交所0863 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 香港中环皇后大道中99号中环中心 |
+| 火币科技控股有限公司 | 火币科技 | 2019年 | 虚拟资产ETF、技术服务 | 火币虚拟资产ETF、区块链技术服务 | 300+人 | [https://www.huobitech.com](https://www.huobitech.com) | 港交所：1611 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 香港湾仔港湾道1号会展广场 |
+| Animoca Brands | Animoca | 2014年 | Web3游戏、NFT、元宇宙 | The Sandbox、Phantom Galaxies | 800+人 | [https://www.animocabrands.com](https://www.animocabrands.com) | 未上市（估值超50亿美元） | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 香港铜锣湾勿地臣街1号时代广场 |
+| CertiK | CertiK | 2018年 | 区块链安全审计、智能合约审计 | 智能合约审计、链上监控Skynet | 300+人 | [https://www.certik.com](https://www.certik.com) | 未上市 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 香港中环德辅道中68号万宜大厦 |
+| Hex Trust | Hex Trust | 2018年 | 数字资产托管、机构服务 | Hex Safe托管服务、质押服务 | 100+人 | [https://hextrust.com](https://hextrust.com) | 未上市 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 香港中环皇后大道中9号 |
+| BitMEX | BitMEX | 2014年 | 加密衍生品交易 | 永续合约、期货交易 | 200+人 | [https://www.bitmex.com](https://www.bitmex.com) | 未上市 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 香港中环金融街8号 |
+| Matrixport | Matrixport | 2019年 | 数字资产管理、理财服务 | 数字资产理财、结构化产品 | 300+人 | [https://www.matrixport.com](https://www.matrixport.com) | 未上市 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 香港中环干诺道中200号信德中心 |
 
 ## 3. 按维度分类的企业列表
 

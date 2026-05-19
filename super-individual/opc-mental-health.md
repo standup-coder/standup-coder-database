@@ -2,6 +2,8 @@
 title: OPC一人公司心理健康与可持续发展指南
 category: super-individual
 lastUpdated: 2026年4月
+dataSource: 待补充
+verificationLevel: medium  # 基于公开资料整理，部分内容需验证
 aiGenerated: false
 ---
 

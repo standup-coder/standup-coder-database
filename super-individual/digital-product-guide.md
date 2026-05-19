@@ -2,6 +2,8 @@
 title: 数字产品与知识付费全指南
 category: super-individual
 lastUpdated: 2026年4月
+dataSource: 待补充
+verificationLevel: medium  # 基于公开资料整理，部分内容需验证
 aiGenerated: true
 ---
 

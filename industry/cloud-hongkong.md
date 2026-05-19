@@ -2,7 +2,7 @@
 title: 香港云计算企业清单
 category: industry
 tags: [云计算, hongkong]
-lastUpdated: 2026年1月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 
@@ -15,12 +15,12 @@ aiGenerated: true
 
 | 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 |
 |----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
-| 新意網集團有限公司 | SUNeVision | 1999年 | 数据中心、云计算、IDC | MEGA数据中心、iAdvantage | 500-999人 | https://www.sunevision.com | 已上市(1686.HK) | 已上市 | 数据中心托管+云服务 | MEGA IDC、iAdvantage数据中心 | 香港将军澳工业邨骏昌街8号 | - | - | 企业级数据中心 | 良好 | 无重大风险 |
-| 電訊盈科有限公司 | PCCW | 2000年 | 电信、数据中心、云服务 | PCCW Solutions、HKT | 10000+人 | https://www.pccw.com | 已上市(0008.HK) | 已上市 | 电信服务+云服务 | 数据中心服务、企业云解决方案 | 香港鰂魚涌英皇道979号太古坊电讯盈科中心 | - | - | 集中式架构 | 良好 | 无重大风险 |
-| HGC環球全域電訊有限公司 | HGC | 1995年 | 电信、数据中心、ICT | HGC商业ICT方案 | 1000-5000人 | https://www.hgcbiz.com | 未上市 | 私募持有 | 电信服务+ICT方案 | 商业ICT方案、数据中心 | 香港九龙旺角通菜街1A-1L号威达商业大厦 | - | - | 集中式架构 | 良好 | 无重大风险 |
-| 亚马逊网络服务香港 | AWS香港 | 2017年 | IaaS、PaaS、SaaS | AWS EC2、S3、Lambda | 1000-5000人 | https://aws.amazon.com | 已上市(AMZN) | 已上市 | 云服务订阅 | 全栈云服务 | 香港金�的道88号太古广场 | - | - | 分布式架构 | 良好 | 无重大风险 |
-| 微软香港有限公司 | Microsoft香港 | 1991年 | IaaS、PaaS、SaaS | Azure、Microsoft 365 | 1000-5000人 | https://azure.microsoft.com | 已上市(MSFT) | 已上市 | 云服务订阅 | Azure云服务 | 香港中环康乐广场1号怡和大厦 | - | - | 分布式架构 | 良好 | 无重大风险 |
-| Google Cloud香港 | Google Cloud | 2018年 | IaaS、PaaS、SaaS | GCP、BigQuery | 500-999人 | https://cloud.google.com | 已上市(GOOGL) | 已上市 | 云服务订阅 | Google Cloud Platform | 香港铜锣湾告士打道280号世贸中心 | - | - | 分布式架构 | 良好 | 无重大风险 |
+| 新意網集團有限公司 | SUNeVision | 1999年 | 数据中心、云计算、IDC | MEGA数据中心、iAdvantage | 500-999人 | https://www.sunevision.com | 已上市(1686.HK) | 已上市 | 数据中心托管+云服务 | MEGA IDC、iAdvantage数据中心 | 香港将军澳工业邨骏昌街8号 | [待补充] | [待补充] | 企业级数据中心 | 良好 | 无重大风险 |
+| 電訊盈科有限公司 | PCCW | 2000年 | 电信、数据中心、云服务 | PCCW Solutions、HKT | 10000+人 | https://www.pccw.com | 已上市(0008.HK) | 已上市 | 电信服务+云服务 | 数据中心服务、企业云解决方案 | 香港鰂魚涌英皇道979号太古坊电讯盈科中心 | [待补充] | [待补充] | 集中式架构 | 良好 | 无重大风险 |
+| HGC環球全域電訊有限公司 | HGC | 1995年 | 电信、数据中心、ICT | HGC商业ICT方案 | 1000-5000人 | https://www.hgcbiz.com | 未上市 | 私募持有 | 电信服务+ICT方案 | 商业ICT方案、数据中心 | 香港九龙旺角通菜街1A-1L号威达商业大厦 | [待补充] | [待补充] | 集中式架构 | 良好 | 无重大风险 |
+| 亚马逊网络服务香港 | AWS香港 | 2017年 | IaaS、PaaS、SaaS | AWS EC2、S3、Lambda | 1000-5000人 | https://aws.amazon.com | 已上市(AMZN) | 已上市 | 云服务订阅 | 全栈云服务 | 香港金�的道88号太古广场 | [待补充] | [待补充] | 分布式架构 | 良好 | 无重大风险 |
+| 微软香港有限公司 | Microsoft香港 | 1991年 | IaaS、PaaS、SaaS | Azure、Microsoft 365 | 1000-5000人 | https://azure.microsoft.com | 已上市(MSFT) | 已上市 | 云服务订阅 | Azure云服务 | 香港中环康乐广场1号怡和大厦 | [待补充] | [待补充] | 分布式架构 | 良好 | 无重大风险 |
+| Google Cloud香港 | Google Cloud | 2018年 | IaaS、PaaS、SaaS | GCP、BigQuery | 500-999人 | https://cloud.google.com | 已上市(GOOGL) | 已上市 | 云服务订阅 | Google Cloud Platform | 香港铜锣湾告士打道280号世贸中心 | [待补充] | [待补充] | 分布式架构 | 良好 | 无重大风险 |
 
 ## 3. 全球云服务商香港区域节点
 

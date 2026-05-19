@@ -2,7 +2,7 @@
 title: 北京机器人企业清单
 category: industry
 tags: [软件, 人工智能, 智能制造, beijing]
-lastUpdated: 2026年05月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 

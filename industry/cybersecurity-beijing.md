@@ -2,7 +2,7 @@
 title: 北京企业级网络安全服务清单
 category: industry
 tags: [网络安全, 互联网, beijing]
-lastUpdated: 2026年05月
+lastUpdated: 2026年5月
 aiGenerated: true
 ---
 
