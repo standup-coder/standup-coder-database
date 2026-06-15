@@ -46,28 +46,28 @@ npm run dev
 
 项目采用模块化文件夹结构：
 - **rankings/** - 国内权威企业榜单（7个文件）
-- **industry/** - 中国行业企业清单（83个文件）
-- **industry-international/** - 国际行业企业清单（35个文件）
-- **outsourcing/** - 国内IT外包公司清单（1个文件）
-- **outsourcing-international/** - 国际IT外包服务提供商清单（3个文件）
-- **rankings-international/** - 国际权威企业榜单（2个文件）
-- **interview-skills/** - 国内面试技巧指南（3个文件）
+- **industry/** - 中国行业企业清单（126个文件
+- **industry-international/** - 国际行业企业清单（39个文件
+- **outsourcing/** - 国内IT外包公司清单（2个文件
+- **outsourcing-international/** - 国际IT外包服务提供商清单（5个文件
+- **rankings-international/** - 国际权威企业榜单（4个文件
+- **interview-skills/** - 国内面试技巧指南（2个文件
 - **interview-skills-international/** - 国际面试技巧指南（3个文件）
-- **resume-skills/** - 国内简历制作技巧（3个文件）
-- **open-source-communities/** - 国内开源社区指南（2个文件）
+- **resume-skills/** - 国内简历制作技巧（2个文件
+- **open-source-communities/** - 国内开源社区指南（1个文件
 - **open-source-communities-international/** - 国际开源社区指南（2个文件）
 - **topics-international/** - 国际科技专题榜单（2个文件）
-- **investment/** - 风险投资专题（6个文件）
+- **investment/** - 风险投资专题（5个文件
 - **investment-international/** - 国际风险投资机构清单（6个文件）
 - **events/** - 技术活动信息（1个文件）
-- **events-international/** - 国际技术活动与竞赛清单（11个文件）
+- **events-international/** - 国际技术活动与竞赛清单（10个文件
 - **careers/** - 国内求职招聘信息（23个文件）
-- **careers-international/** - 国际求职招聘信息（3个文件）
+- **careers-international/** - 国际求职招聘信息（4个文件
 - **legal/** - 法律实务指南（3个文件）
 - **legal-international/** - 国际法律实务指南（6个文件）
-- **jobs/** - IT技术岗位JD信息（27个文件，含真实案例）
-- **management/** - 技术管理知识体系（18个文件，专业分类）
-- **super-individual/** - 超级个体与OPC一人公司知识体系（22个文件，全面覆盖OPC速查手册、OPC完全指南、OPC政策红利、AI Agent工作流、Vibe Coding、OPC全球化扩张、OPC案例研究、OPC融资指南、OPC增长营销、OPC产品设计、OPC数据驱动、OPC心理健康、工商注册、自媒体、AI工具链、个人IP、自由职业、数字产品、财税合规、副业规划、程序员技能蒸馏）
+- **jobs/** - IT技术岗位JD信息（34个文件，含真实案例
+- **management/** - 技术管理知识体系（24个文件，专业分类
+- **super-individual/** - 超级个体与OPC一人公司知识体系（57个文件，全面覆盖OPC速查手册、OPC完全指南、OPC政策红利、AI Agent工作流、Vibe Coding、OPC全球化扩张、OPC案例研究、OPC融资指南、OPC增长营销、OPC产品设计、OPC数据驱动、OPC心理健康、工商注册、自媒体、AI工具链、个人IP、自由职业、数字产品、财税合规、副业规划、程序员技能蒸馏）
 
 ## 目录结构说明
 
@@ -352,24 +352,24 @@ npm run dev
 ### 国际榜单
 | 榜单名称 | 文件 | 发布机构 | 规模 | 说明 |
 |----------|------|----------|------|------|
-| 财富世界500强 | [fortune_500_2025.md](list/fortune_500_2025.md) | 财富杂志 | 500家 | 全球最大企业排名 |
+| 财富世界500强 | [fortune_500_2025.md](rankings-international/fortune_500_2025.md) | 财富杂志 | 500家 | 全球最大企业排名 |
 
 ### 国家级榜单
 | 榜单名称 | 文件 | 发布机构 | 规模 | 说明 |
 |----------|------|----------|------|------|
-| 专精特新"小巨人" | [specialized-sme-xiaojuren.md](list/specialized-sme-xiaojuren.md) | 工信部 | 1.2万+ | 细分领域隐形冠军 |
-| 制造业单项冠军 | [manufacturing-champion.md](list/manufacturing-champion.md) | 工信部 | 1500+ | 细分产品市场占有率领先 |
-| 中国民营企业500强 | [private-enterprise-500.md](list/private-enterprise-500.md) | 全国工商联 | 500家 | 民营经济风向标 |
+| 专精特新"小巨人" | [specialized-sme-xiaojuren.md](rankings/specialized-sme-xiaojuren.md) | 工信部 | 1.2万+ | 细分领域隐形冠军 |
+| 制造业单项冠军 | [manufacturing-champion.md](rankings/manufacturing-champion.md) | 工信部 | 1500+ | 细分产品市场占有率领先 |
+| 中国民营企业500强 | [private-enterprise-500.md](rankings/private-enterprise-500.md) | 全国工商联 | 500家 | 民营经济风向标 |
 
 ### 创投榜单
 | 榜单名称 | 文件 | 发布机构 | 规模 | 说明 |
 |----------|------|----------|------|------|
-| 独角兽企业 | [unicorn-enterprise.md](list/unicorn-enterprise.md) | 胡润/长城战略 | 372家 | 估值10亿美元+未上市企业 |
-| 瞪羚企业 | [gazelle-enterprise.md](list/gazelle-enterprise.md) | 胡润/各地科技局 | 278家 | 高成长性中小企业 |
+| 独角兽企业 | [unicorn-enterprise.md](rankings/unicorn-enterprise.md) | 胡润/长城战略 | 372家 | 估值10亿美元+未上市企业 |
+| 瞪羚企业 | [gazelle-enterprise.md](rankings/gazelle-enterprise.md) | 胡润/各地科技局 | 278家 | 高成长性中小企业 |
 
 ---
 
-## 中国行业企业清单（83个）
+## 中国行业企业清单（126个）
 
 ### 行业覆盖（13大领域）
 | 行业 | 文件前缀 | 覆盖城市 | 说明 |
@@ -391,8 +391,8 @@ npm run dev
 ### 综合榜单（2个）
 | 榜单名称 | 文件 | 发布机构 | 规模 | 说明 |
 |----------|------|----------|------|------|
-| 中国互联网企业100强 | [internet-100.md](list/internet-100.md) | 中国互联网协会 | 100家 | 互联网行业权威排名 |
-| 中国软件百强 | [software-100.md](list/software-100.md) | 工信部 | 100家 | 软件行业权威排名 |
+| 中国互联网企业100强 | [internet-100.md](rankings/internet-100.md) | 中国互联网协会 | 100家 | 互联网行业权威排名 |
+| 中国软件百强 | [software-100.md](rankings/software-100.md) | 工信部 | 100家 | 软件行业权威排名 |
 
 ### 城市覆盖（16城）
 
@@ -408,33 +408,33 @@ npm run dev
 #### 新一线/二线城市（6城）
 | 城市 | 覆盖行业 | 文件列表 |
 |------|----------|----------|
-| 南京 | ai, cloud, security | [ai-nanjing.md](list/ai-nanjing.md), [cloud-nanjing.md](list/cloud-nanjing.md), [security-nanjing.md](list/security-nanjing.md) |
-| 西安 | ai, cloud, security | [ai-xian.md](list/ai-xian.md), [cloud-xian.md](list/cloud-xian.md), [security-xian.md](list/security-xian.md) |
-| 苏州 | biotech, cloud, security | [biotech-suzhou.md](list/biotech-suzhou.md), [cloud-suzhou.md](list/cloud-suzhou.md), [security-suzhou.md](list/security-suzhou.md) |
-| 无锡 | cloud | [cloud-wuxi.md](list/cloud-wuxi.md) |
-| 常州 | cloud | [cloud-changzhou.md](list/cloud-changzhou.md) |
-| 昆明 | ai, cloud | [ai-kunming.md](list/ai-kunming.md), [cloud-kunming.md](list/cloud-kunming.md) |
+| 南京 | ai, cloud, security | [ai-nanjing.md](industry/ai-nanjing.md), [cloud-nanjing.md](industry/cloud-nanjing.md), [security-nanjing.md](industry/security-nanjing.md) |
+| 西安 | ai, cloud, security | [ai-xian.md](industry/ai-xian.md), [cloud-xian.md](industry/cloud-xian.md), [security-xian.md](industry/security-xian.md) |
+| 苏州 | biotech, cloud, security | [biotech-suzhou.md](industry/biotech-suzhou.md), [cloud-suzhou.md](industry/cloud-suzhou.md), [security-suzhou.md](industry/security-suzhou.md) |
+| 无锡 | cloud | [cloud-wuxi.md](industry/cloud-wuxi.md) |
+| 常州 | cloud | [cloud-changzhou.md](industry/cloud-changzhou.md) |
+| 昆明 | ai, cloud | [ai-kunming.md](industry/ai-kunming.md), [cloud-kunming.md](industry/cloud-kunming.md) |
 
 #### 东北城市（2城）
 | 城市 | 覆盖行业 | 文件列表 |
 |------|----------|----------|
-| 沈阳 | ai, cloud | [ai-shenyang.md](list/ai-shenyang.md), [cloud-shenyang.md](list/cloud-shenyang.md) |
-| 哈尔滨 | ai, cloud | [ai-harbin.md](list/ai-harbin.md), [cloud-harbin.md](list/cloud-harbin.md) |
+| 沈阳 | ai, cloud | [ai-shenyang.md](industry/ai-shenyang.md), [cloud-shenyang.md](industry/cloud-shenyang.md) |
+| 哈尔滨 | ai, cloud | [ai-harbin.md](industry/ai-harbin.md), [cloud-harbin.md](industry/cloud-harbin.md) |
 
 #### 特别行政区（2城）
 | 城市 | 覆盖行业 | 文件列表 |
 |------|----------|----------|
-| 香港 | blockchain, cloud | [blockchain-hongkong.md](list/blockchain-hongkong.md), [cloud-hongkong.md](list/cloud-hongkong.md) |
-| 澳门 | cloud | [cloud-macau.md](list/cloud-macau.md) |
+| 香港 | blockchain, cloud | [blockchain-hongkong.md](industry/blockchain-hongkong.md), [cloud-hongkong.md](industry/cloud-hongkong.md) |
+| 澳门 | cloud | [cloud-macau.md](industry/cloud-macau.md) |
 
 #### 西部城市（1城）
 | 城市 | 覆盖行业 | 文件列表 |
 |------|----------|----------|
-| 拉萨 | cloud | [cloud-lhasa.md](list/cloud-lhasa.md) |
+| 拉萨 | cloud | [cloud-lhasa.md](industry/cloud-lhasa.md) |
 
 ---
 
-### 国际行业企业清单（35个）
+### 国际行业企业清单（39个）
 
 ### 覆盖国家和地区
 | 国家/地区 | 文件数量 | 主要行业覆盖 |
@@ -509,23 +509,23 @@ npm run dev
 |----------|------|----------|------|
 | 美国网络安全企业清单 | [security-usa.md](industry-international/security-usa.md) | 美国 | Palo Alto、CrowdStrike、Fortinet等美国网络安全企业 |
 
-### 国际IT外包服务（3个）
+### 国际IT外包服务（5个）
 
 #### 按地区分类
 | 榜单名称 | 文件 | 覆盖地区 | 说明 |
 |----------|------|----------|------|
 | 美国IT外包服务 | [it-outsourcing-usa.md](outsourcing-international/it-outsourcing-usa.md) | 美国 | IBM、Accenture等美国顶级IT服务商 |
 | 欧洲IT外包服务 | [it-outsourcing-europe.md](outsourcing-international/it-outsourcing-europe.md) | 欧洲 | Capgemini、Atos等欧洲知名服务商 |
-| 印度IT外包服务 | [it-outsourcing-india.md](outsourcing-international/it-outsourcing-india.md) | 印度 | TCS、Infosys、Wipro等印度IT巨头 |
+| 印度IT外包服务 | [it-outsourcing-india.md](outsourcing-international/india-it-outsourcing.md) | 印度 | TCS、Infosys、Wipro等印度IT巨头 |
 
-### 国际权威企业榜单（2个）
+### 国际权威企业榜单（4个）
 
 #### 全球综合榜单
 | 榜单名称 | 文件 | 发布机构 | 规模 | 说明 |
 |----------|------|----------|------|------|
 | 财富世界500强 | [fortune_500_2025.md](rankings-international/fortune_500_2025.md) | 财富杂志 | 500家 | 全球最大企业排名 |
 
-### 国内面试技巧（3个）
+### 国内面试技巧（2个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
 | 技术面试技巧指南 | [technical-interview.md](interview-skills/technical-interview.md) | 算法、系统设计、编程题解题策略 |
@@ -537,18 +537,18 @@ npm run dev
 | 国际技术面试指南 | [technical-interview.md](interview-skills-international/technical-interview.md) | 面向国际市场的技术面试策略 |
 | 国际行为面试指南 | [behavioral-interview.md](interview-skills-international/behavioral-interview.md) | 跨文化面试沟通和适应技巧 |
 
-### 国内简历技巧（3个）
+### 国内简历技巧（2个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
 | 基础简历制作指南 | [basic-resume-guide.md](resume-skills/basic-resume-guide.md) | 简历结构、内容编写、ATS适配 |
 | 高级简历优化策略 | [advanced-resume-strategy.md](resume-skills/advanced-resume-strategy.md) | 个人品牌、成就量化、视觉设计 |
 
-### 国内科技基金会（2个）
+### 国内科技基金会（1个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
 | 中国主要科技基金会清单 | [major-tech-foundations-china.md](tech-foundations/major-tech-foundations-china.md) | 国家自然科学基金、企业基金会、地方科技基金 |
 
-### 国内开源社区（2个）
+### 国内开源社区（1个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
 | 中国主要开源社区清单 | [major-open-source-communities-china.md](open-source-communities/major-open-source-communities-china.md) | Gitee、开源中国、各大企业开源社区 |
@@ -565,9 +565,9 @@ npm run dev
 | 国际简历写作指南 | [basic-resume-guide.md](resume-skills-international/basic-resume-guide.md) | 全球化简历标准和跨文化适配 |
 | 国际高级简历策略 | [advanced-resume-strategy.md](resume-skills-international/advanced-resume-strategy.md) | 国际求职资源整合和数字营销 |
 
-### VC投资专题（6个）
+### VC投资专题（5个）
 
-### 国际风险投资机构清单（6个）
+### 国际风险投资机构清单（7个）
 
 #### 顶级风险投资机构
 | 榜单名称 | 文件 | 覆盖地区 | 说明 |
@@ -595,7 +595,7 @@ npm run dev
 |----------|------|----------|------|
 | 北京科技创新企业榜单 | [tech-innovation-beijing.md](topics/tech-innovation-beijing.md) | 北京 | 百度、字节跳动、旷视科技等 |
 | 上海科技创新企业榜单 | [tech-innovation-shanghai.md](topics/tech-innovation-shanghai.md) | 上海 | 商汤科技、依图科技、壁仞科技等 |
-| 深圳科技创新企业榜单 | [tech-innovation-shenzhen.md](topics/tech-innovation-shenzhen.md) | 深圳 | 腾讯、华为、比亚迪、大疆等 |
+| 深圳科技创新企业榜单 | [tech-innovation-shenzhen.md](industry/tech-innovation-shenzhen.md) | 深圳 | 腾讯、华为、比亚迪、大疆等 |
 | 全国科技创新企业综合榜单 | [tech-innovation-national.md](topics/tech-innovation-national.md) | 全国 | 汇总全国科技创新企业 |
 
 ### 国际科技专题（2个）
@@ -613,7 +613,7 @@ npm run dev
 |----------|------|------|
 | 黑客马拉松及技术活动清单 | [hackathon-events.md](events/hackathon-events.md) | 国内外知名黑客马拉松、编程竞赛、开发者大会 |
 
-### 国际技术活动（3个）
+### 国际技术活动（10个）
 
 #### 按地区分类
 | 榜单名称 | 文件 | 覆盖地区 | 说明 |
@@ -621,7 +621,7 @@ npm run dev
 | 北美技术活动 | [dev-conferences-north-america.md](events-international/dev-conferences-north-america.md) | 北美 | Google I/O、Apple WWDC等顶级技术大会 |
 | 欧洲技术活动 | [dev-conferences-europe.md](events-international/dev-conferences-europe.md) | 欧洲 | Web Summit、FOSDEM等重要技术盛会 |
 
-### 求职招聘专题（20个）
+### 求职招聘专题（23个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
 | 主要招聘平台及信息来源清单 | [job-platforms.md](careers/job-platforms.md) | 综合招聘平台、垂直领域招聘、企业信息查询平台 |
@@ -645,14 +645,14 @@ npm run dev
 | 系统化反馈与改进机制 | [feedback-improvement-system.md](careers/feedback-improvement-system.md) | 多层次反馈体系、改进闭环管理、文化建设 |
 | 能力画像执行与跟踪框架 | [execution-tracking-framework.md](careers/execution-tracking-framework.md) | 目标管理体系、进度跟踪工具、效果评估体系 |
 | DevOps/SRE/工单专家能力画像 | [devops-sre-ticket-expert-profiles.md](careers/devops-sre-ticket-expert-profiles.md) | 技术运营岗位专业能力模型、评估标准、发展路径 |
-| 团队技术管理框架 | [team-technical-management-framework.md](careers/team-technical-management-framework.md) | 组织架构设计、流程规范、质量管控、沟通协作机制 |
-| 技术管理能力专项评估 | [technical-management-assessment.md](careers/technical-management-assessment.md) | 360度评估体系、管理成熟度模型、效能量化指标 |
-| 技术管理最佳实践案例库 | [technical-management-best-practices.md](careers/technical-management-best-practices.md) | 行业案例库、成功经验总结、实施方法论 |
-| 技术团队绩效考核与激励机制 | [technical-team-performance-incentive.md](careers/technical-team-performance-incentive.md) | 考核指标设计、激励机制、反馈改进、特殊情况处理 |
+| 团队技术管理框架 | [team-technical-management-framework.md](management/core-framework/team-technical-management-framework.md) | 组织架构设计、流程规范、质量管控、沟通协作机制 |
+| 技术管理能力专项评估 | [technical-management-assessment.md](management/assessment-tools/technical-management-assessment.md) | 360度评估体系、管理成熟度模型、效能量化指标 |
+| 技术管理最佳实践案例库 | [technical-management-best-practices.md](management/core-framework/technical-management-best-practices.md) | 行业案例库、成功经验总结、实施方法论 |
+| 技术团队绩效考核与激励机制 | [technical-team-performance-incentive.md](management/core-framework/technical-team-performance-incentive.md) | 考核指标设计、激励机制、反馈改进、特殊情况处理 |
 | OKR与绩效管理体系 | [okr-performance-management-system.md](careers/okr-performance-management-system.md) | 目标管理理论、绩效评估体系、激励认可机制、实施保障措施 |
-| DevOps/SRE团队管理专项指南 | [devops-sre-team-management-guide.md](careers/devops-sre-team-management-guide.md) | 专项管理指南、组织架构、流程规范、工具平台 |
+| DevOps/SRE团队管理专项指南 | [devops-sre-team-management-guide.md](management/specialized-guides/devops-sre-team-management-guide.md) | 专项管理指南、组织架构、流程规范、工具平台 |
 
-### 国际求职招聘专题（3个）
+### 国际求职招聘专题（4个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
 | 国际主要招聘平台清单 | [global-job-platforms.md](careers-international/global-job-platforms.md) | LinkedIn、Indeed、Glassdoor等国际主流招聘平台 |
@@ -674,7 +674,7 @@ npm run dev
 |----------|------|------|
 | 裁员全流程指南 | [layoff-guide.md](legal/layoff-guide.md) | 从HR、法律、职工角度的裁员实务操作指南 |
 
-### IT技术岗位信息（27个）
+### IT技术岗位信息（34个）
 
 #### 核心技术岗位
 | 岗位类别 | 文件 | 说明 |
@@ -725,7 +725,7 @@ npm run dev
 - **行业覆盖广泛**：涵盖电商、社交、视频、旅游、金融等多个热门行业
 - **公司层级多样**：包含一线大厂到独角兽公司的不同层次真实招聘信息
 
-### 技术管理知识体系（18个）
+### 技术管理知识体系（24个）
 
 #### 核心管理框架
 | 文件 | 说明 |
@@ -780,7 +780,7 @@ npm run dev
 
 ---
 
-### 超级个体与OPC一人公司知识体系（22个）
+### 超级个体与OPC一人公司知识体系（57个）
 
 #### OPC核心指南
 | 文件 | 说明 |
@@ -844,7 +844,7 @@ npm run dev
 
 ## 完整文件清单（125个）
 
-### 人工智能行业（10个）
+### 人工智能行业（15个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
 | [ai-beijing.md](industry/ai-beijing.md) | 北京 | 百度、字节跳动、旷视、商汤、寒武纪等 |
@@ -861,118 +861,118 @@ npm run dev
 ### 大数据行业（5个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [bigdata-beijing.md](list/bigdata-beijing.md) | 北京 | 百度、字节、京东、美团等 |
-| [bigdata-shanghai.md](list/bigdata-shanghai.md) | 上海 | 携程、拼多多、B站、星环科技等 |
-| [bigdata-guangzhou.md](list/bigdata-guangzhou.md) | 广州 | 视源、佳都、欢聚、唯品会等 |
-| [bigdata-shenzhen.md](list/bigdata-shenzhen.md) | 深圳 | 腾讯、华为、平安科技等 |
-| [bigdata-hangzhou.md](list/bigdata-hangzhou.md) | 杭州 | 阿里云、网易、海康威视等 |
+| [bigdata-beijing.md](industry/bigdata-beijing.md) | 北京 | 百度、字节、京东、美团等 |
+| [bigdata-shanghai.md](industry/bigdata-shanghai.md) | 上海 | 携程、拼多多、B站、星环科技等 |
+| [bigdata-guangzhou.md](industry/bigdata-guangzhou.md) | 广州 | 视源、佳都、欢聚、唯品会等 |
+| [bigdata-shenzhen.md](industry/bigdata-shenzhen.md) | 深圳 | 腾讯、华为、平安科技等 |
+| [bigdata-hangzhou.md](industry/bigdata-hangzhou.md) | 杭州 | 阿里云、网易、海康威视等 |
 
 ### 区块链行业（6个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [blockchain-beijing.md](list/blockchain-beijing.md) | 北京 | 百度超级链、京东智臻链、比特大陆等 |
-| [blockchain-shanghai.md](list/blockchain-shanghai.md) | 上海 | 万向区块链、矩阵元、唯链等 |
-| [blockchain-guangzhou.md](list/blockchain-guangzhou.md) | 广州 | 微众银行FISCO、趣链广州等 |
-| [blockchain-shenzhen.md](list/blockchain-shenzhen.md) | 深圳 | 腾讯区块链、微众银行FISCO BCOS等 |
-| [blockchain-hangzhou.md](list/blockchain-hangzhou.md) | 杭州 | 趣链科技、蚂蚁链、秘猿科技等 |
-| [blockchain-hongkong.md](list/blockchain-hongkong.md) | 香港 | HashKey、OSL、Animoca Brands等 |
+| [blockchain-beijing.md](industry/blockchain-beijing.md) | 北京 | 百度超级链、京东智臻链、比特大陆等 |
+| [blockchain-shanghai.md](industry/blockchain-shanghai.md) | 上海 | 万向区块链、矩阵元、唯链等 |
+| [blockchain-guangzhou.md](industry/blockchain-guangzhou.md) | 广州 | 微众银行FISCO、趣链广州等 |
+| [blockchain-shenzhen.md](industry/blockchain-shenzhen.md) | 深圳 | 腾讯区块链、微众银行FISCO BCOS等 |
+| [blockchain-hangzhou.md](industry/blockchain-hangzhou.md) | 杭州 | 趣链科技、蚂蚁链、秘猿科技等 |
+| [blockchain-hongkong.md](industry/blockchain-hongkong.md) | 香港 | HashKey、OSL、Animoca Brands等 |
 
-### 物联网行业（5个）
+### 物联网行业（8个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [iot-beijing.md](list/iot-beijing.md) | 北京 | 小米、京东、中移物联等 |
-| [iot-shanghai.md](list/iot-shanghai.md) | 上海 | 移远通信、芯翼信息等 |
-| [iot-guangzhou.md](list/iot-guangzhou.md) | 广州 | 视源股份、高新兴等 |
-| [iot-shenzhen.md](list/iot-shenzhen.md) | 深圳 | 华为、广和通、有方科技等 |
-| [iot-hangzhou.md](list/iot-hangzhou.md) | 杭州 | 海康威视、涂鸦智能等 |
+| [iot-beijing.md](industry/iot-beijing.md) | 北京 | 小米、京东、中移物联等 |
+| [iot-shanghai.md](industry/iot-shanghai.md) | 上海 | 移远通信、芯翼信息等 |
+| [iot-guangzhou.md](industry/iot-guangzhou.md) | 广州 | 视源股份、高新兴等 |
+| [iot-shenzhen.md](industry/iot-shenzhen.md) | 深圳 | 华为、广和通、有方科技等 |
+| [iot-hangzhou.md](industry/iot-hangzhou.md) | 杭州 | 海康威视、涂鸦智能等 |
 
 ### 智能制造行业（5个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [smart-manufacturing-beijing.md](list/smart-manufacturing-beijing.md) | 北京 | 京东方、北方华创等 |
-| [smart-manufacturing-shanghai.md](list/smart-manufacturing-shanghai.md) | 上海 | 上海电气、新时达等 |
-| [smart-manufacturing-guangzhou.md](list/smart-manufacturing-guangzhou.md) | 广州 | 广汽、明珞装备等 |
-| [smart-manufacturing-shenzhen.md](list/smart-manufacturing-shenzhen.md) | 深圳 | 比亚迪、汇川技术、大族激光等 |
-| [smart-manufacturing-hangzhou.md](list/smart-manufacturing-hangzhou.md) | 杭州 | 海康机器人、杭叉等 |
+| [smart-manufacturing-beijing.md](industry/smart-manufacturing-beijing.md) | 北京 | 京东方、北方华创等 |
+| [smart-manufacturing-shanghai.md](industry/smart-manufacturing-shanghai.md) | 上海 | 上海电气、新时达等 |
+| [smart-manufacturing-guangzhou.md](industry/smart-manufacturing-guangzhou.md) | 广州 | 广汽、明珞装备等 |
+| [smart-manufacturing-shenzhen.md](industry/smart-manufacturing-shenzhen.md) | 深圳 | 比亚迪、汇川技术、大族激光等 |
+| [smart-manufacturing-hangzhou.md](industry/smart-manufacturing-hangzhou.md) | 杭州 | 海康机器人、杭叉等 |
 
 ### 新能源行业（5个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [new-energy-beijing.md](list/new-energy-beijing.md) | 北京 | 北汽新能源、中国华能等 |
-| [new-energy-shanghai.md](list/new-energy-shanghai.md) | 上海 | 上汽、蔚来中国等 |
-| [new-energy-guangzhou.md](list/new-energy-guangzhou.md) | 广州 | 广汽埃安、小鹏汽车等 |
-| [new-energy-shenzhen.md](list/new-energy-shenzhen.md) | 深圳 | 比亚迪、欣旺达、贝特瑞等 |
-| [new-energy-hangzhou.md](list/new-energy-hangzhou.md) | 杭州 | 零跑汽车、万向等 |
+| [new-energy-beijing.md](industry/new-energy-beijing.md) | 北京 | 北汽新能源、中国华能等 |
+| [new-energy-shanghai.md](industry/new-energy-shanghai.md) | 上海 | 上汽、蔚来中国等 |
+| [new-energy-guangzhou.md](industry/new-energy-guangzhou.md) | 广州 | 广汽埃安、小鹏汽车等 |
+| [new-energy-shenzhen.md](industry/new-energy-shenzhen.md) | 深圳 | 比亚迪、欣旺达、贝特瑞等 |
+| [new-energy-hangzhou.md](industry/new-energy-hangzhou.md) | 杭州 | 零跑汽车、万向等 |
 
 ### 新材料行业（5个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [new-materials-beijing.md](list/new-materials-beijing.md) | 北京 | 北矿科技、有研新材等 |
-| [new-materials-shanghai.md](list/new-materials-shanghai.md) | 上海 | 上海硅产业、中芯国际材料等 |
-| [new-materials-guangzhou.md](list/new-materials-guangzhou.md) | 广州 | 金发科技、天赐材料等 |
-| [new-materials-shenzhen.md](list/new-materials-shenzhen.md) | 深圳 | 贝特瑞、格林美、沃特股份等 |
-| [new-materials-hangzhou.md](list/new-materials-hangzhou.md) | 杭州 | 杭氧股份、道明光学等 |
+| [new-materials-beijing.md](industry/new-materials-beijing.md) | 北京 | 北矿科技、有研新材等 |
+| [new-materials-shanghai.md](industry/new-materials-shanghai.md) | 上海 | 上海硅产业、中芯国际材料等 |
+| [new-materials-guangzhou.md](industry/new-materials-guangzhou.md) | 广州 | 金发科技、天赐材料等 |
+| [new-materials-shenzhen.md](industry/new-materials-shenzhen.md) | 深圳 | 贝特瑞、格林美、沃特股份等 |
+| [new-materials-hangzhou.md](industry/new-materials-hangzhou.md) | 杭州 | 杭氧股份、道明光学等 |
 
-### 生物技术行业（6个）
+### 生物技术行业（7个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [biotech-beijing.md](list/biotech-beijing.md) | 北京 | 百济神州、诺诚健华等 |
-| [biotech-shanghai.md](list/biotech-shanghai.md) | 上海 | 药明康德、复星医药等 |
-| [biotech-guangzhou.md](list/biotech-guangzhou.md) | 广州 | 金域医学、达安基因等 |
-| [biotech-shenzhen.md](list/biotech-shenzhen.md) | 深圳 | 华大基因、迈瑞医疗等 |
-| [biotech-hangzhou.md](list/biotech-hangzhou.md) | 杭州 | 贝达药业、泰格医药等 |
-| [biotech-suzhou.md](list/biotech-suzhou.md) | 苏州 | 信达生物、百济神州苏州等 |
+| [biotech-beijing.md](industry/biotech-beijing.md) | 北京 | 百济神州、诺诚健华等 |
+| [biotech-shanghai.md](industry/biotech-shanghai.md) | 上海 | 药明康德、复星医药等 |
+| [biotech-guangzhou.md](industry/biotech-guangzhou.md) | 广州 | 金域医学、达安基因等 |
+| [biotech-shenzhen.md](industry/biotech-shenzhen.md) | 深圳 | 华大基因、迈瑞医疗等 |
+| [biotech-hangzhou.md](industry/biotech-hangzhou.md) | 杭州 | 贝达药业、泰格医药等 |
+| [biotech-suzhou.md](industry/biotech-suzhou.md) | 苏州 | 信达生物、百济神州苏州等 |
 
 ### 3C电子行业（5个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [3c-beijing.md](list/3c-beijing.md) | 北京 | 小米、联想、京东方等 |
-| [3c-shanghai.md](list/3c-shanghai.md) | 上海 | 上海贝尔、韦尔股份等 |
-| [3c-guangzhou.md](list/3c-guangzhou.md) | 广州 | 视源股份、金发科技等 |
-| [3c-shenzhen.md](list/3c-shenzhen.md) | 深圳 | 华为、大疆、华星光电等 |
-| [3c-hangzhou.md](list/3c-hangzhou.md) | 杭州 | 海康威视、大华等 |
+| [3c-beijing.md](industry/3c-beijing.md) | 北京 | 小米、联想、京东方等 |
+| [3c-shanghai.md](industry/3c-shanghai.md) | 上海 | 上海贝尔、韦尔股份等 |
+| [3c-guangzhou.md](industry/3c-guangzhou.md) | 广州 | 视源股份、金发科技等 |
+| [3c-shenzhen.md](industry/3c-shenzhen.md) | 深圳 | 华为、大疆、华星光电等 |
+| [3c-hangzhou.md](industry/3c-hangzhou.md) | 杭州 | 海康威视、大华等 |
 
-### 云计算行业（16个）
+### 云计算行业（20个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [cloud-beijing.md](list/cloud-beijing.md) | 北京 | 阿里云北京、腾讯云北京等 |
-| [cloud-shanghai.md](list/cloud-shanghai.md) | 上海 | UCloud、青云等 |
-| [cloud-guangzhou.md](list/cloud-guangzhou.md) | 广州 | 金山云广州、华为云广州等 |
-| [cloud-shenzhen.md](list/cloud-shenzhen.md) | 深圳 | 华为云、腾讯云深圳等 |
-| [cloud-hangzhou.md](list/cloud-hangzhou.md) | 杭州 | 阿里云总部、网易云等 |
-| [cloud-nanjing.md](list/cloud-nanjing.md) | 南京 | 苏宁云、南瑞云等 |
-| [cloud-xian.md](list/cloud-xian.md) | 西安 | 华为云西安等 |
-| [cloud-suzhou.md](list/cloud-suzhou.md) | 苏州 | 同程云、苏州工业园区云等 |
-| [cloud-wuxi.md](list/cloud-wuxi.md) | 无锡 | 朗新科技等 |
-| [cloud-changzhou.md](list/cloud-changzhou.md) | 常州 | 常州数据中心等 |
-| [cloud-kunming.md](list/cloud-kunming.md) | 昆明 | 云南移动云等 |
-| [cloud-shenyang.md](list/cloud-shenyang.md) | 沈阳 | 东软云、沈阳数据中心等 |
-| [cloud-harbin.md](list/cloud-harbin.md) | 哈尔滨 | 哈尔滨云计算产业基地等 |
-| [cloud-hongkong.md](list/cloud-hongkong.md) | 香港 | AWS香港、阿里云香港等 |
-| [cloud-macau.md](list/cloud-macau.md) | 澳门 | 澳门电讯云服务等 |
-| [cloud-lhasa.md](list/cloud-lhasa.md) | 拉萨 | 西藏云计算中心等 |
+| [cloud-beijing.md](industry/cloud-beijing.md) | 北京 | 阿里云北京、腾讯云北京等 |
+| [cloud-shanghai.md](industry/cloud-shanghai.md) | 上海 | UCloud、青云等 |
+| [cloud-guangzhou.md](industry/cloud-guangzhou.md) | 广州 | 金山云广州、华为云广州等 |
+| [cloud-shenzhen.md](industry/cloud-shenzhen.md) | 深圳 | 华为云、腾讯云深圳等 |
+| [cloud-hangzhou.md](industry/cloud-hangzhou.md) | 杭州 | 阿里云总部、网易云等 |
+| [cloud-nanjing.md](industry/cloud-nanjing.md) | 南京 | 苏宁云、南瑞云等 |
+| [cloud-xian.md](industry/cloud-xian.md) | 西安 | 华为云西安等 |
+| [cloud-suzhou.md](industry/cloud-suzhou.md) | 苏州 | 同程云、苏州工业园区云等 |
+| [cloud-wuxi.md](industry/cloud-wuxi.md) | 无锡 | 朗新科技等 |
+| [cloud-changzhou.md](industry/cloud-changzhou.md) | 常州 | 常州数据中心等 |
+| [cloud-kunming.md](industry/cloud-kunming.md) | 昆明 | 云南移动云等 |
+| [cloud-shenyang.md](industry/cloud-shenyang.md) | 沈阳 | 东软云、沈阳数据中心等 |
+| [cloud-harbin.md](industry/cloud-harbin.md) | 哈尔滨 | 哈尔滨云计算产业基地等 |
+| [cloud-hongkong.md](industry/cloud-hongkong.md) | 香港 | AWS香港、阿里云香港等 |
+| [cloud-macau.md](industry/cloud-macau.md) | 澳门 | 澳门电讯云服务等 |
+| [cloud-lhasa.md](industry/cloud-lhasa.md) | 拉萨 | 西藏云计算中心等 |
 
 ### 网络安全行业（8个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [security-beijing.md](list/security-beijing.md) | 北京 | 启明星辰、天融信、奇安信、绿盟科技等 |
-| [security-shanghai.md](list/security-shanghai.md) | 上海 | 安恒信息、众人科技、格尔软件、三零卫士等 |
-| [security-shenzhen.md](list/security-shenzhen.md) | 深圳 | 深信服、华为安全、任子行、绿盟科技等 |
-| [security-guangzhou.md](list/security-guangzhou.md) | 广州 | 云从科技、安恒信息广州、绿盟科技广州等 |
-| [security-hangzhou.md](list/security-hangzhou.md) | 杭州 | 安恒信息、阿里安全、迪普科技、海康威视等 |
-| [security-nanjing.md](list/security-nanjing.md) | 南京 | 擎天科技、联创科技、南瑞信通、科远智慧等 |
-| [security-xian.md](list/security-xian.md) | 西安 | 西电捷通、天和防务、晨曦航空等 |
-| [security-suzhou.md](list/security-suzhou.md) | 苏州 | 苏州科达、中科创达、固德威等 |
+| [security-beijing.md](industry/security-beijing.md) | 北京 | 启明星辰、天融信、奇安信、绿盟科技等 |
+| [security-shanghai.md](industry/security-shanghai.md) | 上海 | 安恒信息、众人科技、格尔软件、三零卫士等 |
+| [security-shenzhen.md](industry/security-shenzhen.md) | 深圳 | 深信服、华为安全、任子行、绿盟科技等 |
+| [security-guangzhou.md](industry/security-guangzhou.md) | 广州 | 云从科技、安恒信息广州、绿盟科技广州等 |
+| [security-hangzhou.md](industry/security-hangzhou.md) | 杭州 | 安恒信息、阿里安全、迪普科技、海康威视等 |
+| [security-nanjing.md](industry/security-nanjing.md) | 南京 | 擎天科技、联创科技、南瑞信通、科远智慧等 |
+| [security-xian.md](industry/security-xian.md) | 西安 | 西电捷通、天和防务、晨曦航空等 |
+| [security-suzhou.md](industry/security-suzhou.md) | 苏州 | 苏州科达、中科创达、固德威等 |
 
 ### 深圳特色行业（6个）
 | 文件 | 行业 | 说明 |
 |------|------|------|
-| [internet-shenzhen.md](list/internet-shenzhen.md) | 互联网 | 腾讯、迅雷、货拉拉、微众银行等 |
-| [software-shenzhen.md](list/software-shenzhen.md) | 软件 | 金蝶、万兴科技、蓝凌等 |
-| [ev-shenzhen.md](list/ev-shenzhen.md) | 新能源汽车 | 比亚迪、汇川技术等 |
-| [automation-shenzhen.md](list/automation-shenzhen.md) | 自动化 | 汇川技术、英威腾等 |
-| [battery-shenzhen.md](list/battery-shenzhen.md) | 电池 | 欣旺达、德赛电池等 |
-| [drone-shenzhen.md](list/drone-shenzhen.md) | 无人机 | 大疆、道通智能等 |
+| [internet-shenzhen.md](industry/internet-shenzhen.md) | 互联网 | 腾讯、迅雷、货拉拉、微众银行等 |
+| [software-shenzhen.md](industry/software-shenzhen.md) | 软件 | 金蝶、万兴科技、蓝凌等 |
+| [ev-shenzhen.md](industry/ev-shenzhen.md) | 新能源汽车 | 比亚迪、汇川技术等 |
+| [automation-shenzhen.md](industry/automation-shenzhen.md) | 自动化 | 汇川技术、英威腾等 |
+| [battery-shenzhen.md](industry/battery-shenzhen.md) | 电池 | 欣旺达、德赛电池等 |
+| [drone-shenzhen.md](industry/drone-shenzhen.md) | 无人机 | 大疆、道通智能等 |
 
 ---
 
@@ -983,71 +983,71 @@ npm run dev
 #### 我想找北京的企业
 | 行业 | 文件 |
 |------|------|
-| 人工智能 | [ai-beijing.md](list/ai-beijing.md) |
-| 大数据 | [bigdata-beijing.md](list/bigdata-beijing.md) |
-| 区块链 | [blockchain-beijing.md](list/blockchain-beijing.md) |
-| 物联网 | [iot-beijing.md](list/iot-beijing.md) |
-| 智能制造 | [smart-manufacturing-beijing.md](list/smart-manufacturing-beijing.md) |
-| 新能源 | [new-energy-beijing.md](list/new-energy-beijing.md) |
-| 新材料 | [new-materials-beijing.md](list/new-materials-beijing.md) |
-| 生物技术 | [biotech-beijing.md](list/biotech-beijing.md) |
-| 3C电子 | [3c-beijing.md](list/3c-beijing.md) |
-| 云计算 | [cloud-beijing.md](list/cloud-beijing.md) |
+| 人工智能 | [ai-beijing.md](industry/ai-beijing.md) |
+| 大数据 | [bigdata-beijing.md](industry/bigdata-beijing.md) |
+| 区块链 | [blockchain-beijing.md](industry/blockchain-beijing.md) |
+| 物联网 | [iot-beijing.md](industry/iot-beijing.md) |
+| 智能制造 | [smart-manufacturing-beijing.md](industry/smart-manufacturing-beijing.md) |
+| 新能源 | [new-energy-beijing.md](industry/new-energy-beijing.md) |
+| 新材料 | [new-materials-beijing.md](industry/new-materials-beijing.md) |
+| 生物技术 | [biotech-beijing.md](industry/biotech-beijing.md) |
+| 3C电子 | [3c-beijing.md](industry/3c-beijing.md) |
+| 云计算 | [cloud-beijing.md](industry/cloud-beijing.md) |
 
 #### 我想找深圳的企业
 | 行业 | 文件 |
 |------|------|
-| 人工智能 | [ai-shenzhen.md](list/ai-shenzhen.md) |
-| 大数据 | [bigdata-shenzhen.md](list/bigdata-shenzhen.md) |
-| 区块链 | [blockchain-shenzhen.md](list/blockchain-shenzhen.md) |
-| 物联网 | [iot-shenzhen.md](list/iot-shenzhen.md) |
-| 智能制造 | [smart-manufacturing-shenzhen.md](list/smart-manufacturing-shenzhen.md) |
-| 新能源 | [new-energy-shenzhen.md](list/new-energy-shenzhen.md) |
-| 新材料 | [new-materials-shenzhen.md](list/new-materials-shenzhen.md) |
-| 生物技术 | [biotech-shenzhen.md](list/biotech-shenzhen.md) |
-| 3C电子 | [3c-shenzhen.md](list/3c-shenzhen.md) |
-| 云计算 | [cloud-shenzhen.md](list/cloud-shenzhen.md) |
-| 互联网 | [internet-shenzhen.md](list/internet-shenzhen.md) |
-| 软件 | [software-shenzhen.md](list/software-shenzhen.md) |
-| 新能源汽车 | [ev-shenzhen.md](list/ev-shenzhen.md) |
-| 自动化 | [automation-shenzhen.md](list/automation-shenzhen.md) |
-| 电池 | [battery-shenzhen.md](list/battery-shenzhen.md) |
-| 无人机 | [drone-shenzhen.md](list/drone-shenzhen.md) |
+| 人工智能 | [ai-shenzhen.md](industry/ai-shenzhen.md) |
+| 大数据 | [bigdata-shenzhen.md](industry/bigdata-shenzhen.md) |
+| 区块链 | [blockchain-shenzhen.md](industry/blockchain-shenzhen.md) |
+| 物联网 | [iot-shenzhen.md](industry/iot-shenzhen.md) |
+| 智能制造 | [smart-manufacturing-shenzhen.md](industry/smart-manufacturing-shenzhen.md) |
+| 新能源 | [new-energy-shenzhen.md](industry/new-energy-shenzhen.md) |
+| 新材料 | [new-materials-shenzhen.md](industry/new-materials-shenzhen.md) |
+| 生物技术 | [biotech-shenzhen.md](industry/biotech-shenzhen.md) |
+| 3C电子 | [3c-shenzhen.md](industry/3c-shenzhen.md) |
+| 云计算 | [cloud-shenzhen.md](industry/cloud-shenzhen.md) |
+| 互联网 | [internet-shenzhen.md](industry/internet-shenzhen.md) |
+| 软件 | [software-shenzhen.md](industry/software-shenzhen.md) |
+| 新能源汽车 | [ev-shenzhen.md](industry/ev-shenzhen.md) |
+| 自动化 | [automation-shenzhen.md](industry/automation-shenzhen.md) |
+| 电池 | [battery-shenzhen.md](industry/battery-shenzhen.md) |
+| 无人机 | [drone-shenzhen.md](industry/drone-shenzhen.md) |
 
 ### 按行业查找
 
 #### 我想找人工智能企业
 | 城市 | 文件 | 代表企业 |
 |------|------|----------|
-| 北京 | [ai-beijing.md](list/ai-beijing.md) | 百度、字节、旷视、商汤 |
-| 上海 | [ai-shanghai.md](list/ai-shanghai.md) | 依图、云从、商汤上海 |
-| 深圳 | [ai-shenzhen.md](list/ai-shenzhen.md) | 大疆、优必选、云天励飞 |
-| 杭州 | [ai-hangzhou.md](list/ai-hangzhou.md) | 海康威视、大华、宇树 |
-| 广州 | [ai-guangzhou.md](list/ai-guangzhou.md) | 云从科技、佳都、小鹏 |
+| 北京 | [ai-beijing.md](industry/ai-beijing.md) | 百度、字节、旷视、商汤 |
+| 上海 | [ai-shanghai.md](industry/ai-shanghai.md) | 依图、云从、商汤上海 |
+| 深圳 | [ai-shenzhen.md](industry/ai-shenzhen.md) | 大疆、优必选、云天励飞 |
+| 杭州 | [ai-hangzhou.md](industry/ai-hangzhou.md) | 海康威视、大华、宇树 |
+| 广州 | [ai-guangzhou.md](industry/ai-guangzhou.md) | 云从科技、佳都、小鹏 |
 
 #### 我想找新能源汽车企业
 | 城市 | 文件 | 代表企业 |
 |------|------|----------|
-| 深圳 | [ev-shenzhen.md](list/ev-shenzhen.md) | 比亚迪 |
-| 深圳 | [new-energy-shenzhen.md](list/new-energy-shenzhen.md) | 比亚迪、欣旺达 |
-| 广州 | [new-energy-guangzhou.md](list/new-energy-guangzhou.md) | 广汽埃安、小鹏汽车 |
-| 上海 | [new-energy-shanghai.md](list/new-energy-shanghai.md) | 上汽、蔚来中国 |
+| 深圳 | [ev-shenzhen.md](industry/ev-shenzhen.md) | 比亚迪 |
+| 深圳 | [new-energy-shenzhen.md](industry/new-energy-shenzhen.md) | 比亚迪、欣旺达 |
+| 广州 | [new-energy-guangzhou.md](industry/new-energy-guangzhou.md) | 广汽埃安、小鹏汽车 |
+| 上海 | [new-energy-shanghai.md](industry/new-energy-shanghai.md) | 上汽、蔚来中国 |
 
 ### 按榜单类型查找
 
 #### 我想找大公司/行业龙头
-- [财富世界500强](list/fortune_500_2025.md) - 全球最大企业
-- [中国民营企业500强](list/private-enterprise-500.md) - 中国最大民企
-- [中国互联网企业100强](list/internet-100.md) - 互联网巨头
-- [中国软件百强](list/software-100.md) - 软件龙头
+- [财富世界500强](rankings-international/fortune_500_2025.md) - 全球最大企业
+- [中国民营企业500强](rankings/private-enterprise-500.md) - 中国最大民企
+- [中国互联网企业100强](rankings/internet-100.md) - 互联网巨头
+- [中国软件百强](rankings/software-100.md) - 软件龙头
 
 #### 我想找专业化中小企业
-- [专精特新"小巨人"](list/specialized-sme-xiaojuren.md) - 细分领域冠军
-- [制造业单项冠军](list/manufacturing-champion.md) - 细分产品市场领先
+- [专精特新"小巨人"](rankings/specialized-sme-xiaojuren.md) - 细分领域冠军
+- [制造业单项冠军](rankings/manufacturing-champion.md) - 细分产品市场领先
 
 #### 我想找高成长企业
-- [独角兽企业](list/unicorn-enterprise.md) - 估值10亿美元+
-- [瞪羚企业](list/gazelle-enterprise.md) - 高成长中小企业
+- [独角兽企业](rankings/unicorn-enterprise.md) - 估值10亿美元+
+- [瞪羚企业](rankings/gazelle-enterprise.md) - 高成长中小企业
 
 ### 按企业规模查找
 每个文件中都包含按公司规模分类的企业列表：
