@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls /Users/allengaller/Documents/GitHub/standup-coder/standup-coder-database/industry/ | head -20 && echo \"---\" && ls /Users/allengaller/Documents/GitHub/standup-coder/standup-coder-database/jobs/ | head -20 && echo \"---\" && ls /Users/allengaller/Documents/GitHub/standup-coder/standup-coder-database/rankings/ && echo \"---\" && ls /Users/allengaller/Documents/GitHub/standup-coder/standup-coder-database/super-individual/ | head -20)"
+    ]
+  }
+}

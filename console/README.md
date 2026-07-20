@@ -4,14 +4,15 @@
 
 ## 技术栈
 
-- **前端框架**: React 18 + TypeScript 5
-- **构建工具**: Vite 5
-- **UI组件库**: Ant Design 5
-- **状态管理**: Zustand
-- **数据查询**: TanStack Query (React Query)
-- **路由**: React Router 6
-- **样式**: Tailwind CSS
-- **图表**: Ant Design Charts
+- **前端框架**: React 19 + TypeScript 5.9
+- **构建工具**: Vite 8
+- **UI组件库**: Ant Design 6
+- **状态管理**: Zustand 5
+- **数据查询**: TanStack Query 5
+- **路由**: React Router 7
+- **样式**: Tailwind CSS 3
+- **图表**: Ant Design Charts 2
+- **搜索**: Fuse.js 7
 
 ## 功能特性
 
@@ -74,7 +75,7 @@ console/
 
 ## 数据说明
 
-控制台使用的数据来源于项目根目录的 Markdown 文件，通过 `scripts/parse-data.js` 解析生成 JSON 数据文件。
+控制台使用的数据来源于项目根目录的 Markdown 文件，通过 `scripts/generate-data.cjs` 解析生成 JSON 数据文件。
 
 ## 贡献指南
 

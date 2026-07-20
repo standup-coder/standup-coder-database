@@ -78,8 +78,8 @@ const SPECIAL_INDUSTRY_MAP = {
 };
 
 function extractCity(filename) {
-  const match = filename.match(/-([a-z0-9-]+)\.md$/i);
-  return match ? (CITY_MAP[match[1].toLowerCase()] || match[1]) : '';
+  const match = filename.match(/-([a-z0-9]+)\.md$/i);
+  return match ? (CITY_MAP[match[1].toLowerCase()] || '') : '';
 }
 
 function extractIndustry(filename) {
