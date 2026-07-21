@@ -2,7 +2,7 @@
 title: 技术创新管理体系
 category: management
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 技术创新管理体系

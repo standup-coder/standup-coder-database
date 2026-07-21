@@ -3,7 +3,7 @@ title: 中国主要开源社区清单
 category: open-source
 tags: [软件, 互联网]
 lastUpdated: 2026年2月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 中国主要开源社区清单

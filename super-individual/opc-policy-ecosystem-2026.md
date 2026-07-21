@@ -3,7 +3,7 @@ title: 2026年OPC政策与生态红利完全手册
 category: super-individual
 tags: [人工智能]
 lastUpdated: 2026年3月
-aiGenerated: false
+aiGenerated: true
 dataSource: 政府工作报告、官方政策文件、各城市公告
 verificationLevel: high  # 政策内容基于官方文件，但具体申请条件需核实
 ---

@@ -2,7 +2,7 @@
 title: Android 签名与打包配置
 category: super-individual
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # Android 签名与打包配置

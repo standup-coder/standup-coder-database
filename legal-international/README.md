@@ -2,7 +2,7 @@
 title: International Legal Resources
 category: legal
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # International Legal Resources

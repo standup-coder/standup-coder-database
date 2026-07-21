@@ -2,7 +2,7 @@
 title: 专项管理指南
 category: management
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 专项管理指南

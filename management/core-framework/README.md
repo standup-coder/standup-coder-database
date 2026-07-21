@@ -2,7 +2,7 @@
 title: 核心管理框架
 category: management
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 核心管理框架

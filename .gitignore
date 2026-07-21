@@ -52,6 +52,12 @@ coverage/
 .eslintcache
 *.tsbuildinfo
 
+# AI tooling local configs (do not commit)
+.claude/
+.qoder/
+.trae/
+.zcode/
+
 # Misc
 *.tgz
 *.tar.gz

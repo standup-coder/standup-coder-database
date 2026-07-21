@@ -2,7 +2,7 @@
 title: International Career Development Resources
 category: careers
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # International Career Development Resources

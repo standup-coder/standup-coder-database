@@ -2,7 +2,7 @@
 title: 国际投资法律实务指南
 category: legal
 lastUpdated: 2026年2月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 国际投资法律实务指南

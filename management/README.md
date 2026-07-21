@@ -2,7 +2,7 @@
 title: 技术管理知识体系
 category: management
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 技术管理知识体系

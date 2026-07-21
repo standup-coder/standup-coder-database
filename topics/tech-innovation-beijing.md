@@ -3,7 +3,7 @@ title: 北京科技创新企业榜单
 category: topics
 tags: [区块链, 新能源, beijing, 云计算, 人工智能]
 lastUpdated: 2026年1月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 北京科技创新企业榜单

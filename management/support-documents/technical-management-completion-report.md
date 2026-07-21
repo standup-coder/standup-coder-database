@@ -2,7 +2,7 @@
 title: 技术管理内容查漏补缺工作总结报告
 category: management
 lastUpdated: 2026年2月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 技术管理内容查漏补缺工作总结报告

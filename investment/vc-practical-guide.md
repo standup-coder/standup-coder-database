@@ -2,7 +2,7 @@
 title: VC投资实用指南
 category: investment
 lastUpdated: 2026年2月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # VC投资实用指南

@@ -2,7 +2,7 @@
 title: 小程序发布指南
 category: super-individual
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 小程序发布指南

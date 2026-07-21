@@ -3,7 +3,7 @@ title: App Store 审核清单
 category: super-individual
 tags: [软件]
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # App Store 审核清单

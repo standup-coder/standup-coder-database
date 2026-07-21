@@ -2,7 +2,7 @@
 title: 团队技术管理框架
 category: management
 lastUpdated: 2026年2月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 团队技术管理框架

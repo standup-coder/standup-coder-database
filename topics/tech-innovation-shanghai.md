@@ -3,7 +3,7 @@ title: 上海科技创新企业榜单
 category: topics
 tags: [软件, 人工智能, shanghai, 新能源]
 lastUpdated: 2026年1月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 上海科技创新企业榜单

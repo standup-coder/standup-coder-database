@@ -2,7 +2,7 @@
 title: 微信小程序发布指南
 category: super-individual
 lastUpdated: 2024年1月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 微信小程序发布指南

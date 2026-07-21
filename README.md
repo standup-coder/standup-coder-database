@@ -2,7 +2,7 @@
 title: Standup Coder Database
 category: other
 tags: [3C, 网络安全, 区块链, 生物技术, 新能源]
-lastUpdated: 2026年2月
+lastUpdated: 2026年7月
 aiGenerated: true
 ---
 
@@ -42,32 +42,32 @@ npm run dev
 - 🏆 **榜单浏览** - 独角兽、财富500强等权威榜单
 - 📈 **数据分析** - 行业分布、城市布局等深度分析
 
-**技术栈**: React 18 + TypeScript + Ant Design + Vite
+**技术栈**: React 19 + TypeScript + Ant Design 6 + Vite 8
 
 项目采用模块化文件夹结构：
-- **rankings/** - 国内权威企业榜单（7个文件）
-- **industry/** - 中国行业企业清单（126个文件
-- **industry-international/** - 国际行业企业清单（39个文件
-- **outsourcing/** - 国内IT外包公司清单（2个文件
-- **outsourcing-international/** - 国际IT外包服务提供商清单（5个文件
-- **rankings-international/** - 国际权威企业榜单（4个文件
-- **interview-skills/** - 国内面试技巧指南（2个文件
-- **interview-skills-international/** - 国际面试技巧指南（3个文件）
-- **resume-skills/** - 国内简历制作技巧（2个文件
-- **open-source-communities/** - 国内开源社区指南（1个文件
-- **open-source-communities-international/** - 国际开源社区指南（2个文件）
-- **topics-international/** - 国际科技专题榜单（2个文件）
-- **investment/** - 风险投资专题（5个文件
+- **rankings/** - 国内权威企业榜单（8个文件）
+- **industry/** - 中国行业企业清单（136个文件）
+- **industry-international/** - 国际行业企业清单（42个文件）
+- **outsourcing/** - 国内IT外包公司清单（4个文件）
+- **outsourcing-international/** - 国际IT外包服务提供商清单（4个文件）
+- **rankings-international/** - 国际权威企业榜单（3个文件）
+- **interview-skills/** - 国内面试技巧指南（4个文件）
+- **interview-skills-international/** - 国际面试技巧指南（2个文件）
+- **resume-skills/** - 国内简历制作技巧（4个文件）
+- **open-source-communities/** - 国内开源社区指南（3个文件）
+- **open-source-communities-international/** - 国际开源社区指南（1个文件）
+- **topics-international/** - 国际科技专题榜单（1个文件）
+- **investment/** - 风险投资专题（7个文件）
 - **investment-international/** - 国际风险投资机构清单（6个文件）
-- **events/** - 技术活动信息（1个文件）
-- **events-international/** - 国际技术活动与竞赛清单（10个文件
+- **events/** - 技术活动信息（4个文件）
+- **events-international/** - 国际技术活动与竞赛清单（9个文件）
 - **careers/** - 国内求职招聘信息（23个文件）
-- **careers-international/** - 国际求职招聘信息（4个文件
-- **legal/** - 法律实务指南（3个文件）
-- **legal-international/** - 国际法律实务指南（6个文件）
-- **jobs/** - IT技术岗位JD信息（34个文件，含真实案例
-- **management/** - 技术管理知识体系（24个文件，专业分类
-- **super-individual/** - 超级个体与OPC一人公司知识体系（57个文件，全面覆盖OPC速查手册、OPC完全指南、OPC政策红利、AI Agent工作流、Vibe Coding、OPC全球化扩张、OPC案例研究、OPC融资指南、OPC增长营销、OPC产品设计、OPC数据驱动、OPC心理健康、工商注册、自媒体、AI工具链、个人IP、自由职业、数字产品、财税合规、副业规划、程序员技能蒸馏）
+- **careers-international/** - 国际求职招聘信息（6个文件）
+- **legal/** - 法律实务指南（7个文件）
+- **legal-international/** - 国际法律实务指南（8个文件）
+- **jobs/** - IT技术岗位JD信息（41个文件，含真实案例）
+- **management/** - 技术管理知识体系（21个文件，专业分类）
+- **super-individual/** - 超级个体与OPC一人公司知识体系（50个文件，全面覆盖OPC速查手册、OPC完全指南、OPC政策红利、AI Agent工作流、Vibe Coding、OPC全球化扩张、OPC案例研究、OPC融资指南、OPC增长营销、OPC产品设计、OPC数据驱动、OPC心理健康、工商注册、自媒体、AI工具链、个人IP、自由职业、数字产品、财税合规、副业规划、程序员技能蒸馏）
 
 ## 目录结构说明
 
@@ -747,7 +747,7 @@ npm run dev
   - 技术管理最佳实践
   - 团队绩效与激励机制
 
-- **specialized-guides/** - 专项管理指南（9个文件）
+- **specialized-guides/** - 专项管理指南（11个文件）
   - DevOps/SRE团队管理
   - AI/ML团队管理
   - 云原生技术管理
@@ -756,7 +756,9 @@ npm run dev
   - 远程分布式管理
   - 创新管理体系
   - 工程效能提升
-  - 术术风险管理
+  - 技术风险管理
+  - CTO手册
+  - 故障管理
 
 - **assessment-tools/** - 评估工具（1个文件）
   - 技术管理能力专项评估
@@ -1134,34 +1136,38 @@ npm run dev
 - 分类体系清晰合理
 
 #### 各文件夹现状
-**legal-international (6个文件)**
+**legal-international (9个文件)**
 - `README.md` - 总览和使用指南
 - `labor-law-usa.md` - 美国劳动法律实务
 - `labor-law-europe.md` - 欧洲劳动法律实务
 - `labor-law-japan.md` - 日本劳动法律实务
+- `labor-law-korea.md` - 韩国劳动法律实务
+- `labor-law-singapore.md` - 新加坡劳动法律实务
+- `labor-law-australia.md` - 澳大利亚劳动法律实务
 - `ip-protection-international.md` - 国际知识产权保护
 - `investment-law-international.md` - 国际投资法律指南
 
-**outsourcing-international (3个文件)**
+**outsourcing-international (5个文件)**
 - `README.md` - 总览和使用指南
 - `it-outsourcing-usa.md` - 美国IT外包服务
 - `it-outsourcing-europe.md` - 欧洲IT外包服务
+- `india-it-outsourcing.md` - 印度IT外包服务
+- `europe-usa-it-outsourcing.md` - 欧美IT外包服务
 
-**investment-international (7个文件)**
+**investment-international (6个文件)**
 - `README.md` - 总览和使用指南
 - `top-vc-usa.md` - 美国顶级风投机构
 - `top-vc-europe.md` - 欧洲顶级风投机构
 - `top-vc-japan.md` - 日本顶级风投机构
 - `top-vc-israel.md` - 以色列顶级风投机构
 - `cvc-global.md` - 全球企业风投机构
-- `gov-fund-global.md` - 全球政府引导基金
 
-**industry-international (20个文件)**
+**industry-international (43个文件)**
 - `README.md` - 总览和使用指南
-- 涵盖AI、大数据、云计算、物联网等13个行业
-- 覆盖美国、欧洲、日本、印度等主要国家
+- 涵盖AI、大数据、云计算、半导体、物联网等行业
+- 覆盖美国、欧洲、日本、韩国、印度、以色列、新加坡、越南、台湾等17个国家/地区
 
-**events-international (11个文件)**
+**events-international (10个文件)**
 - `README.md` - 总览和使用指南
 - 按地区分类：北美、欧洲、亚太、中东
 - 按类型分类：黑客马拉松、创业竞赛、开发者大会

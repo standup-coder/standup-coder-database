@@ -2,7 +2,7 @@
 title: 国际简历写作指南
 category: resume-skills
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 国际简历写作指南

@@ -3,7 +3,7 @@ title: 安卓开发者账号概览
 category: super-individual
 tags: [软件]
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 安卓开发者账号概览

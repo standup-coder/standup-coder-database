@@ -3,7 +3,7 @@ title: 通用流程指南
 category: super-individual
 tags: [软件]
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 通用流程指南

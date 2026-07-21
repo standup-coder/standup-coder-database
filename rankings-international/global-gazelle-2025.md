@@ -1,3 +1,11 @@
+---
+title: Global Gazelle Enterprises (2025)
+category: rankings
+tags: [瞪羚企业, 国际, 创新企业]
+lastUpdated: 2026年7月
+aiGenerated: true
+---
+
 # Global Gazelle Enterprises (2025)
 
 ## 1. Overview

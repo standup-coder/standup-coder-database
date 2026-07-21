@@ -2,7 +2,7 @@
 title: iOS App 发布指南
 category: super-individual
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # iOS App 发布指南

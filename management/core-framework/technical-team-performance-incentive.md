@@ -2,7 +2,7 @@
 title: 技术团队绩效考核与激励机制方案
 category: management
 lastUpdated: 2026年2月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 技术团队绩效考核与激励机制方案

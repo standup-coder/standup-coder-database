@@ -2,7 +2,7 @@
 title: 国际行为面试指南
 category: interview-skills
 lastUpdated: 2026年2月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 国际行为面试指南

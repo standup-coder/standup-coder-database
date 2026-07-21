@@ -3,7 +3,7 @@ title: 跨文化团队管理手册
 category: management
 tags: [互联网]
 lastUpdated: 2026年2月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 跨文化团队管理手册

@@ -2,7 +2,7 @@
 title: 协作与管理工具
 category: super-individual
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 协作与管理工具

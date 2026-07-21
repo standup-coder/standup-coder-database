@@ -2,7 +2,7 @@
 title: International Outsourcing Resources
 category: outsourcing
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # International Outsourcing Resources

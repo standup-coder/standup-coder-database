@@ -2,7 +2,7 @@
 title: 海外求职及移民专业平台
 category: careers
 lastUpdated: 2026年2月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 海外求职及移民专业平台

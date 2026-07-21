@@ -42,10 +42,10 @@ CATEGORY_MAP = {
 }
 
 # AI生成标记
-AI_GENERATED_CATEGORIES = [
-    'industry', 'rankings', 'jobs', 'events',
-    'industry-international', 'rankings-international'
-]
+# 历史缺陷：曾只列 6 类，导致 management/super-individual/legal 等被错标 false。
+# 现 README 顶部统一声明"AI 辅助生成、未经逐一核实"，
+# 故所有内容分类默认 aiGenerated: true，与 README 口径一致。
+AI_GENERATED_CATEGORIES = list(CATEGORY_MAP.keys())
 
 
 def get_category_from_path(file_path: str) -> str:

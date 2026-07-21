@@ -2,7 +2,7 @@
 title: Advanced International Resume Strategy
 category: resume-skills
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # Advanced International Resume Strategy

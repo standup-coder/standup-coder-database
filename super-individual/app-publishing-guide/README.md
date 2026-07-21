@@ -1,9 +1,10 @@
 ---
-name: App发布指南索引
-description: 超级个体从零发布 iOS App、Android App、微信小程序的完整流程指南
-type: reference
+title: App发布指南索引
+category: super-individual
+tags: [App发布, iOS, Android, 小程序]
+lastUpdated: 2026年7月
+aiGenerated: true
 ---
-
 # App 发布全流程指南
 
 超级个体从零发布 iOS App、Android App、小程序的完整流程与实战最佳实践。

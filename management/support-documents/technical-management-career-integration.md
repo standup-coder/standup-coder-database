@@ -3,7 +3,7 @@ title: 技术管理与职业发展体系整合指南
 category: management
 tags: [互联网]
 lastUpdated: 2026年2月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 技术管理与职业发展体系整合指南

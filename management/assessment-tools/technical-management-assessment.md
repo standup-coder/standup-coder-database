@@ -2,7 +2,7 @@
 title: 技术管理能力专项评估体系
 category: management
 lastUpdated: 2026年2月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 技术管理能力专项评估体系

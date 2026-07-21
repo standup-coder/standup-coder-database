@@ -2,7 +2,7 @@
 title: App Store Connect 配置
 category: super-individual
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # App Store Connect 配置

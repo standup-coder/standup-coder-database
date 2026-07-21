@@ -2,7 +2,7 @@
 title: 管理支持文档
 category: management
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 管理支持文档

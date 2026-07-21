@@ -2,7 +2,7 @@
 title: TestFlight 内测流程
 category: super-individual
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # TestFlight 内测流程

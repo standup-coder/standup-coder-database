@@ -1,3 +1,11 @@
+---
+title: Global Unicorn Enterprises (2025)
+category: rankings
+tags: [独角兽, 国际, 创新企业]
+lastUpdated: 2026年7月
+aiGenerated: true
+---
+
 # Global Unicorn Enterprises (2025)
 
 ## 1. Overview

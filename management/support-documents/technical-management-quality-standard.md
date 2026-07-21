@@ -2,7 +2,7 @@
 title: 技术管理文件质量标准规范
 category: management
 lastUpdated: 2026年1月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 技术管理文件质量标准规范

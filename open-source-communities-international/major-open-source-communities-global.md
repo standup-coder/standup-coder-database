@@ -3,7 +3,7 @@ title: 国际开源社区名录
 category: open-source
 tags: [软件]
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 国际开源社区名录

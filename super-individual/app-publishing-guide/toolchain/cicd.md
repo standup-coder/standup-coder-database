@@ -2,7 +2,7 @@
 title: CI/CD 自动化发布指南
 category: super-individual
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # CI/CD 自动化发布指南

@@ -3,7 +3,7 @@ title: 技术管理最佳实践案例库
 category: management
 dataSource: 公开资料整理和行业实践总结*
 lastUpdated: 2026年2月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 技术管理最佳实践案例库

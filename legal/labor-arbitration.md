@@ -2,7 +2,7 @@
 title: 劳动仲裁全流程指南
 category: legal
 lastUpdated: 2026年2月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 劳动仲裁全流程指南

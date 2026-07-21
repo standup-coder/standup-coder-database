@@ -2,7 +2,7 @@
 title: International Open Source Communities
 category: open-source
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # International Open Source Communities

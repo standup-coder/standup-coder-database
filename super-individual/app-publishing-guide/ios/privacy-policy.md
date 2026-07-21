@@ -2,7 +2,7 @@
 title: 隐私政策配置
 category: super-individual
 lastUpdated: 2026年05月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 隐私政策配置

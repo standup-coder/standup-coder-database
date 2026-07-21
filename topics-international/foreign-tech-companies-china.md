@@ -3,7 +3,7 @@ title: 国外科技公司在华业务榜单
 category: topics
 tags: [新能源, 物联网, 软件, 互联网, 云计算]
 lastUpdated: 2026年1月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 国外科技公司在华业务榜单

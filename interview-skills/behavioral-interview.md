@@ -3,7 +3,7 @@ title: 行为面试技巧指南
 category: interview-skills
 tags: [互联网]
 lastUpdated: 2026年2月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 行为面试技巧指南

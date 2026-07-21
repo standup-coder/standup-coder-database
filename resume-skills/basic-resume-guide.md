@@ -3,7 +3,7 @@ title: 简历制作技巧指南
 category: resume-skills
 tags: [互联网]
 lastUpdated: 2026年2月
-aiGenerated: false
+aiGenerated: true
 ---
 
 # 简历制作技巧指南
