@@ -15,48 +15,44 @@ aiGenerated: true
 
 ### 2.1 总部在广州的企业
 
-| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 |
-| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| 广州佳都科技集团股份有限公司 | 佳都科技 | 1992年 | 智能安防、大数据、轨道交通 | 智慧城市解决方案、AI视觉 | 8000+人 | [https://www.pci-suntektech.com](https://www.pci-suntektech.com) | 上交所：600728 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 广州市天河区天河路385号 |
-| 广州视源电子科技股份有限公司 | 视源股份 | 2005年 | 智能显示、大数据、教育科技 | 希沃教育平板、MAXHUB会议平板 | 10000+人 | [https://www.cvte.com](https://www.cvte.com) | 深交所：002841 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 广州市黄埔区科学城科学大道中99号 |
-| 广州欢聚时代科技有限公司 | 欢聚集团 | 2005年 | 直播、社交、大数据推荐 | YY直播、BIGO | 8000+人 | [https://www.joyy.com](https://www.joyy.com) | 纳斯达克：YY | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 广州市番禺区万博CBD万达广场 |
-| 广州浩云科技股份有限公司 | 浩云科技 | 2001年 | 智能安防、大数据 | 金融安防解决方案、智慧园区 | 1500+人 | [https://www.haoyuntech.com](https://www.haoyuntech.com) | 深交所：300448 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 广州市番禺区南村镇万博二路79号 |
-| 广州智度科技股份有限公司 | 智度股份 | 1996年 | 数字营销、大数据 | 数字广告平台、营销大数据 | 2000+人 | [https://www.zd.cn](https://www.zd.cn) | 深交所：000676 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 广州市天河区珠江新城 |
-| 广州达安基因股份有限公司 | 达安基因 | 1988年 | 基因检测、医疗大数据 | 基因检测试剂、医疗诊断大数据 | 5000+人 | [https://www.daangene.com](https://www.daangene.com) | 深交所：002030 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 广州市黄埔区科学城科汇金谷 |
-| 广州极飞科技股份有限公司 | 极飞科技 | 2007年 | 农业科技、大数据 | 农业无人机、农业大数据平台 | 2000+人 | [https://www.xag.cn](https://www.xag.cn) | 未上市 | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 广州市天河区高普路168号 |
-| 广州唯品会信息科技有限公司 | 唯品会 | 2008年 | 电商、大数据推荐 | 唯品会APP、品牌特卖 | 12000+人 | [https://www.vip.com](https://www.vip.com) | 纽交所：VIPS | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 广州市荔湾区花地大道南890号 |
-| 广州虎牙信息科技有限公司 | 虎牙直播 | 2014年 | 游戏直播、大数据推荐 | 虎牙直播APP | 3000+人 | [https://www.huya.com](https://www.huya.com) | 纽交所：HUYA | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | [待补充] | 广州市番禺区万博CBD |
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 核心产品 | 办公地址 | 开源仓库 | 财报 |
+| 广州佳都科技集团股份有限公司 | 佳都科技 | 1992年 | 智能安防、大数据、轨道交通 | 智慧城市解决方案、AI视觉 | 8000+人 | [https://www.pci-suntektech.com](https://www.pci-suntektech.com) | 上交所：600728 | - | - | - | - | - |
+| 广州视源电子科技股份有限公司 | 视源股份 | 2005年 | 智能显示、大数据、教育科技 | 希沃教育平板、MAXHUB会议平板 | 10000+人 | [https://www.cvte.com](https://www.cvte.com) | 深交所：002841 | - | - | - | - | - |
+| 广州欢聚时代科技有限公司 | 欢聚集团 | 2005年 | 直播、社交、大数据推荐 | YY直播、BIGO | 8000+人 | [https://www.joyy.com](https://www.joyy.com) | 纳斯达克：YY | - | - | - | - | - |
+| 广州浩云科技股份有限公司 | 浩云科技 | 2001年 | 智能安防、大数据 | 金融安防解决方案、智慧园区 | 1500+人 | [https://www.haoyuntech.com](https://www.haoyuntech.com) | 深交所：300448 | - | - | - | - | - |
+| 广州智度科技股份有限公司 | 智度股份 | 1996年 | 数字营销、大数据 | 数字广告平台、营销大数据 | 2000+人 | [https://www.zd.cn](https://www.zd.cn) | 深交所：000676 | - | - | - | - | - |
+| 广州达安基因股份有限公司 | 达安基因 | 1988年 | 基因检测、医疗大数据 | 基因检测试剂、医疗诊断大数据 | 5000+人 | [https://www.daangene.com](https://www.daangene.com) | 深交所：002030 | - | - | - | - | - |
+| 广州极飞科技股份有限公司 | 极飞科技 | 2007年 | 农业科技、大数据 | 农业无人机、农业大数据平台 | 2000+人 | [https://www.xag.cn](https://www.xag.cn) | 未上市 | - | - | - | - | - |
+| 广州唯品会信息科技有限公司 | 唯品会 | 2008年 | 电商、大数据推荐 | 唯品会APP、品牌特卖 | 12000+人 | [https://www.vip.com](https://www.vip.com) | 纽交所：VIPS | - | - | - | - | - |
+| 广州虎牙信息科技有限公司 | 虎牙直播 | 2014年 | 游戏直播、大数据推荐 | 虎牙直播APP | 3000+人 | [https://www.huya.com](https://www.huya.com) | 纽交所：HUYA | - | - | - | - | - |
 
 ### 2.2 在广州有重要办公地的外资/外地企业
 
 #### 2.2.1 美国企业
 
-| 企业名称 | 简称 | 总部所在地 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 广州办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
-|----------|------|------------|----------|----------|----------|----------|--------------|----------|
-| Google Guangzhou Office | 谷歌广州 | 美国加州 | 搜索引擎、大数据分析 | BigQuery、Looker、Data Studio | 180,000+人 | [https://cloud.google.com/big-data](https://cloud.google.com/big-data) | 纳斯达克(GOOGL) | 已上市 | 广告收入、云服务 | Google Big Data Platform | 广州市天河区珠江新城 | Twitter: @GoogleCloud | [https://github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) | BigQuery、Dataflow架构 | 技术领先，创新氛围浓厚 | 数据隐私争议 | [Google财报](https://abc.xyz/investor/) |
-| Microsoft Guangzhou | 微软广州 | 美国西雅图 | 企业大数据、AI分析 | Azure Synapse、Power BI、HDInsight | 220,000+人 | [https://azure.microsoft.com/solutions/big-data](https://azure.microsoft.com/solutions/big-data) | 纳斯达克(MSFT) | 已上市 | 云服务、软件授权 | Microsoft Analytics Platform | 广州市天河区天河北路 | Twitter: @Microsoft | [https://github.com/microsoft](https://github.com/microsoft) | Azure大数据架构 | 福利待遇好，技术实力强 | 反垄断诉讼风险 | [Microsoft财报](https://www.microsoft.com/en-us/investor) |
-| Amazon Web Services Guangzhou | AWS广州 | 美国西雅图 | 电商大数据、云分析 | AWS Redshift、EMR、QuickSight | 150,000+人 | [https://aws.amazon.com/big-data](https://aws.amazon.com/big-data) | 纳斯达克(AMZN) | 已上市 | 云服务、电商 | AWS大数据服务 | 广州市天河区珠江新城 | Twitter: @AWS | [https://github.com/aws](https://github.com/aws) | AWS大数据架构 | 平台稳定，薪资待遇好 | 劳工权益争议 | [Amazon财报](https://ir.aboutamazon.com) |
-| IBM China Guangzhou | IBM广州 | 美国纽约 | 企业大数据、Watson AI | IBM Watson、InfoSphere、SPSS | 350,000+人 | [https://www.ibm.com/analytics](https://www.ibm.com/analytics) | 纽约证券交易所(IBM) | 已上市 | 软件授权、服务咨询 | IBM Analytics Platform | 广州市越秀区环市东路 | Twitter: @IBMAnalytics | [https://github.com/IBM](https://github.com/IBM) | IBM大数据架构 | 技术实力强，历史悠久 | 数据安全风险 | [IBM财报](https://www.ibm.com/investor) |
-| Cloudera Guangzhou | Cloudera广州 | 美国加州 | 大数据平台、Hadoop | Cloudera Data Platform、CDH | 4,000+人 | [https://www.cloudera.com](https://www.cloudera.com) | 纳斯达克(CLDR) | 已上市 | 软件授权、云服务 | Cloudera Platform | 广州市天河区软件园 | Twitter: @Cloudera | [https://github.com/cloudera](https://github.com/cloudera) | Hadoop生态系统 | 技术专业，开源贡献多 | 开源社区竞争风险 | [Cloudera财报](https://ir.cloudera.com) |
-| Snowflake Guangzhou | Snowflake广州 | 美国加州 | 云数据平台、数据分析 | Snowflake云数据平台 | 5,000+人 | [https://www.snowflake.com](https://www.snowflake.com) | 纽约证券交易所(SNOW) | 已上市 | 云数据服务订阅 | Snowflake Data Cloud | 广州市天河区珠江新城 | Twitter: @SnowflakeDB | [https://github.com/snowflakedb](https://github.com/snowflakedb) | 云原生数据架构 | 技术创新能力强 | 数据安全合规风险 | [Snowflake财报](https://investors.snowflake.com) |
-| Databricks Guangzhou | Databricks广州 | 美国加州 | 统一数据分析平台 | Databricks Lakehouse Platform | 3,000+人 | [https://www.databricks.com](https://www.databricks.com) | 私募融资 | 多轮融资 | 平台订阅、专业服务 | Delta Lake、Unified Analytics Platform | 广州市天河区软件园 | Twitter: @databricks | [https://github.com/databricks](https://github.com/databricks) | Lakehouse架构 | 技术创新能力强 | 开源商业化风险 | 私募融资信息 |
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 核心产品 | 办公地址 | 开源仓库 | 财报 |
+| Google Guangzhou Office | 谷歌广州 | - | 搜索引擎、大数据分析 | BigQuery、Looker、Data Studio | 180,000+人 | [https://cloud.google.com/big-data](https://cloud.google.com/big-data) | 纳斯达克(GOOGL) | 已上市 | Google Big Data Platform | 美国加州 | [https://github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) | [Google财报](https://abc.xyz/investor/) |
+| Microsoft Guangzhou | 微软广州 | - | 企业大数据、AI分析 | Azure Synapse、Power BI、HDInsight | 220,000+人 | [https://azure.microsoft.com/solutions/big-data](https://azure.microsoft.com/solutions/big-data) | 纳斯达克(MSFT) | 已上市 | Microsoft Analytics Platform | 美国西雅图 | [https://github.com/microsoft](https://github.com/microsoft) | [Microsoft财报](https://www.microsoft.com/en-us/investor) |
+| Amazon Web Services Guangzhou | AWS广州 | - | 电商大数据、云分析 | AWS Redshift、EMR、QuickSight | 150,000+人 | [https://aws.amazon.com/big-data](https://aws.amazon.com/big-data) | 纳斯达克(AMZN) | 已上市 | AWS大数据服务 | 美国西雅图 | [https://github.com/aws](https://github.com/aws) | [Amazon财报](https://ir.aboutamazon.com) |
+| IBM China Guangzhou | IBM广州 | - | 企业大数据、Watson AI | IBM Watson、InfoSphere、SPSS | 350,000+人 | [https://www.ibm.com/analytics](https://www.ibm.com/analytics) | 纽约证券交易所(IBM) | 已上市 | IBM Analytics Platform | 美国纽约 | [https://github.com/IBM](https://github.com/IBM) | [IBM财报](https://www.ibm.com/investor) |
+| Cloudera Guangzhou | Cloudera广州 | - | 大数据平台、Hadoop | Cloudera Data Platform、CDH | 4,000+人 | [https://www.cloudera.com](https://www.cloudera.com) | 纳斯达克(CLDR) | 已上市 | Cloudera Platform | 美国加州 | [https://github.com/cloudera](https://github.com/cloudera) | [Cloudera财报](https://ir.cloudera.com) |
+| Snowflake Guangzhou | Snowflake广州 | - | 云数据平台、数据分析 | Snowflake云数据平台 | 5,000+人 | [https://www.snowflake.com](https://www.snowflake.com) | 纽约证券交易所(SNOW) | 已上市 | Snowflake Data Cloud | 美国加州 | [https://github.com/snowflakedb](https://github.com/snowflakedb) | [Snowflake财报](https://investors.snowflake.com) |
+| Databricks Guangzhou | Databricks广州 | - | 统一数据分析平台 | Databricks Lakehouse Platform | 3,000+人 | [https://www.databricks.com](https://www.databricks.com) | 私募融资 | 多轮融资 | Delta Lake、Unified Analytics Platform | 美国加州 | [https://github.com/databricks](https://github.com/databricks) | 私募融资信息 |
 
 #### 2.2.2 欧洲企业
 
-| 企业名称 | 简称 | 总部所在地 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 广州办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
-|----------|------|------------|----------|----------|----------|----------|--------------|----------|
-| SAP Guangzhou | SAP广州 | 德国沃尔多夫 | 企业大数据、商务智能 | SAP Analytics Cloud、HANA、BusinessObjects | 100,000+人 | [https://www.sap.com/products/analytics.html](https://www.sap.com/products/analytics.html) | 泛欧交易所(SAP) | 已上市 | 软件授权、云服务 | SAP Analytics Platform | 广州市天河区珠江新城 | Twitter: @SAP | [https://github.com/SAP](https://github.com/SAP) | SAP HANA大数据架构 | 福利待遇好，国际化程度高 | 数据隐私合规风险 | [SAP财报](https://www.sap.com/investors.html) |
-| Oracle Guangzhou | Oracle广州 | 美国加州 | 企业大数据、数据库分析 | Oracle Analytics、Exadata、Autonomous Database | 130,000+人 | [https://www.oracle.com/big-data](https://www.oracle.com/big-data) | 纽约证券交易所(ORCL) | 已上市 | 软件授权、云服务 | Oracle Big Data Platform | 广州市天河区软件园 | Twitter: @Oracle | [https://github.com/oracle](https://github.com/oracle) | Oracle大数据架构 | 技术实力强，稳定性好 | 数据库垄断争议 | [Oracle财报](https://www.oracle.com/investors/) |
-| Siemens AG Guangzhou | 西门子广州 | 德国慕尼黑 | 工业大数据、智能制造 | Siemens Mindsphere、工业大数据平台 | 300,000+人 | [https://new.siemens.com/global/en/products/analytics.html](https://new.siemens.com/global/en/products/analytics.html) | 泛欧交易所(SIE) | 已上市 | 工业设备、软件服务 | Siemens大数据平台 | 广州市黄埔区科学城 | Twitter: @Siemens | [https://github.com/siemens](https://github.com/siemens) | 工业大数据架构 | 技术实力强，稳定性好 | 工业安全风险 | [Siemens财报](https://www.siemens.com/global/en/company/investor-relations.html) |
-| Ericsson AB Guangzhou | 爱立信广州 | 瑞典斯德哥尔摩 | 通信大数据、5G数据分析 | 5G大数据分析平台 | 95,000+人 | [https://www.ericsson.com/en/data-analytics](https://www.ericsson.com/en/data-analytics) | 斯德哥尔摩交易所(ERIC) | 已上市 | 通信设备、数据分析服务 | 通信大数据平台 | 广州市黄埔区科学城 | Twitter: @Ericsson | [https://github.com/Ericsson](https://github.com/Ericsson) | 通信大数据架构 | 技术实力强 | 5G专利风险 | [Ericsson财报](https://www.ericsson.com/investors) |
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 核心产品 | 办公地址 | 开源仓库 | 财报 |
+| SAP Guangzhou | SAP广州 | - | 企业大数据、商务智能 | SAP Analytics Cloud、HANA、BusinessObjects | 100,000+人 | [https://www.sap.com/products/analytics.html](https://www.sap.com/products/analytics.html) | 泛欧交易所(SAP) | 已上市 | SAP Analytics Platform | 德国沃尔多夫 | [https://github.com/SAP](https://github.com/SAP) | [SAP财报](https://www.sap.com/investors.html) |
+| Oracle Guangzhou | Oracle广州 | - | 企业大数据、数据库分析 | Oracle Analytics、Exadata、Autonomous Database | 130,000+人 | [https://www.oracle.com/big-data](https://www.oracle.com/big-data) | 纽约证券交易所(ORCL) | 已上市 | Oracle Big Data Platform | 美国加州 | [https://github.com/oracle](https://github.com/oracle) | [Oracle财报](https://www.oracle.com/investors/) |
+| Siemens AG Guangzhou | 西门子广州 | - | 工业大数据、智能制造 | Siemens Mindsphere、工业大数据平台 | 300,000+人 | [https://new.siemens.com/global/en/products/analytics.html](https://new.siemens.com/global/en/products/analytics.html) | 泛欧交易所(SIE) | 已上市 | Siemens大数据平台 | 德国慕尼黑 | [https://github.com/siemens](https://github.com/siemens) | [Siemens财报](https://www.siemens.com/global/en/company/investor-relations.html) |
+| Ericsson AB Guangzhou | 爱立信广州 | - | 通信大数据、5G数据分析 | 5G大数据分析平台 | 95,000+人 | [https://www.ericsson.com/en/data-analytics](https://www.ericsson.com/en/data-analytics) | 斯德哥尔摩交易所(ERIC) | 已上市 | 通信大数据平台 | 瑞典斯德哥尔摩 | [https://github.com/Ericsson](https://github.com/Ericsson) | [Ericsson财报](https://www.ericsson.com/investors) |
 
 #### 2.2.3 亚洲其他国家企业
 
-| 企业名称 | 简称 | 总部所在地 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 广州办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
-|----------|------|------------|----------|----------|----------|----------|--------------|----------|
-| NEC Corporation Guangzhou | NEC广州 | 日本东京 | 企业大数据、AI分析 | NEC大数据平台、AI解决方案 | 110,000+人 | [https://www.nec.com/en/global/solutions/data-analytics.html](https://www.nec.com/en/global/solutions/data-analytics.html) | 东京证券交易所(6701) | 已上市 | 软件授权、数据分析服务 | NEC大数据平台 | 广州市天河区软件园 | Twitter: @NEC_Corporation | [待补充] | 企业大数据架构 | 技术实力强 | 国际制裁风险 | [NEC财报](https://www.nec.com/en/global/ir/library/annual_report/index.html) |
-| Fujitsu Limited Guangzhou | 富士通广州 | 日本东京 | 混合大数据、企业分析 | Fujitsu Data Analytics、Uvance | 120,000+人 | [https://www.fujitsu.com/global/solutions/data-analytics/](https://www.fujitsu.com/global/solutions/data-analytics/) | 东京证券交易所(6702) | 已上市 | 软件授权、数据分析服务 | Fujitsu大数据平台 | 广州市天河区软件园 | Twitter: @Fujitsu_Global | [待补充] | 混合大数据架构 | 技术实力强 | 国际制裁风险 | [富士通财报](https://www.fujitsu.com/jp/group/corporate/investor/finance/) |
-| Hitachi, Ltd. Guangzhou | 日立广州 | 日本东京 | 工业大数据、IoT分析 | Lumada平台、Hitachi Vantara | 350,000+人 | [https://www.hitachi.com/products/analytics/](https://www.hitachi.com/products/analytics/) | 东京证券交易所(6501) | 已上市 | 软件授权、数据分析服务 | Hitachi大数据平台 | 广州市黄埔区科学城 | Twitter: @HitachiGlobal | [待补充] | 工业大数据架构 | 技术实力强 | 国际制裁风险 | [日立财报](https://www.hitachi.com/investor/) |
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 核心产品 | 办公地址 | 开源仓库 | 财报 |
+| NEC Corporation Guangzhou | NEC广州 | - | 企业大数据、AI分析 | NEC大数据平台、AI解决方案 | 110,000+人 | [https://www.nec.com/en/global/solutions/data-analytics.html](https://www.nec.com/en/global/solutions/data-analytics.html) | 东京证券交易所(6701) | 已上市 | NEC大数据平台 | 日本东京 | - | [NEC财报](https://www.nec.com/en/global/ir/library/annual_report/index.html) |
+| Fujitsu Limited Guangzhou | 富士通广州 | - | 混合大数据、企业分析 | Fujitsu Data Analytics、Uvance | 120,000+人 | [https://www.fujitsu.com/global/solutions/data-analytics/](https://www.fujitsu.com/global/solutions/data-analytics/) | 东京证券交易所(6702) | 已上市 | Fujitsu大数据平台 | 日本东京 | - | [富士通财报](https://www.fujitsu.com/jp/group/corporate/investor/finance/) |
+| Hitachi, Ltd. Guangzhou | 日立广州 | - | 工业大数据、IoT分析 | Lumada平台、Hitachi Vantara | 350,000+人 | [https://www.hitachi.com/products/analytics/](https://www.hitachi.com/products/analytics/) | 东京证券交易所(6501) | 已上市 | Hitachi大数据平台 | 日本东京 | - | [日立财报](https://www.hitachi.com/investor/) |
 
 #### 2.2.4 中国其他地区企业
 

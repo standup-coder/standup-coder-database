@@ -8,13 +8,12 @@ on:
 
 jobs:
   # ──────────────────────────────────────────────
-  # Job 1: Markdown Schema 校验
-  # 首版以 warning 运行（continue-on-error），待历史数据债清理后转为硬门槛
+  # Job 1: Markdown Schema 校验（硬门槛）
+  # 数据债已于 2026-07-21 清零，升级为硬门槛
   # ──────────────────────────────────────────────
   validate-schema:
     name: Markdown Schema 校验
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
 

@@ -13,36 +13,33 @@ aiGenerated: true
 
 ## 2. 中国企业列表
 
-| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
-|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
-| 百度在线网络技术（北京）有限公司 | 百度 | 2000年 | 搜索引擎、深度学习、自然语言处理 | 百度搜索、百度AI开放平台、小度智能音箱 | 10000+人 | [https://www.baidu.com](https://www.baidu.com) | 纳斯达克 | 多轮融资 | 广告收入、AI服务、云计算 | 百度AI开放平台 | 总部：北京市海淀区上地十街10号百度大厦 | 微信公众号：百度 | [https://github.com/baidu](https://github.com/baidu) | 深度学习框架PaddlePaddle、自然语言处理 | 平台稳定，技术氛围浓厚 | 数据隐私争议 | [百度财报](https://ir.baidu.com) |
-| 北京字节跳动科技有限公司 | 字节跳动 | 2012年 | 推荐算法、计算机视觉、自然语言处理 | 抖音、今日头条、飞书 | 10000+人 | [https://www.bytedance.com](https://www.bytedance.com) | 未上市 | 多轮融资 | 广告收入、内容服务 | 抖音 | 总部：北京市海淀区知春路甲48号盈都大厦 | 微信公众号：字节跳动 | [https://github.com/bytedance](https://github.com/bytedance) | 推荐算法、计算机视觉、自然语言处理 | 成长空间大，加班较多 | 内容合规风险 | 未公开 |
-| 北京旷视科技有限公司 | 旷视科技 | 2011年 | 计算机视觉、深度学习、人脸识别 | Face++平台、旷视智能安防系统 | 1000-5000人 | [https://www.megvii.com](https://www.megvii.com) | 未上市 | 多轮融资 | 解决方案销售、技术服务 | Face++平台 | 总部：北京市海淀区中关村软件园二期西扩6号楼 | 微信公众号：旷视科技 | 无 | 计算机视觉算法、深度学习框架 | 技术实力强，团队专业 | 数据隐私争议 | 未公开 |
-| 北京云知声信息技术有限公司 | 云知声 | 2012年 | 智能语音、自然语言处理 | 智能音箱解决方案、车载语音系统 | 1000-5000人 | [https://www.unisound.com](https://www.unisound.com) | 未上市 | 多轮融资 | 技术授权、解决方案销售 | 智能语音交互平台 | 总部：北京市海淀区中关村大街1号 | 微信公众号：云知声 | 无 | 语音识别、自然语言处理 | 技术氛围好，创新能力强 | 知识产权风险 | 未公开 |
-| 北京出门问问信息科技有限公司 | 出门问问 | 2012年 | 智能语音、可穿戴设备 | 问问音箱、问问手表 | 500-1000人 | [https://www.mobvoi.com](https://www.mobvoi.com) | 未上市 | 多轮融资 | 硬件销售、软件授权 | 问问音箱 | 总部：北京市海淀区中关村大街1号 | 微信公众号：出门问问 | [https://github.com/mobvoi](https://github.com/mobvoi) | 语音识别、自然语言处理 | 团队年轻有活力，创新氛围浓 | 知识产权风险 | 未公开 |
-| 北京第四范式数据技术有限公司 | 第四范式 | 2014年 | 机器学习平台、AutoML | 第四范式先知平台 | 1000-5000人 | [https://www.4paradigm.com](https://www.4paradigm.com) | 港交所：06682 | 已上市 | 平台订阅、解决方案销售 | 第四范式先知平台 | 总部：北京市海淀区中关村软件园二期 | 微信公众号：第四范式 | 无 | 机器学习平台、AutoML算法 | 技术氛围好，发展潜力大 | 数据安全风险 | [港交所公告](https://www.hkex.com.hk) |
-| 北京地平线机器人技术研发有限公司 | 地平线 | 2015年 | 边缘AI芯片、自动驾驶 | 征程系列自动驾驶芯片 | 1000-5000人 | [https://www.horizon.ai](https://www.horizon.ai) | 港交所：09660 | 已上市 | 芯片销售、解决方案销售 | 征程系列自动驾驶芯片 | 总部：北京市海淀区中关村软件园二期 | 微信公众号：地平线机器人 | 无 | 边缘AI芯片架构、自动驾驶算法 | 技术氛围浓厚，创新能力强 | 知识产权风险 | [港交所公告](https://www.hkex.com.hk) |
-| 北京寒武纪科技有限公司 | 寒武纪 | 2016年 | AI芯片、深度学习框架 | 寒武纪AI芯片 | 1000-5000人 | [https://www.cambricon.com](https://www.cambricon.com) | 科创板 | 多轮融资 | 芯片销售、软件授权 | 寒武纪AI芯片 | 总部：北京市海淀区中关村软件园二期 | 微信公众号：寒武纪科技 | [https://github.com/Cambricon](https://github.com/Cambricon) | AI芯片架构、深度学习框架 | 技术实力顶尖，人才汇聚 | 知识产权风险 | [上交所公告](http://www.sse.com.cn/disclosure/listedinfo/regular/) |
-| 北京商汤科技开发有限公司 | 商汤科技 | 2014年 | 计算机视觉、深度学习 | SenseCore商汤AI大装置 | 1000-5000人 | [https://www.sensetime.com](https://www.sensetime.com) | 港交所 | 多轮融资 | 技术服务、解决方案销售 | SenseCore商汤AI大装置 | 总部：北京市海淀区中关村软件园二期 | 微信公众号：商汤科技SenseTime | 无 | 深度学习框架、计算机视觉算法 | 技术实力强，加班较多 | 数据隐私争议 | [港交所公告](https://www.hkex.com.hk) |
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 核心产品 | 办公地址 | 开源仓库 | 财报 |
+| 百度在线网络技术（北京）有限公司 | 百度 | 2000年 | 搜索引擎、深度学习、自然语言处理 | 百度搜索、百度AI开放平台、小度智能音箱 | 10000+人 | [https://www.baidu.com](https://www.baidu.com) | 纳斯达克 | 多轮融资 | 百度AI开放平台 | 总部：北京市海淀区上地十街10号百度大厦 | [https://github.com/baidu](https://github.com/baidu) | [百度财报](https://ir.baidu.com) |
+| 北京字节跳动科技有限公司 | 字节跳动 | 2012年 | 推荐算法、计算机视觉、自然语言处理 | 抖音、今日头条、飞书 | 10000+人 | [https://www.bytedance.com](https://www.bytedance.com) | 未上市 | 多轮融资 | 抖音 | 总部：北京市海淀区知春路甲48号盈都大厦 | [https://github.com/bytedance](https://github.com/bytedance) | 未公开 |
+| 北京旷视科技有限公司 | 旷视科技 | 2011年 | 计算机视觉、深度学习、人脸识别 | Face++平台、旷视智能安防系统 | 1000-5000人 | [https://www.megvii.com](https://www.megvii.com) | 未上市 | 多轮融资 | Face++平台 | 总部：北京市海淀区中关村软件园二期西扩6号楼 | 无 | 未公开 |
+| 北京云知声信息技术有限公司 | 云知声 | 2012年 | 智能语音、自然语言处理 | 智能音箱解决方案、车载语音系统 | 1000-5000人 | [https://www.unisound.com](https://www.unisound.com) | 未上市 | 多轮融资 | 智能语音交互平台 | 总部：北京市海淀区中关村大街1号 | 无 | 未公开 |
+| 北京出门问问信息科技有限公司 | 出门问问 | 2012年 | 智能语音、可穿戴设备 | 问问音箱、问问手表 | 500-1000人 | [https://www.mobvoi.com](https://www.mobvoi.com) | 未上市 | 多轮融资 | 问问音箱 | 总部：北京市海淀区中关村大街1号 | [https://github.com/mobvoi](https://github.com/mobvoi) | 未公开 |
+| 北京第四范式数据技术有限公司 | 第四范式 | 2014年 | 机器学习平台、AutoML | 第四范式先知平台 | 1000-5000人 | [https://www.4paradigm.com](https://www.4paradigm.com) | 港交所：06682 | 已上市 | 第四范式先知平台 | 总部：北京市海淀区中关村软件园二期 | 无 | [港交所公告](https://www.hkex.com.hk) |
+| 北京地平线机器人技术研发有限公司 | 地平线 | 2015年 | 边缘AI芯片、自动驾驶 | 征程系列自动驾驶芯片 | 1000-5000人 | [https://www.horizon.ai](https://www.horizon.ai) | 港交所：09660 | 已上市 | 征程系列自动驾驶芯片 | 总部：北京市海淀区中关村软件园二期 | 无 | [港交所公告](https://www.hkex.com.hk) |
+| 北京寒武纪科技有限公司 | 寒武纪 | 2016年 | AI芯片、深度学习框架 | 寒武纪AI芯片 | 1000-5000人 | [https://www.cambricon.com](https://www.cambricon.com) | 科创板 | 多轮融资 | 寒武纪AI芯片 | 总部：北京市海淀区中关村软件园二期 | [https://github.com/Cambricon](https://github.com/Cambricon) | [上交所公告](http://www.sse.com.cn/disclosure/listedinfo/regular/) |
+| 北京商汤科技开发有限公司 | 商汤科技 | 2014年 | 计算机视觉、深度学习 | SenseCore商汤AI大装置 | 1000-5000人 | [https://www.sensetime.com](https://www.sensetime.com) | 港交所 | 多轮融资 | SenseCore商汤AI大装置 | 总部：北京市海淀区中关村软件园二期 | 无 | [港交所公告](https://www.hkex.com.hk) |
 
 ## 3. 国际企业列表
 
 ### 3.1 美国企业
 
-| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
-|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
-| Google LLC | Google | 1998年 | 搜索引擎、机器学习、深度学习 | Google AI、TensorFlow、Gemini | 180,000+人 | [https://ai.google](https://ai.google) | 纳斯达克(GOOGL) | 已上市 | 广告收入、云服务 | TensorFlow、Gemini | 美国加州山景城Google总部 | Twitter: @GoogleAI | [https://github.com/tensorflow](https://github.com/tensorflow) | TensorFlow框架、Transformer架构 | 技术领先，创新氛围浓厚 | 数据隐私争议 | [Google财报](https://abc.xyz/investor/) |
-| Microsoft Corporation | 微软 | 1975年 | 云计算、AI平台、机器学习 | Azure AI、Copilot、GitHub Copilot | 220,000+人 | [https://www.microsoft.com/ai](https://www.microsoft.com/ai) | 纳斯达克(MSFT) | 已上市 | 云服务、软件授权 | Azure AI平台 | 美国华盛顿州雷德蒙德 | Twitter: @Microsoft | [https://github.com/microsoft](https://github.com/microsoft) | Azure AI、.NET AI框架 | 福利待遇好，技术实力强 | 反垄断诉讼风险 | [Microsoft财报](https://www.microsoft.com/en-us/investor) |
-| Amazon.com, Inc. | 亚马逊 | 1994年 | 云计算、机器学习、推荐系统 | AWS SageMaker、Alexa、推荐算法 | 150,000+人 | [https://aws.amazon.com/machine-learning](https://aws.amazon.com/machine-learning) | 纳斯达克(AMZN) | 已上市 | 云服务、电商 | AWS机器学习服务 | 美国华盛顿州西雅图 | Twitter: @AWS | [https://github.com/aws](https://github.com/aws) | AWS AI服务、推荐算法 | 平台稳定，薪资待遇好 | 劳工权益争议 | [Amazon财报](https://ir.aboutamazon.com) |
-| Meta Platforms, Inc. | Meta | 2004年 | 社交AI、计算机视觉、推荐算法 | PyTorch、Facebook AI、Instagram推荐 | 80,000+人 | [https://ai.facebook.com](https://ai.facebook.com) | 纳斯达克(META) | 已上市 | 广告收入、社交平台 | PyTorch框架 | 美国加州门洛帕克 | Twitter: @MetaAI | [https://github.com/pytorch](https://github.com/pytorch) | PyTorch、计算机视觉 | 创新氛围浓厚 | 内容监管风险 | [Meta财报](https://investor.fb.com) |
-| NVIDIA Corporation | 英伟达 | 1993年 | AI芯片、深度学习、GPU计算 | CUDA、Tensor Core、AI加速器 | 25,000+人 | [https://www.nvidia.com/ai](https://www.nvidia.com/ai) | 纳斯达克(NVDA) | 已上市 | 芯片销售、授权费 | GPU AI芯片 | 美国加州圣克拉拉 | Twitter: @NVIDIAAI | [https://github.com/NVIDIA](https://github.com/NVIDIA) | CUDA架构、TensorRT | 技术领先，薪资待遇好 | 供应链风险 | [NVIDIA财报](https://nvidianews.nvidia.com) |
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 核心产品 | 办公地址 | 开源仓库 | 财报 |
+| Google LLC | Google | 1998年 | 搜索引擎、机器学习、深度学习 | Google AI、TensorFlow、Gemini | 180,000+人 | [https://ai.google](https://ai.google) | 纳斯达克(GOOGL) | 已上市 | TensorFlow、Gemini | 美国加州山景城Google总部 | [https://github.com/tensorflow](https://github.com/tensorflow) | [Google财报](https://abc.xyz/investor/) |
+| Microsoft Corporation | 微软 | 1975年 | 云计算、AI平台、机器学习 | Azure AI、Copilot、GitHub Copilot | 220,000+人 | [https://www.microsoft.com/ai](https://www.microsoft.com/ai) | 纳斯达克(MSFT) | 已上市 | Azure AI平台 | 美国华盛顿州雷德蒙德 | [https://github.com/microsoft](https://github.com/microsoft) | [Microsoft财报](https://www.microsoft.com/en-us/investor) |
+| Amazon.com, Inc. | 亚马逊 | 1994年 | 云计算、机器学习、推荐系统 | AWS SageMaker、Alexa、推荐算法 | 150,000+人 | [https://aws.amazon.com/machine-learning](https://aws.amazon.com/machine-learning) | 纳斯达克(AMZN) | 已上市 | AWS机器学习服务 | 美国华盛顿州西雅图 | [https://github.com/aws](https://github.com/aws) | [Amazon财报](https://ir.aboutamazon.com) |
+| Meta Platforms, Inc. | Meta | 2004年 | 社交AI、计算机视觉、推荐算法 | PyTorch、Facebook AI、Instagram推荐 | 80,000+人 | [https://ai.facebook.com](https://ai.facebook.com) | 纳斯达克(META) | 已上市 | PyTorch框架 | 美国加州门洛帕克 | [https://github.com/pytorch](https://github.com/pytorch) | [Meta财报](https://investor.fb.com) |
+| NVIDIA Corporation | 英伟达 | 1993年 | AI芯片、深度学习、GPU计算 | CUDA、Tensor Core、AI加速器 | 25,000+人 | [https://www.nvidia.com/ai](https://www.nvidia.com/ai) | 纳斯达克(NVDA) | 已上市 | GPU AI芯片 | 美国加州圣克拉拉 | [https://github.com/NVIDIA](https://github.com/NVIDIA) | [NVIDIA财报](https://nvidianews.nvidia.com) |
 
 ### 3.2 欧洲企业
 
-| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
-|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
-| SAP SE | SAP | 1972年 | 企业AI、机器学习平台 | SAP AI Core、Leonardo平台 | 100,000+人 | [https://www.sap.com/products/ai.html](https://www.sap.com/products/ai.html) | 泛欧交易所(SAP) | 已上市 | 软件授权、云服务 | SAP Leonardo AI平台 | 德国沃尔多夫 | Twitter: @SAP | [https://github.com/SAP](https://github.com/SAP) | SAP HANA、机器学习库 | 福利待遇好，国际化程度高 | 数据隐私合规风险 | [SAP财报](https://www.sap.com/investors.html) |
-| Siemens AG | 西门子 | 1847年 | 工业AI、智能制造AI | Siemens AI Suite、MindSphere AI | 300,000+人 | [https://new.siemens.com/global/en/products/ai.html](https://new.siemens.com/global/en/products/ai.html) | 泛欧交易所(SIE) | 已上市 | 工业设备、软件服务 | Siemens AI平台 | 德国慕尼黑 | Twitter: @Siemens | [https://github.com/siemens](https://github.com/siemens) | 工业AI、边缘计算 | 技术实力强，稳定性好 | 工业安全风险 | [Siemens财报](https://www.siemens.com/global/en/company/investor-relations.html) |
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 核心产品 | 办公地址 | 开源仓库 | 财报 |
+| SAP SE | SAP | 1972年 | 企业AI、机器学习平台 | SAP AI Core、Leonardo平台 | 100,000+人 | [https://www.sap.com/products/ai.html](https://www.sap.com/products/ai.html) | 泛欧交易所(SAP) | 已上市 | SAP Leonardo AI平台 | 德国沃尔多夫 | [https://github.com/SAP](https://github.com/SAP) | [SAP财报](https://www.sap.com/investors.html) |
+| Siemens AG | 西门子 | 1847年 | 工业AI、智能制造AI | Siemens AI Suite、MindSphere AI | 300,000+人 | [https://new.siemens.com/global/en/products/ai.html](https://new.siemens.com/global/en/products/ai.html) | 泛欧交易所(SIE) | 已上市 | Siemens AI平台 | 德国慕尼黑 | [https://github.com/siemens](https://github.com/siemens) | [Siemens财报](https://www.siemens.com/global/en/company/investor-relations.html) |
 
 ## 4. 按维度分类的企业列表
 

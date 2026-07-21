@@ -13,33 +13,30 @@ aiGenerated: true
 
 ## 2. 中国企业列表
 
-| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
-|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
-| 北京百度网讯科技有限公司 | 百度智能云 | 2000年 | IaaS、PaaS、SaaS、AI云 | 百度智能云、文心大模型 | 10000+人 | https://cloud.baidu.com | 已上市(BIDU) | 已上市 | 云服务订阅、AI服务 | 百度智能云、文心一言 | 北京市海淀区上地十街10号百度大厦 | 微信公众号：百度智能云 | https://github.com/baidu | 自研技术栈、AI架构 | 技术实力强 | 数据安全风险 | [百度财报](https://ir.baidu.com/financial-reports/default.aspx) |
-| 北京字节跳动科技有限公司 | 火山引擎 | 2012年 | IaaS、PaaS、SaaS、AI云 | 火山引擎、豆包大模型 | 10000+人 | https://www.volcengine.com | 未上市 | 多轮融资 | 云服务订阅、AI服务 | 火山引擎云平台、豆包 | 北京市海淀区北三环西路27号 | 微信公众号：火山引擎 | https://github.com/volcengine | 自研技术栈、AI架构 | 技术氛围好 | 数据安全风险 | 未公开 |
-| 金山云控股有限公司 | 金山云 | 2012年 | IaaS、PaaS、SaaS | 金山云服务器、金山云数据库 | 1000-5000人 | https://www.ksyun.com | 已上市(KC) | 已上市 | 云服务订阅 | 金山云平台 | 北京市海淀区小营西路33号金山软件大厦 | 微信公众号：金山云 | https://github.com/ksyun | 云计算架构 | 技术氛围好 | 数据安全风险 | [金山云财报](https://ir.ksyun.com/financial-reports/default.aspx) |
-| 青云科技股份有限公司 | 青云科技 | 2012年 | IaaS、PaaS、混合云 | 青云QingCloud、KubeSphere | 500-999人 | https://www.qingcloud.com | 已上市(688316) | 已上市 | 云服务订阅 | 青云QingCloud、KubeSphere | 北京市海淀区知春路63号中国卫星通信大厦 | 微信公众号：青云QingCloud | https://github.com/kubesphere | 云计算架构、K8s | 技术氛围好 | 数据安全风险 | [上交所公告](http://www.sse.com.cn/disclosure/listedinfo/regular/) |
-| 优刻得科技股份有限公司 | UCloud | 2012年 | IaaS、PaaS、容器云 | UCloud云服务器 | 1000-5000人 | https://www.ucloud.cn | 已上市(688158) | 已上市 | 云服务订阅 | UCloud云平台 | 北京市海淀区学院路30号科大天工大厦(北京办公室) | 微信公众号：UCloud优刻得 | https://github.com/ucloud | 云计算架构 | 技术氛围好 | 数据安全风险 | [上交所公告](http://www.sse.com.cn/disclosure/listedinfo/regular/) |
-| 北京启明星辰信息安全技术有限公司 | 启明星辰 | 1996年 | 网络安全、云安全 | 启明星辰云安全、SOC | 5000-10000人 | https://www.venustech.com.cn | 已上市(002439) | 已上市 | 安全产品销售 | 启明星辰SOC | 北京市海淀区东北旺西路8号中关村软件园 | 微信公众号：启明星辰 | [待补充] | 安全技术架构 | 技术实力强 | 网络安全风险 | [深交所公告](http://www.szse.cn/disclosure/listed/fixed/index.html) |
-| 北京天融信网络安全技术有限公司 | 天融信 | 1995年 | 网络安全、云安全 | 天融信防火墙、云安全 | 5000-10000人 | https://www.topsec.com.cn | 已上市(002212) | 已上市 | 安全产品销售 | 天融信防火墙 | 北京市海淀区上地信息路1号 | 微信公众号：天融信 | [待补充] | 安全技术架构 | 技术实力强 | 网络安全风险 | [深交所公告](http://www.szse.cn/disclosure/listed/fixed/index.html) |
-| 北京奇安信科技集团股份有限公司 | 奇安信 | 2014年 | 网络安全、云安全 | 奇安信EDR、云安全 | 5000-10000人 | https://www.qianxin.com | 已上市(688561) | 已上市 | 安全产品销售 | 奇安信EDR | 北京市海淀区学院路21号 | 微信公众号：奇安信 | [待补充] | 安全技术架构 | 技术实力强 | 网络安全风险 | [上交所公告](http://www.sse.com.cn/disclosure/listedinfo/regular/) |
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 核心产品 | 办公地址 | 开源仓库 | 财报 |
+| 北京百度网讯科技有限公司 | 百度智能云 | 2000年 | IaaS、PaaS、SaaS、AI云 | 百度智能云、文心大模型 | 10000+人 | https://cloud.baidu.com | 已上市(BIDU) | 已上市 | 百度智能云、文心一言 | 北京市海淀区上地十街10号百度大厦 | https://github.com/baidu | [百度财报](https://ir.baidu.com/financial-reports/default.aspx) |
+| 北京字节跳动科技有限公司 | 火山引擎 | 2012年 | IaaS、PaaS、SaaS、AI云 | 火山引擎、豆包大模型 | 10000+人 | https://www.volcengine.com | 未上市 | 多轮融资 | 火山引擎云平台、豆包 | 北京市海淀区北三环西路27号 | https://github.com/volcengine | 未公开 |
+| 金山云控股有限公司 | 金山云 | 2012年 | IaaS、PaaS、SaaS | 金山云服务器、金山云数据库 | 1000-5000人 | https://www.ksyun.com | 已上市(KC) | 已上市 | 金山云平台 | 北京市海淀区小营西路33号金山软件大厦 | https://github.com/ksyun | [金山云财报](https://ir.ksyun.com/financial-reports/default.aspx) |
+| 青云科技股份有限公司 | 青云科技 | 2012年 | IaaS、PaaS、混合云 | 青云QingCloud、KubeSphere | 500-999人 | https://www.qingcloud.com | 已上市(688316) | 已上市 | 青云QingCloud、KubeSphere | 北京市海淀区知春路63号中国卫星通信大厦 | https://github.com/kubesphere | [上交所公告](http://www.sse.com.cn/disclosure/listedinfo/regular/) |
+| 优刻得科技股份有限公司 | UCloud | 2012年 | IaaS、PaaS、容器云 | UCloud云服务器 | 1000-5000人 | https://www.ucloud.cn | 已上市(688158) | 已上市 | UCloud云平台 | 北京市海淀区学院路30号科大天工大厦(北京办公室) | https://github.com/ucloud | [上交所公告](http://www.sse.com.cn/disclosure/listedinfo/regular/) |
+| 北京启明星辰信息安全技术有限公司 | 启明星辰 | 1996年 | 网络安全、云安全 | 启明星辰云安全、SOC | 5000-10000人 | https://www.venustech.com.cn | 已上市(002439) | 已上市 | 启明星辰SOC | 北京市海淀区东北旺西路8号中关村软件园 | - | [深交所公告](http://www.szse.cn/disclosure/listed/fixed/index.html) |
+| 北京天融信网络安全技术有限公司 | 天融信 | 1995年 | 网络安全、云安全 | 天融信防火墙、云安全 | 5000-10000人 | https://www.topsec.com.cn | 已上市(002212) | 已上市 | 天融信防火墙 | 北京市海淀区上地信息路1号 | - | [深交所公告](http://www.szse.cn/disclosure/listed/fixed/index.html) |
+| 北京奇安信科技集团股份有限公司 | 奇安信 | 2014年 | 网络安全、云安全 | 奇安信EDR、云安全 | 5000-10000人 | https://www.qianxin.com | 已上市(688561) | 已上市 | 奇安信EDR | 北京市海淀区学院路21号 | - | [上交所公告](http://www.sse.com.cn/disclosure/listedinfo/regular/) |
 
 ## 3. 国际企业列表
 
 ### 3.1 美国企业
 
-| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
-|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
-| Amazon Web Services, Inc. | AWS | 2006年 | IaaS、PaaS、SaaS | EC2、S3、Lambda、AI服务 | 150,000+人 | [https://aws.amazon.com](https://aws.amazon.com) | 纳斯达克(AMZN) | 已上市 | 云服务订阅 | AWS全栈云服务 | 美国华盛顿州西雅图 | Twitter: @AWS | [https://github.com/aws](https://github.com/aws) | AWS云原生架构 | 平台稳定，薪资待遇好 | 劳工权益争议 | [Amazon财报](https://ir.aboutamazon.com) |
-| Microsoft Corporation | Azure | 2010年 | IaaS、PaaS、SaaS、AI云 | Azure云服务、AI平台 | 220,000+人 | [https://azure.microsoft.com](https://azure.microsoft.com) | 纳斯达克(MSFT) | 已上市 | 云服务、软件授权 | Azure云平台 | 美国华盛顿州雷德蒙德 | Twitter: @Microsoft | [https://github.com/microsoft](https://github.com/microsoft) | Azure云架构 | 福利待遇好，技术实力强 | 反垄断诉讼风险 | [Microsoft财报](https://www.microsoft.com/en-us/investor) |
-| Google Cloud LLC | Google Cloud | 2008年 | IaaS、PaaS、AI云 | Compute Engine、BigQuery、Vertex AI | 180,000+人 | [https://cloud.google.com](https://cloud.google.com) | 纳斯达克(GOOGL) | 已上市 | 云服务、广告收入 | Google Cloud Platform | 美国加州山景城 | Twitter: @googlecloud | [https://github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) | Google云原生架构 | 技术领先，创新氛围浓厚 | 数据隐私争议 | [Google财报](https://abc.xyz/investor/) |
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 核心产品 | 办公地址 | 开源仓库 | 财报 |
+| Amazon Web Services, Inc. | AWS | 2006年 | IaaS、PaaS、SaaS | EC2、S3、Lambda、AI服务 | 150,000+人 | [https://aws.amazon.com](https://aws.amazon.com) | 纳斯达克(AMZN) | 已上市 | AWS全栈云服务 | 美国华盛顿州西雅图 | [https://github.com/aws](https://github.com/aws) | [Amazon财报](https://ir.aboutamazon.com) |
+| Microsoft Corporation | Azure | 2010年 | IaaS、PaaS、SaaS、AI云 | Azure云服务、AI平台 | 220,000+人 | [https://azure.microsoft.com](https://azure.microsoft.com) | 纳斯达克(MSFT) | 已上市 | Azure云平台 | 美国华盛顿州雷德蒙德 | [https://github.com/microsoft](https://github.com/microsoft) | [Microsoft财报](https://www.microsoft.com/en-us/investor) |
+| Google Cloud LLC | Google Cloud | 2008年 | IaaS、PaaS、AI云 | Compute Engine、BigQuery、Vertex AI | 180,000+人 | [https://cloud.google.com](https://cloud.google.com) | 纳斯达克(GOOGL) | 已上市 | Google Cloud Platform | 美国加州山景城 | [https://github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) | [Google财报](https://abc.xyz/investor/) |
 
 ### 3.2 欧洲企业
 
-| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 盈利模式 | 核心产品 | 办公地址 | 社交媒体 | 开源仓库 | 技术架构 | 员工口碑 | 法律风险 | 财报 |
-|----------|------|----------|----------|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
-| SAP SE | SAP Cloud | 1972年 | 企业云、SaaS | SAP S/4HANA Cloud、Business Technology Platform | 100,000+人 | [https://www.sap.com/cloud](https://www.sap.com/cloud) | 泛欧交易所(SAP) | 已上市 | 软件授权、云服务 | SAP云平台 | 德国沃尔多夫 | Twitter: @SAP | [https://github.com/SAP](https://github.com/SAP) | SAP HANA云架构 | 福利待遇好，国际化程度高 | 数据隐私合规风险 | [SAP财报](https://www.sap.com/investors.html) |
-| Oracle Corporation | Oracle Cloud | 1977年 | IaaS、PaaS、SaaS | Oracle Cloud Infrastructure、Autonomous Database | 130,000+人 | [https://www.oracle.com/cloud](https://www.oracle.com/cloud) | 纽约证券交易所(ORCL) | 已上市 | 软件授权、云服务 | Oracle云平台 | 美国加州红木滩 | Twitter: @Oracle | [https://github.com/oracle](https://github.com/oracle) | Oracle云架构 | 技术实力强，稳定性好 | 数据库垄断争议 | [Oracle财报](https://www.oracle.com/investors/) |
+| 企业名称 | 简称 | 成立时间 | 业务领域 | 代表产品/服务 | 公司规模 | 企业主页 | 上市情况 | 融资情况 | 核心产品 | 办公地址 | 开源仓库 | 财报 |
+| SAP SE | SAP Cloud | 1972年 | 企业云、SaaS | SAP S/4HANA Cloud、Business Technology Platform | 100,000+人 | [https://www.sap.com/cloud](https://www.sap.com/cloud) | 泛欧交易所(SAP) | 已上市 | SAP云平台 | 德国沃尔多夫 | [https://github.com/SAP](https://github.com/SAP) | [SAP财报](https://www.sap.com/investors.html) |
+| Oracle Corporation | Oracle Cloud | 1977年 | IaaS、PaaS、SaaS | Oracle Cloud Infrastructure、Autonomous Database | 130,000+人 | [https://www.oracle.com/cloud](https://www.oracle.com/cloud) | 纽约证券交易所(ORCL) | 已上市 | Oracle云平台 | 美国加州红木滩 | [https://github.com/oracle](https://github.com/oracle) | [Oracle财报](https://www.oracle.com/investors/) |
 
 ## 4. 全国性云服务商北京办公室
 

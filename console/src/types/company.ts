@@ -11,14 +11,9 @@ export interface Company {
   website: string;           // 企业主页
   listingStatus: string;     // 上市情况
   funding: string;           // 融资情况
-  revenueModel: string;      // 盈利模式
   coreProduct: string;       // 核心产品
   address: string;           // 办公地址
-  socialMedia: string;       // 社交媒体
   openSource: string;        // 开源仓库
-  techStack: string;         // 技术架构
-  employeeRating: string;    // 员工口碑
-  legalRisk: string;         // 法律风险
   financialReport: string;   // 财报
   
   // 派生字段

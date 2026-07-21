@@ -303,7 +303,7 @@ export function Companies() {
               ) : '-'}
             </Descriptions.Item>
             <Descriptions.Item label="融资情况">{selectedCompany.funding || '-'}</Descriptions.Item>
-            <Descriptions.Item label="盈利模式">{selectedCompany.revenueModel || '-'}</Descriptions.Item>
+            <Descriptions.Item label="核心产品">{selectedCompany.coreProduct || '-'}</Descriptions.Item>
             <Descriptions.Item label="办公地址">{selectedCompany.address || '-'}</Descriptions.Item>
             <Descriptions.Item label="企业官网">
               {selectedCompany.website ? (
@@ -312,11 +312,7 @@ export function Companies() {
                 </a>
               ) : '-'}
             </Descriptions.Item>
-            <Descriptions.Item label="社交媒体">{selectedCompany.socialMedia || '-'}</Descriptions.Item>
             <Descriptions.Item label="开源仓库">{selectedCompany.openSource || '-'}</Descriptions.Item>
-            <Descriptions.Item label="技术架构">{selectedCompany.techStack || '-'}</Descriptions.Item>
-            <Descriptions.Item label="员工口碑">{selectedCompany.employeeRating || '-'}</Descriptions.Item>
-            <Descriptions.Item label="法律风险">{selectedCompany.legalRisk || '-'}</Descriptions.Item>
           </Descriptions>
         )}
       </Drawer>
