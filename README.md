@@ -613,6 +613,12 @@ npm run dev
 |----------|------|------|
 | 支持远程工作的公司榜单 | [remote-work-companies.md](topics/remote-work-companies.md) | 字节跳动、腾讯、阿里巴巴等 |
 
+### 求职岗位专题
+| 专题名称 | 文件 | 说明 |
+|----------|------|------|
+| 深圳AI Agent智能体开发岗位清单 | [shenzhen-ai-agent-jobs.md](topics/shenzhen-ai-agent-jobs.md) | 深圳 AI Agent/智能体方向在招岗位聚合（大厂/中型/入门/专家分层，含薪资和投递渠道） |
+| 个人求职作战手册-AI可靠性方向 | [personal-job-hunting-ai-reliability.md](topics/personal-job-hunting-ai-reliability.md) | 基于个人背景(SRE/值班长/开发出身)的求职策略、P7-P8简历模板、面试话术、AI Infra/AIOps岗位清单（私密） |
+
 ### 技术活动专题（1个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
