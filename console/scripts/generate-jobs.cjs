@@ -46,6 +46,37 @@ const JOB_CATEGORIES = {
   'recommendation-engineer': { category: '推荐算法', icon: '⭐' },
   'technical-writer': { category: '技术写作', icon: '✍️' },
   'scrum-master': { category: '敏捷教练', icon: '🏃' },
+  // 2026年新增岗位
+  'llm-engineer': { category: '大模型', icon: '🧠' },
+  'ai-agent-engineer': { category: 'AI Agent', icon: '🤖' },
+  'mlops-engineer': { category: 'MLOps', icon: '🔁' },
+  'platform-engineer': { category: '平台工程', icon: '🏗️' },
+  'staff-engineer': { category: '资深工程师', icon: '🌟' },
+  'security-architect': { category: '安全架构', icon: '🛡️' },
+  'developer-relations': { category: '开发者关系', icon: '📣' },
+  // AI产业链岗位（上游/中游/下游/生态）
+  'ai-industry-chain-map': { category: 'AI产业链索引', icon: '🗺️' },
+  'ai-chip-engineer': { category: 'AI芯片', icon: '🔲' },
+  'ai-compiler-engineer': { category: 'AI编译器', icon: '⚙️' },
+  'ai-infrastructure-engineer': { category: 'AI基础设施', icon: '🖥️' },
+  'multimodal-algorithm-engineer': { category: '多模态算法', icon: '🎨' },
+  'ai-inference-engineer': { category: '推理优化', icon: '⚡' },
+  'ai-data-engineer': { category: 'AI数据工程', icon: '📚' },
+  'autonomous-driving-engineer': { category: '自动驾驶', icon: '🚗' },
+  'embodied-ai-engineer': { category: '具身智能', icon: '🦾' },
+  'ai-product-manager': { category: 'AI产品经理', icon: '📋' },
+  'ai-solution-architect': { category: 'AI解决方案', icon: '🏛️' },
+  'ai-security-engineer': { category: 'AI安全', icon: '🔐' },
+  // SRE与运维智能体岗位族谱
+  'sre-aiops-career-map': { category: 'SRE智能体索引', icon: '🧭' },
+  'cloud-native-sre': { category: '云原生SRE', icon: '☸️' },
+  'ai-platform-operations-engineer': { category: 'AI平台运维', icon: '🛠️' },
+  'aiops-agent-engineer': { category: '运维智能体', icon: '🤖' },
+  'ticket-agent-engineer': { category: '工单智能体', icon: '🎫' },
+  'ai-corpus-engineer': { category: '语料工程', icon: '📚' },
+// 客户面向技术岗
+  'technical-account-manager': { category: '技术客户经理', icon: '🤝' },
+  'forward-deployed-engineer': { category: '前线部署工程师', icon: '🚀' },
 };
 
 function parseMarkdownFile(filePath) {

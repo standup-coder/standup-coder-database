@@ -300,8 +300,22 @@ npm run dev
 - 测试与质量类岗位
 - 技术管理类岗位
 
+**AI产业链岗位专题**（详见 [jobs/ai-industry-chain-map.md](jobs/ai-industry-chain-map.md) 全景索引）：
+- 上游（算力硬件层）：AI芯片设计、AI编译器、AI基础设施
+- 中游（模型平台层）：多模态算法、推理优化、AI数据工程
+- 下游（应用场景层）：自动驾驶、具身智能、AI产品经理
+- 生态（支撑治理层）：AI解决方案架构师、AI安全工程师
+
+**SRE与运维智能体岗位专题**（详见 [jobs/sre-aiops-career-map.md](jobs/sre-aiops-career-map.md) 全景索引）：
+- 底座层：云原生SRE(K8s/ACK)、AI平台运维(专有云AI Stack)
+- 智能层：运维智能体(AIOps Agent)、工单智能体
+- 知识层：AI语料工程师(运维知识工程/Skills封装)
+- 客户面向层：技术客户经理(TAM)、前线部署工程师(FDE)
+
+**求职准备方案总纲**：[careers/ai-sre-job-preparation-plan.md](careers/ai-sre-job-preparation-plan.md)（九要素整合：岗位定位/简历/面试/学习资源/90天计划）
+
 ## 项目用途
-- **项目新增**：IT技术岗位JD信息库，包含27个岗位的详细JD和真实案例
+- **项目新增**：IT技术岗位JD信息库，包含61个岗位的详细JD和真实案例，覆盖AI产业链、智能运维岗位族谱与TAM/FDE客户面向技术岗
 - **数据丰富**：每个JD文件都包含来自一线互联网公司的真实招聘信息案例
 
 ---
@@ -374,7 +388,7 @@ npm run dev
 
 ---
 
-## 中国行业企业清单（126个）
+## 中国行业企业清单（148个）
 
 ### 行业覆盖（13大领域）
 | 行业 | 文件前缀 | 覆盖城市 | 说明 |
@@ -439,7 +453,7 @@ npm run dev
 
 ---
 
-### 国际行业企业清单（39个）
+### 国际行业企业清单（43个）
 
 ### 覆盖国家和地区
 | 国家/地区 | 文件数量 | 主要行业覆盖 |
@@ -530,7 +544,7 @@ npm run dev
 |----------|------|----------|------|------|
 | 财富世界500强 | [fortune_500_2025.md](rankings-international/fortune_500_2025.md) | 财富杂志 | 500家 | 全球最大企业排名 |
 
-### 国内面试技巧（2个）
+### 国内面试技巧（4个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
 | 技术面试技巧指南 | [technical-interview.md](interview-skills/technical-interview.md) | 算法、系统设计、编程题解题策略 |
@@ -542,18 +556,18 @@ npm run dev
 | 国际技术面试指南 | [technical-interview.md](interview-skills-international/technical-interview.md) | 面向国际市场的技术面试策略 |
 | 国际行为面试指南 | [behavioral-interview.md](interview-skills-international/behavioral-interview.md) | 跨文化面试沟通和适应技巧 |
 
-### 国内简历技巧（2个）
+### 国内简历技巧（4个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
 | 基础简历制作指南 | [basic-resume-guide.md](resume-skills/basic-resume-guide.md) | 简历结构、内容编写、ATS适配 |
 | 高级简历优化策略 | [advanced-resume-strategy.md](resume-skills/advanced-resume-strategy.md) | 个人品牌、成就量化、视觉设计 |
 
-### 国内科技基金会（1个）
+### 国内科技基金会（2个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
 | 中国主要科技基金会清单 | [major-tech-foundations-china.md](tech-foundations/major-tech-foundations-china.md) | 国家自然科学基金、企业基金会、地方科技基金 |
 
-### 国内开源社区（1个）
+### 国内开源社区（3个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
 | 中国主要开源社区清单 | [major-open-source-communities-china.md](open-source-communities/major-open-source-communities-china.md) | Gitee、开源中国、各大企业开源社区 |
@@ -570,7 +584,7 @@ npm run dev
 | 国际简历写作指南 | [basic-resume-guide.md](resume-skills-international/basic-resume-guide.md) | 全球化简历标准和跨文化适配 |
 | 国际高级简历策略 | [advanced-resume-strategy.md](resume-skills-international/advanced-resume-strategy.md) | 国际求职资源整合和数字营销 |
 
-### VC投资专题（5个）
+### VC投资专题（7个）
 
 ### 国际风险投资机构清单（7个）
 
@@ -632,7 +646,7 @@ npm run dev
 | 北美技术活动 | [dev-conferences-north-america.md](events-international/dev-conferences-north-america.md) | 北美 | Google I/O、Apple WWDC等顶级技术大会 |
 | 欧洲技术活动 | [dev-conferences-europe.md](events-international/dev-conferences-europe.md) | 欧洲 | Web Summit、FOSDEM等重要技术盛会 |
 
-### 求职招聘专题（23个）
+### 求职招聘专题（24个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
 | 主要招聘平台及信息来源清单 | [job-platforms.md](careers/job-platforms.md) | 综合招聘平台、垂直领域招聘、企业信息查询平台 |
@@ -656,6 +670,7 @@ npm run dev
 | 系统化反馈与改进机制 | [feedback-improvement-system.md](careers/feedback-improvement-system.md) | 多层次反馈体系、改进闭环管理、文化建设 |
 | 能力画像执行与跟踪框架 | [execution-tracking-framework.md](careers/execution-tracking-framework.md) | 目标管理体系、进度跟踪工具、效果评估体系 |
 | DevOps/SRE/工单专家能力画像 | [devops-sre-ticket-expert-profiles.md](careers/devops-sre-ticket-expert-profiles.md) | 技术运营岗位专业能力模型、评估标准、发展路径 |
+| AI与SRE智能体方向求职准备方案 | [ai-sre-job-preparation-plan.md](careers/ai-sre-job-preparation-plan.md) | 九要素整合总纲：岗位定位、领域化简历、面试作战手册、学习资源、90天计划 |
 | 团队技术管理框架 | [team-technical-management-framework.md](management/core-framework/team-technical-management-framework.md) | 组织架构设计、流程规范、质量管控、沟通协作机制 |
 | 技术管理能力专项评估 | [technical-management-assessment.md](management/assessment-tools/technical-management-assessment.md) | 360度评估体系、管理成熟度模型、效能量化指标 |
 | 技术管理最佳实践案例库 | [technical-management-best-practices.md](management/core-framework/technical-management-best-practices.md) | 行业案例库、成功经验总结、实施方法论 |
@@ -663,7 +678,7 @@ npm run dev
 | OKR与绩效管理体系 | [okr-performance-management-system.md](careers/okr-performance-management-system.md) | 目标管理理论、绩效评估体系、激励认可机制、实施保障措施 |
 | DevOps/SRE团队管理专项指南 | [devops-sre-team-management-guide.md](management/specialized-guides/devops-sre-team-management-guide.md) | 专项管理指南、组织架构、流程规范、工具平台 |
 
-### 国际求职招聘专题（4个）
+### 国际求职招聘专题（7个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
 | 国际主要招聘平台清单 | [global-job-platforms.md](careers-international/global-job-platforms.md) | LinkedIn、Indeed、Glassdoor等国际主流招聘平台 |
@@ -685,7 +700,7 @@ npm run dev
 |----------|------|------|
 | 裁员全流程指南 | [layoff-guide.md](legal/layoff-guide.md) | 从HR、法律、职工角度的裁员实务操作指南 |
 
-### IT技术岗位信息（34个）
+### IT技术岗位信息（61个）
 
 #### 核心技术岗位
 | 岗位类别 | 文件 | 说明 |
@@ -736,7 +751,7 @@ npm run dev
 - **行业覆盖广泛**：涵盖电商、社交、视频、旅游、金融等多个热门行业
 - **公司层级多样**：包含一线大厂到独角兽公司的不同层次真实招聘信息
 
-### 技术管理知识体系（24个）
+### 技术管理知识体系（26个）
 
 #### 核心管理框架
 | 文件 | 说明 |
@@ -776,7 +791,7 @@ npm run dev
   - 质量标准规范
   - 职业发展整合指南
 
-### 国际法律实务指南（6个）
+### 国际法律实务指南（9个）
 
 #### 国际劳动法律
 | 榜单名称 | 文件 | 覆盖地区 | 说明 |
@@ -793,7 +808,7 @@ npm run dev
 
 ---
 
-### 超级个体与OPC一人公司知识体系（57个）
+### 超级个体与OPC一人公司知识体系（58个）
 
 #### OPC核心指南
 | 文件 | 说明 |
@@ -857,7 +872,7 @@ npm run dev
 
 ## 完整文件清单（125个）
 
-### 人工智能行业（15个）
+### 人工智能行业（21个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
 | [ai-beijing.md](industry/ai-beijing.md) | 北京 | 百度、字节跳动、旷视、商汤、寒武纪等 |
@@ -871,7 +886,7 @@ npm run dev
 | [ai-shenyang.md](industry/ai-shenyang.md) | 沈阳 | 新松机器人、东软等 |
 | [ai-harbin.md](industry/ai-harbin.md) | 哈尔滨 | 哈工大机器人、思哲睿医疗等 |
 
-### 大数据行业（5个）
+### 大数据行业（6个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
 | [bigdata-beijing.md](industry/bigdata-beijing.md) | 北京 | 百度、字节、京东、美团等 |
