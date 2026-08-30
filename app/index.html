@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="macaron">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>深圳科技公司地图 · 二次元版</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/themes.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="title">🌸 深圳科技公司地图</h1>
+    <div class="stats" id="stats"></div>
+    <button class="theme-btn" id="themeBtn" title="切换主题"></button>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <section class="side-sec">
+        <input type="search" id="searchBox" class="search" placeholder="🔍 搜公司 / 行业 / 地址…" />
+        <div class="chips" id="industryChips"></div>
+      </section>
+
+      <section class="side-sec grow">
+        <h2 class="sec-title" id="listTitle">全部公司</h2>
+        <ul class="comp-list" id="compList"></ul>
+        <details class="unlocated" id="unlocatedBox">
+          <summary>🌙 待定位（地址缺失）<span id="unlocatedCount"></span></summary>
+          <ul class="comp-list" id="unlocatedList"></ul>
+        </details>
+      </section>
+
+      <section class="detail" id="detailCard" hidden></section>
+    </aside>
+
+    <main class="mapwrap">
+      <svg id="szmap" xmlns="http://www.w3.org/2000/svg"></svg>
+      <div class="zoombar">
+        <button id="zoomIn" title="放大">＋</button>
+        <button id="zoomOut" title="缩小">－</button>
+        <button id="zoomReset" title="重置">⌂</button>
+      </div>
+      <div class="hint" id="mapHint">滚轮缩放 · 拖拽平移 · 点击浮标看详情</div>
+    </main>
+  </div>
+
+  <script src="js/map-data.js"></script>
+  <script src="data/companies.js"></script>
+  <script src="js/themes.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/panel.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

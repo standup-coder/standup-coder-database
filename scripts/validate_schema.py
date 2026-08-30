@@ -31,7 +31,7 @@ from datetime import datetime
 from collections import defaultdict
 
 # 需跳过的目录（非内容文件）
-SKIP_DIRS = {'console', 'node_modules', '.git', 'scripts', 'docs',
+SKIP_DIRS = {'console', 'app', 'node_modules', '.git', 'scripts', 'docs',
              '.zcode', '.claude', '.qoder', '.trae'}
 
 # frontmatter 必填字段

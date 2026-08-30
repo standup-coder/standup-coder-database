@@ -1,0 +1,161 @@
+/* 三套主题：粉彩马卡龙（默认）/ 像素复古游戏 / 猫咪拟人。
+ * 全部差异收敛为 CSS variables + 装饰层显隐，base.css 不出现字面色值。 */
+
+/* ── 1. 粉彩马卡龙贴纸风（默认） ───────────────────── */
+:root[data-theme="macaron"] {
+  --bg: #FFF6FA;
+  --panel: #FFFDFE;
+  --panel-border: #F3D7E3;
+  --border-w: 2px;
+  --ink: #5C4760;
+  --subtle: #B08CA8;
+  --accent: #FF8FAB;
+  --chip-bg: #FFF0F5;
+  --chip-active-bg: #FFE0EB;
+  --chip-active-ink: #C2557E;
+  --input-bg: #FFFBFD;
+  --card-bg: #FFFDFE;
+  --card-border: #FFD3E2;
+  --sea: #BDE8F5;
+  --land-a: #FFF3D6;
+  --land-b: #D9F6E8;
+  --district-stroke: #FFFFFF;
+  --label-stroke: #FFFFFF;
+  --label-ink: #7A5C77;
+  --pin-stroke: #FFFFFF;
+  --radius: 16px;
+  --shadow: 0 4px 0 rgba(92, 71, 96, .08);
+  --font: ui-rounded, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --deco-cloud: inline;
+  --deco-star: inline;
+  --deco-wave: inline;
+  --deco-pixel: none;
+  --deco-paw: none;
+  --pin-shape: circle;
+  --pin-hover: bounce;
+  --ear-show: none;
+}
+
+/* ── 2. 像素复古游戏风 ─────────────────────────────── */
+:root[data-theme="pixel"] {
+  --bg: #1A1C2C;
+  --panel: #29366F;
+  --panel-border: #5D275D;
+  --border-w: 3px;
+  --ink: #F4F4F4;
+  --subtle: #A7A9BE;
+  --accent: #FFCD75;
+  --chip-bg: #3B5DC9;
+  --chip-active-bg: #F4A259;
+  --chip-active-ink: #1A1C2C;
+  --input-bg: #41A6F6;
+  --card-bg: #29366F;
+  --card-border: #FFCD75;
+  --sea: #333C57;
+  --land-a: #3B5DC9;
+  --land-b: #5D275D;
+  --district-stroke: #1A1C2C;
+  --label-stroke: #1A1C2C;
+  --label-ink: #F4F4F4;
+  --pin-stroke: #1A1C2C;
+  --radius: 0px;
+  --shadow: 4px 4px 0 rgba(0, 0, 0, .55);
+  --font: "Courier New", "PingFang SC", monospace;
+  --deco-cloud: none;
+  --deco-star: none;
+  --deco-wave: none;
+  --deco-pixel: inline;
+  --deco-paw: none;
+  --pin-shape: square;
+  --pin-hover: none;
+  --ear-show: none;
+}
+
+/* ── 3. 猫咪拟人风 ─────────────────────────────────── */
+:root[data-theme="cat"] {
+  --bg: #FFF8E7;
+  --panel: #FFFDF4;
+  --panel-border: #F0DDB8;
+  --border-w: 2px;
+  --ink: #6B543A;
+  --subtle: #B49B77;
+  --accent: #FFB86B;
+  --chip-bg: #FFF3D6;
+  --chip-active-bg: #FFE4B8;
+  --chip-active-ink: #A66B2E;
+  --input-bg: #FFFCF0;
+  --card-bg: #FFFDF4;
+  --card-border: #FFDFA6;
+  --sea: #CDEBE4;
+  --land-a: #FFEBC9;
+  --land-b: #E8F5D8;
+  --district-stroke: #FFFFFF;
+  --label-stroke: #FFFFFF;
+  --label-ink: #8A6B45;
+  --pin-stroke: #FFFFFF;
+  --radius: 18px;
+  --shadow: 0 4px 0 rgba(107, 84, 58, .1);
+  --font: ui-rounded, "PingFang SC", "Hiragino Sans GB", sans-serif;
+  --deco-cloud: none;
+  --deco-star: none;
+  --deco-wave: inline;
+  --deco-pixel: none;
+  --deco-paw: inline;
+  --pin-shape: circle;
+  --pin-hover: wiggle;
+  --ear-show: inline;
+}
+
+/* ── 主题差异化的行为样式 ──────────────────────────── */
+
+/* 区块交替填色 + 描边 */
+.district:nth-child(odd)  { fill: var(--land-a); }
+.district:nth-child(even) { fill: var(--land-b); }
+.district { stroke: var(--district-stroke); stroke-width: 3px; }
+
+/* 浮标形状切换：默认圆形，pixel 主题方形（circle/rect 二选一显示） */
+.pin .pin-circle { display: inline; }
+.pin .pin-rect   { display: none; }
+:root[data-theme="pixel"] .pin .pin-circle { display: none; }
+:root[data-theme="pixel"] .pin .pin-rect   { display: inline; }
+
+/* 猫耳朵：仅 cat 主题显示 */
+.pin .ears { display: none; }
+:root[data-theme="cat"] .pin .ears { display: inline; }
+
+/* 装饰层显隐 */
+.deco-cloud { display: var(--deco-cloud); }
+.deco-star  { display: var(--deco-star); }
+.deco-wave  { display: var(--deco-wave); }
+.deco-pixel { display: var(--deco-pixel); }
+.deco-paw   { display: var(--deco-paw); }
+
+/* hover 动效 */
+@keyframes pin-bounce {
+  0% { transform: translate(var(--tx), var(--ty)); }
+  40% { transform: translate(var(--tx), calc(var(--ty) - 9px)); }
+  100% { transform: translate(var(--tx), var(--ty)); }
+}
+@keyframes pin-wiggle {
+  0% { transform: translate(var(--tx), var(--ty)) rotate(0deg); }
+  30% { transform: translate(var(--tx), var(--ty)) rotate(-7deg); }
+  65% { transform: translate(var(--tx), var(--ty)) rotate(6deg); }
+  100% { transform: translate(var(--tx), var(--ty)) rotate(0deg); }
+}
+.pin:hover { animation: pin-bounce .4s ease; transform-box: fill-box; }
+:root[data-theme="cat"] .pin:hover { animation: pin-wiggle .45s ease; }
+:root[data-theme="pixel"] .pin:hover { filter: brightness(1.25); }
+
+/* 装饰配色：cloud/paw 的 class 在 <g> 上（fill 继承给内部形状），
+ * star/wave 的 class 直接在 path 上 */
+.deco-cloud { fill: #FFFFFF; opacity: .85; }
+.deco-star  { fill: #FFD976; opacity: .9; }
+.deco-wave  { fill: none; stroke: #FFFFFF; stroke-width: 3px; stroke-linecap: round; opacity: .6; }
+.deco-pixel rect  { fill: #F4A259; opacity: .5; }
+:root[data-theme="pixel"] .deco-pixel rect { opacity: .8; }
+.deco-paw   { fill: #E8A87C; opacity: .45; }
+
+/* 像素主题细节 */
+:root[data-theme="pixel"] .d-label { letter-spacing: 2px; }
+:root[data-theme="pixel"] .theme-btn,
+:root[data-theme="pixel"] .zoombar button { box-shadow: 3px 3px 0 rgba(0,0,0,.6); }
