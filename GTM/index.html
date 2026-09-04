@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="Standup Coder Database：程序员的职业知识字库。304 篇核心文档、12 组国际双轨、6 页数据控制台、170+ 家深圳公司地图。知识是公共的字库，前程是你排的版。">
+<title>拣字成版 · Standup Coder Database</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23c8452c'/%3E%3Ctext x='32' y='45' font-size='38' font-family='Songti SC,STSong,SimSun,serif' font-weight='700' fill='%23f7efdd' text-anchor='middle'%3E%E5%AD%97%3C/text%3E%3C/svg%3E">
+<script>document.documentElement.classList.add('js')</script>
+<style>
+:root{
+  --wood-1000:#100a05;
+  --wood-950:#191007;
+  --wood-900:#231609;
+  --wood-800:#2f1e0e;
+  --wood-700:#3f2a15;
+  --wood-600:#573c20;
+  --wood-500:#71522f;
+  --paper:#ece1cb;
+  --paper-strong:#f7efdd;
+  --lead-200:#cfc5b4;
+  --lead-300:#a99d89;
+  --lead-400:#87796a;
+  --cinnabar:#c8452c;
+  --cinnabar-bright:#d9563a;
+  --cinnabar-hover:#e2684d;
+  --cinnabar-deep:#a33520;
+  --font-display:"Songti SC","STSong","NSimSun","SimSun","Noto Serif CJK SC",serif;
+  --font-body:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;
+  --font-mono:ui-monospace,"SF Mono",Menlo,Consolas,"Cascadia Mono",monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--wood-950);
+  color:var(--paper);
+  font-family:var(--font-body);
+  font-size:16px;
+  line-height:1.95;
+  letter-spacing:.01em;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--cinnabar);color:var(--paper-strong)}
+:focus-visible{outline:2px solid var(--cinnabar-bright);outline-offset:2px;border-radius:2px}
+::-webkit-scrollbar{width:12px;background:var(--wood-1000)}
+::-webkit-scrollbar-thumb{background:var(--wood-600);border:3px solid var(--wood-1000);border-radius:6px}
+::-webkit-scrollbar-thumb:hover{background:var(--wood-500)}
+input,textarea{caret-color:var(--cinnabar-bright)}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 clamp(20px,4vw,48px)}
+
+/* ---------- 文武线：传统书版的粗细双线 ---------- */
+.wenwu{border-top:2px solid var(--wood-600);position:relative}
+.wenwu::after{content:"";position:absolute;top:3px;left:0;right:0;border-top:1px solid var(--wood-700)}
+
+/* ---------- 顶栏 ---------- */
+.topbar{
+  position:sticky;top:0;z-index:50;
+  background:rgba(25,16,7,.92);
+  backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--wood-700);
+}
+.topbar-inner{display:flex;align-items:center;gap:28px;height:64px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;margin-right:auto}
+.brand-seal{
+  width:34px;height:34px;border-radius:6px;background:var(--cinnabar);
+  color:var(--paper-strong);font-family:var(--font-display);font-weight:700;font-size:20px;
+  display:grid;place-items:center;flex:none;
+}
+.brand-name{font-family:var(--font-display);font-weight:700;font-size:17px;letter-spacing:.03em;white-space:nowrap}
+.brand-sub{font-size:11px;color:var(--lead-300);letter-spacing:.08em;display:block;line-height:1.3}
+.nav{display:flex;gap:26px}
+.nav a{
+  text-decoration:none;font-size:14px;color:var(--lead-200);letter-spacing:.06em;
+  padding:6px 2px;border-bottom:2px solid transparent;transition:color .15s,border-color .15s;
+}
+.nav a:hover{color:var(--paper-strong);border-bottom-color:var(--cinnabar)}
+.top-cta{display:flex;gap:10px}
+
+/* ---------- 按钮：阳文实印 / 阴文勾边 ---------- */
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  font-family:var(--font-body);font-weight:600;font-size:16px;letter-spacing:.04em;
+  padding:15px 26px;border-radius:6px;text-decoration:none;cursor:pointer;
+  transition:background .15s,border-color .15s,color .15s,transform .12s;
+  border:1.5px solid transparent;line-height:1.2;
+}
+.btn:active{transform:translateY(1px)}
+.btn svg{flex:none}
+.btn-relief{background:var(--cinnabar-bright);color:var(--wood-1000)}
+.btn-relief:hover{background:var(--cinnabar-hover)}
+.btn-intaglio{background:transparent;color:var(--paper-strong);border-color:var(--wood-500)}
+.btn-intaglio:hover{border-color:var(--paper);background:var(--wood-900)}
+.btn-sm{padding:9px 16px;font-size:13.5px;border-radius:5px}
+.btn-note{display:block;font-size:12px;font-weight:400;color:var(--wood-1000);opacity:.75;letter-spacing:.02em;margin-top:2px;overflow-wrap:anywhere}
+.btn-intaglio .btn-note{color:var(--lead-300);opacity:1}
+
+/* ---------- 首屏 ---------- */
+.hero{padding:clamp(48px,8vh,96px) 0 clamp(64px,10vh,120px);overflow:hidden}
+.hero-title{
+  font-family:var(--font-display);font-weight:900;
+  font-size:clamp(2.7rem,6.6vw,6rem);
+  line-height:1.24;letter-spacing:.045em;
+  color:var(--paper-strong);
+  text-wrap:balance;
+  max-width:22em;
+}
+.hero-title .red{color:var(--cinnabar-bright)}
+.hero-cols{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,13fr);gap:clamp(32px,4.5vw,64px);align-items:start;margin-top:clamp(30px,4.5vh,48px)}
+.hero-sub{
+  max-width:40em;
+  font-size:clamp(14.5px,1.25vw,16.5px);color:var(--lead-200);
+}
+.hero-sub .num{font-family:var(--font-mono);font-variant-numeric:tabular-nums;color:var(--paper);font-size:.94em}
+.hero-ctas{display:flex;flex-direction:column;align-items:stretch;gap:12px;margin-top:30px;max-width:380px}
+.hero-honest{margin-top:16px;font-size:12.5px;color:var(--lead-300);letter-spacing:.03em;max-width:380px}
+.hero-honest b{color:var(--lead-200);font-weight:600}
+.hero-honest a{color:inherit}
+
+/* ---------- 字盘 ---------- */
+.tray{
+  background:var(--wood-900);
+  border:2px solid var(--wood-600);
+  border-radius:10px;
+  padding:14px;
+  display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;
+  box-shadow:inset 0 2px 0 rgba(236,225,203,.05),inset 0 -3px 0 rgba(0,0,0,.4);
+}
+.cell{
+  aspect-ratio:1/1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
+  background:var(--wood-800);
+  border:1px solid var(--wood-600);
+  border-radius:5px;
+  text-decoration:none;color:var(--paper);
+  box-shadow:inset 0 1px 0 rgba(236,225,203,.07),inset 0 -2px 0 rgba(0,0,0,.35);
+  transition:background .15s,border-color .15s,transform .15s;
+  position:relative;
+}
+.cell:hover{background:var(--wood-700);border-color:var(--wood-500);transform:translateY(-2px)}
+.cell-glyph{font-family:var(--font-display);font-weight:900;font-size:clamp(22px,2.6vw,34px);line-height:1.15;color:var(--paper-strong)}
+.cell-name{font-size:11px;color:var(--lead-300);letter-spacing:.05em;line-height:1.3}
+.cell-count{font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:10.5px;color:var(--lead-300)}
+.cell-wide{aspect-ratio:auto;grid-column:span 2;flex-direction:row;gap:12px;justify-content:flex-start;padding:0 18px}
+.cell-wide .cell-glyph{font-size:26px}
+.cell-wide-text{display:flex;flex-direction:column;gap:1px}
+.cell-pick{
+  background:var(--cinnabar);border-color:var(--cinnabar-deep);
+  box-shadow:inset 0 1px 0 rgba(247,239,221,.25),inset 0 -2px 0 rgba(0,0,0,.3);
+}
+.cell-pick .cell-glyph{color:var(--paper-strong)}
+.cell-pick .cell-name{color:#f2d9cd}
+.cell-pick:hover{background:var(--cinnabar-hover);border-color:var(--cinnabar-deep)}
+.tray-caption{
+  display:flex;justify-content:space-between;align-items:baseline;gap:12px;
+  margin-top:12px;font-size:12px;color:var(--lead-300);letter-spacing:.04em;
+}
+.tray-caption .mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+
+/* ---------- 拣字动效：唯一的一段主动时刻（JS 存在且字盘进入视口才播放） ---------- */
+@media (prefers-reduced-motion:no-preference){
+  .js .hero-title{clip-path:inset(0 100% 0 0);animation:inkroll .9s cubic-bezier(.2,.7,.2,1) .15s forwards}
+  @keyframes inkroll{to{clip-path:inset(0 0 0 0)}}
+  .js .tray .cell{opacity:0;transform:translateY(8px)}
+  .js .tray.play .cell{animation:cellplace .5s cubic-bezier(.2,.7,.3,1) forwards;animation-delay:calc(var(--i)*.055s)}
+  @keyframes cellplace{to{opacity:1;transform:translateY(0)}}
+  .js .tray.play .cell-pick{animation-name:pickplace;animation-delay:calc(var(--i)*.055s + .25s)}
+  @keyframes pickplace{
+    0%{opacity:0;transform:translateY(8px)}
+    62%{opacity:1;transform:translateY(-7px) rotate(-1.6deg)}
+    100%{opacity:1;transform:translateY(0) rotate(0)}
+  }
+  .js .tray.play .seal-stamp{opacity:0;transform:scale(1.7) rotate(-9deg);animation:stamp .34s cubic-bezier(.2,.85,.25,1) forwards;animation-delay:calc(var(--i)*.055s + .55s)}
+  @keyframes stamp{to{opacity:1;transform:scale(1) rotate(-6deg)}}
+}
+@media (prefers-reduced-motion:reduce){
+  .seal-stamp{opacity:1;transform:scale(1) rotate(-6deg)}
+}
+.seal-stamp{
+  position:absolute;top:-16px;right:-14px;z-index:2;
+  width:58px;height:58px;border-radius:8px;
+  background:var(--cinnabar-deep);color:var(--paper-strong);
+  font-family:var(--font-display);font-weight:900;font-size:19px;line-height:1.25;
+  display:grid;place-items:center;text-align:center;
+  border:2px solid rgba(247,239,221,.35);
+  letter-spacing:.05em;pointer-events:none;
+}
+
+/* ---------- 章节公共 ---------- */
+section{padding:clamp(64px,9vh,110px) 0;scroll-margin-top:76px}
+.sec-head{max-width:30em;margin-bottom:clamp(36px,5vh,56px)}
+.sec-head h2{
+  font-family:var(--font-display);font-weight:900;
+  font-size:clamp(1.9rem,3.6vw,3rem);line-height:1.3;letter-spacing:.05em;
+  color:var(--paper-strong);text-wrap:balance;
+}
+.sec-head p{margin-top:16px;color:var(--lead-200);font-size:clamp(14.5px,1.2vw,16.5px)}
+.sec-head .path{font-family:var(--font-mono);font-size:.85em;color:var(--lead-300)}
+
+/* ---------- 三种拣法 ---------- */
+#audiences{background:var(--wood-1000)}
+.modes{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);grid-template-rows:auto auto;gap:22px}
+.mode{
+  border:1.5px solid var(--wood-700);border-radius:10px;
+  background:var(--wood-950);
+  padding:30px 30px 26px;position:relative;
+  display:flex;flex-direction:column;
+  transition:border-color .15s;
+}
+.mode:hover{border-color:var(--wood-500)}
+.mode-1{grid-row:1/3}
+.mode-2{grid-column:2}
+.mode-3{grid-column:2}
+.mode h3{
+  font-family:var(--font-display);font-weight:900;
+  font-size:clamp(1.35rem,2vw,1.7rem);letter-spacing:.05em;color:var(--paper-strong);
+}
+.mode-1 h3{writing-mode:vertical-rl;font-size:clamp(1.6rem,2.4vw,2.1rem);letter-spacing:.35em;position:absolute;top:30px;right:26px;height:9.5em;color:var(--cinnabar-bright)}
+.mode-1{padding-right:110px}
+.mode p{margin-top:14px;color:var(--lead-200);font-size:14.5px;line-height:1.95}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.chip{
+  display:inline-flex;align-items:baseline;gap:6px;
+  font-size:12.5px;color:var(--paper);text-decoration:none;
+  background:var(--wood-900);border:1px solid var(--wood-600);border-radius:4px;
+  padding:6px 11px;transition:border-color .15s,background .15s;
+}
+.chip:hover{border-color:var(--cinnabar);background:var(--wood-800)}
+.chip .n{font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:11px;color:var(--cinnabar-bright)}
+.mode-cta{
+  margin-top:auto;padding-top:22px;
+  display:inline-flex;align-items:center;gap:8px;
+  font-weight:600;font-size:14px;letter-spacing:.04em;
+  color:var(--cinnabar-bright);text-decoration:none;width:fit-content;
+}
+.mode-cta svg{transition:transform .15s}
+.mode-cta:hover svg{transform:translateX(3px)}
+.mode-cta:hover{color:var(--cinnabar-hover)}
+/* 求职者版内嵌的竖排印张 */
+.sheet{
+  margin-top:26px;align-self:flex-start;
+  border:2px solid var(--wood-600);outline:1px solid var(--wood-700);outline-offset:3px;
+  background:var(--wood-900);border-radius:2px;
+  padding:22px 20px;
+  writing-mode:vertical-rl;
+  font-family:var(--font-display);font-size:14px;line-height:2.3;letter-spacing:.14em;
+  color:var(--lead-200);height:15.5em;
+}
+.sheet b{color:var(--paper-strong);font-weight:700}
+.sheet .stepmark{color:var(--cinnabar-bright)}
+/* 研究者版的迷你台账 */
+.mini-ledger{margin-top:20px;border-top:2px solid var(--wood-600);font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:12.5px}
+.mini-ledger div{display:flex;justify-content:space-between;gap:16px;padding:7px 2px;border-bottom:1px solid var(--wood-800);color:var(--lead-200)}
+.mini-ledger span:last-child{color:var(--paper-strong)}
+/* 超级个体版的拼版四格 */
+.imposition{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;margin-top:20px}
+.imp-cell{
+  border:1px solid var(--wood-700);border-radius:4px;background:var(--wood-900);
+  padding:14px 14px 12px;text-decoration:none;color:var(--paper);
+  transition:border-color .15s,background .15s;
+}
+.imp-cell:hover{border-color:var(--cinnabar);background:var(--wood-800)}
+.imp-cell b{display:block;font-size:13.5px;font-weight:600;color:var(--paper-strong)}
+.imp-cell span{display:block;font-family:var(--font-mono);font-size:11px;color:var(--lead-300);margin-top:3px}
+
+/* ---------- 字库总目 ---------- */
+#ledger .ledger-table{width:100%;border-collapse:collapse;font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:14px}
+.ledger-table th{
+  text-align:left;font-weight:600;font-size:12px;letter-spacing:.1em;color:var(--lead-300);
+  padding:0 14px 12px;border-bottom:2px solid var(--wood-600);
+}
+.ledger-table td{padding:13px 14px;border-bottom:1px solid var(--wood-800);color:var(--lead-200);vertical-align:baseline}
+.ledger-table tr:hover td{background:var(--wood-900)}
+.ledger-table td:first-child{color:var(--paper-strong)}
+.ledger-table a{text-decoration:none;color:var(--paper-strong);border-bottom:1px solid var(--wood-500);transition:border-color .15s,color .15s}
+.ledger-table a:hover{color:var(--cinnabar-bright);border-bottom-color:var(--cinnabar)}
+.ledger-table td:last-child{text-align:right;color:var(--paper-strong)}
+.ledger-total td{
+  border-top:2px solid var(--wood-600);border-bottom:none;
+  color:var(--paper-strong);font-weight:700;padding-top:16px;
+}
+.ledger-total td:last-child{color:var(--cinnabar-bright)}
+.ledger-note{margin-top:22px;font-size:12.5px;color:var(--lead-300);line-height:1.9;max-width:52em}
+
+/* ---------- 三步成版 ---------- */
+#process{background:var(--wood-1000)}
+.steps{display:flex;flex-direction:column;max-width:820px}
+.step{display:grid;grid-template-columns:96px minmax(0,1fr);gap:clamp(22px,3.5vw,44px);padding:34px 0;position:relative}
+.step + .step{border-top:1px solid var(--wood-800)}
+.step-glyph{
+  width:96px;height:96px;flex:none;
+  display:grid;place-items:center;
+  font-family:var(--font-display);font-weight:900;font-size:44px;letter-spacing:0;
+  color:var(--cinnabar-bright);
+  background:var(--wood-900);
+  border:1.5px solid var(--wood-600);border-radius:8px;
+  box-shadow:inset 0 1px 0 rgba(236,225,203,.07),inset 0 -3px 0 rgba(0,0,0,.35);
+}
+.step h3{font-family:var(--font-display);font-weight:900;font-size:clamp(1.25rem,1.9vw,1.55rem);letter-spacing:.06em;color:var(--paper-strong)}
+.step h3 small{font-family:var(--font-mono);font-weight:400;font-size:12px;color:var(--lead-300);letter-spacing:.08em;margin-left:12px}
+.step p{margin-top:10px;color:var(--lead-200);font-size:14.5px;max-width:40em}
+.step .alt{margin-top:8px;color:var(--lead-300);font-size:13.5px}
+.step .alt b{color:var(--lead-200);font-weight:600}
+.codeblock{
+  margin-top:16px;display:flex;align-items:center;gap:12px;
+  background:var(--wood-1000);border:1px solid var(--wood-700);border-radius:6px;
+  padding:13px 16px;
+}
+.codeblock code{font-family:var(--font-mono);font-size:13.5px;color:var(--paper);flex:1;min-width:0;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
+.codeblock code::-webkit-scrollbar{display:none}
+.codeblock .p{color:var(--cinnabar-bright);user-select:none}
+.copy-btn{
+  flex:none;display:inline-flex;align-items:center;gap:6px;
+  font-family:var(--font-body);font-size:12px;font-weight:600;letter-spacing:.05em;
+  color:var(--lead-200);background:var(--wood-800);border:1px solid var(--wood-600);border-radius:4px;
+  padding:6px 11px;cursor:pointer;transition:color .15s,border-color .15s;
+}
+.copy-btn:hover{color:var(--paper-strong);border-color:var(--wood-500)}
+.copy-btn.copied{color:var(--cinnabar-bright);border-color:var(--cinnabar)}
+.copy-btn.error{color:var(--lead-300)}
+
+/* ---------- 牌记 ---------- */
+#colophon{background:var(--wood-1000)}
+.colophon-frame{
+  max-width:640px;margin:0 auto;text-align:center;
+  border:2px solid var(--wood-600);outline:1px solid var(--wood-700);outline-offset:5px;
+  border-radius:2px;
+  padding:clamp(36px,6vw,56px) clamp(24px,5vw,52px);
+  position:relative;
+}
+.colophon-frame h2{
+  font-family:var(--font-display);font-weight:900;
+  font-size:clamp(1.5rem,2.6vw,2rem);letter-spacing:.5em;text-indent:.5em;
+  color:var(--paper-strong);
+}
+.colophon-frame ul{list-style:none;margin-top:26px;display:flex;flex-direction:column;gap:12px}
+.colophon-frame li{font-size:13.5px;color:var(--lead-200);line-height:1.9}
+.colophon-frame li b{color:var(--paper-strong);font-weight:600}
+.colophon-frame li .path,.colophon-frame li a{font-family:var(--font-mono);font-size:.92em;color:var(--lead-300)}
+.colophon-frame a{text-decoration:none;border-bottom:1px solid var(--wood-500)}
+.colophon-frame a:hover{color:var(--cinnabar-bright);border-bottom-color:var(--cinnabar)}
+.colophon-seal{
+  position:absolute;bottom:-24px;left:50%;transform:translateX(-50%) rotate(-4deg);
+  width:52px;height:52px;border-radius:7px;
+  background:var(--cinnabar);color:var(--paper-strong);
+  font-family:var(--font-display);font-weight:900;font-size:17px;line-height:1.25;
+  display:grid;place-items:center;text-align:center;
+  border:2px solid rgba(247,239,221,.35);letter-spacing:.04em;
+}
+
+/* ---------- 页脚 ---------- */
+footer{background:var(--wood-1000);border-top:1px solid var(--wood-700);padding:clamp(48px,7vh,72px) 0 40px}
+.foot-ctas{display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
+.foot-line{margin-top:30px;text-align:center;font-size:12.5px;color:var(--lead-300);letter-spacing:.05em;line-height:2}
+.foot-line .mono{font-family:var(--font-mono)}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:1020px){
+  .modes{grid-template-columns:minmax(0,1fr);grid-template-rows:auto}
+  .mode-1{grid-row:auto;grid-column:1}
+  .mode-2,.mode-3{grid-column:1}
+  .mode-1 h3{position:static;writing-mode:horizontal-tb;height:auto;letter-spacing:.05em;margin-bottom:6px}
+  .mode-1{padding-right:30px}
+}
+@media (max-width:960px){
+  .hero-cols{grid-template-columns:minmax(0,1fr)}
+  .hero-ctas{flex-direction:row;max-width:none}
+  .hero-ctas .btn{flex:1 1 auto}
+  .tray{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .cell-wide{grid-column:span 2}
+  .nav{display:none}
+}
+@media (max-width:560px){
+  .tray{grid-template-columns:repeat(3,minmax(0,1fr));padding:10px;gap:6px}
+  .cell-wide{grid-column:span 3;flex-direction:column;align-items:flex-start;gap:4px;padding:14px;aspect-ratio:auto}
+  .step{grid-template-columns:72px minmax(0,1fr);gap:18px}
+  .step-glyph{width:72px;height:72px;font-size:34px}
+  .topbar-inner{gap:14px}
+  .brand-name{font-size:15px}
+  .top-cta .btn-intaglio{display:none}
+  .top-cta .btn-note{display:none}
+  .brand-sub{display:none}
+  .hero-ctas{flex-direction:column}
+  .hero-ctas .btn{flex:1 1 100%;justify-content:center}
+}
+@media print{
+  body{background:#fff;color:#111}
+  .topbar,.hero-ctas,.foot-ctas,.copy-btn{display:none}
+  .cell,.mode,.colophon-frame{border-color:#999;background:#fff;color:#111}
+  .cell-glyph,.hero-title,.sec-head h2,.mode h3{color:#111}
+}
+</style>
+</head>
+<body>
+
+<!--
+IMPECCABLE DIRECTION CONTRACT
+seed: d4e0c2be · scope: direction · mode: persuade · 指派候选 7/7（活字印刷字盘）
+THESIS: 知识是公共的字库，前程是你排的版。数据库即排字房——304 篇文档是铸好的活字，任何人都来拣一副自己的版。
+OWN-WORLD: 中文活字印刷的排字房：深木字盘、铅灰结构、纸白印迹、朱砂印泥。宋体即活字的直系后代，是这个世界自己的字声，不是系统兜底。
+STORY: 访客站进排字房——先看见整面字盘（可点的真实模块），再看三种已排好的版（三类受众的拣法，版式形状各不相同），然后学会三步工艺（铸字/排字/印成），牌记收尾，诚实声明常驻。
+FIRST VIEWPORT: 左侧巨型宋体论题句压在深木地上，右侧一面 18 格真实字盘墙（格内是真实模块名与实测计数），一枚朱砂格最后落位、印「成版」章；下方双 CTA（GitHub 进字库 / 控制台排字房）。无 kicker，无大数字卡。
+FORM: 单列长卷，章节以文武线（粗细双线）分界；等宽字体仅用于可核验计数、路径与代码；图标统一 1.5px 描边 SVG。raise：舞蹈海报的巨型字尺度；Schiphol 导视的每屏一决策；Cyworld 的诚实计数 chrome；暗房的连续显影动效（不逐字弹跳）；drawcord 斗篷的单强调色纪律；Włocławek 剪纸的平色分层不投影。
+FINISH: 以 wayfinding 单色纪律 + darkroom 材料沉浸为准审查；朱砂红是页面唯一强调色，出现第二个强调色即返工；所有数字必须可回溯到仓库实测。
+-->
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#top">
+      <span class="brand-seal" aria-hidden="true">字</span>
+      <span>
+        <span class="brand-name">Standup Coder Database</span>
+        <span class="brand-sub">程序员的职业知识字库</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="页面导航">
+      <a href="#audiences">三种拣法</a>
+      <a href="#ledger">字库总目</a>
+      <a href="#process">三步成版</a>
+      <a href="#colophon">牌记</a>
+    </nav>
+    <div class="top-cta">
+      <a class="btn btn-relief btn-sm" href="https://github.com/standup-coder/standup-coder-database" target="_blank" rel="noopener">
+        GitHub 进字库
+      </a>
+      <a class="btn btn-intaglio btn-sm" href="https://github.com/standup-coder/standup-coder-database/tree/main/console" target="_blank" rel="noopener">
+        排字房控制台
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ========== 首屏：论题 + 字盘墙 ========== -->
+<section class="hero" aria-label="简介">
+  <div class="wrap">
+    <h1 class="hero-title">知识是公共的字库，<br>前程是你<span class="red">排</span>的版。</h1>
+    <div class="hero-cols">
+      <div>
+        <p class="hero-sub">
+          Standup Coder Database 把行业 <span class="num">148</span>、岗位 JD <span class="num">61</span>、超级个体 <span class="num">50</span>……五大主模块 <span class="num">304</span> 篇文档，连同 <span class="num">12</span> 组国际双轨、<span class="num">6</span> 页数据控制台与一张 <span class="num">170+</span> 家深圳公司地图，铸成一副公共字库。
+          求职者、研究者、超级个体，各取所需，各排其版。
+        </p>
+        <div class="hero-ctas">
+          <a class="btn btn-relief" href="https://github.com/standup-coder/standup-coder-database" target="_blank" rel="noopener">
+            <svg width="19" height="19" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+            <span>GitHub 进字库<span class="btn-note">github.com/standup-coder/standup-coder-database</span></span>
+          </a>
+          <a class="btn btn-intaglio" href="https://github.com/standup-coder/standup-coder-database/tree/main/console" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="m7 9 3 3-3 3"/><path d="M13 15h4"/></svg>
+            <span>开排字房控制台<span class="btn-note">React 19 · 首页仪表板 / 岗位 / 企业 / 榜单 / 数据分析</span></span>
+          </a>
+        </div>
+        <p class="hero-honest"><b>诚实声明</b> · 全库内容 AI 辅助生成，使用前请自行核验；下述数字均为仓库实测，出处见<a href="#ledger">字库总目</a>。</p>
+      </div>
+
+      <div>
+        <div class="tray" role="list" aria-label="模块字盘——每个格子是一个真实模块">
+          <a class="cell" style="--i:0" role="listitem" href="https://github.com/standup-coder/standup-coder-database/tree/main/industry" target="_blank" rel="noopener"><span class="cell-glyph">行</span><span class="cell-name">行业数据库</span><span class="cell-count">148 篇</span></a>
+          <a class="cell" style="--i:1" role="listitem" href="https://github.com/standup-coder/standup-coder-database/tree/main/jobs" target="_blank" rel="noopener"><span class="cell-glyph">岗</span><span class="cell-name">岗位 JD</span><span class="cell-count">61 篇</span></a>
+          <a class="cell" style="--i:2" role="listitem" href="https://github.com/standup-coder/standup-coder-database/tree/main/super-individual" target="_blank" rel="noopener"><span class="cell-glyph">超</span><span class="cell-name">超级个体</span><span class="cell-count">50 篇</span></a>
+          <a class="cell" style="--i:3" role="listitem" href="https://github.com/standup-coder/standup-coder-database/tree/main/careers" target="_blank" rel="noopener"><span class="cell-glyph">职</span><span class="cell-name">职场生涯</span><span class="cell-count">24 篇</span></a>
+          <a class="cell" style="--i:4" role="listitem" href="https://github.com/standup-coder/standup-coder-database/tree/main/management" target="_blank" rel="noopener"><span class="cell-glyph">管</span><span class="cell-name">管理</span><span class="cell-count">21 篇</span></a>
+          <a class="cell" style="--i:5" role="listitem" href="https://github.com/standup-coder/standup-coder-database/tree/main/resume-skills" target="_blank" rel="noopener"><span class="cell-glyph">简</span><span class="cell-name">简历技能</span></a>
+          <a class="cell" style="--i:6" role="listitem" href="https://github.com/standup-coder/standup-coder-database/tree/main/interview-skills" target="_blank" rel="noopener"><span class="cell-glyph">面</span><span class="cell-name">面试技能</span></a>
+          <a class="cell" style="--i:7" role="listitem" href="https://github.com/standup-coder/standup-coder-database/tree/main/rankings" target="_blank" rel="noopener"><span class="cell-glyph">榜</span><span class="cell-name">榜单</span></a>
+          <a class="cell" style="--i:8" role="listitem" href="https://github.com/standup-coder/standup-coder-database/tree/main/outsourcing" target="_blank" rel="noopener"><span class="cell-glyph">包</span><span class="cell-name">外包</span></a>
+          <a class="cell" style="--i:9" role="listitem" href="https://github.com/standup-coder/standup-coder-database/tree/main/events" target="_blank" rel="noopener"><span class="cell-glyph">动</span><span class="cell-name">行业动态</span></a>
+          <a class="cell" style="--i:10" role="listitem" href="https://github.com/standup-coder/standup-coder-database/tree/main/topics" target="_blank" rel="noopener"><span class="cell-glyph">题</span><span class="cell-name">专题</span></a>
+          <a class="cell" style="--i:11" role="listitem" href="https://github.com/standup-coder/standup-coder-database/tree/main/tech-foundations" target="_blank" rel="noopener"><span class="cell-glyph">技</span><span class="cell-name">技术底座</span></a>
+          <a class="cell" style="--i:12" role="listitem" href="https://github.com/standup-coder/standup-coder-database/tree/main/investment" target="_blank" rel="noopener"><span class="cell-glyph">投</span><span class="cell-name">投资视角</span></a>
+          <a class="cell" style="--i:13" role="listitem" href="https://github.com/standup-coder/standup-coder-database/tree/main/legal" target="_blank" rel="noopener"><span class="cell-glyph">法</span><span class="cell-name">法务合规</span></a>
+          <a class="cell" style="--i:14" role="listitem" href="https://github.com/standup-coder/standup-coder-database/tree/main/open-source-communities" target="_blank" rel="noopener"><span class="cell-glyph">源</span><span class="cell-name">开源社区</span></a>
+          <a class="cell cell-wide" style="--i:15" role="listitem" href="https://github.com/standup-coder/standup-coder-database#readme" target="_blank" rel="noopener">
+            <span class="cell-glyph">译</span>
+            <span class="cell-wide-text"><span class="cell-name">国际双轨模块</span><span class="cell-count">12 组 · 与国内并行</span></span>
+          </a>
+          <a class="cell cell-pick" style="--i:16" role="listitem" href="#audiences">
+            <span class="seal-stamp" aria-hidden="true">成<br>版</span>
+            <span class="cell-glyph">拣</span><span class="cell-name">从这里拣起</span>
+          </a>
+        </div>
+        <p class="tray-caption">
+          <span>字盘上的每个格子都通往仓库里的真实目录</span>
+          <span class="mono">36 行业 · 29 城 · 170+ 家深圳公司</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 三种拣法 ========== -->
+<section id="audiences" class="wenwu" aria-label="三种受众路径">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>一副字库，三种拣法</h2>
+      <p>同一批活字，排得出三种版。字盘不设门槛：从任何一格拣起都行，也可以照着下面三条已经走通的路线拣。</p>
+    </div>
+    <div class="modes">
+
+      <article class="mode mode-1">
+        <h3>求职者的版</h3>
+        <div class="sheet" aria-hidden="true">
+          先读<b>岗位 JD</b>，知道缺什么字<span class="stepmark"> → </span>再去<b>面试 / 简历</b>补刻法<span class="stepmark"> → </span>最后照<b>晋升路线</b>印下一版
+        </div>
+        <p>先在 <span class="path" style="font-family:var(--font-mono);font-size:.9em">jobs/</span> 里读 61 份真实岗位 JD，看清目标岗位到底要什么；再去面试与简历模块补齐刻法；职场生涯里的晋升与转型路线，告诉你这一版能往上印多少次。</p>
+        <div class="chips">
+          <a class="chip" href="https://github.com/standup-coder/standup-coder-database/tree/main/jobs" target="_blank" rel="noopener">jobs <span class="n">×61</span></a>
+          <a class="chip" href="https://github.com/standup-coder/standup-coder-database/tree/main/interview-skills" target="_blank" rel="noopener">interview-skills</a>
+          <a class="chip" href="https://github.com/standup-coder/standup-coder-database/tree/main/resume-skills" target="_blank" rel="noopener">resume-skills</a>
+          <a class="chip" href="https://github.com/standup-coder/standup-coder-database/tree/main/careers" target="_blank" rel="noopener">careers <span class="n">×24</span></a>
+        </div>
+        <a class="mode-cta" href="https://github.com/standup-coder/standup-coder-database/tree/main/jobs" target="_blank" rel="noopener">
+          从 jobs/ 开始拣
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+        </a>
+      </article>
+
+      <article class="mode mode-2">
+        <h3>研究者的版</h3>
+        <p>行业数据库按 36 个行业、29 座城市铺开，榜单与投资视角提供可比对的口径，管理模块补上组织视角。每个数字都带路径，可回溯、可引用。</p>
+        <div class="mini-ledger" aria-hidden="true">
+          <div><span>industry/ · 行业数据库</span><span>148 篇</span></div>
+          <div><span>rankings/ · 榜单口径</span><span>可引用</span></div>
+          <div><span>management/ · 组织视角</span><span>21 篇</span></div>
+        </div>
+        <div class="chips">
+          <a class="chip" href="https://github.com/standup-coder/standup-coder-database/tree/main/industry" target="_blank" rel="noopener">industry <span class="n">×148</span></a>
+          <a class="chip" href="https://github.com/standup-coder/standup-coder-database/tree/main/rankings" target="_blank" rel="noopener">rankings</a>
+          <a class="chip" href="https://github.com/standup-coder/standup-coder-database/tree/main/investment" target="_blank" rel="noopener">investment</a>
+          <a class="chip" href="https://github.com/standup-coder/standup-coder-database/tree/main/management" target="_blank" rel="noopener">management <span class="n">×21</span></a>
+        </div>
+        <a class="mode-cta" href="https://github.com/standup-coder/standup-coder-database/tree/main/industry" target="_blank" rel="noopener">
+          打开 industry/
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+        </a>
+      </article>
+
+      <article class="mode mode-3">
+        <h3>超级个体的版</h3>
+        <p>一个人就是一间活字作坊：先定版式（定位与产品），再把非核心工序外包出去，最后用法务与技术底座守住作坊的地基。</p>
+        <div class="imposition">
+          <a class="imp-cell" href="https://github.com/standup-coder/standup-coder-database/tree/main/super-individual" target="_blank" rel="noopener"><b>定位与产品</b><span>super-individual · 50 篇</span></a>
+          <a class="imp-cell" href="https://github.com/standup-coder/standup-coder-database/tree/main/outsourcing" target="_blank" rel="noopener"><b>外包工序</b><span>outsourcing</span></a>
+          <a class="imp-cell" href="https://github.com/standup-coder/standup-coder-database/tree/main/legal" target="_blank" rel="noopener"><b>法务合规</b><span>legal</span></a>
+          <a class="imp-cell" href="https://github.com/standup-coder/standup-coder-database/tree/main/tech-foundations" target="_blank" rel="noopener"><b>技术底座</b><span>tech-foundations</span></a>
+        </div>
+        <a class="mode-cta" href="https://github.com/standup-coder/standup-coder-database/tree/main/super-individual" target="_blank" rel="noopener">
+          进作坊
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+        </a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== 字库总目 ========== -->
+<section id="ledger" class="wenwu" aria-label="内容清单">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>字库总目</h2>
+      <p>每一枚活字都有出处。以下为 2026 年 9 月实测的 <span class="path">.md</span> 文件数（不含各目录 README），点击路径直达仓库目录。</p>
+    </div>
+    <table class="ledger-table">
+      <thead>
+        <tr><th scope="col">路径</th><th scope="col">模块</th><th scope="col" style="text-align:right">实测</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><a href="https://github.com/standup-coder/standup-coder-database/tree/main/industry" target="_blank" rel="noopener">industry/</a></td><td>行业数据库（36 行业 · 29 城）</td><td>148 篇</td></tr>
+        <tr><td><a href="https://github.com/standup-coder/standup-coder-database/tree/main/jobs" target="_blank" rel="noopener">jobs/</a></td><td>岗位 JD 库（含真实案例）</td><td>61 篇</td></tr>
+        <tr><td><a href="https://github.com/standup-coder/standup-coder-database/tree/main/super-individual" target="_blank" rel="noopener">super-individual/</a></td><td>超级个体</td><td>50 篇</td></tr>
+        <tr><td><a href="https://github.com/standup-coder/standup-coder-database/tree/main/careers" target="_blank" rel="noopener">careers/</a></td><td>职场生涯</td><td>24 篇</td></tr>
+        <tr><td><a href="https://github.com/standup-coder/standup-coder-database/tree/main/management" target="_blank" rel="noopener">management/</a></td><td>管理</td><td>21 篇</td></tr>
+        <tr><td><a href="https://github.com/standup-coder/standup-coder-database#readme" target="_blank" rel="noopener">*-international/ ×12</a></td><td>国际双轨模块</td><td>与国内并行</td></tr>
+        <tr><td><a href="https://github.com/standup-coder/standup-coder-database/tree/main/app" target="_blank" rel="noopener">app/</a></td><td>深圳科技公司地图（零依赖）</td><td>170+ 家</td></tr>
+        <tr><td><a href="https://github.com/standup-coder/standup-coder-database/tree/main/console" target="_blank" rel="noopener">console/</a></td><td>数据控制台（React 19）</td><td>6 页</td></tr>
+        <tr class="ledger-total"><td>五大主模块合计</td><td>铸好的活字</td><td>304 篇</td></tr>
+      </tbody>
+    </table>
+    <p class="ledger-note">
+      备注：深圳地图的 170+ 为按法人归一去重后的公司数，其坐标为「区 + 商圈锚点 + 确定性散开」的卡通示意位置，不代表真实门牌；控制台 6 页为首页仪表板、岗位、企业、榜单、数据分析与关于。其余模块（简历、面试、榜单、外包等）未计入合计。
+    </p>
+  </div>
+</section>
+
+<!-- ========== 三步成版 ========== -->
+<section id="process" class="wenwu" aria-label="使用方法">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>三步成版</h2>
+      <p>不需要注册，不需要付费——clone 下来，字就是你的。</p>
+    </div>
+    <div class="steps">
+
+      <div class="step">
+        <div class="step-glyph" aria-hidden="true">铸</div>
+        <div>
+          <h3>铸字<small>clone</small></h3>
+          <p>把整副字库铸到你本地：三百余篇 Markdown、两张静态应用、一整个控制台，全部随仓库走。</p>
+          <div class="codeblock">
+            <span class="p" aria-hidden="true">$</span>
+            <code id="clone-cmd">git clone https://github.com/standup-coder/standup-coder-database.git</code>
+            <button class="copy-btn" type="button" data-copy-target="clone-cmd" aria-label="复制 clone 命令">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
+              复制
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-glyph" aria-hidden="true">排</div>
+        <div>
+          <h3>排字<small>compose</small></h3>
+          <p><b>直接读</b>：任何 Markdown 双击即读，全库零依赖；<b>或起控制台</b>：仪表板、岗位、企业、榜单、数据分析一屏看全。</p>
+          <p class="alt"><b>控制台路线：</b><span class="path" style="font-family:var(--font-mono);font-size:.92em">cd console && npm install && npm run dev</span></p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-glyph" aria-hidden="true">印</div>
+        <div>
+          <h3>印成<small>print</small></h3>
+          <p>把任意一篇丢给你的 AI，让它按你的经历重新排字：改简历、做复盘、定规划。内容为 AI 辅助生成，印行之前请自行核验一遍。</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== 牌记 ========== -->
+<section id="colophon" class="wenwu" aria-label="诚实声明与出处">
+  <div class="wrap">
+    <div class="colophon-frame">
+      <h2>牌记</h2>
+      <ul>
+        <li><b>本库全部内容由 AI 辅助生成</b>，仅供学习与参考，不构成职业、投资或法律建议；采纳前请自行核验。</li>
+        <li>深圳公司地图坐标为卡通示意位置，非真实地理位置。</li>
+        <li>页面数字截至 <b>2026 年 9 月</b>实测，仓库持续更新，以 main 分支为准。</li>
+        <li><a href="https://github.com/standup-coder/standup-coder-database" target="_blank" rel="noopener">github.com/standup-coder/standup-coder-database</a></li>
+      </ul>
+      <div class="colophon-seal" aria-hidden="true">拣字<br>成版</div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-ctas">
+      <a class="btn btn-relief" href="https://github.com/standup-coder/standup-coder-database" target="_blank" rel="noopener">
+        <svg width="19" height="19" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+        GitHub 进字库
+      </a>
+      <a class="btn btn-intaglio" href="https://github.com/standup-coder/standup-coder-database/tree/main/console" target="_blank" rel="noopener">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="m7 9 3 3-3 3"/><path d="M13 15h4"/></svg>
+        开排字房控制台
+      </a>
+    </div>
+    <p class="foot-line">
+      Standup Coder Database · 为程序员与超级个体排字印版<br>
+      内容 AI 辅助生成 · 使用前请自行核验
+    </p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var tray=document.querySelector('.tray');
+  if(tray){
+    if('IntersectionObserver' in window){
+      var io=new IntersectionObserver(function(entries){
+        entries.forEach(function(e){
+          if(e.isIntersecting){tray.classList.add('play');io.disconnect();}
+        });
+      },{threshold:0.25});
+      io.observe(tray);
+    }else{
+      tray.classList.add('play');
+    }
+  }
+})();
+document.querySelectorAll('.copy-btn').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    var target=document.getElementById(btn.getAttribute('data-copy-target'));
+    var text=target?target.textContent.trim():'';
+    var label=btn.lastChild;
+    function done(){btn.classList.add('copied');label.textContent=' 已复制';setTimeout(function(){btn.classList.remove('copied');label.textContent=' 复制';},1800);}
+    function fail(){btn.classList.add('error');label.textContent=' 请手动选择复制';setTimeout(function(){btn.classList.remove('error');label.textContent=' 复制';},2400);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(done,fail);
+    }else{
+      var range=document.createRange();range.selectNodeContents(target);
+      var sel=window.getSelection();sel.removeAllRanges();sel.addRange(range);
+      try{document.execCommand('copy');done();}catch(e){fail();}
+      sel.removeAllRanges();
+    }
+  });
+});
+</script>
+
+</body>
+</html>

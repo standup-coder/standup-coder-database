@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-03T20:15:00+08:00",
+  "title": "Design System: Standup Coder Database",
+  "extensions": {
+    "colorMeta": {
+      "wood-1000": { "role": "neutral", "displayName": "炭木底", "canonical": "#100a05", "tonalRamp": ["#100a05", "#191007", "#231609", "#2f1e0e", "#3f2a15", "#573c20", "#71522f"] },
+      "wood-950": { "role": "neutral", "displayName": "夜排字房", "canonical": "#191007", "tonalRamp": ["#100a05", "#191007", "#231609", "#2f1e0e", "#3f2a15", "#573c20", "#71522f"] },
+      "wood-900": { "role": "neutral", "displayName": "字盘木", "canonical": "#231609", "tonalRamp": ["#100a05", "#191007", "#231609", "#2f1e0e", "#3f2a15", "#573c20", "#71522f"] },
+      "wood-800": { "role": "neutral", "displayName": "活字木", "canonical": "#2f1e0e", "tonalRamp": ["#100a05", "#191007", "#231609", "#2f1e0e", "#3f2a15", "#573c20", "#71522f"] },
+      "wood-700": { "role": "neutral", "displayName": "木纹线", "canonical": "#3f2a15", "tonalRamp": ["#100a05", "#191007", "#231609", "#2f1e0e", "#3f2a15", "#573c20", "#71522f"] },
+      "wood-600": { "role": "neutral", "displayName": "盘缘木", "canonical": "#573c20", "tonalRamp": ["#100a05", "#191007", "#231609", "#2f1e0e", "#3f2a15", "#573c20", "#71522f"] },
+      "wood-500": { "role": "neutral", "displayName": "浅木描", "canonical": "#71522f", "tonalRamp": ["#100a05", "#191007", "#231609", "#2f1e0e", "#3f2a15", "#573c20", "#71522f"] },
+      "paper": { "role": "neutral", "displayName": "纸白", "canonical": "#ece1cb", "tonalRamp": ["#a99d89", "#cfc5b4", "#ece1cb", "#f7efdd"] },
+      "paper-strong": { "role": "neutral", "displayName": "印纸白", "canonical": "#f7efdd", "tonalRamp": ["#a99d89", "#cfc5b4", "#ece1cb", "#f7efdd"] },
+      "lead-200": { "role": "neutral", "displayName": "铅灰浅", "canonical": "#cfc5b4", "tonalRamp": ["#87796a", "#a99d89", "#cfc5b4"] },
+      "lead-300": { "role": "neutral", "displayName": "铅灰", "canonical": "#a99d89", "tonalRamp": ["#87796a", "#a99d89", "#cfc5b4"] },
+      "cinnabar": { "role": "primary", "displayName": "印泥朱砂", "canonical": "#c8452c", "tonalRamp": ["#a33520", "#c8452c", "#d9563a", "#e2684d"] },
+      "cinnabar-bright": { "role": "primary", "displayName": "阳文朱", "canonical": "#d9563a", "tonalRamp": ["#a33520", "#c8452c", "#d9563a", "#e2684d"] },
+      "cinnabar-hover": { "role": "primary", "displayName": "亮朱", "canonical": "#e2684d", "tonalRamp": ["#a33520", "#c8452c", "#d9563a", "#e2684d"] },
+      "cinnabar-deep": { "role": "primary", "displayName": "深印泥", "canonical": "#a33520", "tonalRamp": ["#a33520", "#c8452c", "#d9563a", "#e2684d"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "宋体展示", "purpose": "首屏论题句；一屏一句，900 重巨型字号。" },
+      "headline": { "displayName": "章节题", "purpose": "章节标题（三步成版 / 字库总目）。" },
+      "title": { "displayName": "卡片题", "purpose": "卡片与竖排题头。" },
+      "body": { "displayName": "黑体正文", "purpose": "正文与卡内文案；1.95 行距。" },
+      "label": { "displayName": "等宽台账", "purpose": "计数、路径、代码——只承载可核验之物。" }
+    },
+    "shadows": [
+      { "name": "relief-tray", "value": "inset 0 2px 0 rgba(236,225,203,.05), inset 0 -3px 0 rgba(0,0,0,.4)", "purpose": "字盘外框的雕版浮雕。" },
+      { "name": "relief-cell", "value": "inset 0 1px 0 rgba(236,225,203,.07), inset 0 -2px 0 rgba(0,0,0,.35)", "purpose": "活字格与字胚砖。" },
+      { "name": "relief-pick", "value": "inset 0 1px 0 rgba(247,239,221,.25), inset 0 -2px 0 rgba(0,0,0,.3)", "purpose": "朱砂拣字格。" }
+    ],
+    "motion": [
+      { "name": "ease-place", "value": "cubic-bezier(.2,.7,.3,1)", "purpose": "拣字入位 .5s；唯一主动时刻的交错步长 .055s。" },
+      { "name": "ease-inkroll", "value": "cubic-bezier(.2,.7,.2,1)", "purpose": "首屏论题句显影 .9s（clip-path inset）。" },
+      { "name": "ease-stamp", "value": "cubic-bezier(.2,.85,.25,1)", "purpose": "盖章 .34s（scale 1.7→1 + rotate -9°→-6°）。" },
+      { "name": "state-transition", "value": ".15s", "purpose": "全部悬停/边线状态过渡。" }
+    ],
+    "breakpoints": [
+      { "name": "modes-stack", "value": "1020px" },
+      { "name": "hero-stack", "value": "960px" },
+      { "name": "tray-3col", "value": "560px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "阳文主按钮",
+      "kind": "button",
+      "refersTo": "button-relief",
+      "description": "朱砂亮底反白字的主行动按钮，可带第二行注释。",
+      "html": "<button class=\"ds-btn-relief\"><span>GitHub 进字库</span></button>",
+      "css": ".ds-btn-relief{display:inline-flex;align-items:center;gap:10px;font-family:'PingFang SC','Hiragino Sans GB',sans-serif;font-weight:600;font-size:16px;letter-spacing:.04em;padding:15px 26px;border-radius:6px;cursor:pointer;border:1.5px solid transparent;line-height:1.2;background:#d9563a;color:#100a05;transition:background .15s,transform .12s}.ds-btn-relief:hover{background:#e2684d}.ds-btn-relief:active{transform:translateY(1px)}.ds-btn-relief:focus-visible{outline:2px solid #d9563a;outline-offset:2px}"
+    },
+    {
+      "name": "阴文次按钮",
+      "kind": "button",
+      "refersTo": "button-intaglio",
+      "description": "透明底浅木描边的次行动按钮，悬停边线提亮。",
+      "html": "<button class=\"ds-btn-intaglio\">开排字房控制台</button>",
+      "css": ".ds-btn-intaglio{display:inline-flex;align-items:center;font-family:'PingFang SC','Hiragino Sans GB',sans-serif;font-weight:600;font-size:16px;letter-spacing:.04em;padding:15px 26px;border-radius:6px;cursor:pointer;line-height:1.2;background:transparent;color:#f7efdd;border:1.5px solid #71522f;transition:border-color .15s,background .15s}.ds-btn-intaglio:hover{border-color:#ece1cb;background:#231609}.ds-btn-intaglio:focus-visible{outline:2px solid #d9563a;outline-offset:2px}"
+    },
+    {
+      "name": "模块标签",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "可拣活字的最小单位：模块名 + 等宽计数后缀。",
+      "html": "<a class=\"ds-chip\" href=\"#\">jobs <span class=\"n\">×61</span></a>",
+      "css": ".ds-chip{display:inline-flex;align-items:baseline;gap:6px;font-size:12.5px;color:#ece1cb;text-decoration:none;background:#231609;border:1px solid #573c20;border-radius:4px;padding:6px 11px;transition:border-color .15s,background .15s}.ds-chip:hover{border-color:#c8452c;background:#2f1e0e}.ds-chip .n{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-variant-numeric:tabular-nums;font-size:11px;color:#d9563a}"
+    },
+    {
+      "name": "活字格",
+      "kind": "custom",
+      "refersTo": "tray-cell",
+      "description": "1:1 字盘格：宋体字胚 + 模块名 + 等宽计数，悬停抬升。",
+      "html": "<a class=\"ds-cell\" href=\"#\"><span class=\"g\">行</span><span class=\"nm\">行业数据库</span><span class=\"ct\">148 篇</span></a>",
+      "css": ".ds-cell{aspect-ratio:1/1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;background:#2f1e0e;border:1px solid #573c20;border-radius:5px;text-decoration:none;color:#ece1cb;box-shadow:inset 0 1px 0 rgba(236,225,203,.07),inset 0 -2px 0 rgba(0,0,0,.35);transition:background .15s,transform .15s}.ds-cell:hover{background:#3f2a15;transform:translateY(-2px)}.ds-cell .g{font-family:'Songti SC','STSong','SimSun',serif;font-weight:900;font-size:28px;line-height:1.15;color:#f7efdd}.ds-cell .nm{font-size:11px;color:#a99d89;letter-spacing:.05em}.ds-cell .ct{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-variant-numeric:tabular-nums;font-size:10.5px;color:#a99d89}"
+    },
+    {
+      "name": "拣字格（含印）",
+      "kind": "custom",
+      "description": "朱砂底的已拣定格，右上角悬挂「成版」印。",
+      "html": "<a class=\"ds-cell-pick\" href=\"#\"><span class=\"seal\">成版</span><span class=\"g\">版</span><span class=\"nm\">数据控制台</span></a>",
+      "css": ".ds-cell-pick{position:relative;aspect-ratio:1/1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;background:#c8452c;border:1px solid #a33520;border-radius:5px;text-decoration:none;box-shadow:inset 0 1px 0 rgba(247,239,221,.25),inset 0 -2px 0 rgba(0,0,0,.3)}.ds-cell-pick .g{font-family:'Songti SC','STSong','SimSun',serif;font-weight:900;font-size:28px;color:#f7efdd}.ds-cell-pick .nm{font-size:11px;color:#f2d9cd}.ds-cell-pick .seal{position:absolute;top:-14px;right:-12px;width:54px;height:54px;border-radius:8px;background:#a33520;color:#f7efdd;font-family:'Songti SC',serif;font-weight:900;font-size:18px;display:grid;place-items:center;border:2px solid rgba(247,239,221,.35);transform:rotate(-6deg)}"
+    },
+    {
+      "name": "代码块",
+      "kind": "custom",
+      "description": "可复制命令块：$ 提示符 + 不换行命令 + 复制钮。",
+      "html": "<div class=\"ds-codeblock\"><span class=\"p\">$</span><code>git clone https://github.com/standup-coder/standup-coder-database.git</code><button class=\"ds-copy\">复制</button></div>",
+      "css": ".ds-codeblock{display:flex;align-items:center;gap:12px;background:#100a05;border:1px solid #3f2a15;border-radius:6px;padding:13px 16px}.ds-codeblock .p{color:#d9563a;user-select:none}.ds-codeblock code{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:13.5px;color:#ece1cb;flex:1;min-width:0;overflow-x:auto;white-space:nowrap;scrollbar-width:none}.ds-copy{flex:none;font-size:12px;font-weight:600;letter-spacing:.05em;color:#cfc5b4;background:#2f1e0e;border:1px solid #573c20;border-radius:4px;padding:6px 11px;cursor:pointer;transition:color .15s,border-color .15s}.ds-copy:hover{color:#f7efdd;border-color:#71522f}.ds-copy:focus-visible{outline:2px solid #d9563a;outline-offset:2px}"
+    },
+    {
+      "name": "台账行",
+      "kind": "custom",
+      "description": "迷你台账：等宽账目行，右值纸白。",
+      "html": "<div class=\"ds-ledger\"><div><span>industry/ · 行业数据库</span><span>148 篇</span></div><div><span>rankings/ · 榜单口径</span><span>可引用</span></div></div>",
+      "css": ".ds-ledger{border-top:2px solid #573c20;font-family:ui-monospace,'SF Mono',Menlo,monospace;font-variant-numeric:tabular-nums;font-size:12.5px}.ds-ledger div{display:flex;justify-content:space-between;gap:16px;padding:7px 2px;border-bottom:1px solid #2f1e0e;color:#cfc5b4}.ds-ledger span:last-child{color:#f7efdd}"
+    },
+    {
+      "name": "文武线",
+      "kind": "custom",
+      "description": "章节分界的粗细双规，传统书版文武线。",
+      "html": "<div class=\"ds-wenwu\"></div>",
+      "css": ".ds-wenwu{border-top:2px solid #573c20;position:relative}.ds-wenwu::after{content:\"\";position:absolute;top:3px;left:0;right:0;border-top:1px solid #3f2a15}"
+    },
+    {
+      "name": "牌记印",
+      "kind": "custom",
+      "description": "朱砂圆角方印，微旋盖印；收尾专属语义。",
+      "html": "<span class=\"ds-seal\">拣字<br>成版</span>",
+      "css": ".ds-seal{display:grid;place-items:center;text-align:center;width:52px;height:52px;border-radius:7px;background:#c8452c;color:#f7efdd;font-family:'Songti SC','STSong','SimSun',serif;font-weight:900;font-size:17px;line-height:1.25;border:2px solid rgba(247,239,221,.35);letter-spacing:.04em;transform:rotate(-4deg)}"
+    },
+    {
+      "name": "拣法卡",
+      "kind": "card",
+      "description": "三种拣法的容器卡：木纹线边、悬停仅边线提亮。",
+      "html": "<div class=\"ds-mode\"><h3>求职者的版</h3><p>先在 jobs/ 里读 61 份真实岗位 JD，看清目标岗位到底要什么。</p></div>",
+      "css": ".ds-mode{border:1.5px solid #3f2a15;border-radius:10px;background:#191007;padding:30px 30px 26px;display:flex;flex-direction:column;transition:border-color .15s}.ds-mode:hover{border-color:#71522f}.ds-mode h3{font-family:'Songti SC','STSong','SimSun',serif;font-weight:900;font-size:1.55rem;letter-spacing:.05em;color:#f7efdd;margin:0}.ds-mode p{margin:14px 0 0;color:#cfc5b4;font-size:14.5px;line-height:1.95}"
+    }
+  ],
+  "narrative": {
+    "northStar": "拣字成版——中文活字排字房",
+    "overview": "整个系统把产品表达为一间排字房：仓库的文档是铸好的活字，访客来拣一副自己的版。视觉世界由四种材料构成——深木（字盘与地面）、铅灰（结构与辅助文字）、纸白（印迹与正文）、朱砂（印泥与唯一强调色）。密度上「盘密文疏」：字盘区格子紧密（8px 间距），阅读区行距宽松（1.95），两者并置形成「工坊 vs 印张」的节奏对比。气质沉、旧、准：深木地上的巨型宋体论题句是每一屏的声部；朱砂红出现即意味着「可取用」或「已盖印」。装饰只有三种：文武双线、内凹浮雕、印章，全部源自印刷工艺本身。",
+    "keyCharacteristics": [
+      "宋体是唯一的展示声部（活字的直系后代），黑体只做正文",
+      "朱砂是唯一强调色，出现第二个强调色即返工",
+      "深度全部来自内凹浮雕与双线规，从不使用投影与渐变",
+      "等宽字体只承载可核验之物：计数、路径、代码",
+      "每个数字都可回溯到仓库实测，诚实声明常驻"
+    ],
+    "rules": [
+      { "name": "朱砂一色 Rule", "body": "朱砂是页面唯一强调色，任何新元素不得引入第二强调色；「是否够醒目」永远靠明度与字重解决，不靠新增色相。", "section": "colors" },
+      { "name": "墨不压纸 Rule", "body": "深地面上永远用纸白系文字；次级信息用铅灰系，禁止用中性灰（灰在暖木底上会发脏）。", "section": "colors" },
+      { "name": "等宽即证据 Rule", "body": "等宽字体只用于可核验计数、路径与代码；用等宽做风格化装饰是违例。", "section": "typography" },
+      { "name": "字重代色 Rule", "body": "强调永远优先用字重（400→600→900）与字号阶梯表达，其次用朱砂；不使用斜体与渐变字。", "section": "typography" },
+      { "name": "文武分界 Rule", "body": "章节之间只用文武线分界；用背景色差分界仅限既定的交替章。", "section": "layout" },
+      { "name": "雕版不投影 Rule", "body": "深度只来自内凹浮雕与双线规；任何 drop-shadow / blur 光晕 / 渐变都破坏平色印刷的世界。", "section": "elevation" }
+    ],
+    "dos": [
+      "Do 用宋体 900 + 巨型字号作为每屏唯一的视觉声部；论题句一屏一句。",
+      "Do 让每个数字带等宽计数与可回溯口径（何处实测、何时截止）。",
+      "Do 用内凹浮雕 + 文武线表达全部深度；新组件先问「这个雕版工艺里有没有」。",
+      "Do 动效只保留一段主动时刻（拣字落位 + 盖章），必须尊重 prefers-reduced-motion。",
+      "Do 图标用 1.5px 描边内联 SVG；汉字只能以「字胚内容」身份出现，不作图标。"
+    ],
+    "donts": [
+      "Don't 引入第二个强调色；朱砂之外的一切颜色必须是木/纸/铅系。",
+      "Don't 使用投影、模糊光晕、渐变（文字或面）——平色印刷世界无此工艺。",
+      "Don't 使用 kicker/眉题、无信息的大数字卡、emoji 图标（既定世界明文拒绝）。",
+      "Don't 把等宽字体用于纯风格化文案；等宽即承诺可核验。",
+      "Don't 牌记、印章作为普通装饰复用；它们是收尾与「已拣定」的专属语义。"
+    ]
+  }
+}
