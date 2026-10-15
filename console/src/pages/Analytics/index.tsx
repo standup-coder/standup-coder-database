@@ -164,8 +164,8 @@ export function Analytics() {
 
   // 上市率计算
   const listingRate = stats?.insights?.listingRate || 0;
-  const tier1Rate = parseFloat(stats?.insights?.tier1Rate || '0');
-  const newTier1Rate = parseFloat(stats?.insights?.newTier1Rate || '0');
+  const tier1Rate = stats?.insights?.tier1Rate || 0;
+  const newTier1Rate = stats?.insights?.newTier1Rate || 0;
 
   return (
     <div className="space-y-6 animate-fade-in">

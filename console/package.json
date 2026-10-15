@@ -9,7 +9,11 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "data:sync": "node scripts/sync-data.mjs",
+    "data": "node ../shared/pipeline/build.mjs && node scripts/sync-data.mjs",
+    "data:jobs": "node scripts/generate-jobs.cjs",
+    "data:rankings": "node scripts/generate-rankings.cjs"
   },
   "dependencies": {
     "@ant-design/charts": "^2.6.7",

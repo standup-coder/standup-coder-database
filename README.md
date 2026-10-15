@@ -45,47 +45,54 @@ npm run dev
 **技术栈**: React 19 + TypeScript + Ant Design 6 + Vite 8
 
 ### 🗺️ 深圳公司二次元地图 (app/)
-零依赖纯静态小应用：把 industry/ 下 24 个深圳企业清单（去重后 170+ 家）画在二次元可爱风格的卡通深圳地图上，LOGO 徽章+简称浮标标记公司所在商圈，支持三主题切换（马卡龙/像素/猫咪）、缩放聚合、行业筛选与搜索。
+零依赖纯静态小应用：把 docs/industry/ 清单里深圳主表口径的 184 家公司画在二次元可爱风格的卡通深圳地图上，LOGO 徽章+简称浮标标记公司所在商圈，支持三主题切换（马卡龙/像素/猫咪）、缩放聚合、行业筛选与搜索。
 
 ```bash
 python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 # 或直接双击 app/index.html
 ```
 
-数据由 `python3 scripts/build_app_data.py` 从 Markdown 清单自动生成，详见 [app/README.md](app/README.md)。
+数据分两步生成：`node shared/pipeline/build.mjs`（Markdown 清单 → `shared/data/dist/`，去重与字段口径都在这一步）→ `node app/scripts/build-app-data.mjs`（筛深圳主表 + 地址翻译成卡通坐标 → `app/data/`），详见 [app/README.md](app/README.md)。
 
 项目采用模块化文件夹结构：
-- **rankings/** - 国内权威企业榜单（8个文件）
-- **industry/** - 中国行业企业清单（148个文件）
-- **industry-international/** - 国际行业企业清单（43个文件）
-- **outsourcing/** - 国内IT外包公司清单（4个文件）
-- **outsourcing-international/** - 国际IT外包服务提供商清单（5个文件）
-- **rankings-international/** - 国际权威企业榜单（4个文件）
-- **interview-skills/** - 国内面试技巧指南（4个文件）
-- **interview-skills-international/** - 国际面试技巧指南（3个文件）
-- **resume-skills/** - 国内简历制作技巧（4个文件）
-- **resume-skills-international/** - 国际简历制作技巧（3个文件）
-- **tech-foundations/** - 国内科技基金会指南（2个文件）
-- **tech-foundations-international/** - 国际科技基金会指南（3个文件）
-- **open-source-communities/** - 国内开源社区指南（3个文件）
-- **open-source-communities-international/** - 国际开源社区指南（2个文件）
-- **topics/** - 国内科技专题榜单（9个文件）
-- **topics-international/** - 国际科技专题榜单（2个文件）
-- **investment/** - 风险投资专题（7个文件）
-- **investment-international/** - 国际风险投资机构清单（7个文件）
-- **events/** - 技术活动信息（4个文件）
-- **events-international/** - 国际技术活动与竞赛清单（10个文件）
-- **careers/** - 国内求职招聘信息（24个文件）
-- **careers-international/** - 国际求职招聘信息（7个文件）
-- **legal/** - 法律实务指南（7个文件）
-- **legal-international/** - 国际法律实务指南（9个文件）
-- **jobs/** - IT技术岗位JD信息（61个文件，含真实案例）
-- **management/** - 技术管理知识体系（26个文件，专业分类）
-- **super-individual/** - 超级个体与OPC一人公司知识体系（58个文件，全面覆盖OPC速查手册、OPC完全指南、OPC政策红利、AI Agent工作流、Vibe Coding、OPC全球化扩张、OPC案例研究、OPC融资指南、OPC增长营销、OPC产品设计、OPC数据驱动、OPC心理健康、工商注册、自媒体、AI工具链、个人IP、自由职业、数字产品、财税合规、副业规划、程序员技能蒸馏）
+- **docs/rankings/** - 国内权威企业榜单（8个文件）
+- **docs/industry/** - 中国行业企业清单（148个文件）
+- **docs/industry-international/** - 国际行业企业清单（43个文件）
+- **docs/outsourcing/** - 国内IT外包公司清单（4个文件）
+- **docs/outsourcing-international/** - 国际IT外包服务提供商清单（5个文件）
+- **docs/rankings-international/** - 国际权威企业榜单（4个文件）
+- **docs/interview-skills/** - 国内面试技巧指南（4个文件）
+- **docs/interview-skills-international/** - 国际面试技巧指南（3个文件）
+- **docs/resume-skills/** - 国内简历制作技巧（4个文件）
+- **docs/resume-skills-international/** - 国际简历制作技巧（3个文件）
+- **docs/tech-foundations/** - 国内科技基金会指南（2个文件）
+- **docs/tech-foundations-international/** - 国际科技基金会指南（3个文件）
+- **docs/open-source-communities/** - 国内开源社区指南（3个文件）
+- **docs/open-source-communities-international/** - 国际开源社区指南（2个文件）
+- **docs/topics/** - 国内科技专题榜单（9个文件）
+- **docs/topics-international/** - 国际科技专题榜单（2个文件）
+- **docs/investment/** - 风险投资专题（7个文件）
+- **docs/investment-international/** - 国际风险投资机构清单（7个文件）
+- **docs/events/** - 技术活动信息（4个文件）
+- **docs/events-international/** - 国际技术活动与竞赛清单（10个文件）
+- **docs/careers/** - 国内求职招聘信息（24个文件）
+- **docs/careers-international/** - 国际求职招聘信息（7个文件）
+- **docs/legal/** - 法律实务指南（7个文件）
+- **docs/legal-international/** - 国际法律实务指南（9个文件）
+- **docs/jobs/** - IT技术岗位JD信息（61个文件，含真实案例）
+- **docs/management/** - 技术管理知识体系（26个文件，专业分类）
+- **docs/super-individual/** - 超级个体与OPC一人公司知识体系（58个文件，全面覆盖OPC速查手册、OPC完全指南、OPC政策红利、AI Agent工作流、Vibe Coding、OPC全球化扩张、OPC案例研究、OPC融资指南、OPC增长营销、OPC产品设计、OPC数据驱动、OPC心理健康、工商注册、自媒体、AI工具链、个人IP、自由职业、数字产品、财税合规、副业规划、程序员技能蒸馏）
 
 ## 目录结构说明
 
-### 权威企业榜单 (rankings/)
+> **路径说明**：以下所有模块目录都位于 `docs/` 下（如 `docs/industry/`、`docs/rankings/`）。
+> 早期仓库根直接铺这些内容目录，现已整体搬迁到 `docs/`；根目录只留产品入口 README、
+> `shared/`（公用数据层）、`console/`、`app/`、`GTM/`、`scripts/`，以及按形态区分的
+> `mini-app/`、`web-app/`、`mac-app/`、`win-app/`。引用旧根路径的地址一律加 `docs/` 前缀。
+> 三种取数方式共用 `shared/`：`cd console && npm run data`（重建 `shared/data/dist/`）、
+> `npm run data:sync`（同步给控制台）、`node app/scripts/build-app-data.mjs --check`（深圳地图）。
+
+### 权威企业榜单 (docs/rankings/)
 收录中国最具影响力的权威企业排行榜，包括财富中国500强、福布斯中国富豪榜等国家级榜单，为投资者、研究人员、商业决策者提供权威参考。
 
 **覆盖榜单类型**：
@@ -94,7 +101,7 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 - 创新型企业榜单
 - 可持续发展榜单
 
-### 国际权威企业榜单 (rankings-international/)
+### 国际权威企业榜单 (docs/rankings-international/)
 收录全球最具影响力的权威企业排行榜，涵盖财富世界500强等国际性企业榜单，为用户提供全球企业格局和发展趋势的重要参考。
 
 **覆盖榜单类型**：
@@ -103,57 +110,57 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 - 创新型企业榜单
 - 可持续发展榜单
 
-### 中国行业企业清单 (industry/)
+### 中国行业企业清单 (docs/industry/)
 收录中国16个主要城市在13个科技行业的代表性企业清单，为企业调研、投资决策、求职参考提供详实的数据支撑。
 
 **覆盖城市**：北京、上海、深圳、广州、杭州、南京、苏州、成都、武汉、西安、青岛、天津、重庆、长沙、合肥、济南
 
 **覆盖行业**：人工智能、大数据、区块链、物联网、智能制造、新能源、新材料、生物技术、3C电子、云计算、网络安全、互联网、软件
 
-### 国际行业企业清单 (industry-international/)
+### 国际行业企业清单 (docs/industry-international/)
 收录全球主要发达国家在各个科技行业的重要企业清单，按照国家和地区进行分类整理，为用户提供国际科技产业发展状况的参考信息。
 
 **覆盖国家和地区**：美国、欧洲、印度、日本、韩国、加拿大、英国、德国
 
 **覆盖行业**：人工智能、大数据、区块链、物联网、智能制造、新能源、新材料、生物技术、3C电子、云计算、网络安全、互联网、软件
 
-### IT外包公司清单 (outsourcing/)
+### IT外包公司清单 (docs/outsourcing/)
 收录国内主要的IT外包服务提供商，涵盖金融、电信、政府、制造业等多个行业的IT服务外包企业，为需要IT外包服务的企业和项目经理提供权威的供应商参考信息。
 
-### 国际IT外包服务 (outsourcing-international/)
+### 国际IT外包服务 (docs/outsourcing-international/)
 收录全球主要的IT外包服务提供商，涵盖欧美、印度等主要IT服务外包市场的顶级企业，为需要国际IT外包服务的企业、项目经理、采购人员提供权威的供应商参考信息。
 
 **覆盖地区**：欧美地区、印度、其他地区
 
-### 面试技巧指南 (interview-skills/)
+### 面试技巧指南 (docs/interview-skills/)
 收录全面的面试技巧指南，涵盖技术面试、行为面试等各个方面，为求职者提供系统性的面试准备和实战指导。
 
 **内容分类**：
 - 技术面试技巧：算法和数据结构面试准备、系统设计面试策略、编程题解题方法论、技术深度展示技巧
 - 行为面试指导：STAR法则应用详解、常见行为问题应对策略、团队协作和沟通技巧、压力管理和情绪控制
 
-### 国际面试技巧指南 (interview-skills-international/)
+### 国际面试技巧指南 (docs/interview-skills-international/)
 提供全面的国际面试技巧指南，涵盖technical interviews、behavioral interviews等各个方面，为求职者提供系统性的面试准备和实战指导。
 
 **内容分类**：
 - Technical Interview Skills：Algorithms and data structures、System design、Coding problem-solving、Technical depth demonstration
 - Behavioral Interview Guidance：STAR framework、Common behavioral questions、Team collaboration、Stress management
 
-### 简历制作技巧 (resume-skills/)
+### 简历制作技巧 (docs/resume-skills/)
 提供全面的简历制作和优化指南，从基础简历写作到高级策略规划，帮助求职者打造专业、有效的求职简历。
 
 **内容分类**：
 - 基础简历指导：简历结构和格式规范、核心内容编写技巧、关键词优化策略、ATS系统适配方法
 - 高级简历策略：个人品牌建设和定位、成就量化和数据展示、针对性简历定制、视觉设计和排版艺术
 
-### 国际简历制作技巧 (resume-skills-international/)
+### 国际简历制作技巧 (docs/resume-skills-international/)
 提供全面的国际简历创作和优化指南，从基础简历写作到高级策略规划，帮助求职者打造专业、有效的求职简历。
 
 **内容分类**：
 - Basic Resume Guidance：Resume structure、Core content writing、Keyword optimization、ATS compatibility
 - Advanced Resume Strategy：Personal branding、Achievement quantification、Targeted customization、Visual design
 
-### 科技基金会指南 (tech-foundations/)
+### 科技基金会指南 (docs/tech-foundations/)
 收录中国主要的科技基金会、科研资助机构和技术创新支持组织信息，为科研人员、创新创业者、技术团队提供权威的资金支持和资源对接参考。
 
 **覆盖范围**：
@@ -162,7 +169,7 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 - 民间公益科技基金会
 - 国际合作科技基金
 
-### 国际科技基金会指南 (tech-foundations-international/)
+### 国际科技基金会指南 (docs/tech-foundations-international/)
 收录国际主要的科技基金会、科研资助机构和技术创新支持组织信息，为全球研究人员、创新创业者、技术团队提供权威的资金支持和资源对接参考。
 
 **覆盖范围**：
@@ -171,7 +178,7 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 - Private philanthropic technology foundations
 - International cooperation science funds
 
-### 开源社区指南 (open-source-communities/)
+### 开源社区指南 (docs/open-source-communities/)
 收录中国主要的开源社区、开源平台和技术论坛信息，为开发者提供参与开源项目、学习开源技术、贡献代码的权威参考平台。
 
 **覆盖范围**：
@@ -180,7 +187,7 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 - 企业开源生态社区
 - 教育培训资源平台
 
-### 国际开源社区指南 (open-source-communities-international/)
+### 国际开源社区指南 (docs/open-source-communities-international/)
 收录国际主要的开源社区、平台和论坛信息，为开发者提供参与全球开源项目、学习前沿技术、贡献代码的权威参考平台。
 
 **覆盖范围**：
@@ -189,7 +196,7 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 - Corporate open source ecosystems
 - Educational training resource platforms
 
-### 国际科技专题榜单 (topics-international/)
+### 国际科技专题榜单 (docs/topics-international/)
 收录国际科技相关的专题榜单，包括国外科技公司在华业务、国际合作项目、跨国技术交流等主题内容，为关注国际科技发展趋势和中外技术合作的用户提供专业参考。
 
 **覆盖主题领域**：
@@ -198,7 +205,7 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 - 跨国科技项目合作
 - 国际科技政策与标准
 
-### 科技专题榜单 (topics/)
+### 科技专题榜单 (docs/topics/)
 收录国内科技相关的专题榜单和深度分析内容，涵盖技术创新、产业发展、政策解读等主题，为关注国内科技发展趋势的用户提供专业参考。
 
 **覆盖主题领域**：
@@ -207,7 +214,7 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 - 技术趋势分析
 - 创新案例研究
 
-### 风险投资专题 (investment/)
+### 风险投资专题 (docs/investment/)
 收录全球和中国顶级风险投资机构、知名投资人以及投资市场分析等相关信息，为创业者、投资人和相关从业者提供全面的VC生态参考。
 
 **文件清单**：
@@ -217,7 +224,7 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 - VC投资趋势与市场分析
 - VC投资实用指南
 
-### 国际风险投资机构清单 (investment-international/)
+### 国际风险投资机构清单 (docs/investment-international/)
 收录全球主要发达国家和地区的重要风险投资机构，按照国家和地区进行分类整理，为用户提供国际VC投资生态系统的参考信息。
 
 **覆盖国家和地区**：美国、欧洲、以色列、日本、韩国、印度、新加坡、加拿大
@@ -229,10 +236,10 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 - 政府引导基金
 - 家族办公室投资
 
-### 技术活动信息 (events/)
+### 技术活动信息 (docs/events/)
 收录国内重要的技术活动、编程竞赛、开发者大会和创新赛事信息，为技术爱好者、开发者、研究人员提供参与技术交流和展示的平台信息。
 
-### 国际技术活动与竞赛清单 (events-international/)
+### 国际技术活动与竞赛清单 (docs/events-international/)
 收录全球范围内重要的技术活动、编程竞赛、开发者大会和创新赛事，涵盖国际顶级科技盛会、区域性技术聚会、专业领域竞赛等多个维度。
 
 **覆盖地区分布**：北美地区、欧洲地区、亚太地区、其他地区
@@ -272,7 +279,7 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 - 人脉拓展与内推资源：内推价值、人脉建设、内推请求艺术、长期发展战略
 - 远程工作与灵活就业：远程工作趋势、技能要求、机会获取、挑战应对
 
-### 国际求职招聘信息 (careers-international/)
+### 国际求职招聘信息 (docs/careers-international/)
 收录全球主要的招聘平台、求职网站、企业信息查询平台及相关信息来源，为国际化求职者、HR从业者、行业研究人员提供全面的职业发展和企业调研参考。
 
 **覆盖范围**：
@@ -281,7 +288,7 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 - 跨国企业信息查询
 - 海外求职专业平台
 
-### 法律实务指南 (legal/)
+### 法律实务指南 (docs/legal/)
 收录中国主要的法律实务指南，涵盖劳动法、竞业协议、裁员流程等各个领域的法律实践，为劳动者、企业管理者和法律从业者提供专业的法律参考和实务指导。
 
 **法律实务领域分类**：
@@ -289,7 +296,7 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 - 竞业限制协议实务
 - 企业裁员法律程序
 
-### 国际法律实务指南 (legal-international/)
+### 国际法律实务指南 (docs/legal-international/)
 收录全球主要发达国家和地区的法律实务指南，涵盖劳动法、合同法、知识产权法、公司法等各个领域的国际法律实践，为跨国企业、海外工作者和国际投资者提供专业的法律参考和实务指导。
 
 **覆盖国家和地区**：美国、欧洲、日本、印度、新加坡、加拿大、澳大利亚、英国
@@ -302,7 +309,7 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 - 数据保护和隐私法
 - 国际争议解决
 
-### IT技术岗位JD信息 (jobs/)
+### IT技术岗位JD信息 (docs/jobs/)
 收录全球IT行业各类技术岗位的详细信息，涵盖岗位职责、技能要求、薪资水平、职业发展路径等核心内容，为求职者、HR从业者和技术管理者提供专业、全面的岗位参考信息。
 
 **岗位分类体系**：
@@ -314,19 +321,19 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 - 测试与质量类岗位
 - 技术管理类岗位
 
-**AI产业链岗位专题**（详见 [jobs/ai-industry-chain-map.md](jobs/ai-industry-chain-map.md) 全景索引）：
+**AI产业链岗位专题**（详见 [jobs/ai-industry-chain-map.md](docs/jobs/ai-industry-chain-map.md) 全景索引）：
 - 上游（算力硬件层）：AI芯片设计、AI编译器、AI基础设施
 - 中游（模型平台层）：多模态算法、推理优化、AI数据工程
 - 下游（应用场景层）：自动驾驶、具身智能、AI产品经理
 - 生态（支撑治理层）：AI解决方案架构师、AI安全工程师
 
-**SRE与运维智能体岗位专题**（详见 [jobs/sre-aiops-career-map.md](jobs/sre-aiops-career-map.md) 全景索引）：
+**SRE与运维智能体岗位专题**（详见 [jobs/sre-aiops-career-map.md](docs/jobs/sre-aiops-career-map.md) 全景索引）：
 - 底座层：云原生SRE(K8s/ACK)、AI平台运维(专有云AI Stack)
 - 智能层：运维智能体(AIOps Agent)、工单智能体
 - 知识层：AI语料工程师(运维知识工程/Skills封装)
 - 客户面向层：技术客户经理(TAM)、前线部署工程师(FDE)
 
-**求职准备方案总纲**：[careers/ai-sre-job-preparation-plan.md](careers/ai-sre-job-preparation-plan.md)（九要素整合：岗位定位/简历/面试/学习资源/90天计划）
+**求职准备方案总纲**：[careers/ai-sre-job-preparation-plan.md](docs/careers/ai-sre-job-preparation-plan.md)（九要素整合：岗位定位/简历/面试/学习资源/90天计划）
 
 ## 项目用途
 - **项目新增**：IT技术岗位JD信息库，包含61个岗位的详细JD和真实案例，覆盖AI产业链、智能运维岗位族谱与TAM/FDE客户面向技术岗
@@ -376,7 +383,7 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 ### 2025-2026 职业趋势速览
 | 专题 | 文件 | 说明 |
 |------|------|------|
-| 程序员职业趋势 | [LATEST_TRENDS.md](LATEST_TRENDS.md) | 2025-2026年程序员职业趋势速览：AI重塑岗位、薪资分化、新兴方向 |
+| 程序员职业趋势 | [LATEST_TRENDS.md](docs/reports/LATEST_TRENDS.md) | 2025-2026年程序员职业趋势速览：AI重塑岗位、薪资分化、新兴方向 |
 
 ---
 
@@ -385,20 +392,20 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 ### 国际榜单
 | 榜单名称 | 文件 | 发布机构 | 规模 | 说明 |
 |----------|------|----------|------|------|
-| 财富世界500强 | [fortune_500_2025.md](rankings-international/fortune_500_2025.md) | 财富杂志 | 500家 | 全球最大企业排名 |
+| 财富世界500强 | [fortune_500_2025.md](docs/rankings-international/fortune_500_2025.md) | 财富杂志 | 500家 | 全球最大企业排名 |
 
 ### 国家级榜单
 | 榜单名称 | 文件 | 发布机构 | 规模 | 说明 |
 |----------|------|----------|------|------|
-| 专精特新"小巨人" | [specialized-sme-xiaojuren.md](rankings/specialized-sme-xiaojuren.md) | 工信部 | 1.2万+ | 细分领域隐形冠军 |
-| 制造业单项冠军 | [manufacturing-champion.md](rankings/manufacturing-champion.md) | 工信部 | 1500+ | 细分产品市场占有率领先 |
-| 中国民营企业500强 | [private-enterprise-500.md](rankings/private-enterprise-500.md) | 全国工商联 | 500家 | 民营经济风向标 |
+| 专精特新"小巨人" | [specialized-sme-xiaojuren.md](docs/rankings/specialized-sme-xiaojuren.md) | 工信部 | 1.2万+ | 细分领域隐形冠军 |
+| 制造业单项冠军 | [manufacturing-champion.md](docs/rankings/manufacturing-champion.md) | 工信部 | 1500+ | 细分产品市场占有率领先 |
+| 中国民营企业500强 | [private-enterprise-500.md](docs/rankings/private-enterprise-500.md) | 全国工商联 | 500家 | 民营经济风向标 |
 
 ### 创投榜单
 | 榜单名称 | 文件 | 发布机构 | 规模 | 说明 |
 |----------|------|----------|------|------|
-| 独角兽企业 | [unicorn-enterprise.md](rankings/unicorn-enterprise.md) | 胡润/长城战略 | 372家 | 估值10亿美元+未上市企业 |
-| 瞪羚企业 | [gazelle-enterprise.md](rankings/gazelle-enterprise.md) | 胡润/各地科技局 | 278家 | 高成长性中小企业 |
+| 独角兽企业 | [unicorn-enterprise.md](docs/rankings/unicorn-enterprise.md) | 胡润/长城战略 | 372家 | 估值10亿美元+未上市企业 |
+| 瞪羚企业 | [gazelle-enterprise.md](docs/rankings/gazelle-enterprise.md) | 胡润/各地科技局 | 278家 | 高成长性中小企业 |
 
 ---
 
@@ -424,8 +431,8 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 ### 综合榜单（2个）
 | 榜单名称 | 文件 | 发布机构 | 规模 | 说明 |
 |----------|------|----------|------|------|
-| 中国互联网企业100强 | [internet-100.md](rankings/internet-100.md) | 中国互联网协会 | 100家 | 互联网行业权威排名 |
-| 中国软件百强 | [software-100.md](rankings/software-100.md) | 工信部 | 100家 | 软件行业权威排名 |
+| 中国互联网企业100强 | [internet-100.md](docs/rankings/internet-100.md) | 中国互联网协会 | 100家 | 互联网行业权威排名 |
+| 中国软件百强 | [software-100.md](docs/rankings/software-100.md) | 工信部 | 100家 | 软件行业权威排名 |
 
 ### 城市覆盖（16城）
 
@@ -441,29 +448,29 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 #### 新一线/二线城市（6城）
 | 城市 | 覆盖行业 | 文件列表 |
 |------|----------|----------|
-| 南京 | ai, cloud, security | [ai-nanjing.md](industry/ai-nanjing.md), [cloud-nanjing.md](industry/cloud-nanjing.md), [security-nanjing.md](industry/security-nanjing.md) |
-| 西安 | ai, cloud, security | [ai-xian.md](industry/ai-xian.md), [cloud-xian.md](industry/cloud-xian.md), [security-xian.md](industry/security-xian.md) |
-| 苏州 | biotech, cloud, security | [biotech-suzhou.md](industry/biotech-suzhou.md), [cloud-suzhou.md](industry/cloud-suzhou.md), [security-suzhou.md](industry/security-suzhou.md) |
-| 无锡 | cloud | [cloud-wuxi.md](industry/cloud-wuxi.md) |
-| 常州 | cloud | [cloud-changzhou.md](industry/cloud-changzhou.md) |
-| 昆明 | ai, cloud | [ai-kunming.md](industry/ai-kunming.md), [cloud-kunming.md](industry/cloud-kunming.md) |
+| 南京 | ai, cloud, security | [ai-nanjing.md](docs/industry/ai-nanjing.md), [cloud-nanjing.md](docs/industry/cloud-nanjing.md), [security-nanjing.md](docs/industry/security-nanjing.md) |
+| 西安 | ai, cloud, security | [ai-xian.md](docs/industry/ai-xian.md), [cloud-xian.md](docs/industry/cloud-xian.md), [security-xian.md](docs/industry/security-xian.md) |
+| 苏州 | biotech, cloud, security | [biotech-suzhou.md](docs/industry/biotech-suzhou.md), [cloud-suzhou.md](docs/industry/cloud-suzhou.md), [security-suzhou.md](docs/industry/security-suzhou.md) |
+| 无锡 | cloud | [cloud-wuxi.md](docs/industry/cloud-wuxi.md) |
+| 常州 | cloud | [cloud-changzhou.md](docs/industry/cloud-changzhou.md) |
+| 昆明 | ai, cloud | [ai-kunming.md](docs/industry/ai-kunming.md), [cloud-kunming.md](docs/industry/cloud-kunming.md) |
 
 #### 东北城市（2城）
 | 城市 | 覆盖行业 | 文件列表 |
 |------|----------|----------|
-| 沈阳 | ai, cloud | [ai-shenyang.md](industry/ai-shenyang.md), [cloud-shenyang.md](industry/cloud-shenyang.md) |
-| 哈尔滨 | ai, cloud | [ai-harbin.md](industry/ai-harbin.md), [cloud-harbin.md](industry/cloud-harbin.md) |
+| 沈阳 | ai, cloud | [ai-shenyang.md](docs/industry/ai-shenyang.md), [cloud-shenyang.md](docs/industry/cloud-shenyang.md) |
+| 哈尔滨 | ai, cloud | [ai-harbin.md](docs/industry/ai-harbin.md), [cloud-harbin.md](docs/industry/cloud-harbin.md) |
 
 #### 特别行政区（2城）
 | 城市 | 覆盖行业 | 文件列表 |
 |------|----------|----------|
-| 香港 | blockchain, cloud | [blockchain-hongkong.md](industry/blockchain-hongkong.md), [cloud-hongkong.md](industry/cloud-hongkong.md) |
-| 澳门 | cloud | [cloud-macau.md](industry/cloud-macau.md) |
+| 香港 | blockchain, cloud | [blockchain-hongkong.md](docs/industry/blockchain-hongkong.md), [cloud-hongkong.md](docs/industry/cloud-hongkong.md) |
+| 澳门 | cloud | [cloud-macau.md](docs/industry/cloud-macau.md) |
 
 #### 西部城市（1城）
 | 城市 | 覆盖行业 | 文件列表 |
 |------|----------|----------|
-| 拉萨 | cloud | [cloud-lhasa.md](industry/cloud-lhasa.md) |
+| 拉萨 | cloud | [cloud-lhasa.md](docs/industry/cloud-lhasa.md) |
 
 ---
 
@@ -483,120 +490,120 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 #### 人工智能行业
 | 榜单名称 | 文件 | 覆盖国家 | 说明 |
 |----------|------|----------|------|
-| 美国AI企业清单 | [ai-usa.md](industry-international/ai-usa.md) | 美国 | Google、Microsoft、Amazon等美国AI巨头 |
-| 日本AI企业清单 | [ai-japan.md](industry-international/ai-japan.md) | 日本 | SoftBank、Fujitsu、NEC等日本AI企业 |
-| 印度AI企业清单 | [ai-india.md](industry-international/ai-india.md) | 印度 | TCS、Infosys、Wipro等印度IT服务商 |
-| 欧洲AI企业清单 | [ai-europe.md](industry-international/ai-europe.md) | 欧洲 | SAP、Siemens、DeepMind等欧洲AI企业 |
+| 美国AI企业清单 | [ai-usa.md](docs/industry-international/ai-usa.md) | 美国 | Google、Microsoft、Amazon等美国AI巨头 |
+| 日本AI企业清单 | [ai-japan.md](docs/industry-international/ai-japan.md) | 日本 | SoftBank、Fujitsu、NEC等日本AI企业 |
+| 印度AI企业清单 | [ai-india.md](docs/industry-international/ai-india.md) | 印度 | TCS、Infosys、Wipro等印度IT服务商 |
+| 欧洲AI企业清单 | [ai-europe.md](docs/industry-international/ai-europe.md) | 欧洲 | SAP、Siemens、DeepMind等欧洲AI企业 |
 
 #### 云计算行业
 | 榜单名称 | 文件 | 覆盖国家 | 说明 |
 |----------|------|----------|------|
-| 美国云计算企业清单 | [cloud-usa.md](industry-international/cloud-usa.md) | 美国 | AWS、Azure、GCP等美国云服务商 |
-| 日本云计算企业清单 | [cloud-japan.md](industry-international/cloud-japan.md) | 日本 | NTT、KDDI、SoftBank等日本云服务商 |
-| 印度云计算企业清单 | [cloud-india-additional.md](industry-international/cloud-india-additional.md) | 印度 | TCS、Infosys、Wipro等印度云服务提供商 |
-| 欧洲云计算企业清单 | [cloud-europe.md](industry-international/cloud-europe.md) | 欧洲 | SAP、Oracle、OVHcloud等欧洲云服务商 |
+| 美国云计算企业清单 | [cloud-usa.md](docs/industry-international/cloud-usa.md) | 美国 | AWS、Azure、GCP等美国云服务商 |
+| 日本云计算企业清单 | [cloud-japan.md](docs/industry-international/cloud-japan.md) | 日本 | NTT、KDDI、SoftBank等日本云服务商 |
+| 印度云计算企业清单 | [cloud-india-additional.md](docs/industry-international/cloud-india-additional.md) | 印度 | TCS、Infosys、Wipro等印度云服务提供商 |
+| 欧洲云计算企业清单 | [cloud-europe.md](docs/industry-international/cloud-europe.md) | 欧洲 | SAP、Oracle、OVHcloud等欧洲云服务商 |
 
 #### 大数据行业
 | 榜单名称 | 文件 | 覆盖国家 | 说明 |
 |----------|------|----------|------|
-| 美国大数据企业清单 | [bigdata-usa.md](industry-international/bigdata-usa.md) | 美国 | Cloudera、Palantir、Snowflake等美国大数据企业 |
-| 日本大数据企业清单 | [bigdata-japan.md](industry-international/bigdata-japan.md) | 日本 | Hitachi、Fujitsu、NTT DATA等日本大数据企业 |
+| 美国大数据企业清单 | [bigdata-usa.md](docs/industry-international/bigdata-usa.md) | 美国 | Cloudera、Palantir、Snowflake等美国大数据企业 |
+| 日本大数据企业清单 | [bigdata-japan.md](docs/industry-international/bigdata-japan.md) | 日本 | Hitachi、Fujitsu、NTT DATA等日本大数据企业 |
 
 #### 区块链行业
 | 榜单名称 | 文件 | 覆盖国家 | 说明 |
 |----------|------|----------|------|
-| 美国区块链企业清单 | [blockchain-usa.md](industry-international/blockchain-usa.md) | 美国 | Ripple、Coinbase、ConsenSys等美国区块链企业 |
+| 美国区块链企业清单 | [blockchain-usa.md](docs/industry-international/blockchain-usa.md) | 美国 | Ripple、Coinbase、ConsenSys等美国区块链企业 |
 
 #### 物联网行业
 | 榜单名称 | 文件 | 覆盖国家 | 说明 |
 |----------|------|----------|------|
-| 美国物联网企业清单 | [iot-usa.md](industry-international/iot-usa.md) | 美国 | Cisco、Intel、Qualcomm等美国物联网企业 |
+| 美国物联网企业清单 | [iot-usa.md](docs/industry-international/iot-usa.md) | 美国 | Cisco、Intel、Qualcomm等美国物联网企业 |
 
 #### 智能制造行业
 | 榜单名称 | 文件 | 覆盖国家 | 说明 |
 |----------|------|----------|------|
-| 美国智能制造企业清单 | [smart-manufacturing-usa.md](industry-international/smart-manufacturing-usa.md) | 美国 | GE、Siemens、Rockwell等美国智能制造企业 |
+| 美国智能制造企业清单 | [smart-manufacturing-usa.md](docs/industry-international/smart-manufacturing-usa.md) | 美国 | GE、Siemens、Rockwell等美国智能制造企业 |
 
 #### 新能源行业
 | 榜单名称 | 文件 | 覆盖国家 | 说明 |
 |----------|------|----------|------|
-| 美国新能源企业清单 | [new-energy-usa.md](industry-international/new-energy-usa.md) | 美国 | Tesla、First Solar、NextEra等美国新能源企业 |
+| 美国新能源企业清单 | [new-energy-usa.md](docs/industry-international/new-energy-usa.md) | 美国 | Tesla、First Solar、NextEra等美国新能源企业 |
 
 #### 新材料行业
 | 榜单名称 | 文件 | 覆盖国家 | 说明 |
 |----------|------|----------|------|
-| 美国新材料企业清单 | [new-materials-usa.md](industry-international/new-materials-usa.md) | 美国 | 3M、DuPont、Corning等美国新材料企业 |
+| 美国新材料企业清单 | [new-materials-usa.md](docs/industry-international/new-materials-usa.md) | 美国 | 3M、DuPont、Corning等美国新材料企业 |
 
 #### 生物技术行业
 | 榜单名称 | 文件 | 覆盖国家 | 说明 |
 |----------|------|----------|------|
-| 美国生物技术企业清单 | [biotech-usa.md](industry-international/biotech-usa.md) | 美国 | Amgen、Genentech、Biogen等美国生物技术企业 |
+| 美国生物技术企业清单 | [biotech-usa.md](docs/industry-international/biotech-usa.md) | 美国 | Amgen、Genentech、Biogen等美国生物技术企业 |
 
 #### 3C电子行业
 | 榜单名称 | 文件 | 覆盖国家 | 说明 |
 |----------|------|----------|------|
-| 美国3C电子企业清单 | [3c-usa.md](industry-international/3c-usa.md) | 美国 | Apple、Microsoft、Dell等美国3C电子企业 |
+| 美国3C电子企业清单 | [3c-usa.md](docs/industry-international/3c-usa.md) | 美国 | Apple、Microsoft、Dell等美国3C电子企业 |
 
 #### 网络安全行业
 | 榜单名称 | 文件 | 覆盖国家 | 说明 |
 |----------|------|----------|------|
-| 美国网络安全企业清单 | [security-usa.md](industry-international/security-usa.md) | 美国 | Palo Alto、CrowdStrike、Fortinet等美国网络安全企业 |
+| 美国网络安全企业清单 | [security-usa.md](docs/industry-international/security-usa.md) | 美国 | Palo Alto、CrowdStrike、Fortinet等美国网络安全企业 |
 
 ### 国际IT外包服务（5个）
 
 #### 按地区分类
 | 榜单名称 | 文件 | 覆盖地区 | 说明 |
 |----------|------|----------|------|
-| 美国IT外包服务 | [it-outsourcing-usa.md](outsourcing-international/it-outsourcing-usa.md) | 美国 | IBM、Accenture等美国顶级IT服务商 |
-| 欧洲IT外包服务 | [it-outsourcing-europe.md](outsourcing-international/it-outsourcing-europe.md) | 欧洲 | Capgemini、Atos等欧洲知名服务商 |
-| 印度IT外包服务 | [it-outsourcing-india.md](outsourcing-international/india-it-outsourcing.md) | 印度 | TCS、Infosys、Wipro等印度IT巨头 |
+| 美国IT外包服务 | [it-outsourcing-usa.md](docs/outsourcing-international/it-outsourcing-usa.md) | 美国 | IBM、Accenture等美国顶级IT服务商 |
+| 欧洲IT外包服务 | [it-outsourcing-europe.md](docs/outsourcing-international/it-outsourcing-europe.md) | 欧洲 | Capgemini、Atos等欧洲知名服务商 |
+| 印度IT外包服务 | [it-outsourcing-india.md](docs/outsourcing-international/india-it-outsourcing.md) | 印度 | TCS、Infosys、Wipro等印度IT巨头 |
 
 ### 国际权威企业榜单（4个）
 
 #### 全球综合榜单
 | 榜单名称 | 文件 | 发布机构 | 规模 | 说明 |
 |----------|------|----------|------|------|
-| 财富世界500强 | [fortune_500_2025.md](rankings-international/fortune_500_2025.md) | 财富杂志 | 500家 | 全球最大企业排名 |
+| 财富世界500强 | [fortune_500_2025.md](docs/rankings-international/fortune_500_2025.md) | 财富杂志 | 500家 | 全球最大企业排名 |
 
 ### 国内面试技巧（4个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 技术面试技巧指南 | [technical-interview.md](interview-skills/technical-interview.md) | 算法、系统设计、编程题解题策略 |
-| 行为面试技巧指南 | [behavioral-interview.md](interview-skills/behavioral-interview.md) | STAR法则、团队协作、压力管理等 |
+| 技术面试技巧指南 | [technical-interview.md](docs/interview-skills/technical-interview.md) | 算法、系统设计、编程题解题策略 |
+| 行为面试技巧指南 | [behavioral-interview.md](docs/interview-skills/behavioral-interview.md) | STAR法则、团队协作、压力管理等 |
 
 ### 国际面试技巧（3个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 国际技术面试指南 | [technical-interview.md](interview-skills-international/technical-interview.md) | 面向国际市场的技术面试策略 |
-| 国际行为面试指南 | [behavioral-interview.md](interview-skills-international/behavioral-interview.md) | 跨文化面试沟通和适应技巧 |
+| 国际技术面试指南 | [technical-interview.md](docs/interview-skills-international/technical-interview.md) | 面向国际市场的技术面试策略 |
+| 国际行为面试指南 | [behavioral-interview.md](docs/interview-skills-international/behavioral-interview.md) | 跨文化面试沟通和适应技巧 |
 
 ### 国内简历技巧（4个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 基础简历制作指南 | [basic-resume-guide.md](resume-skills/basic-resume-guide.md) | 简历结构、内容编写、ATS适配 |
-| 高级简历优化策略 | [advanced-resume-strategy.md](resume-skills/advanced-resume-strategy.md) | 个人品牌、成就量化、视觉设计 |
+| 基础简历制作指南 | [basic-resume-guide.md](docs/resume-skills/basic-resume-guide.md) | 简历结构、内容编写、ATS适配 |
+| 高级简历优化策略 | [advanced-resume-strategy.md](docs/resume-skills/advanced-resume-strategy.md) | 个人品牌、成就量化、视觉设计 |
 
 ### 国内科技基金会（2个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 中国主要科技基金会清单 | [major-tech-foundations-china.md](tech-foundations/major-tech-foundations-china.md) | 国家自然科学基金、企业基金会、地方科技基金 |
+| 中国主要科技基金会清单 | [major-tech-foundations-china.md](docs/tech-foundations/major-tech-foundations-china.md) | 国家自然科学基金、企业基金会、地方科技基金 |
 
 ### 国内开源社区（3个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 中国主要开源社区清单 | [major-open-source-communities-china.md](open-source-communities/major-open-source-communities-china.md) | Gitee、开源中国、各大企业开源社区 |
+| 中国主要开源社区清单 | [major-open-source-communities-china.md](docs/open-source-communities/major-open-source-communities-china.md) | Gitee、开源中国、各大企业开源社区 |
 
 ### 国际开源社区（2个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 全球主要开源社区清单 | [major-open-source-communities-global.md](open-source-communities-international/major-open-source-communities-global.md) | GitHub、Apache、Linux基金会等国际平台 |
+| 全球主要开源社区清单 | [major-open-source-communities-global.md](docs/open-source-communities-international/major-open-source-communities-global.md) | GitHub、Apache、Linux基金会等国际平台 |
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 全球主要科技基金会清单 | [major-tech-foundations-global.md](tech-foundations-international/major-tech-foundations-global.md) | NSF、ERC、盖茨基金会等国际知名基金会 |
+| 全球主要科技基金会清单 | [major-tech-foundations-global.md](docs/tech-foundations-international/major-tech-foundations-global.md) | NSF、ERC、盖茨基金会等国际知名基金会 |
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 国际简历写作指南 | [basic-resume-guide.md](resume-skills-international/basic-resume-guide.md) | 全球化简历标准和跨文化适配 |
-| 国际高级简历策略 | [advanced-resume-strategy.md](resume-skills-international/advanced-resume-strategy.md) | 国际求职资源整合和数字营销 |
+| 国际简历写作指南 | [basic-resume-guide.md](docs/resume-skills-international/basic-resume-guide.md) | 全球化简历标准和跨文化适配 |
+| 国际高级简历策略 | [advanced-resume-strategy.md](docs/resume-skills-international/advanced-resume-strategy.md) | 国际求职资源整合和数字营销 |
 
 ### VC投资专题（7个）
 
@@ -605,159 +612,159 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 #### 顶级风险投资机构
 | 榜单名称 | 文件 | 覆盖地区 | 说明 |
 |----------|------|----------|------|
-| 美国顶级VC机构 | [top-vc-usa.md](investment-international/top-vc-usa.md) | 美国 | Sequoia、a16z、Kleiner Perkins等硅谷顶级机构 |
-| 欧洲顶级VC机构 | [top-vc-europe.md](investment-international/top-vc-europe.md) | 欧洲 | Index Ventures、Balderton、Atomico等欧洲机构 |
-| 以色列顶级VC机构 | [top-vc-israel.md](investment-international/top-vc-israel.md) | 以色列 | Viola Ventures、JVP等"创业之国"投资机构 |
-| 日本顶级VC机构 | [top-vc-japan.md](investment-international/top-vc-japan.md) | 日本 | SoftBank Vision Fund、企业风投等日本机构 |
+| 美国顶级VC机构 | [top-vc-usa.md](docs/investment-international/top-vc-usa.md) | 美国 | Sequoia、a16z、Kleiner Perkins等硅谷顶级机构 |
+| 欧洲顶级VC机构 | [top-vc-europe.md](docs/investment-international/top-vc-europe.md) | 欧洲 | Index Ventures、Balderton、Atomico等欧洲机构 |
+| 以色列顶级VC机构 | [top-vc-israel.md](docs/investment-international/top-vc-israel.md) | 以色列 | Viola Ventures、JVP等"创业之国"投资机构 |
+| 日本顶级VC机构 | [top-vc-japan.md](docs/investment-international/top-vc-japan.md) | 日本 | SoftBank Vision Fund、企业风投等日本机构 |
 
 #### 专业投资机构
 | 榜单名称 | 文件 | 机构类型 | 说明 |
 |----------|------|----------|------|
-| 全球企业风投 | [cvc-global.md](investment-international/cvc-global.md) | 企业风投 | Google、Intel、Salesforce等科技巨头CVC |
-| 全球政府引导基金 | [gov-fund-global.md](investment-international/gov-fund-global.md) | 政府基金 | 美国SBIC、欧盟创新基金、以色列YOZMA等 |
+| 全球企业风投 | [cvc-global.md](docs/investment-international/cvc-global.md) | 企业风投 | Google、Intel、Salesforce等科技巨头CVC |
+| 全球政府引导基金 | [gov-fund-global.md](docs/investment-international/gov-fund-global.md) | 政府基金 | 美国SBIC、欧盟创新基金、以色列YOZMA等 |
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 中国顶级风险投资机构 | [top-domestic-vc.md](investment/top-domestic-vc.md) | 红杉中国、深创投、IDG资本等国内顶级VC |
-| 全球顶级风险投资机构 | [top-global-vc.md](investment/top-global-vc.md) | Sequoia、SoftBank、a16z等国际顶级VC |
-| 知名风险投资人 | [famous-vcs.md](investment/famous-vcs.md) | 沈南鹏、徐新、张颖等知名投资人 |
-| VC投资趋势与分析 | [vc-trends-analysis.md](investment/vc-trends-analysis.md) | 2025年VC投资市场趋势研究报告 |
-| VC投资实用指南 | [vc-practical-guide.md](investment/vc-practical-guide.md) | 创业者和投资人实操指南 |
+| 中国顶级风险投资机构 | [top-domestic-vc.md](docs/investment/top-domestic-vc.md) | 红杉中国、深创投、IDG资本等国内顶级VC |
+| 全球顶级风险投资机构 | [top-global-vc.md](docs/investment/top-global-vc.md) | Sequoia、SoftBank、a16z等国际顶级VC |
+| 知名风险投资人 | [famous-vcs.md](docs/investment/famous-vcs.md) | 沈南鹏、徐新、张颖等知名投资人 |
+| VC投资趋势与分析 | [vc-trends-analysis.md](docs/investment/vc-trends-analysis.md) | 2025年VC投资市场趋势研究报告 |
+| VC投资实用指南 | [vc-practical-guide.md](docs/investment/vc-practical-guide.md) | 创业者和投资人实操指南 |
 
 ### 科技创新榜单
 | 榜单名称 | 文件 | 覆盖城市 | 说明 |
 |----------|------|----------|------|
-| 北京科技创新企业榜单 | [tech-innovation-beijing.md](topics/tech-innovation-beijing.md) | 北京 | 百度、字节跳动、旷视科技等 |
-| 上海科技创新企业榜单 | [tech-innovation-shanghai.md](topics/tech-innovation-shanghai.md) | 上海 | 商汤科技、依图科技、壁仞科技等 |
-| 深圳科技创新企业榜单 | [tech-innovation-shenzhen.md](industry/tech-innovation-shenzhen.md) | 深圳 | 腾讯、华为、比亚迪、大疆等 |
-| 全国科技创新企业综合榜单 | [tech-innovation-national.md](topics/tech-innovation-national.md) | 全国 | 汇总全国科技创新企业 |
+| 北京科技创新企业榜单 | [tech-innovation-beijing.md](docs/topics/tech-innovation-beijing.md) | 北京 | 百度、字节跳动、旷视科技等 |
+| 上海科技创新企业榜单 | [tech-innovation-shanghai.md](docs/topics/tech-innovation-shanghai.md) | 上海 | 商汤科技、依图科技、壁仞科技等 |
+| 深圳科技创新企业榜单 | [tech-innovation-shenzhen.md](docs/industry/tech-innovation-shenzhen.md) | 深圳 | 腾讯、华为、比亚迪、大疆等 |
+| 全国科技创新企业综合榜单 | [tech-innovation-national.md](docs/topics/tech-innovation-national.md) | 全国 | 汇总全国科技创新企业 |
 
 ### 国际科技专题（2个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 国外科技公司在华业务榜单 | [foreign-tech-companies-china.md](topics-international/foreign-tech-companies-china.md) | 微软、苹果、谷歌、特斯拉等 |
+| 国外科技公司在华业务榜单 | [foreign-tech-companies-china.md](docs/topics-international/foreign-tech-companies-china.md) | 微软、苹果、谷歌、特斯拉等 |
 
 ### 工作方式榜单
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 支持远程工作的公司榜单 | [remote-work-companies.md](topics/remote-work-companies.md) | 字节跳动、腾讯、阿里巴巴等 |
+| 支持远程工作的公司榜单 | [remote-work-companies.md](docs/topics/remote-work-companies.md) | 字节跳动、腾讯、阿里巴巴等 |
 
 ### 求职岗位专题
 | 专题名称 | 文件 | 说明 |
 |----------|------|------|
-| 深圳AI Agent智能体开发岗位清单 | [shenzhen-ai-agent-jobs.md](topics/shenzhen-ai-agent-jobs.md) | 深圳 AI Agent/智能体方向在招岗位聚合（大厂/中型/入门/专家分层，含薪资和投递渠道） |
-| 个人求职作战手册-AI可靠性方向 | [personal-job-hunting-ai-reliability.md](topics/personal-job-hunting-ai-reliability.md) | 基于个人背景(SRE/值班长/开发出身)的求职策略、P7-P8简历模板、面试话术、AI Infra/AIOps岗位清单（私密） |
+| 深圳AI Agent智能体开发岗位清单 | [shenzhen-ai-agent-jobs.md](docs/topics/shenzhen-ai-agent-jobs.md) | 深圳 AI Agent/智能体方向在招岗位聚合（大厂/中型/入门/专家分层，含薪资和投递渠道） |
+| 个人求职作战手册-AI可靠性方向 | [personal-job-hunting-ai-reliability.md](docs/topics/personal-job-hunting-ai-reliability.md) | 基于个人背景(SRE/值班长/开发出身)的求职策略、P7-P8简历模板、面试话术、AI Infra/AIOps岗位清单（私密） |
 
 ### 技术活动专题（1个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 黑客马拉松及技术活动清单 | [hackathon-events.md](events/hackathon-events.md) | 国内外知名黑客马拉松、编程竞赛、开发者大会 |
+| 黑客马拉松及技术活动清单 | [hackathon-events.md](docs/events/hackathon-events.md) | 国内外知名黑客马拉松、编程竞赛、开发者大会 |
 
 ### 国际技术活动（10个）
 
 #### 按地区分类
 | 榜单名称 | 文件 | 覆盖地区 | 说明 |
 |----------|------|----------|------|
-| 北美技术活动 | [dev-conferences-north-america.md](events-international/dev-conferences-north-america.md) | 北美 | Google I/O、Apple WWDC等顶级技术大会 |
-| 欧洲技术活动 | [dev-conferences-europe.md](events-international/dev-conferences-europe.md) | 欧洲 | Web Summit、FOSDEM等重要技术盛会 |
+| 北美技术活动 | [dev-conferences-north-america.md](docs/events-international/dev-conferences-north-america.md) | 北美 | Google I/O、Apple WWDC等顶级技术大会 |
+| 欧洲技术活动 | [dev-conferences-europe.md](docs/events-international/dev-conferences-europe.md) | 欧洲 | Web Summit、FOSDEM等重要技术盛会 |
 
 ### 求职招聘专题（24个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 主要招聘平台及信息来源清单 | [job-platforms.md](careers/job-platforms.md) | 综合招聘平台、垂直领域招聘、企业信息查询平台 |
-| 求职策略与实战指南 | [job-search-strategy.md](careers/job-search-strategy.md) | 全流程求职规划、公司策略、渠道解析、时间管理 |
-| 薪资水平与福利待遇基准 | [salary-benchmark.md](careers/salary-benchmark.md) | 各岗位薪资基准、公司差异、福利对比、谈判技巧 |
-| 能力评估与诊断框架 | [professional-assessment-framework.md](careers/professional-assessment-framework.md) | 专业评估体系、技术能力测评、软技能评估 |
-| 职业发展教练方法论 | [coaching-methodology-toolkit.md](careers/coaching-methodology-toolkit.md) | 教练技术、评估工具、发展干预、效果评估 |
-| 职业转换与转型指导 | [career-transition-guide.md](careers/career-transition-guide.md) | 转型决策、实施路径、风险管控、成功要素 |
-| 导师制度与同伴学习 | [mentoring-peer-learning-system.md](careers/mentoring-peer-learning-system.md) | 导师匹配、学习小组、社区运营、效果评估 |
-| 个人品牌与作品集建设 | [personal-branding-portfolio.md](careers/personal-branding-portfolio.md) | 品牌定位、平台建设、内容营销、价值变现 |
-| 个人品牌建设增强版 | [personal-branding-portfolio-enhanced.md](careers/personal-branding-portfolio-enhanced.md) | 品牌战略、数字化资产、影响力构建、商业化路径 |
-| 职场表现与影响力提升 | [workplace-performance-impact.md](careers/workplace-performance-impact.md) | 绩效优化、沟通技巧、领导力发展、政治智慧 |
-| 职业发展规划与晋升路径 | [career-development.md](careers/career-development.md) | 发展框架、岗位路径、晋升标准、转型机会 |
-| 职业地图与路径规划 | [career-mapping-planning.md](careers/career-mapping-planning.md) | 生态系统模型、定位工具、规划方法、风险管理 |
-| 专业发展框架与方法论 | [professional-development-framework.md](careers/professional-development-framework.md) | 经典能力模型、素质框架、认证体系、发展理论 |
-| 公司调研与企业文化了解 | [company-research.md](careers/company-research.md) | 基本面调研、文化探查、调研渠道、公司分析 |
-| 人脉拓展与内推资源指南 | [networking-guide.md](careers/networking-guide.md) | 内推价值、人脉建设、请求艺术、发展战略 |
-| 远程工作与灵活就业指南 | [remote-work-guide.md](careers/remote-work-guide.md) | 远程趋势、技能要求、机会获取、挑战应对 |
-| 能力画像系统 | [professional-profile-system.md](careers/professional-profile-system.md) | 专业能力画像构建、典型画像模板、应用场景 |
-| 能力评估工具包 | [assessment-tools-template.md](careers/assessment-tools-template.md) | 标准化评估模板、可视化工具、执行跟踪表 |
-| 系统化反馈与改进机制 | [feedback-improvement-system.md](careers/feedback-improvement-system.md) | 多层次反馈体系、改进闭环管理、文化建设 |
-| 能力画像执行与跟踪框架 | [execution-tracking-framework.md](careers/execution-tracking-framework.md) | 目标管理体系、进度跟踪工具、效果评估体系 |
-| DevOps/SRE/工单专家能力画像 | [devops-sre-ticket-expert-profiles.md](careers/devops-sre-ticket-expert-profiles.md) | 技术运营岗位专业能力模型、评估标准、发展路径 |
-| AI与SRE智能体方向求职准备方案 | [ai-sre-job-preparation-plan.md](careers/ai-sre-job-preparation-plan.md) | 九要素整合总纲：岗位定位、领域化简历、面试作战手册、学习资源、90天计划 |
-| 团队技术管理框架 | [team-technical-management-framework.md](management/core-framework/team-technical-management-framework.md) | 组织架构设计、流程规范、质量管控、沟通协作机制 |
-| 技术管理能力专项评估 | [technical-management-assessment.md](management/assessment-tools/technical-management-assessment.md) | 360度评估体系、管理成熟度模型、效能量化指标 |
-| 技术管理最佳实践案例库 | [technical-management-best-practices.md](management/core-framework/technical-management-best-practices.md) | 行业案例库、成功经验总结、实施方法论 |
-| 技术团队绩效考核与激励机制 | [technical-team-performance-incentive.md](management/core-framework/technical-team-performance-incentive.md) | 考核指标设计、激励机制、反馈改进、特殊情况处理 |
-| OKR与绩效管理体系 | [okr-performance-management-system.md](careers/okr-performance-management-system.md) | 目标管理理论、绩效评估体系、激励认可机制、实施保障措施 |
-| DevOps/SRE团队管理专项指南 | [devops-sre-team-management-guide.md](management/specialized-guides/devops-sre-team-management-guide.md) | 专项管理指南、组织架构、流程规范、工具平台 |
+| 主要招聘平台及信息来源清单 | [job-platforms.md](docs/careers/job-platforms.md) | 综合招聘平台、垂直领域招聘、企业信息查询平台 |
+| 求职策略与实战指南 | [job-search-strategy.md](docs/careers/job-search-strategy.md) | 全流程求职规划、公司策略、渠道解析、时间管理 |
+| 薪资水平与福利待遇基准 | [salary-benchmark.md](docs/careers/salary-benchmark.md) | 各岗位薪资基准、公司差异、福利对比、谈判技巧 |
+| 能力评估与诊断框架 | [professional-assessment-framework.md](docs/careers/professional-assessment-framework.md) | 专业评估体系、技术能力测评、软技能评估 |
+| 职业发展教练方法论 | [coaching-methodology-toolkit.md](docs/careers/coaching-methodology-toolkit.md) | 教练技术、评估工具、发展干预、效果评估 |
+| 职业转换与转型指导 | [career-transition-guide.md](docs/careers/career-transition-guide.md) | 转型决策、实施路径、风险管控、成功要素 |
+| 导师制度与同伴学习 | [mentoring-peer-learning-system.md](docs/careers/mentoring-peer-learning-system.md) | 导师匹配、学习小组、社区运营、效果评估 |
+| 个人品牌与作品集建设 | [personal-branding-portfolio.md](docs/careers/personal-branding-portfolio.md) | 品牌定位、平台建设、内容营销、价值变现 |
+| 个人品牌建设增强版 | [personal-branding-portfolio-enhanced.md](docs/careers/personal-branding-portfolio-enhanced.md) | 品牌战略、数字化资产、影响力构建、商业化路径 |
+| 职场表现与影响力提升 | [workplace-performance-impact.md](docs/careers/workplace-performance-impact.md) | 绩效优化、沟通技巧、领导力发展、政治智慧 |
+| 职业发展规划与晋升路径 | [career-development.md](docs/careers/career-development.md) | 发展框架、岗位路径、晋升标准、转型机会 |
+| 职业地图与路径规划 | [career-mapping-planning.md](docs/careers/career-mapping-planning.md) | 生态系统模型、定位工具、规划方法、风险管理 |
+| 专业发展框架与方法论 | [professional-development-framework.md](docs/careers/professional-development-framework.md) | 经典能力模型、素质框架、认证体系、发展理论 |
+| 公司调研与企业文化了解 | [company-research.md](docs/careers/company-research.md) | 基本面调研、文化探查、调研渠道、公司分析 |
+| 人脉拓展与内推资源指南 | [networking-guide.md](docs/careers/networking-guide.md) | 内推价值、人脉建设、请求艺术、发展战略 |
+| 远程工作与灵活就业指南 | [remote-work-guide.md](docs/careers/remote-work-guide.md) | 远程趋势、技能要求、机会获取、挑战应对 |
+| 能力画像系统 | [professional-profile-system.md](docs/careers/professional-profile-system.md) | 专业能力画像构建、典型画像模板、应用场景 |
+| 能力评估工具包 | [assessment-tools-template.md](docs/careers/assessment-tools-template.md) | 标准化评估模板、可视化工具、执行跟踪表 |
+| 系统化反馈与改进机制 | [feedback-improvement-system.md](docs/careers/feedback-improvement-system.md) | 多层次反馈体系、改进闭环管理、文化建设 |
+| 能力画像执行与跟踪框架 | [execution-tracking-framework.md](docs/careers/execution-tracking-framework.md) | 目标管理体系、进度跟踪工具、效果评估体系 |
+| DevOps/SRE/工单专家能力画像 | [devops-sre-ticket-expert-profiles.md](docs/careers/devops-sre-ticket-expert-profiles.md) | 技术运营岗位专业能力模型、评估标准、发展路径 |
+| AI与SRE智能体方向求职准备方案 | [ai-sre-job-preparation-plan.md](docs/careers/ai-sre-job-preparation-plan.md) | 九要素整合总纲：岗位定位、领域化简历、面试作战手册、学习资源、90天计划 |
+| 团队技术管理框架 | [team-technical-management-framework.md](docs/management/core-framework/team-technical-management-framework.md) | 组织架构设计、流程规范、质量管控、沟通协作机制 |
+| 技术管理能力专项评估 | [technical-management-assessment.md](docs/management/assessment-tools/technical-management-assessment.md) | 360度评估体系、管理成熟度模型、效能量化指标 |
+| 技术管理最佳实践案例库 | [technical-management-best-practices.md](docs/management/core-framework/technical-management-best-practices.md) | 行业案例库、成功经验总结、实施方法论 |
+| 技术团队绩效考核与激励机制 | [technical-team-performance-incentive.md](docs/management/core-framework/technical-team-performance-incentive.md) | 考核指标设计、激励机制、反馈改进、特殊情况处理 |
+| OKR与绩效管理体系 | [okr-performance-management-system.md](docs/careers/okr-performance-management-system.md) | 目标管理理论、绩效评估体系、激励认可机制、实施保障措施 |
+| DevOps/SRE团队管理专项指南 | [devops-sre-team-management-guide.md](docs/management/specialized-guides/devops-sre-team-management-guide.md) | 专项管理指南、组织架构、流程规范、工具平台 |
 
 ### 国际求职招聘专题（7个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 国际主要招聘平台清单 | [global-job-platforms.md](careers-international/global-job-platforms.md) | LinkedIn、Indeed、Glassdoor等国际主流招聘平台 |
-| 海外求职及移民专业平台 | [overseas-immigration-platforms.md](careers-international/overseas-immigration-platforms.md) | 一亩三分地、ChaseDream等海外求职专业平台 |
-| 国际求职招聘信息总览 | [README.md](careers-international/README.md) | 国际求职招聘平台分类说明和使用指南 |
+| 国际主要招聘平台清单 | [global-job-platforms.md](docs/careers-international/global-job-platforms.md) | LinkedIn、Indeed、Glassdoor等国际主流招聘平台 |
+| 海外求职及移民专业平台 | [overseas-immigration-platforms.md](docs/careers-international/overseas-immigration-platforms.md) | 一亩三分地、ChaseDream等海外求职专业平台 |
+| 国际求职招聘信息总览 | [README.md](docs/careers-international/README.md) | 国际求职招聘平台分类说明和使用指南 |
 
 ### 劳动仲裁专题（1个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 劳动仲裁全流程指南 | [labor-arbitration.md](legal/labor-arbitration.md) | 从HR、法律、职工角度的劳动争议处理指南 |
+| 劳动仲裁全流程指南 | [labor-arbitration.md](docs/legal/labor-arbitration.md) | 从HR、法律、职工角度的劳动争议处理指南 |
 
 ### 竞业协议专题（1个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 竞业协议全流程指南 | [compete-agreement.md](legal/compete-agreement.md) | 从HR、法律、职工角度的竞业限制实务指南 |
+| 竞业协议全流程指南 | [compete-agreement.md](docs/legal/compete-agreement.md) | 从HR、法律、职工角度的竞业限制实务指南 |
 
 ### 裁员指南专题（1个）
 | 榜单名称 | 文件 | 说明 |
 |----------|------|------|
-| 裁员全流程指南 | [layoff-guide.md](legal/layoff-guide.md) | 从HR、法律、职工角度的裁员实务操作指南 |
+| 裁员全流程指南 | [layoff-guide.md](docs/legal/layoff-guide.md) | 从HR、法律、职工角度的裁员实务操作指南 |
 
 ### IT技术岗位信息（61个）
 
 #### 核心技术岗位
 | 岗位类别 | 文件 | 说明 |
 |----------|------|------|
-| 前端开发 | [frontend-developer.md](jobs/frontend-developer.md) | Web前端开发工程师，含字节、阿里、腾讯真实JD案例 |
-| 后端开发 | [backend-developer.md](jobs/backend-developer.md) | 服务端开发工程师，含美团、滴滴、拼多多真实JD案例 |
-| 移动开发 | [mobile-developer.md](jobs/mobile-developer.md) | iOS/Android开发工程师，含头条、小红书、得物真实JD案例 |
-| 全栈开发 | [fullstack-developer.md](jobs/fullstack-developer.md) | 全栈工程师完整JD |
-| 游戏开发 | [game-developer.md](jobs/game-developer.md) | 游戏开发工程师完整JD |
-| 嵌入式开发 | [embedded-developer.md](jobs/embedded-developer.md) | 嵌入式软件工程师完整JD |
+| 前端开发 | [frontend-developer.md](docs/jobs/frontend-developer.md) | Web前端开发工程师，含字节、阿里、腾讯真实JD案例 |
+| 后端开发 | [backend-developer.md](docs/jobs/backend-developer.md) | 服务端开发工程师，含美团、滴滴、拼多多真实JD案例 |
+| 移动开发 | [mobile-developer.md](docs/jobs/mobile-developer.md) | iOS/Android开发工程师，含头条、小红书、得物真实JD案例 |
+| 全栈开发 | [fullstack-developer.md](docs/jobs/fullstack-developer.md) | 全栈工程师完整JD |
+| 游戏开发 | [game-developer.md](docs/jobs/game-developer.md) | 游戏开发工程师完整JD |
+| 嵌入式开发 | [embedded-developer.md](docs/jobs/embedded-developer.md) | 嵌入式软件工程师完整JD |
 
 #### 数据技术岗位
 | 岗位类别 | 文件 | 说明 |
 |----------|------|------|
-| 数据工程师 | [data-engineer.md](jobs/data-engineer.md) | 大数据平台工程师，含京东、小米、快手真实JD案例 |
-| 数据科学家 | [data-scientist.md](jobs/data-scientist.md) | 数据科学家完整JD |
-| 数据分析师 | [data-analyst.md](jobs/data-analyst.md) | 数据分析师完整JD |
-| 机器学习工程师 | [ml-engineer.md](jobs/ml-engineer.md) | 机器学习工程师完整JD |
-| BI工程师 | [bi-engineer.md](jobs/bi-engineer.md) | 商业智能工程师完整JD |
-| 数据库管理员 | [dba.md](jobs/dba.md) | 数据库管理员完整JD |
+| 数据工程师 | [data-engineer.md](docs/jobs/data-engineer.md) | 大数据平台工程师，含京东、小米、快手真实JD案例 |
+| 数据科学家 | [data-scientist.md](docs/jobs/data-scientist.md) | 数据科学家完整JD |
+| 数据分析师 | [data-analyst.md](docs/jobs/data-analyst.md) | 数据分析师完整JD |
+| 机器学习工程师 | [ml-engineer.md](docs/jobs/ml-engineer.md) | 机器学习工程师完整JD |
+| BI工程师 | [bi-engineer.md](docs/jobs/bi-engineer.md) | 商业智能工程师完整JD |
+| 数据库管理员 | [dba.md](docs/jobs/dba.md) | 数据库管理员完整JD |
 
 #### AI技术岗位
 | 岗位类别 | 文件 | 说明 |
 |----------|------|------|
-| AI算法工程师 | [ai-algorithm-engineer.md](jobs/ai-algorithm-engineer.md) | AI算法工程师，含商汤、百度、旷视真实JD案例 |
-| 深度学习工程师 | [deep-learning-engineer.md](jobs/deep-learning-engineer.md) | 深度学习工程师完整JD |
-| 计算机视觉工程师 | [computer-vision-engineer.md](jobs/computer-vision-engineer.md) | 计算机视觉工程师完整JD |
-| 自然语言处理工程师 | [nlp-engineer.md](jobs/nlp-engineer.md) | NLP工程师完整JD |
+| AI算法工程师 | [ai-algorithm-engineer.md](docs/jobs/ai-algorithm-engineer.md) | AI算法工程师，含商汤、百度、旷视真实JD案例 |
+| 深度学习工程师 | [deep-learning-engineer.md](docs/jobs/deep-learning-engineer.md) | 深度学习工程师完整JD |
+| 计算机视觉工程师 | [computer-vision-engineer.md](docs/jobs/computer-vision-engineer.md) | 计算机视觉工程师完整JD |
+| 自然语言处理工程师 | [nlp-engineer.md](docs/jobs/nlp-engineer.md) | NLP工程师完整JD |
 
 #### 云计算与运维岗位
 | 岗位类别 | 文件 | 说明 |
 |----------|------|------|
-| DevOps工程师 | [devops-engineer.md](jobs/devops-engineer.md) | DevOps工程师，含网易、携程、B站真实JD案例 |
-| 云计算工程师 | [cloud-engineer.md](jobs/cloud-engineer.md) | 云计算工程师完整JD |
-| 系统架构师 | [system-architect.md](jobs/system-architect.md) | 系统架构师完整JD |
-| SRE工程师 | [sre-engineer.md](jobs/sre-engineer.md) | 站点可靠性工程师完整JD |
-| 网络工程师 | [network-engineer.md](jobs/network-engineer.md) | 网络工程师完整JD |
-| 安全运维工程师 | [security-ops-engineer.md](jobs/security-ops-engineer.md) | 安全运维工程师完整JD |
+| DevOps工程师 | [devops-engineer.md](docs/jobs/devops-engineer.md) | DevOps工程师，含网易、携程、B站真实JD案例 |
+| 云计算工程师 | [cloud-engineer.md](docs/jobs/cloud-engineer.md) | 云计算工程师完整JD |
+| 系统架构师 | [system-architect.md](docs/jobs/system-architect.md) | 系统架构师完整JD |
+| SRE工程师 | [sre-engineer.md](docs/jobs/sre-engineer.md) | 站点可靠性工程师完整JD |
+| 网络工程师 | [network-engineer.md](docs/jobs/network-engineer.md) | 网络工程师完整JD |
+| 安全运维工程师 | [security-ops-engineer.md](docs/jobs/security-ops-engineer.md) | 安全运维工程师完整JD |
 
 #### 技术管理岗位
 | 岗位类别 | 文件 | 说明 |
 |----------|------|------|
-| 技术经理 | [tech-manager.md](jobs/tech-manager.md) | 技术经理完整JD |
+| 技术经理 | [tech-manager.md](docs/jobs/tech-manager.md) | 技术经理完整JD |
 
 #### 特色亮点
 - **真实案例丰富**：6个核心岗位已添加来自一线互联网公司的真实JD案例
@@ -770,19 +777,22 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 #### 核心管理框架
 | 文件 | 说明 |
 |------|------|
-| [management/README.md](management/README.md) | 技术管理知识体系总览和使用指南 |
-| [core-framework/README.md](management/core-framework/README.md) | 基础管理理论和框架体系 |
-| [specialized-guides/README.md](management/specialized-guides/README.md) | 针对特定领域的管理实践指南 |
-| [assessment-tools/README.md](management/assessment-tools/README.md) | 管理能力评估和诊断工具 |
-| [support-documents/README.md](management/support-documents/README.md) | 项目管理和质量标准文档 |
+| [management/README.md](docs/management/README.md) | 技术管理知识体系总览和使用指南 |
+| [core-framework/README.md](docs/management/core-framework/README.md) | 基础管理理论和框架体系 |
+| [specialized-guides/README.md](docs/management/specialized-guides/README.md) | 针对特定领域的管理实践指南 |
+| [assessment-tools/README.md](docs/management/assessment-tools/README.md) | 管理能力评估和诊断工具 |
+| [support-documents/README.md](docs/management/support-documents/README.md) | 项目管理和质量标准文档 |
 
 #### 专业分类结构
-- **core-framework/** - 核心管理框架（3个文件）
+
+文件数不含各目录的 README.md。
+
+- **docs/management/core-framework/** - 核心管理框架（3个文件）
   - 团队技术管理框架
   - 技术管理最佳实践
   - 团队绩效与激励机制
 
-- **specialized-guides/** - 专项管理指南（11个文件）
+- **docs/management/specialized-guides/** - 专项管理指南（11个文件）
   - DevOps/SRE团队管理
   - AI/ML团队管理
   - 云原生技术管理
@@ -795,10 +805,10 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
   - CTO手册
   - 故障管理
 
-- **assessment-tools/** - 评估工具（1个文件）
+- **docs/management/assessment-tools/** - 评估工具（1个文件）
   - 技术管理能力专项评估
 
-- **support-documents/** - 支持文档（5个文件）
+- **docs/management/support-documents/** - 支持文档（5个文件）
   - 缺失领域分析报告
   - 项目完成总结报告
   - 最终总结报告
@@ -810,15 +820,15 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 #### 国际劳动法律
 | 榜单名称 | 文件 | 覆盖地区 | 说明 |
 |----------|------|----------|------|
-| 美国劳动法律实务 | [labor-law-usa.md](legal-international/labor-law-usa.md) | 美国 | 美国联邦和州级劳动法律体系 |
-| 欧洲劳动法律实务 | [labor-law-europe.md](legal-international/labor-law-europe.md) | 欧洲 | 欧盟及主要欧洲国家劳动法律 |
-| 日本劳动法律实务 | [labor-law-japan.md](legal-international/labor-law-japan.md) | 日本 | 日本劳动法律体系和用工模式 |
+| 美国劳动法律实务 | [labor-law-usa.md](docs/legal-international/labor-law-usa.md) | 美国 | 美国联邦和州级劳动法律体系 |
+| 欧洲劳动法律实务 | [labor-law-europe.md](docs/legal-international/labor-law-europe.md) | 欧洲 | 欧盟及主要欧洲国家劳动法律 |
+| 日本劳动法律实务 | [labor-law-japan.md](docs/legal-international/labor-law-japan.md) | 日本 | 日本劳动法律体系和用工模式 |
 
 #### 国际专业法律
 | 榜单名称 | 文件 | 法律领域 | 说明 |
 |----------|------|----------|------|
-| 国际知识产权保护 | [ip-protection-international.md](legal-international/ip-protection-international.md) | 知识产权 | 国际知识产权条约和各国保护制度 |
-| 国际投资法律实务 | [investment-law-international.md](legal-international/investment-law-international.md) | 投资法 | 国际投资法律框架和争端解决 |
+| 国际知识产权保护 | [ip-protection-international.md](docs/legal-international/ip-protection-international.md) | 知识产权 | 国际知识产权条约和各国保护制度 |
+| 国际投资法律实务 | [investment-law-international.md](docs/legal-international/investment-law-international.md) | 投资法 | 国际投资法律框架和争端解决 |
 
 ---
 
@@ -827,60 +837,60 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 #### OPC核心指南
 | 文件 | 说明 |
 |------|------|
-| [opc-comprehensive-guide.md](super-individual/opc-comprehensive-guide.md) | **OPC一人公司完全指南（2026最新）**——OPC定义、五大赛道、构建方法论、AI Agent工作流、增长路径、风险管理 |
-| [opc-policy-ecosystem-2026.md](super-individual/opc-policy-ecosystem-2026.md) | **2026年OPC政策与生态红利手册**——国家及20+城市政策、孵化器、申请实操、政策趋势前瞻 |
-| [opc-global-expansion.md](super-individual/opc-global-expansion.md) | **OPC全球化扩张指南**——出海策略、地缘套利、数字游民、Product Hunt发布、全球获客 |
+| [opc-comprehensive-guide.md](docs/super-individual/opc-comprehensive-guide.md) | **OPC一人公司完全指南（2026最新）**——OPC定义、五大赛道、构建方法论、AI Agent工作流、增长路径、风险管理 |
+| [opc-policy-ecosystem-2026.md](docs/super-individual/opc-policy-ecosystem-2026.md) | **2026年OPC政策与生态红利手册**——国家及20+城市政策、孵化器、申请实操、政策趋势前瞻 |
+| [opc-global-expansion.md](docs/super-individual/opc-global-expansion.md) | **OPC全球化扩张指南**——出海策略、地缘套利、数字游民、Product Hunt发布、全球获客 |
 
 #### 快速入门
 | 文件 | 说明 |
 |------|------|
-| [opc-quick-reference.md](super-individual/opc-quick-reference.md) | OPC速查手册——起步checklist、成本速算、最小工具栈、关键指标、政策速查、常见问答（建议首先阅读） |
+| [opc-quick-reference.md](docs/super-individual/opc-quick-reference.md) | OPC速查手册——起步checklist、成本速算、最小工具栈、关键指标、政策速查、常见问答（建议首先阅读） |
 
 #### AI赋能
 | 文件 | 说明 |
 |------|------|
-| [ai-agent-workflow-guide.md](super-individual/ai-agent-workflow-guide.md) | **AI Agent驱动的一人公司工作流（2026最新）**——OpenClaw"养龙虾"、多Agent协作、n8n自动化中枢、数字分身 |
-| [vibe-coding-guide.md](super-individual/vibe-coding-guide.md) | **Vibe Coding（氛围编程）完全指南**——Cursor深度工作流、.cursorrules最佳实践、Prompt工程、48小时MVP实战 |
-| [ai-toolchain-guide.md](super-individual/ai-toolchain-guide.md) | AI工具链与效率提升——大模型应用、AI编程、AI写作、AI设计、AI视频全场景工具 |
-| [productivity-toolchain-guide.md](super-individual/productivity-toolchain-guide.md) | 生产力工具链指南——项目管理、知识管理、设计工具、自动化工具、协同办公 |
+| [ai-agent-workflow-guide.md](docs/super-individual/ai-agent-workflow-guide.md) | **AI Agent驱动的一人公司工作流（2026最新）**——OpenClaw"养龙虾"、多Agent协作、n8n自动化中枢、数字分身 |
+| [vibe-coding-guide.md](docs/super-individual/vibe-coding-guide.md) | **Vibe Coding（氛围编程）完全指南**——Cursor深度工作流、.cursorrules最佳实践、Prompt工程、48小时MVP实战 |
+| [ai-toolchain-guide.md](docs/super-individual/ai-toolchain-guide.md) | AI工具链与效率提升——大模型应用、AI编程、AI写作、AI设计、AI视频全场景工具 |
+| [productivity-toolchain-guide.md](docs/super-individual/productivity-toolchain-guide.md) | 生产力工具链指南——项目管理、知识管理、设计工具、自动化工具、协同办公 |
 
 #### 基础入门
 | 文件 | 说明 |
 |------|------|
-| [business-registration-guide.md](super-individual/business-registration-guide.md) | 工商注册与公司设立——个体工商户、个人独资企业、有限责任公司对比及注册实操 |
-| [tax-finance-compliance.md](super-individual/tax-finance-compliance.md) | 财税合规与财务管理——税务登记、申报流程、发票管理、税务筹划 |
+| [business-registration-guide.md](docs/super-individual/business-registration-guide.md) | 工商注册与公司设立——个体工商户、个人独资企业、有限责任公司对比及注册实操 |
+| [tax-finance-compliance.md](docs/super-individual/tax-finance-compliance.md) | 财税合规与财务管理——税务登记、申报流程、发票管理、税务筹划 |
 
 #### 核心能力
 | 文件 | 说明 |
 |------|------|
-| [self-media-guide.md](super-individual/self-media-guide.md) | 自媒体运营全攻略——平台选择、内容策略、涨粉方法、变现模式 |
-| [personal-ip-guide.md](super-individual/personal-ip-guide.md) | 个人IP打造与商业变现——IP定位、内容体系、品牌矩阵、商业合作 |
+| [self-media-guide.md](docs/super-individual/self-media-guide.md) | 自媒体运营全攻略——平台选择、内容策略、涨粉方法、变现模式 |
+| [personal-ip-guide.md](docs/super-individual/personal-ip-guide.md) | 个人IP打造与商业变现——IP定位、内容体系、品牌矩阵、商业合作 |
 
 #### 商业模式
 | 文件 | 说明 |
 |------|------|
-| [freelancing-guide.md](super-individual/freelancing-guide.md) | 自由职业与独立开发者指南——接单平台、定价策略、合同管理、独立开发 |
-| [digital-product-guide.md](super-individual/digital-product-guide.md) | 数字产品与知识付费指南——课程开发、电子书、SaaS工具、付费社区、AI Agent服务、Vibe Coding产品 |
-| [side-business-guide.md](super-individual/side-business-guide.md) | 副业规划与多元收入指南——副业选择、时间管理、收入结构优化、风险控制、OPC升级路径 |
+| [freelancing-guide.md](docs/super-individual/freelancing-guide.md) | 自由职业与独立开发者指南——接单平台、定价策略、合同管理、独立开发 |
+| [digital-product-guide.md](docs/super-individual/digital-product-guide.md) | 数字产品与知识付费指南——课程开发、电子书、SaaS工具、付费社区、AI Agent服务、Vibe Coding产品 |
+| [side-business-guide.md](docs/super-individual/side-business-guide.md) | 副业规划与多元收入指南——副业选择、时间管理、收入结构优化、风险控制、OPC升级路径 |
 
 #### 案例与资本
 | 文件 | 说明 |
 |------|------|
-| [opc-case-studies.md](super-individual/opc-case-studies.md) | OPC案例研究与深度分析——Pieter Levels、Marc Lou、烁谷科技、SeaArt海艺、碎瓜、14岁少年开发者等成功案例，失败模式教训，SoloNest社群数据 |
-| [opc-funding-capital.md](super-individual/opc-funding-capital.md) | OPC融资与资本运作指南——RBF收入共享、OPC友好型VC、政府基金、估值方法、出售实操、Bootstrap策略 |
+| [opc-case-studies.md](docs/super-individual/opc-case-studies.md) | OPC案例研究与深度分析——Pieter Levels、Marc Lou、烁谷科技、SeaArt海艺、碎瓜、14岁少年开发者等成功案例，失败模式教训，SoloNest社群数据 |
+| [opc-funding-capital.md](docs/super-individual/opc-funding-capital.md) | OPC融资与资本运作指南——RBF收入共享、OPC友好型VC、政府基金、估值方法、出售实操、Bootstrap策略 |
 
 #### 增长与产品
 | 文件 | 说明 |
 |------|------|
-| [opc-growth-marketing.md](super-individual/opc-growth-marketing.md) | OPC增长黑客与营销实战——SEO长期主义、Build in Public、Product Hunt发布全攻略、内容工厂工业化、病毒传播设计 |
-| [opc-product-design.md](super-individual/opc-product-design.md) | OPC产品设计方法论——需求验证五步法、AI辅助原型设计、UX设计原则、onboarding设计、设计系统 |
-| [opc-data-driven.md](super-individual/opc-data-driven.md) | OPC数据驱动决策指南——北极星指标、2026 SaaS基准数据、coefficient留存分析、RFM分群、LTV预测 |
+| [opc-growth-marketing.md](docs/super-individual/opc-growth-marketing.md) | OPC增长黑客与营销实战——SEO长期主义、Build in Public、Product Hunt发布全攻略、内容工厂工业化、病毒传播设计 |
+| [opc-product-design.md](docs/super-individual/opc-product-design.md) | OPC产品设计方法论——需求验证五步法、AI辅助原型设计、UX设计原则、onboarding设计、设计系统 |
+| [opc-data-driven.md](docs/super-individual/opc-data-driven.md) | OPC数据驱动决策指南——北极星指标、2026 SaaS基准数据、coefficient留存分析、RFM分群、LTV预测 |
 
 #### 技能萃取与心态
 | 文件 | 说明 |
 |------|------|
-| [programmer-distillation-guide.md](super-individual/programmer-distillation-guide.md) | 如何蒸馏一个程序员——四层知识金字塔、七种萃取技术、30天自蒸馏计划、AI辅助蒸馏 |
-| [opc-mental-health.md](super-individual/opc-mental-health.md) | OPC心理健康与可持续发展指南——七大心理挑战、孤独感管理、burnout预防、支持系统建设、幸福评估框架 |
+| [programmer-distillation-guide.md](docs/super-individual/programmer-distillation-guide.md) | 如何蒸馏一个程序员——四层知识金字塔、七种萃取技术、30天自蒸馏计划、AI辅助蒸馏 |
+| [opc-mental-health.md](docs/super-individual/opc-mental-health.md) | OPC心理健康与可持续发展指南——七大心理挑战、孤独感管理、burnout预防、支持系统建设、幸福评估框架 |
 
 ---
 
@@ -889,132 +899,132 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 ### 人工智能行业（21个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [ai-beijing.md](industry/ai-beijing.md) | 北京 | 百度、字节跳动、旷视、商汤、寒武纪等 |
-| [ai-shanghai.md](industry/ai-shanghai.md) | 上海 | 依图、云从、商汤上海、第四范式等 |
-| [ai-guangzhou.md](industry/ai-guangzhou.md) | 广州 | 云从科技、佳都科技、小鹏汽车等 |
-| [ai-shenzhen.md](industry/ai-shenzhen.md) | 深圳 | 大疆、优必选、云天励飞、奥比中光等 |
-| [ai-hangzhou.md](industry/ai-hangzhou.md) | 杭州 | 海康威视、大华、宇树科技、涂鸦智能等 |
-| [ai-nanjing.md](industry/ai-nanjing.md) | 南京 | 南瑞科技、亿嘉和、埃斯顿等 |
-| [ai-xian.md](industry/ai-xian.md) | 西安 | 航天四院、西飞、陕鼓等 |
-| [ai-kunming.md](industry/ai-kunming.md) | 昆明 | 南天信息、昆船智能等 |
-| [ai-shenyang.md](industry/ai-shenyang.md) | 沈阳 | 新松机器人、东软等 |
-| [ai-harbin.md](industry/ai-harbin.md) | 哈尔滨 | 哈工大机器人、思哲睿医疗等 |
+| [ai-beijing.md](docs/industry/ai-beijing.md) | 北京 | 百度、字节跳动、旷视、商汤、寒武纪等 |
+| [ai-shanghai.md](docs/industry/ai-shanghai.md) | 上海 | 依图、云从、商汤上海、第四范式等 |
+| [ai-guangzhou.md](docs/industry/ai-guangzhou.md) | 广州 | 云从科技、佳都科技、小鹏汽车等 |
+| [ai-shenzhen.md](docs/industry/ai-shenzhen.md) | 深圳 | 大疆、优必选、云天励飞、奥比中光等 |
+| [ai-hangzhou.md](docs/industry/ai-hangzhou.md) | 杭州 | 海康威视、大华、宇树科技、涂鸦智能等 |
+| [ai-nanjing.md](docs/industry/ai-nanjing.md) | 南京 | 南瑞科技、亿嘉和、埃斯顿等 |
+| [ai-xian.md](docs/industry/ai-xian.md) | 西安 | 航天四院、西飞、陕鼓等 |
+| [ai-kunming.md](docs/industry/ai-kunming.md) | 昆明 | 南天信息、昆船智能等 |
+| [ai-shenyang.md](docs/industry/ai-shenyang.md) | 沈阳 | 新松机器人、东软等 |
+| [ai-harbin.md](docs/industry/ai-harbin.md) | 哈尔滨 | 哈工大机器人、思哲睿医疗等 |
 
 ### 大数据行业（6个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [bigdata-beijing.md](industry/bigdata-beijing.md) | 北京 | 百度、字节、京东、美团等 |
-| [bigdata-shanghai.md](industry/bigdata-shanghai.md) | 上海 | 携程、拼多多、B站、星环科技等 |
-| [bigdata-guangzhou.md](industry/bigdata-guangzhou.md) | 广州 | 视源、佳都、欢聚、唯品会等 |
-| [bigdata-shenzhen.md](industry/bigdata-shenzhen.md) | 深圳 | 腾讯、华为、平安科技等 |
-| [bigdata-hangzhou.md](industry/bigdata-hangzhou.md) | 杭州 | 阿里云、网易、海康威视等 |
+| [bigdata-beijing.md](docs/industry/bigdata-beijing.md) | 北京 | 百度、字节、京东、美团等 |
+| [bigdata-shanghai.md](docs/industry/bigdata-shanghai.md) | 上海 | 携程、拼多多、B站、星环科技等 |
+| [bigdata-guangzhou.md](docs/industry/bigdata-guangzhou.md) | 广州 | 视源、佳都、欢聚、唯品会等 |
+| [bigdata-shenzhen.md](docs/industry/bigdata-shenzhen.md) | 深圳 | 腾讯、华为、平安科技等 |
+| [bigdata-hangzhou.md](docs/industry/bigdata-hangzhou.md) | 杭州 | 阿里云、网易、海康威视等 |
 
 ### 区块链行业（6个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [blockchain-beijing.md](industry/blockchain-beijing.md) | 北京 | 百度超级链、京东智臻链、比特大陆等 |
-| [blockchain-shanghai.md](industry/blockchain-shanghai.md) | 上海 | 万向区块链、矩阵元、唯链等 |
-| [blockchain-guangzhou.md](industry/blockchain-guangzhou.md) | 广州 | 微众银行FISCO、趣链广州等 |
-| [blockchain-shenzhen.md](industry/blockchain-shenzhen.md) | 深圳 | 腾讯区块链、微众银行FISCO BCOS等 |
-| [blockchain-hangzhou.md](industry/blockchain-hangzhou.md) | 杭州 | 趣链科技、蚂蚁链、秘猿科技等 |
-| [blockchain-hongkong.md](industry/blockchain-hongkong.md) | 香港 | HashKey、OSL、Animoca Brands等 |
+| [blockchain-beijing.md](docs/industry/blockchain-beijing.md) | 北京 | 百度超级链、京东智臻链、比特大陆等 |
+| [blockchain-shanghai.md](docs/industry/blockchain-shanghai.md) | 上海 | 万向区块链、矩阵元、唯链等 |
+| [blockchain-guangzhou.md](docs/industry/blockchain-guangzhou.md) | 广州 | 微众银行FISCO、趣链广州等 |
+| [blockchain-shenzhen.md](docs/industry/blockchain-shenzhen.md) | 深圳 | 腾讯区块链、微众银行FISCO BCOS等 |
+| [blockchain-hangzhou.md](docs/industry/blockchain-hangzhou.md) | 杭州 | 趣链科技、蚂蚁链、秘猿科技等 |
+| [blockchain-hongkong.md](docs/industry/blockchain-hongkong.md) | 香港 | HashKey、OSL、Animoca Brands等 |
 
 ### 物联网行业（8个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [iot-beijing.md](industry/iot-beijing.md) | 北京 | 小米、京东、中移物联等 |
-| [iot-shanghai.md](industry/iot-shanghai.md) | 上海 | 移远通信、芯翼信息等 |
-| [iot-guangzhou.md](industry/iot-guangzhou.md) | 广州 | 视源股份、高新兴等 |
-| [iot-shenzhen.md](industry/iot-shenzhen.md) | 深圳 | 华为、广和通、有方科技等 |
-| [iot-hangzhou.md](industry/iot-hangzhou.md) | 杭州 | 海康威视、涂鸦智能等 |
+| [iot-beijing.md](docs/industry/iot-beijing.md) | 北京 | 小米、京东、中移物联等 |
+| [iot-shanghai.md](docs/industry/iot-shanghai.md) | 上海 | 移远通信、芯翼信息等 |
+| [iot-guangzhou.md](docs/industry/iot-guangzhou.md) | 广州 | 视源股份、高新兴等 |
+| [iot-shenzhen.md](docs/industry/iot-shenzhen.md) | 深圳 | 华为、广和通、有方科技等 |
+| [iot-hangzhou.md](docs/industry/iot-hangzhou.md) | 杭州 | 海康威视、涂鸦智能等 |
 
 ### 智能制造行业（5个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [smart-manufacturing-beijing.md](industry/smart-manufacturing-beijing.md) | 北京 | 京东方、北方华创等 |
-| [smart-manufacturing-shanghai.md](industry/smart-manufacturing-shanghai.md) | 上海 | 上海电气、新时达等 |
-| [smart-manufacturing-guangzhou.md](industry/smart-manufacturing-guangzhou.md) | 广州 | 广汽、明珞装备等 |
-| [smart-manufacturing-shenzhen.md](industry/smart-manufacturing-shenzhen.md) | 深圳 | 比亚迪、汇川技术、大族激光等 |
-| [smart-manufacturing-hangzhou.md](industry/smart-manufacturing-hangzhou.md) | 杭州 | 海康机器人、杭叉等 |
+| [smart-manufacturing-beijing.md](docs/industry/smart-manufacturing-beijing.md) | 北京 | 京东方、北方华创等 |
+| [smart-manufacturing-shanghai.md](docs/industry/smart-manufacturing-shanghai.md) | 上海 | 上海电气、新时达等 |
+| [smart-manufacturing-guangzhou.md](docs/industry/smart-manufacturing-guangzhou.md) | 广州 | 广汽、明珞装备等 |
+| [smart-manufacturing-shenzhen.md](docs/industry/smart-manufacturing-shenzhen.md) | 深圳 | 比亚迪、汇川技术、大族激光等 |
+| [smart-manufacturing-hangzhou.md](docs/industry/smart-manufacturing-hangzhou.md) | 杭州 | 海康机器人、杭叉等 |
 
 ### 新能源行业（5个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [new-energy-beijing.md](industry/new-energy-beijing.md) | 北京 | 北汽新能源、中国华能等 |
-| [new-energy-shanghai.md](industry/new-energy-shanghai.md) | 上海 | 上汽、蔚来中国等 |
-| [new-energy-guangzhou.md](industry/new-energy-guangzhou.md) | 广州 | 广汽埃安、小鹏汽车等 |
-| [new-energy-shenzhen.md](industry/new-energy-shenzhen.md) | 深圳 | 比亚迪、欣旺达、贝特瑞等 |
-| [new-energy-hangzhou.md](industry/new-energy-hangzhou.md) | 杭州 | 零跑汽车、万向等 |
+| [new-energy-beijing.md](docs/industry/new-energy-beijing.md) | 北京 | 北汽新能源、中国华能等 |
+| [new-energy-shanghai.md](docs/industry/new-energy-shanghai.md) | 上海 | 上汽、蔚来中国等 |
+| [new-energy-guangzhou.md](docs/industry/new-energy-guangzhou.md) | 广州 | 广汽埃安、小鹏汽车等 |
+| [new-energy-shenzhen.md](docs/industry/new-energy-shenzhen.md) | 深圳 | 比亚迪、欣旺达、贝特瑞等 |
+| [new-energy-hangzhou.md](docs/industry/new-energy-hangzhou.md) | 杭州 | 零跑汽车、万向等 |
 
 ### 新材料行业（5个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [new-materials-beijing.md](industry/new-materials-beijing.md) | 北京 | 北矿科技、有研新材等 |
-| [new-materials-shanghai.md](industry/new-materials-shanghai.md) | 上海 | 上海硅产业、中芯国际材料等 |
-| [new-materials-guangzhou.md](industry/new-materials-guangzhou.md) | 广州 | 金发科技、天赐材料等 |
-| [new-materials-shenzhen.md](industry/new-materials-shenzhen.md) | 深圳 | 贝特瑞、格林美、沃特股份等 |
-| [new-materials-hangzhou.md](industry/new-materials-hangzhou.md) | 杭州 | 杭氧股份、道明光学等 |
+| [new-materials-beijing.md](docs/industry/new-materials-beijing.md) | 北京 | 北矿科技、有研新材等 |
+| [new-materials-shanghai.md](docs/industry/new-materials-shanghai.md) | 上海 | 上海硅产业、中芯国际材料等 |
+| [new-materials-guangzhou.md](docs/industry/new-materials-guangzhou.md) | 广州 | 金发科技、天赐材料等 |
+| [new-materials-shenzhen.md](docs/industry/new-materials-shenzhen.md) | 深圳 | 贝特瑞、格林美、沃特股份等 |
+| [new-materials-hangzhou.md](docs/industry/new-materials-hangzhou.md) | 杭州 | 杭氧股份、道明光学等 |
 
 ### 生物技术行业（7个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [biotech-beijing.md](industry/biotech-beijing.md) | 北京 | 百济神州、诺诚健华等 |
-| [biotech-shanghai.md](industry/biotech-shanghai.md) | 上海 | 药明康德、复星医药等 |
-| [biotech-guangzhou.md](industry/biotech-guangzhou.md) | 广州 | 金域医学、达安基因等 |
-| [biotech-shenzhen.md](industry/biotech-shenzhen.md) | 深圳 | 华大基因、迈瑞医疗等 |
-| [biotech-hangzhou.md](industry/biotech-hangzhou.md) | 杭州 | 贝达药业、泰格医药等 |
-| [biotech-suzhou.md](industry/biotech-suzhou.md) | 苏州 | 信达生物、百济神州苏州等 |
+| [biotech-beijing.md](docs/industry/biotech-beijing.md) | 北京 | 百济神州、诺诚健华等 |
+| [biotech-shanghai.md](docs/industry/biotech-shanghai.md) | 上海 | 药明康德、复星医药等 |
+| [biotech-guangzhou.md](docs/industry/biotech-guangzhou.md) | 广州 | 金域医学、达安基因等 |
+| [biotech-shenzhen.md](docs/industry/biotech-shenzhen.md) | 深圳 | 华大基因、迈瑞医疗等 |
+| [biotech-hangzhou.md](docs/industry/biotech-hangzhou.md) | 杭州 | 贝达药业、泰格医药等 |
+| [biotech-suzhou.md](docs/industry/biotech-suzhou.md) | 苏州 | 信达生物、百济神州苏州等 |
 
 ### 3C电子行业（5个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [3c-beijing.md](industry/3c-beijing.md) | 北京 | 小米、联想、京东方等 |
-| [3c-shanghai.md](industry/3c-shanghai.md) | 上海 | 上海贝尔、韦尔股份等 |
-| [3c-guangzhou.md](industry/3c-guangzhou.md) | 广州 | 视源股份、金发科技等 |
-| [3c-shenzhen.md](industry/3c-shenzhen.md) | 深圳 | 华为、大疆、华星光电等 |
-| [3c-hangzhou.md](industry/3c-hangzhou.md) | 杭州 | 海康威视、大华等 |
+| [3c-beijing.md](docs/industry/3c-beijing.md) | 北京 | 小米、联想、京东方等 |
+| [3c-shanghai.md](docs/industry/3c-shanghai.md) | 上海 | 上海贝尔、韦尔股份等 |
+| [3c-guangzhou.md](docs/industry/3c-guangzhou.md) | 广州 | 视源股份、金发科技等 |
+| [3c-shenzhen.md](docs/industry/3c-shenzhen.md) | 深圳 | 华为、大疆、华星光电等 |
+| [3c-hangzhou.md](docs/industry/3c-hangzhou.md) | 杭州 | 海康威视、大华等 |
 
 ### 云计算行业（20个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [cloud-beijing.md](industry/cloud-beijing.md) | 北京 | 阿里云北京、腾讯云北京等 |
-| [cloud-shanghai.md](industry/cloud-shanghai.md) | 上海 | UCloud、青云等 |
-| [cloud-guangzhou.md](industry/cloud-guangzhou.md) | 广州 | 金山云广州、华为云广州等 |
-| [cloud-shenzhen.md](industry/cloud-shenzhen.md) | 深圳 | 华为云、腾讯云深圳等 |
-| [cloud-hangzhou.md](industry/cloud-hangzhou.md) | 杭州 | 阿里云总部、网易云等 |
-| [cloud-nanjing.md](industry/cloud-nanjing.md) | 南京 | 苏宁云、南瑞云等 |
-| [cloud-xian.md](industry/cloud-xian.md) | 西安 | 华为云西安等 |
-| [cloud-suzhou.md](industry/cloud-suzhou.md) | 苏州 | 同程云、苏州工业园区云等 |
-| [cloud-wuxi.md](industry/cloud-wuxi.md) | 无锡 | 朗新科技等 |
-| [cloud-changzhou.md](industry/cloud-changzhou.md) | 常州 | 常州数据中心等 |
-| [cloud-kunming.md](industry/cloud-kunming.md) | 昆明 | 云南移动云等 |
-| [cloud-shenyang.md](industry/cloud-shenyang.md) | 沈阳 | 东软云、沈阳数据中心等 |
-| [cloud-harbin.md](industry/cloud-harbin.md) | 哈尔滨 | 哈尔滨云计算产业基地等 |
-| [cloud-hongkong.md](industry/cloud-hongkong.md) | 香港 | AWS香港、阿里云香港等 |
-| [cloud-macau.md](industry/cloud-macau.md) | 澳门 | 澳门电讯云服务等 |
-| [cloud-lhasa.md](industry/cloud-lhasa.md) | 拉萨 | 西藏云计算中心等 |
+| [cloud-beijing.md](docs/industry/cloud-beijing.md) | 北京 | 阿里云北京、腾讯云北京等 |
+| [cloud-shanghai.md](docs/industry/cloud-shanghai.md) | 上海 | UCloud、青云等 |
+| [cloud-guangzhou.md](docs/industry/cloud-guangzhou.md) | 广州 | 金山云广州、华为云广州等 |
+| [cloud-shenzhen.md](docs/industry/cloud-shenzhen.md) | 深圳 | 华为云、腾讯云深圳等 |
+| [cloud-hangzhou.md](docs/industry/cloud-hangzhou.md) | 杭州 | 阿里云总部、网易云等 |
+| [cloud-nanjing.md](docs/industry/cloud-nanjing.md) | 南京 | 苏宁云、南瑞云等 |
+| [cloud-xian.md](docs/industry/cloud-xian.md) | 西安 | 华为云西安等 |
+| [cloud-suzhou.md](docs/industry/cloud-suzhou.md) | 苏州 | 同程云、苏州工业园区云等 |
+| [cloud-wuxi.md](docs/industry/cloud-wuxi.md) | 无锡 | 朗新科技等 |
+| [cloud-changzhou.md](docs/industry/cloud-changzhou.md) | 常州 | 常州数据中心等 |
+| [cloud-kunming.md](docs/industry/cloud-kunming.md) | 昆明 | 云南移动云等 |
+| [cloud-shenyang.md](docs/industry/cloud-shenyang.md) | 沈阳 | 东软云、沈阳数据中心等 |
+| [cloud-harbin.md](docs/industry/cloud-harbin.md) | 哈尔滨 | 哈尔滨云计算产业基地等 |
+| [cloud-hongkong.md](docs/industry/cloud-hongkong.md) | 香港 | AWS香港、阿里云香港等 |
+| [cloud-macau.md](docs/industry/cloud-macau.md) | 澳门 | 澳门电讯云服务等 |
+| [cloud-lhasa.md](docs/industry/cloud-lhasa.md) | 拉萨 | 西藏云计算中心等 |
 
 ### 网络安全行业（8个）
 | 文件 | 城市 | 说明 |
 |------|------|------|
-| [security-beijing.md](industry/security-beijing.md) | 北京 | 启明星辰、天融信、奇安信、绿盟科技等 |
-| [security-shanghai.md](industry/security-shanghai.md) | 上海 | 安恒信息、众人科技、格尔软件、三零卫士等 |
-| [security-shenzhen.md](industry/security-shenzhen.md) | 深圳 | 深信服、华为安全、任子行、绿盟科技等 |
-| [security-guangzhou.md](industry/security-guangzhou.md) | 广州 | 云从科技、安恒信息广州、绿盟科技广州等 |
-| [security-hangzhou.md](industry/security-hangzhou.md) | 杭州 | 安恒信息、阿里安全、迪普科技、海康威视等 |
-| [security-nanjing.md](industry/security-nanjing.md) | 南京 | 擎天科技、联创科技、南瑞信通、科远智慧等 |
-| [security-xian.md](industry/security-xian.md) | 西安 | 西电捷通、天和防务、晨曦航空等 |
-| [security-suzhou.md](industry/security-suzhou.md) | 苏州 | 苏州科达、中科创达、固德威等 |
+| [security-beijing.md](docs/industry/security-beijing.md) | 北京 | 启明星辰、天融信、奇安信、绿盟科技等 |
+| [security-shanghai.md](docs/industry/security-shanghai.md) | 上海 | 安恒信息、众人科技、格尔软件、三零卫士等 |
+| [security-shenzhen.md](docs/industry/security-shenzhen.md) | 深圳 | 深信服、华为安全、任子行、绿盟科技等 |
+| [security-guangzhou.md](docs/industry/security-guangzhou.md) | 广州 | 云从科技、安恒信息广州、绿盟科技广州等 |
+| [security-hangzhou.md](docs/industry/security-hangzhou.md) | 杭州 | 安恒信息、阿里安全、迪普科技、海康威视等 |
+| [security-nanjing.md](docs/industry/security-nanjing.md) | 南京 | 擎天科技、联创科技、南瑞信通、科远智慧等 |
+| [security-xian.md](docs/industry/security-xian.md) | 西安 | 西电捷通、天和防务、晨曦航空等 |
+| [security-suzhou.md](docs/industry/security-suzhou.md) | 苏州 | 苏州科达、中科创达、固德威等 |
 
 ### 深圳特色行业（6个）
 | 文件 | 行业 | 说明 |
 |------|------|------|
-| [internet-shenzhen.md](industry/internet-shenzhen.md) | 互联网 | 腾讯、迅雷、货拉拉、微众银行等 |
-| [software-shenzhen.md](industry/software-shenzhen.md) | 软件 | 金蝶、万兴科技、蓝凌等 |
-| [ev-shenzhen.md](industry/ev-shenzhen.md) | 新能源汽车 | 比亚迪、汇川技术等 |
-| [automation-shenzhen.md](industry/automation-shenzhen.md) | 自动化 | 汇川技术、英威腾等 |
-| [battery-shenzhen.md](industry/battery-shenzhen.md) | 电池 | 欣旺达、德赛电池等 |
-| [drone-shenzhen.md](industry/drone-shenzhen.md) | 无人机 | 大疆、道通智能等 |
+| [internet-shenzhen.md](docs/industry/internet-shenzhen.md) | 互联网 | 腾讯、迅雷、货拉拉、微众银行等 |
+| [software-shenzhen.md](docs/industry/software-shenzhen.md) | 软件 | 金蝶、万兴科技、蓝凌等 |
+| [ev-shenzhen.md](docs/industry/ev-shenzhen.md) | 新能源汽车 | 比亚迪、汇川技术等 |
+| [automation-shenzhen.md](docs/industry/automation-shenzhen.md) | 自动化 | 汇川技术、英威腾等 |
+| [battery-shenzhen.md](docs/industry/battery-shenzhen.md) | 电池 | 欣旺达、德赛电池等 |
+| [drone-shenzhen.md](docs/industry/drone-shenzhen.md) | 无人机 | 大疆、道通智能等 |
 
 ---
 
@@ -1025,71 +1035,71 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 #### 我想找北京的企业
 | 行业 | 文件 |
 |------|------|
-| 人工智能 | [ai-beijing.md](industry/ai-beijing.md) |
-| 大数据 | [bigdata-beijing.md](industry/bigdata-beijing.md) |
-| 区块链 | [blockchain-beijing.md](industry/blockchain-beijing.md) |
-| 物联网 | [iot-beijing.md](industry/iot-beijing.md) |
-| 智能制造 | [smart-manufacturing-beijing.md](industry/smart-manufacturing-beijing.md) |
-| 新能源 | [new-energy-beijing.md](industry/new-energy-beijing.md) |
-| 新材料 | [new-materials-beijing.md](industry/new-materials-beijing.md) |
-| 生物技术 | [biotech-beijing.md](industry/biotech-beijing.md) |
-| 3C电子 | [3c-beijing.md](industry/3c-beijing.md) |
-| 云计算 | [cloud-beijing.md](industry/cloud-beijing.md) |
+| 人工智能 | [ai-beijing.md](docs/industry/ai-beijing.md) |
+| 大数据 | [bigdata-beijing.md](docs/industry/bigdata-beijing.md) |
+| 区块链 | [blockchain-beijing.md](docs/industry/blockchain-beijing.md) |
+| 物联网 | [iot-beijing.md](docs/industry/iot-beijing.md) |
+| 智能制造 | [smart-manufacturing-beijing.md](docs/industry/smart-manufacturing-beijing.md) |
+| 新能源 | [new-energy-beijing.md](docs/industry/new-energy-beijing.md) |
+| 新材料 | [new-materials-beijing.md](docs/industry/new-materials-beijing.md) |
+| 生物技术 | [biotech-beijing.md](docs/industry/biotech-beijing.md) |
+| 3C电子 | [3c-beijing.md](docs/industry/3c-beijing.md) |
+| 云计算 | [cloud-beijing.md](docs/industry/cloud-beijing.md) |
 
 #### 我想找深圳的企业
 | 行业 | 文件 |
 |------|------|
-| 人工智能 | [ai-shenzhen.md](industry/ai-shenzhen.md) |
-| 大数据 | [bigdata-shenzhen.md](industry/bigdata-shenzhen.md) |
-| 区块链 | [blockchain-shenzhen.md](industry/blockchain-shenzhen.md) |
-| 物联网 | [iot-shenzhen.md](industry/iot-shenzhen.md) |
-| 智能制造 | [smart-manufacturing-shenzhen.md](industry/smart-manufacturing-shenzhen.md) |
-| 新能源 | [new-energy-shenzhen.md](industry/new-energy-shenzhen.md) |
-| 新材料 | [new-materials-shenzhen.md](industry/new-materials-shenzhen.md) |
-| 生物技术 | [biotech-shenzhen.md](industry/biotech-shenzhen.md) |
-| 3C电子 | [3c-shenzhen.md](industry/3c-shenzhen.md) |
-| 云计算 | [cloud-shenzhen.md](industry/cloud-shenzhen.md) |
-| 互联网 | [internet-shenzhen.md](industry/internet-shenzhen.md) |
-| 软件 | [software-shenzhen.md](industry/software-shenzhen.md) |
-| 新能源汽车 | [ev-shenzhen.md](industry/ev-shenzhen.md) |
-| 自动化 | [automation-shenzhen.md](industry/automation-shenzhen.md) |
-| 电池 | [battery-shenzhen.md](industry/battery-shenzhen.md) |
-| 无人机 | [drone-shenzhen.md](industry/drone-shenzhen.md) |
+| 人工智能 | [ai-shenzhen.md](docs/industry/ai-shenzhen.md) |
+| 大数据 | [bigdata-shenzhen.md](docs/industry/bigdata-shenzhen.md) |
+| 区块链 | [blockchain-shenzhen.md](docs/industry/blockchain-shenzhen.md) |
+| 物联网 | [iot-shenzhen.md](docs/industry/iot-shenzhen.md) |
+| 智能制造 | [smart-manufacturing-shenzhen.md](docs/industry/smart-manufacturing-shenzhen.md) |
+| 新能源 | [new-energy-shenzhen.md](docs/industry/new-energy-shenzhen.md) |
+| 新材料 | [new-materials-shenzhen.md](docs/industry/new-materials-shenzhen.md) |
+| 生物技术 | [biotech-shenzhen.md](docs/industry/biotech-shenzhen.md) |
+| 3C电子 | [3c-shenzhen.md](docs/industry/3c-shenzhen.md) |
+| 云计算 | [cloud-shenzhen.md](docs/industry/cloud-shenzhen.md) |
+| 互联网 | [internet-shenzhen.md](docs/industry/internet-shenzhen.md) |
+| 软件 | [software-shenzhen.md](docs/industry/software-shenzhen.md) |
+| 新能源汽车 | [ev-shenzhen.md](docs/industry/ev-shenzhen.md) |
+| 自动化 | [automation-shenzhen.md](docs/industry/automation-shenzhen.md) |
+| 电池 | [battery-shenzhen.md](docs/industry/battery-shenzhen.md) |
+| 无人机 | [drone-shenzhen.md](docs/industry/drone-shenzhen.md) |
 
 ### 按行业查找
 
 #### 我想找人工智能企业
 | 城市 | 文件 | 代表企业 |
 |------|------|----------|
-| 北京 | [ai-beijing.md](industry/ai-beijing.md) | 百度、字节、旷视、商汤 |
-| 上海 | [ai-shanghai.md](industry/ai-shanghai.md) | 依图、云从、商汤上海 |
-| 深圳 | [ai-shenzhen.md](industry/ai-shenzhen.md) | 大疆、优必选、云天励飞 |
-| 杭州 | [ai-hangzhou.md](industry/ai-hangzhou.md) | 海康威视、大华、宇树 |
-| 广州 | [ai-guangzhou.md](industry/ai-guangzhou.md) | 云从科技、佳都、小鹏 |
+| 北京 | [ai-beijing.md](docs/industry/ai-beijing.md) | 百度、字节、旷视、商汤 |
+| 上海 | [ai-shanghai.md](docs/industry/ai-shanghai.md) | 依图、云从、商汤上海 |
+| 深圳 | [ai-shenzhen.md](docs/industry/ai-shenzhen.md) | 大疆、优必选、云天励飞 |
+| 杭州 | [ai-hangzhou.md](docs/industry/ai-hangzhou.md) | 海康威视、大华、宇树 |
+| 广州 | [ai-guangzhou.md](docs/industry/ai-guangzhou.md) | 云从科技、佳都、小鹏 |
 
 #### 我想找新能源汽车企业
 | 城市 | 文件 | 代表企业 |
 |------|------|----------|
-| 深圳 | [ev-shenzhen.md](industry/ev-shenzhen.md) | 比亚迪 |
-| 深圳 | [new-energy-shenzhen.md](industry/new-energy-shenzhen.md) | 比亚迪、欣旺达 |
-| 广州 | [new-energy-guangzhou.md](industry/new-energy-guangzhou.md) | 广汽埃安、小鹏汽车 |
-| 上海 | [new-energy-shanghai.md](industry/new-energy-shanghai.md) | 上汽、蔚来中国 |
+| 深圳 | [ev-shenzhen.md](docs/industry/ev-shenzhen.md) | 比亚迪 |
+| 深圳 | [new-energy-shenzhen.md](docs/industry/new-energy-shenzhen.md) | 比亚迪、欣旺达 |
+| 广州 | [new-energy-guangzhou.md](docs/industry/new-energy-guangzhou.md) | 广汽埃安、小鹏汽车 |
+| 上海 | [new-energy-shanghai.md](docs/industry/new-energy-shanghai.md) | 上汽、蔚来中国 |
 
 ### 按榜单类型查找
 
 #### 我想找大公司/行业龙头
-- [财富世界500强](rankings-international/fortune_500_2025.md) - 全球最大企业
-- [中国民营企业500强](rankings/private-enterprise-500.md) - 中国最大民企
-- [中国互联网企业100强](rankings/internet-100.md) - 互联网巨头
-- [中国软件百强](rankings/software-100.md) - 软件龙头
+- [财富世界500强](docs/rankings-international/fortune_500_2025.md) - 全球最大企业
+- [中国民营企业500强](docs/rankings/private-enterprise-500.md) - 中国最大民企
+- [中国互联网企业100强](docs/rankings/internet-100.md) - 互联网巨头
+- [中国软件百强](docs/rankings/software-100.md) - 软件龙头
 
 #### 我想找专业化中小企业
-- [专精特新"小巨人"](rankings/specialized-sme-xiaojuren.md) - 细分领域冠军
-- [制造业单项冠军](rankings/manufacturing-champion.md) - 细分产品市场领先
+- [专精特新"小巨人"](docs/rankings/specialized-sme-xiaojuren.md) - 细分领域冠军
+- [制造业单项冠军](docs/rankings/manufacturing-champion.md) - 细分产品市场领先
 
 #### 我想找高成长企业
-- [独角兽企业](rankings/unicorn-enterprise.md) - 估值10亿美元+
-- [瞪羚企业](rankings/gazelle-enterprise.md) - 高成长中小企业
+- [独角兽企业](docs/rankings/unicorn-enterprise.md) - 估值10亿美元+
+- [瞪羚企业](docs/rankings/gazelle-enterprise.md) - 高成长中小企业
 
 ### 按企业规模查找
 每个文件中都包含按公司规模分类的企业列表：
@@ -1133,7 +1143,7 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 | 企业官网 | 各公司官方网站 |
 | 政府网站 | 各城市政府官网、科技局、高新区管委会 |
 | 行业协会 | 中国互联网协会、中国电子信息行业联合会等 |
-| 权威榜单 |  8个 |
+| 权威榜单 | 8个 |
 | 专业数据库 | 企查查、天眼查等企业信息查询平台 |
 | 招聘平台 | 职友集、看准网等员工评价平台 |
 | 证券交易所 | 上交所、深交所、港交所公开信息 |
@@ -1355,40 +1365,40 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 
 | 维度 | 数量 |
 |------|------|
-| 文件总数 |  468个 |
-| 权威榜单 |  8个 |
-| 国内权威榜单 |  8个 |
-| 国际权威榜单 |  4个 |
-| 中国行业清单 |  148个 |
-| 国际行业清单 |  43个 |
-| 外包公司清单 |  4个 |
-| 国际外包清单 |  5个 |
-| 专题榜单 |  8个 |
-| 国际专题 |  2个 |
-| 面试技巧 |  7个 |
-| 国内面试技巧 |  4个 |
-| 国际面试技巧 |  3个 |
-| 简历技巧 |  7个 |
-| 国内简历技巧 |  4个 |
-| 国际简历技巧 |  3个 |
-| 科技基金会 |  5个 |
-| 国内科技基金会 |  2个 |
-| 国际科技基金会 |  3个 |
-| 开源社区 |  5个 |
-| 国内开源社区 |  3个 |
-| 国际开源社区 |  2个 |
-| VC投资专题 |  7个 |
-| 国际VC清单 |  7个 |
+| 文件总数 | 479个 |
+| 权威榜单 | 8个 |
+| 国内权威榜单 | 8个 |
+| 国际权威榜单 | 4个 |
+| 中国行业清单 | 148个 |
+| 国际行业清单 | 43个 |
+| 外包公司清单 | 4个 |
+| 国际外包清单 | 5个 |
+| 专题榜单 | 8个 |
+| 国际专题 | 2个 |
+| 面试技巧 | 7个 |
+| 国内面试技巧 | 4个 |
+| 国际面试技巧 | 3个 |
+| 简历技巧 | 7个 |
+| 国内简历技巧 | 4个 |
+| 国际简历技巧 | 3个 |
+| 科技基金会 | 5个 |
+| 国内科技基金会 | 2个 |
+| 国际科技基金会 | 3个 |
+| 开源社区 | 5个 |
+| 国内开源社区 | 3个 |
+| 国际开源社区 | 2个 |
+| VC投资专题 | 7个 |
+| 国际VC清单 | 7个 |
 | 技术活动专题 | 1个 |
-| 国际技术活动 |  10个 |
-| 求职招聘专题 |  24个 | 全面的求职策略、薪资基准、技能发展等职业指导 |
-| 国际求职招聘 |  7个 |
+| 国际技术活动 | 10个 |
+| 求职招聘专题 | 24个 | 全面的求职策略、薪资基准、技能发展等职业指导 |
+| 国际求职招聘 | 7个 |
 | 劳动仲裁专题 | 1个 |
 | 竞业协议专题 | 1个 |
 | 裁员指南专题 | 1个 |
-| 国际法律文件 |  9个 |
-| IT岗位文件 |  61个 | 全球IT技术岗位详细JD信息和真实案例 |
-| 技术管理文件 |  26个 | 完整的技术管理知识体系和实践指南 |
+| 国际法律文件 | 9个 |
+| IT岗位文件 | 61个 | 全球IT技术岗位详细JD信息和真实案例 |
+| 技术管理文件 | 26个 | 完整的技术管理知识体系和实践指南 |
 | 覆盖城市 | 16个 |
 | 覆盖行业 | 13个 |
 | 收录中国企业 | 6500+ |

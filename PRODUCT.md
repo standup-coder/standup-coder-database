@@ -24,7 +24,7 @@ Standup Coder Database 是一个结构化知识数据库：收录权威企业榜
 
 ## Positioning
 
-一个仓库同时提供三层不可拆分的东西：① 按双轨制（国内/国际）组织的大规模结构化 Markdown 知识库（约 400+ 文件）；② 配套 React Web 控制台（企业/岗位/榜单多维查询与数据分析）；③ 零依赖创意可视化应用（深圳科技公司二次元地图，170+ 家公司画在卡通地图上）。相邻产品（单篇榜单文章、单一 JD 站）无法同时复制「数据库 + 控制台 + 创意应用」的组合。
+一个仓库同时提供三层不可拆分的东西：① 按双轨制（国内/国际）组织的大规模结构化 Markdown 知识库（约 400+ 文件）；② 配套 React Web 控制台（企业/岗位/榜单多维查询与数据分析）；③ 零依赖创意可视化应用（深圳科技公司二次元地图，184 家公司画在卡通地图上）。相邻产品（单篇榜单文章、单一 JD 站）无法同时复制「数据库 + 控制台 + 创意应用」的组合。
 
 ## Operating Context
 
@@ -36,8 +36,8 @@ Standup Coder Database 是一个结构化知识数据库：收录权威企业榜
 ## Capabilities and Constraints
 
 - 已确认能力（页面上可展示的模块与数字，均来自仓库实测）：
-  - rankings/ 8 文件、industry/ 148 文件（16 城 13 行业）、industry-international/ 43 文件、jobs/ 61 文件（含真实案例）、careers/ 24 文件、management/ 26 文件、super-individual/ 58 文件、legal/ 7 文件、investment/ 7 文件、events/ 4 文件、outsourcing/ 4 文件、榜单含财富 500 强/独角兽/专精特新。
-  - app/ 深圳 2D 地图：24 份清单、去重 170+ 家公司、三主题（马卡龙/像素/猫咪）。
+  - docs/rankings/ 8 文件、docs/industry/ 148 文件（企业主表口径覆盖 36 个行业、30 座城市；按文件名 `<行业>-<城市>.md` 归集则为 29 个行业 slug × 29 个城市 slug，另有 8 份无城市后缀文件）、docs/industry-international/ 43 文件、docs/jobs/ 61 文件（含真实案例）、docs/careers/ 24 文件、docs/management/ 26 文件、docs/super-individual/ 58 文件、docs/legal/ 7 文件、docs/investment/ 7 文件、docs/events/ 4 文件、docs/outsourcing/ 4 文件、榜单含财富 500 强/独角兽/专精特新。
+  - app/ 深圳 2D 地图：24 份清单、去重 184 家公司、三主题（马卡龙/像素/猫咪）。
   - console/ 控制台：首页仪表板、企业查询、岗位查询、榜单浏览、数据分析五模块（React 19 + TS + AntD 6 + Vite 8）。
 - 硬约束：**发布页必须零依赖静态 HTML**（file:// 直接可开）；中文为主。
 - 必须保留的声明：内容 AI 辅助生成、未经逐一核实、数据收集截止 2026 年初、仅供参考（README「重要声明」）。
@@ -52,8 +52,8 @@ Standup Coder Database 是一个结构化知识数据库：收录权威企业榜
 
 ## Evidence on Hand
 
-- 全部模块文件数与目录结构：仓库根目录实测（rankings 8 / industry 148 / industry-international 43 / outsourcing 4+5 / jobs 61 / careers 24 / management 26 / super-individual 58 / legal 7+9 / investment 7+7 / events 4+10 / topics 9+2 / interview-skills 4+3 / resume-skills 4+3 / tech-foundations 2+3 / open-source-communities 3+2）。
-- 深圳 2D 地图实测数据：app/data/companies.json（由 scripts/build_app_data.py 生成，--check 断言行数/去重/覆盖率）。
+- 全部模块文件数与目录结构：`docs/` 下实测（rankings 8 / industry 148 / industry-international 43 / outsourcing 4+5 / jobs 61 / careers 24 / management 26 / super-individual 58 / legal 7+9 / investment 7+7 / events 4+10 / topics 9+2 / interview-skills 4+3 / resume-skills 4+3 / tech-foundations 2+3 / open-source-communities 3+2）。语料与文档集中在 `docs/`，仓库根只留产品入口 README 与 app/、console/、GTM/ 等交付面。
+- 深圳 2D 地图实测数据：app/data/companies.json（184 家 / 定位 142 家 / 29 个行业，由 `shared/pipeline/build.mjs` + `app/scripts/build-app-data.mjs` 两步生成，`--check` 断言家数、定位覆盖率、南山区家数与锚点坐标一致性）。
 - console/ 完整可运行（React 19 + AntD 6）。
 - 「职业发展教练专业平台」定位表述：README.md:249、255 等多处。
 - 不得虚构：用户数、star 数、下载量、媒体报道、客户/用户评价、任何 benchmark。页面只可用仓库实测数字。

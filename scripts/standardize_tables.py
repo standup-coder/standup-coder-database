@@ -238,8 +238,8 @@ if __name__ == '__main__':
                         help='项目根目录（默认当前目录）')
     parser.add_argument('--dry-run', '-n', action='store_true',
                         help='仅预览不实际写入')
-    parser.add_argument('--dir', '-d', default='industry',
-                        help='要处理的子目录（默认industry）')
+    parser.add_argument('--dir', '-d', default='docs/industry',
+                        help='要处理的子目录（默认docs/industry）')
 
     args = parser.parse_args()
 

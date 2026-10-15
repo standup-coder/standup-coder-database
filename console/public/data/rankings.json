@@ -40,7 +40,7 @@
     {
       "id": "fortune_500_2025",
       "name": "财富世界500强",
-      "file": "rankings-international/fortune_500_2025.md",
+      "file": "docs/rankings-international/fortune_500_2025.md",
       "year": 2025,
       "category": "global",
       "items": [
@@ -3671,7 +3671,7 @@
     {
       "id": "unicorn_2025",
       "name": "中国独角兽企业",
-      "file": "rankings/unicorn-enterprise.md",
+      "file": "docs/rankings/unicorn-enterprise.md",
       "year": 2025,
       "category": "unicorn",
       "items": [
@@ -4989,7 +4989,7 @@
     {
       "id": "gazelle_2025",
       "name": "中国瞪羚企业",
-      "file": "rankings/gazelle-enterprise.md",
+      "file": "docs/rankings/gazelle-enterprise.md",
       "year": 2025,
       "category": "gazelle",
       "items": [
@@ -6036,7 +6036,7 @@
     {
       "id": "private_enterprise_500",
       "name": "中国民营企业500强",
-      "file": "rankings/private-enterprise-500.md",
+      "file": "docs/rankings/private-enterprise-500.md",
       "year": 2025,
       "category": "private",
       "items": [
@@ -7321,7 +7321,7 @@
     {
       "id": "internet_100",
       "name": "中国互联网企业100强",
-      "file": "rankings/internet-100.md",
+      "file": "docs/rankings/internet-100.md",
       "year": 2025,
       "category": "internet",
       "items": [
@@ -9031,7 +9031,7 @@
     {
       "id": "software_100",
       "name": "中国软件百强",
-      "file": "rankings/software-100.md",
+      "file": "docs/rankings/software-100.md",
       "year": 2025,
       "category": "software",
       "items": [
@@ -10741,7 +10741,7 @@
     {
       "id": "manufacturing_champion",
       "name": "制造业单项冠军",
-      "file": "rankings/manufacturing-champion.md",
+      "file": "docs/rankings/manufacturing-champion.md",
       "year": 2025,
       "category": "manufacturing",
       "items": [
@@ -11448,7 +11448,7 @@
     {
       "id": "specialized_sme",
       "name": "专精特新小巨人",
-      "file": "rankings/specialized-sme-xiaojuren.md",
+      "file": "docs/rankings/specialized-sme-xiaojuren.md",
       "year": 2025,
       "category": "innovation",
       "items": [
@@ -12498,7 +12498,7 @@
       {
         "id": "fortune_500_2025",
         "name": "财富世界500强",
-        "file": "rankings-international/fortune_500_2025.md",
+        "file": "docs/rankings-international/fortune_500_2025.md",
         "year": 2025,
         "category": "global",
         "items": [
@@ -16129,7 +16129,7 @@
       {
         "id": "unicorn_2025",
         "name": "中国独角兽企业",
-        "file": "rankings/unicorn-enterprise.md",
+        "file": "docs/rankings/unicorn-enterprise.md",
         "year": 2025,
         "category": "unicorn",
         "items": [
@@ -17447,7 +17447,7 @@
       {
         "id": "gazelle_2025",
         "name": "中国瞪羚企业",
-        "file": "rankings/gazelle-enterprise.md",
+        "file": "docs/rankings/gazelle-enterprise.md",
         "year": 2025,
         "category": "gazelle",
         "items": [
@@ -18494,7 +18494,7 @@
       {
         "id": "private_enterprise_500",
         "name": "中国民营企业500强",
-        "file": "rankings/private-enterprise-500.md",
+        "file": "docs/rankings/private-enterprise-500.md",
         "year": 2025,
         "category": "private",
         "items": [
@@ -19779,7 +19779,7 @@
       {
         "id": "internet_100",
         "name": "中国互联网企业100强",
-        "file": "rankings/internet-100.md",
+        "file": "docs/rankings/internet-100.md",
         "year": 2025,
         "category": "internet",
         "items": [
@@ -21489,7 +21489,7 @@
       {
         "id": "software_100",
         "name": "中国软件百强",
-        "file": "rankings/software-100.md",
+        "file": "docs/rankings/software-100.md",
         "year": 2025,
         "category": "software",
         "items": [
@@ -23199,7 +23199,7 @@
       {
         "id": "manufacturing_champion",
         "name": "制造业单项冠军",
-        "file": "rankings/manufacturing-champion.md",
+        "file": "docs/rankings/manufacturing-champion.md",
         "year": 2025,
         "category": "manufacturing",
         "items": [
@@ -23906,7 +23906,7 @@
       {
         "id": "specialized_sme",
         "name": "专精特新小巨人",
-        "file": "rankings/specialized-sme-xiaojuren.md",
+        "file": "docs/rankings/specialized-sme-xiaojuren.md",
         "year": 2025,
         "category": "innovation",
         "items": [

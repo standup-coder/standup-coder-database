@@ -57,7 +57,7 @@ AI Agent 工作流 + Vibe Coding 工具链使"一人公司"（OPC）模式在 20
 
 **对程序员的启示**：程序员不再只有"打工"一条路。利用 AI 工具链构建个人产品、建立个人 IP、探索全球化收入，已成为可行的职业替代方案。
 
-> 来源：[Standup Coder Database - 超级个体与OPC知识体系](super-individual/)；[Zero To Mastery - Tech Job Market Trends February 2026](https://zerotomastery.io/blog/tech-job-market-trends-monthly-february-2026/)
+> 来源：[Standup Coder Database - 超级个体与OPC知识体系](../super-individual/)；[Zero To Mastery - Tech Job Market Trends February 2026](https://zerotomastery.io/blog/tech-job-market-trends-monthly-february-2026/)
 
 ---
 

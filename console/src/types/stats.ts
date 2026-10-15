@@ -19,9 +19,10 @@ export interface StatsInsights {
   topIndustry: IndustryInsight | null;
   topCity: CityInsight | null;
   topScale: DistributionItem | null;
+  /** 以下三个比率都是百分数，不是 0-1 的小数。 */
   listingRate: number;
-  tier1Rate: string;
-  newTier1Rate: string;
+  tier1Rate: number;
+  newTier1Rate: number;
 }
 
 export interface StatsData {

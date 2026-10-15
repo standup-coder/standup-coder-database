@@ -24,9 +24,12 @@ import {
 import { useCompanies, useFilterOptions, useCompanySearch } from '../../hooks/useCompanies';
 import { useSearchStore } from '../../stores/searchStore';
 import { Company, CompanyQuery } from '../../types/company';
-import { formatScale, calculateCompanyAge, extractDomain } from '../../utils/formatter';
+import { calculateCompanyAge, extractDomain } from '../../utils/formatter';
 
 const { Option } = Select;
+
+/** listingType 里代表「已经在某个交易所挂牌」的取值，用于绿色标签。 */
+const LISTED_TYPE = /交所$|创业板$|科创板$|新三板$/;
 
 export function Companies() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -87,10 +90,11 @@ export function Companies() {
     },
     {
       title: '规模',
-      dataIndex: 'scale',
+      dataIndex: 'scaleBandValue',
       key: 'scale',
       width: 120,
-      render: (scale: string) => formatScale(scale) || '-',
+      // 语料的 scale 是原文，分档值由 shared/pipeline 统一口径推出来
+      render: (scale: string) => scale || '-',
     },
     {
       title: '成立时间',
@@ -108,13 +112,14 @@ export function Companies() {
     },
     {
       title: '上市情况',
-      dataIndex: 'listingStatus',
-      key: 'listingStatus',
+      // 表格用 derive 出的 listingType，跟「上市状态」筛选项同一口径；
+      // 带股票代码的原文（「纽交所：BABA」）留在详情抽屉里。
+      dataIndex: 'listingType',
+      key: 'listingType',
       width: 120,
-      render: (status: string) => {
-        if (!status) return '-';
-        const color = status.includes('上市') || status.includes('交所') ? 'success' : 'default';
-        return <Tag color={color}>{status.slice(0, 10)}{status.length > 10 ? '...' : ''}</Tag>;
+      render: (type: string) => {
+        if (!type) return '-';
+        return <Tag color={LISTED_TYPE.test(type) ? 'success' : 'default'}>{type}</Tag>;
       },
     },
     {
@@ -206,7 +211,7 @@ export function Companies() {
                 allowClear
               >
                 {filterOptions?.industries?.map(industry => (
-                  <Option key={industry} value={industry}>{industry}</Option>
+                  <Option key={industry.slug} value={industry.name}>{industry.name}</Option>
                 ))}
               </Select>
               
@@ -293,17 +298,16 @@ export function Companies() {
             <Descriptions.Item label="业务领域">{selectedCompany.businessArea || '-'}</Descriptions.Item>
             <Descriptions.Item label="代表产品">{selectedCompany.products || '-'}</Descriptions.Item>
             <Descriptions.Item label="核心产品">{selectedCompany.coreProduct || '-'}</Descriptions.Item>
-            <Descriptions.Item label="公司规模">{formatScale(selectedCompany.scale) || '-'}</Descriptions.Item>
+            <Descriptions.Item label="公司规模">{selectedCompany.scale || '-'}</Descriptions.Item>
             <Descriptions.Item label="成立时间">{selectedCompany.foundedYear || '-'}</Descriptions.Item>
             <Descriptions.Item label="上市情况">
               {selectedCompany.listingStatus ? (
-                <Tag color={selectedCompany.listingStatus.includes('上市') || selectedCompany.listingStatus.includes('交所') ? 'success' : 'default'}>
+                <Tag color={LISTED_TYPE.test(selectedCompany.listingType || '') ? 'success' : 'default'}>
                   {selectedCompany.listingStatus}
                 </Tag>
               ) : '-'}
             </Descriptions.Item>
             <Descriptions.Item label="融资情况">{selectedCompany.funding || '-'}</Descriptions.Item>
-            <Descriptions.Item label="核心产品">{selectedCompany.coreProduct || '-'}</Descriptions.Item>
             <Descriptions.Item label="办公地址">{selectedCompany.address || '-'}</Descriptions.Item>
             <Descriptions.Item label="企业官网">
               {selectedCompany.website ? (

@@ -172,7 +172,7 @@ def main():
     parser.add_argument('--no_network', action='store_true', help='跳过URL可达性检查（仅格式校验）')
     args = parser.parse_args()
 
-    industry_dir = os.path.join(BASE, 'industry')
+    industry_dir = os.path.join(BASE, 'docs', 'industry')
 
     # 收集目标文件
     target_files = []

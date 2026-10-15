@@ -95,7 +95,7 @@
       "name": "台账行",
       "kind": "custom",
       "description": "迷你台账：等宽账目行，右值纸白。",
-      "html": "<div class=\"ds-ledger\"><div><span>industry/ · 行业数据库</span><span>148 篇</span></div><div><span>rankings/ · 榜单口径</span><span>可引用</span></div></div>",
+      "html": "<div class=\"ds-ledger\"><div><span>docs/industry/ · 行业数据库</span><span>148 篇</span></div><div><span>docs/rankings/ · 榜单口径</span><span>可引用</span></div></div>",
       "css": ".ds-ledger{border-top:2px solid #573c20;font-family:ui-monospace,'SF Mono',Menlo,monospace;font-variant-numeric:tabular-nums;font-size:12.5px}.ds-ledger div{display:flex;justify-content:space-between;gap:16px;padding:7px 2px;border-bottom:1px solid #2f1e0e;color:#cfc5b4}.ds-ledger span:last-child{color:#f7efdd}"
     },
     {
@@ -116,7 +116,7 @@
       "name": "拣法卡",
       "kind": "card",
       "description": "三种拣法的容器卡：木纹线边、悬停仅边线提亮。",
-      "html": "<div class=\"ds-mode\"><h3>求职者的版</h3><p>先在 jobs/ 里读 61 份真实岗位 JD，看清目标岗位到底要什么。</p></div>",
+      "html": "<div class=\"ds-mode\"><h3>求职者的版</h3><p>先在 docs/jobs/ 里读 61 份真实岗位 JD，看清目标岗位到底要什么。</p></div>",
       "css": ".ds-mode{border:1.5px solid #3f2a15;border-radius:10px;background:#191007;padding:30px 30px 26px;display:flex;flex-direction:column;transition:border-color .15s}.ds-mode:hover{border-color:#71522f}.ds-mode h3{font-family:'Songti SC','STSong','SimSun',serif;font-weight:900;font-size:1.55rem;letter-spacing:.05em;color:#f7efdd;margin:0}.ds-mode p{margin:14px 0 0;color:#cfc5b4;font-size:14.5px;line-height:1.95}"
     }
   ],

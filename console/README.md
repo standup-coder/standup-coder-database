@@ -68,14 +68,35 @@ console/
 │   ├── App.tsx            # 根组件
 │   ├── main.tsx           # 入口文件
 │   └── router.tsx         # 路由配置
-├── scripts/               # 构建脚本
+├── scripts/               # 数据同步与岗位/榜单生成脚本
+├── tests/                 # 单元测试（vitest）
 ├── docs/                  # 项目文档
 └── package.json           # 依赖管理
 ```
 
 ## 数据说明
 
-控制台使用的数据来源于项目根目录的 Markdown 文件，通过 `scripts/generate-data.cjs` 解析生成 JSON 数据文件。
+企业数据不在本目录解析。语料的解析、字段口径和派生规则都集中在仓库根目录的公用数据层 `shared/`：
+
+- `shared/schema/` — 字段清单与 JSON Schema。`src/types/company.ts` 从 `shared/schema/types/company.ts` 重导出 `Company`，字段只有一份出处。
+- `shared/vocab/` — 行业、规模、上市等受控词表。
+- `shared/pipeline/` — 解析、派生、校验，产物写入 `shared/data/dist/`。
+
+改动语料后同步数据：
+
+```bash
+npm run data        # 先跑 shared/pipeline/build.mjs，再把产物同步到 public/data
+npm run data:sync   # 只同步，不重新解析
+```
+
+`public/data/` 中 `companies.json`、`filter-options.json`、`stats.json` 是 `src/api/client.ts` 实际 fetch 的三个文件，随仓库提交，CI 直接消费。
+
+岗位与榜单语料尚未进入公用层，仍由本目录脚本生成：
+
+```bash
+npm run data:jobs       # → public/data/jobs.json
+npm run data:rankings   # → public/data/rankings.json
+```
 
 ## 贡献指南
 

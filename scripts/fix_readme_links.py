@@ -9,45 +9,23 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 README = ROOT / "README.md"
-SEARCH_DIRS = [
-    "industry",
-    "rankings",
-    "outsourcing",
-    "outsourcing-international",
-    "rankings-international",
-    "interview-skills",
-    "interview-skills-international",
-    "resume-skills",
-    "resume-skills-international",
-    "tech-foundations",
-    "tech-foundations-international",
-    "open-source-communities",
-    "open-source-communities-international",
-    "topics",
-    "topics-international",
-    "investment",
-    "investment-international",
-    "events",
-    "events-international",
-    "careers",
-    "careers-international",
-    "legal",
-    "legal-international",
-    "jobs",
-    "management",
-    "super-individual",
-]
+
+# 语料根目录：搬到 docs/ 后指向 docs/，否则回落仓库根。
+CONTENT_ROOT = ROOT / "docs" if (ROOT / "docs" / "industry").is_dir() else ROOT
+# 索引时跳过的目录：docs 下的元文档不是 README 链接的目标语料。
+SKIP_DIRS = {"reports", "project-assessments", "node_modules", ".git",
+             "console", "app", "scripts"}
 
 
 def build_file_index():
+    """文件名 -> 仓库根相对路径。整棵语料树扫一遍，省掉会过期的目录白名单。"""
     index = {}
-    for d in SEARCH_DIRS:
-        dir_path = ROOT / d
-        if not dir_path.exists():
+    if not CONTENT_ROOT.exists():
+        return index
+    for f in CONTENT_ROOT.rglob("*.md"):
+        if SKIP_DIRS & set(f.parts):
             continue
-        for f in dir_path.rglob("*.md"):
-            name = f.name
-            index.setdefault(name, []).append(f.relative_to(ROOT).as_posix())
+        index.setdefault(f.name, []).append(f.relative_to(ROOT).as_posix())
     return index
 
 

@@ -2,8 +2,9 @@
 (function () {
   var data = window.APP_DATA;
   if (!data || !data.companies) {
-    document.body.innerHTML = '<p style="padding:40px">数据缺失：请先运行 ' +
-      '<code>python3 scripts/build_app_data.py</code> 生成 app/data/。</p>';
+    document.body.innerHTML = '<p style="padding:40px">数据缺失：请依次运行 ' +
+      '<code>node shared/pipeline/build.mjs</code> 与 ' +
+      '<code>node app/scripts/build-app-data.mjs</code> 生成 app/data/。</p>';
     return;
   }
 

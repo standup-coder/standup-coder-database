@@ -30,8 +30,10 @@ from pathlib import Path
 from datetime import datetime
 from collections import defaultdict
 
-# 需跳过的目录（非内容文件）
-SKIP_DIRS = {'console', 'app', 'node_modules', '.git', 'scripts', 'docs',
+# 需跳过的目录（非内容文件）。语料整体搬到 docs/ 后，docs 本身不能再跳过，
+# 只排除 docs 下的元文档目录（原 docs/ 整体跳过的等价范围）。
+SKIP_DIRS = {'console', 'app', 'node_modules', '.git', 'scripts',
+             'reports', 'project-assessments',
              '.zcode', '.claude', '.qoder', '.trae'}
 
 # frontmatter 必填字段
@@ -227,12 +229,16 @@ def main():
     args = parser.parse_args()
 
     base = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+    # 语料根：语料在 docs/ 下时只校验 docs/，仓库根的项目元文档（PRODUCT.md、
+    # DESIGN.md 等）不承担语料 frontmatter 契约。与 shared/pipeline/paths.mjs 同一口径。
+    content_root = (os.path.join(base, 'docs')
+                    if os.path.isdir(os.path.join(base, 'docs', 'industry')) else base)
 
     all_issues = []
     file_count = 0
     files_with_errors = set()
 
-    for root, dirs, files in os.walk(base):
+    for root, dirs, files in os.walk(content_root):
         dirs[:] = [d for d in dirs if d not in SKIP_DIRS]
         for fname in files:
             if not fname.endswith('.md'):

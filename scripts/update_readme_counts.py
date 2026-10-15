@@ -19,18 +19,22 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 README = ROOT / "README.md"
 
-# 校验/统计时跳过的非内容目录
-SKIP = {"console", "app", "node_modules", ".git", "scripts", "docs",
-        ".github", ".qoder", ".zcode", ".claude", ".zcode", ".trae"}
+# 语料根：搬到 docs/ 后指向 docs/，否则回落仓库根（与 shared/pipeline/paths.mjs 同一口径）
+CONTENT_ROOT = ROOT / "docs" if (ROOT / "docs" / "industry").is_dir() else ROOT
+
+# 校验/统计时跳过的非内容目录（docs 下的元文档，语料目录不在其中）
+SKIP = {"console", "app", "node_modules", ".git", "scripts",
+        "reports", "project-assessments",
+        ".github", ".qoder", ".zcode", ".claude", ".trae"}
 
 
 def count_md(path: str) -> int:
-    p = ROOT / path
+    p = CONTENT_ROOT / path
     return len(list(p.rglob("*.md"))) if p.exists() else 0
 
 
 def count_glob(path: str, pattern: str) -> int:
-    return len(list((ROOT / path).glob(pattern)))
+    return len(list((CONTENT_ROOT / path).glob(pattern)))
 
 
 def count_all_content_md() -> int:

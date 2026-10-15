@@ -11,11 +11,21 @@ from typing import Dict, List, Any
 from collections import defaultdict
 
 
+def resolve_content_root(base_path: str) -> str:
+    """语料根目录：语料在 docs/ 下时返回 docs/，否则回落 base_path。
+    与 shared/pipeline/paths.mjs 的 resolveContentRoot 同一口径，脚本不必随搬迁改动。"""
+    under_docs = os.path.join(base_path, 'docs')
+    if os.path.isdir(os.path.join(under_docs, 'industry')):
+        return under_docs
+    return base_path
+
+
 class ContentValidator:
     """内容验证器"""
 
     def __init__(self, base_path: str):
         self.base_path = base_path
+        self.content_root = resolve_content_root(base_path)
         self.issues = []
         self.stats = defaultdict(int)
 
@@ -110,7 +120,7 @@ class ContentValidator:
     def validate_directory(self, subdir: str = None) -> Dict[str, Any]:
         """验证目录"""
         if subdir:
-            target_path = os.path.join(self.base_path, subdir)
+            target_path = os.path.join(self.content_root, subdir)
         else:
             target_path = self.base_path
 
@@ -187,7 +197,7 @@ class ContentValidator:
 
 def check_table_consistency(base_path: str, category: str = 'industry'):
     """检查表格结构一致性"""
-    target_path = os.path.join(base_path, category)
+    target_path = os.path.join(resolve_content_root(base_path), category)
 
     table_stats = defaultdict(list)
 

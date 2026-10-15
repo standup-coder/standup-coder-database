@@ -146,7 +146,7 @@ def main():
     parser.add_argument('--dry-run', '-n', action='store_true')
     args = parser.parse_args()
 
-    target_dir = 'industry'
+    target_dir = 'docs/industry'
     updated = 0
 
     for filename in os.listdir(target_dir):

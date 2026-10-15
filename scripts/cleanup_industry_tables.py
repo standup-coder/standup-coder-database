@@ -183,7 +183,7 @@ def process_file(file_path: str, dry_run: bool) -> dict:
 def main():
     parser = argparse.ArgumentParser(description='industry 主表字段统一 + 数据债清理')
     parser.add_argument('--dry-run', '-n', action='store_true', help='仅预览不写入')
-    parser.add_argument('--dir', '-d', default='industry', help='目标目录')
+    parser.add_argument('--dir', '-d', default='docs/industry', help='目标目录')
     args = parser.parse_args()
 
     base = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))

@@ -1,10 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-28",
-    "sourceFiles": 24,
-    "rawRows": 240,
-    "companies": 171,
-    "located": 130
+    "generatedAt": "2026-10-06",
+    "source": "shared/data/dist/companies.json",
+    "datasetVersion": "28227a2807b9",
+    "sourceFiles": 35,
+    "companies": 184,
+    "located": 142
   },
   "industries": [
     {
@@ -13,19 +14,14 @@
       "color": "#FF8FAB"
     },
     {
-      "id": "ai",
-      "name": "人工智能",
-      "color": "#B79CED"
+      "id": "semiconductor",
+      "name": "半导体",
+      "color": "#A3C4F3"
     },
     {
-      "id": "automation",
-      "name": "工业自动化",
-      "color": "#7FB5E8"
-    },
-    {
-      "id": "battery",
-      "name": "电池储能",
-      "color": "#FFC66B"
+      "id": "edge-computing",
+      "name": "边缘计算",
+      "color": "#A6C8FF"
     },
     {
       "id": "bigdata",
@@ -33,9 +29,44 @@
       "color": "#7FD8BE"
     },
     {
-      "id": "biotech",
-      "name": "生物医药",
-      "color": "#F9A1BC"
+      "id": "battery",
+      "name": "电池储能",
+      "color": "#FFC66B"
+    },
+    {
+      "id": "automation",
+      "name": "工业自动化",
+      "color": "#7FB5E8"
+    },
+    {
+      "id": "internet",
+      "name": "互联网",
+      "color": "#FF9E9E"
+    },
+    {
+      "id": "robotics",
+      "name": "机器人",
+      "color": "#FFB5A7"
+    },
+    {
+      "id": "fintech",
+      "name": "金融科技",
+      "color": "#FFB36B"
+    },
+    {
+      "id": "tech-innovation",
+      "name": "科技创新",
+      "color": "#FFD6A5"
+    },
+    {
+      "id": "quantum",
+      "name": "量子科技",
+      "color": "#C9A7EB"
+    },
+    {
+      "id": "agritech",
+      "name": "农业科技",
+      "color": "#A8E0A0"
     },
     {
       "id": "blockchain",
@@ -43,13 +74,28 @@
       "color": "#9AC8FF"
     },
     {
-      "id": "cloud",
-      "name": "云计算",
-      "color": "#89CFF0"
+      "id": "ai",
+      "name": "人工智能",
+      "color": "#B79CED"
+    },
+    {
+      "id": "software",
+      "name": "软件",
+      "color": "#B8B5FF"
+    },
+    {
+      "id": "biotech",
+      "name": "生物技术",
+      "color": "#F9A1BC"
+    },
+    {
+      "id": "digital-twin",
+      "name": "数字孪生",
+      "color": "#9AD9E8"
     },
     {
       "id": "cybersecurity",
-      "name": "网络安全服务",
+      "name": "网络安全",
       "color": "#C0A6F5"
     },
     {
@@ -58,29 +104,9 @@
       "color": "#8AD8C8"
     },
     {
-      "id": "ev",
-      "name": "新能源汽车",
-      "color": "#7EDE9F"
-    },
-    {
-      "id": "fintech",
-      "name": "金融科技",
-      "color": "#FFB36B"
-    },
-    {
-      "id": "internet",
-      "name": "互联网",
-      "color": "#FF9E9E"
-    },
-    {
       "id": "iot",
       "name": "物联网",
       "color": "#9EE6C9"
-    },
-    {
-      "id": "new-energy",
-      "name": "新能源",
-      "color": "#B5E48C"
     },
     {
       "id": "new-materials",
@@ -88,24 +114,29 @@
       "color": "#F4B8D0"
     },
     {
-      "id": "quantum",
-      "name": "量子科技",
-      "color": "#C9A7EB"
+      "id": "new-energy",
+      "name": "新能源",
+      "color": "#B5E48C"
     },
     {
-      "id": "robotics",
-      "name": "机器人",
-      "color": "#FFB5A7"
+      "id": "ev",
+      "name": "新能源汽车",
+      "color": "#7EDE9F"
     },
     {
-      "id": "security",
-      "name": "IT安全",
-      "color": "#F49E8C"
+      "id": "entertainment-tech",
+      "name": "娱乐科技",
+      "color": "#F5A6D9"
     },
     {
-      "id": "semiconductor",
-      "name": "半导体",
-      "color": "#A3C4F3"
+      "id": "cloud",
+      "name": "云计算",
+      "color": "#89CFF0"
+    },
+    {
+      "id": "smartcity",
+      "name": "智慧城市",
+      "color": "#9EC9E0"
     },
     {
       "id": "smart-manufacturing",
@@ -113,14 +144,9 @@
       "color": "#93D3E8"
     },
     {
-      "id": "software",
-      "name": "软件",
-      "color": "#B8B5FF"
-    },
-    {
-      "id": "tech-innovation",
-      "name": "科技创新",
-      "color": "#FFD6A5"
+      "id": "security",
+      "name": "IT安全",
+      "color": "#F49E8C"
     },
     {
       "id": "web3",
@@ -130,30 +156,7 @@
   ],
   "companies": [
     {
-      "id": "c000",
-      "name": "DFINITY Foundation Shenzhen Office",
-      "abbr": "DFINITY",
-      "industries": [
-        "web3"
-      ],
-      "founded": "2021年",
-      "fields": "Internet Computer、去中心化云计算、Web3基础设施",
-      "product": "",
-      "size": "100+人",
-      "listing": "",
-      "website": "https://dfinity.org",
-      "repo": null,
-      "address": "深圳市南山区后海总部基地",
-      "district": "南山区",
-      "anchor": "深圳湾",
-      "x": 369.0,
-      "y": 499.8,
-      "sources": [
-        "web3-shenzhen.md"
-      ]
-    },
-    {
-      "id": "c001",
+      "id": "c0oumffp",
       "name": "HashKey Group (Shenzhen) Innovation Center",
       "abbr": "HashKey",
       "industries": [
@@ -161,22 +164,22 @@
       ],
       "founded": "2022年",
       "fields": "数字资产交易所、机构服务、Web3投资",
-      "product": "",
+      "product": "数字资产现货和衍生品交易",
       "size": "200+人",
-      "listing": "",
+      "listing": null,
       "website": "https://www.hashkey.com",
       "repo": null,
       "address": "深圳市前海深港合作区",
       "district": "前海",
       "anchor": "前海",
-      "x": 222.2,
-      "y": 407.6,
+      "x": 198.4,
+      "y": 392,
       "sources": [
         "web3-shenzhen.md"
       ]
     },
     {
-      "id": "c002",
+      "id": "c05x4q8f",
       "name": "Mask Network (Shenzhen) Technology Co., Ltd.",
       "abbr": "Mask",
       "industries": [
@@ -184,22 +187,22 @@
       ],
       "founded": "2022年",
       "fields": "去中心化社交、加密钱包、Web3浏览器插件",
-      "product": "",
+      "product": "Web3浏览器插件开发",
       "size": "150+人",
-      "listing": "",
+      "listing": null,
       "website": "https://mask.io",
       "repo": null,
       "address": "深圳市福田区香蜜湖",
       "district": "福田区",
       "anchor": "福田中心",
-      "x": 426.3,
-      "y": 417.1,
+      "x": 429.7,
+      "y": 397.1,
       "sources": [
         "web3-shenzhen.md"
       ]
     },
     {
-      "id": "c003",
+      "id": "c0q9m3n4",
       "name": "Pico Interactive (Shenzhen) Co., Ltd.",
       "abbr": "Pico",
       "industries": [
@@ -207,47 +210,47 @@
       ],
       "founded": "2021年(收购后)",
       "fields": "VR硬件、元宇宙内容、虚拟社交",
-      "product": "",
+      "product": "Pico VR头显设备研发",
       "size": "400+人",
-      "listing": "",
+      "listing": null,
       "website": "https://www.picovr.com",
       "repo": null,
       "address": "深圳市南山区科技园",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 335.5,
-      "y": 410.8,
+      "x": 315.2,
+      "y": 357.8,
       "sources": [
         "web3-shenzhen.md"
       ]
     },
     {
-      "id": "c004",
+      "id": "c1k9k2yo",
       "name": "深圳市万兴科技股份有限公司",
       "abbr": "万兴科技",
       "industries": [
-        "bigdata",
-        "software"
+        "software",
+        "bigdata"
       ],
       "founded": "2003年",
-      "fields": "数字创意、大数据、SaaS",
-      "product": "万兴喵影、亿图、墨刀",
-      "size": "3000+人",
+      "fields": "消费类软件、创意软件、AI软件",
+      "product": "万兴喵影、万兴优转、亿图图示",
+      "size": "1000-5000人",
       "listing": "深交所：300624",
       "website": "https://www.wondershare.cn",
       "repo": "https://github.com/Wondershare",
       "address": "总部：深圳市南山区科技园科技南十二路28号康佳研发大厦15-16层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 324.6,
-      "y": 461.5,
+      "x": 435.7,
+      "y": 428.6,
       "sources": [
-        "bigdata-shenzhen.md",
-        "software-shenzhen.md"
+        "software-shenzhen.md",
+        "bigdata-shenzhen.md"
       ]
     },
     {
-      "id": "c005",
+      "id": "c1e8cl4q",
       "name": "深圳市万润科技股份有限公司",
       "abbr": "万润科技",
       "industries": [
@@ -263,14 +266,14 @@
       "address": "总部：深圳市宝安区石岩街道塘头大道196号",
       "district": "宝安区",
       "anchor": "石岩",
-      "x": 316.6,
-      "y": 243.1,
+      "x": 317.2,
+      "y": 272.5,
       "sources": [
         "new-materials-shenzhen.md"
       ]
     },
     {
-      "id": "c006",
+      "id": "c1rqblta",
       "name": "深圳市东方通科技股份有限公司",
       "abbr": "东方通",
       "industries": [
@@ -286,14 +289,14 @@
       "address": "总部：深圳市南山区科技园高新南一道008号创维大厦B座14层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 351.8,
-      "y": 459.9,
+      "x": 428.2,
+      "y": 380.9,
       "sources": [
         "software-shenzhen.md"
       ]
     },
     {
-      "id": "c007",
+      "id": "c11ipkdz",
       "name": "深圳市中兴微电子技术有限公司",
       "abbr": "中兴微电子",
       "industries": [
@@ -305,18 +308,18 @@
       "size": "1000-5000人",
       "listing": "未上市（中兴通讯子公司）",
       "website": "https://www.sanechips.com",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区高新技术产业园",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 350.5,
-      "y": 394.8,
+      "x": 400.1,
+      "y": 380.7,
       "sources": [
         "semiconductor-shenzhen.md"
       ]
     },
     {
-      "id": "c008",
+      "id": "c0f3g89m",
       "name": "深圳市中兴新材技术股份有限公司",
       "abbr": "中兴新材",
       "industries": [
@@ -332,20 +335,21 @@
       "address": "总部：深圳市南山区高新技术产业园",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 372.4,
-      "y": 441.7,
+      "x": 308.9,
+      "y": 366.9,
       "sources": [
         "new-materials-shenzhen.md"
       ]
     },
     {
-      "id": "c009",
+      "id": "c005dbcw",
       "name": "深圳市中兴通讯股份有限公司",
       "abbr": "中兴通讯",
       "industries": [
         "3c",
         "bigdata",
-        "iot"
+        "iot",
+        "tech-innovation"
       ],
       "founded": "1985年",
       "fields": "通信设备、智能手机",
@@ -354,7 +358,7 @@
       "listing": "深交所：000063",
       "website": "https://www.zte.com.cn",
       "repo": null,
-      "address": "",
+      "address": "深圳",
       "district": null,
       "anchor": null,
       "x": null,
@@ -362,11 +366,36 @@
       "sources": [
         "3c-shenzhen.md",
         "bigdata-shenzhen.md",
-        "iot-shenzhen.md"
+        "iot-shenzhen.md",
+        "3c-guangzhou.md",
+        "tech-innovation-shenzhen.md"
       ]
     },
     {
-      "id": "c010",
+      "id": "c0wah780",
+      "name": "中兴通讯股份有限公司边缘计算事业部",
+      "abbr": "中兴通讯股份有限公司",
+      "industries": [
+        "edge-computing"
+      ],
+      "founded": "2019年",
+      "fields": "5G MEC、边缘网络、工业边缘、智慧城市边缘",
+      "product": "5G多接入边缘计算平台",
+      "size": "2000+人",
+      "listing": null,
+      "website": "https://www.zte.com.cn/edge",
+      "repo": null,
+      "address": "深圳市南山区中兴通讯大厦",
+      "district": "南山区",
+      "anchor": null,
+      "x": 356.4,
+      "y": 451.1,
+      "sources": [
+        "edge-computing.md"
+      ]
+    },
+    {
+      "id": "c1vqvito",
       "name": "深圳中科量子技术有限公司",
       "abbr": "中科量子技术",
       "industries": [
@@ -374,7 +403,7 @@
       ],
       "founded": "2019年",
       "fields": "海洋量子技术、量子导航",
-      "product": "",
+      "product": "海洋量子通信系统",
       "size": "80+人",
       "listing": "未上市",
       "website": "http://www.cas-quantum.cn",
@@ -382,14 +411,14 @@
       "address": "深圳市盐田区大鹏湾",
       "district": "盐田区",
       "anchor": "盐田",
-      "x": 649.1,
-      "y": 405.4,
+      "x": 643.9,
+      "y": 462,
       "sources": [
         "quantum-shenzhen.md"
       ]
     },
     {
-      "id": "c011",
+      "id": "c01c252f",
       "name": "深圳市乐信控股有限公司",
       "abbr": "乐信",
       "industries": [
@@ -401,18 +430,18 @@
       "size": "1000-5000人",
       "listing": "纳斯达克：LX",
       "website": "https://www.lexin.com",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区高新南一道8号创维大厦A座9层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 369.6,
-      "y": 405.0,
+      "x": 368.3,
+      "y": 444,
       "sources": [
         "internet-shenzhen.md"
       ]
     },
     {
-      "id": "c012",
+      "id": "c0wqgbyl",
       "name": "深圳乐聚机器人技术有限公司",
       "abbr": "乐聚机器人",
       "industries": [
@@ -428,43 +457,43 @@
       "address": "总部：深圳市南山区",
       "district": "南山区",
       "anchor": null,
-      "x": 325.2,
-      "y": 458.0,
+      "x": 326.4,
+      "y": 398.4,
       "sources": [
         "robotics-shenzhen.md"
       ]
     },
     {
-      "id": "c013",
-      "name": "深圳市云天励飞技术股份有限公司",
+      "id": "c0el12n6",
+      "name": "深圳云天励飞技术股份有限公司",
       "abbr": "云天励飞",
       "industries": [
-        "ai",
-        "bigdata",
         "cloud",
-        "tech-innovation"
+        "ai",
+        "tech-innovation",
+        "bigdata"
       ],
       "founded": "2014年",
-      "fields": "计算机视觉、AI芯片、智慧城市",
-      "product": "云天励飞AI芯片、智慧安防解决方案、智慧交通系统",
+      "fields": "AI云、计算机视觉",
+      "product": "云天励飞AI平台",
       "size": "1000-5000人",
-      "listing": "科创板：688343",
-      "website": "https://www.intellifusion.com",
-      "repo": "无",
-      "address": "深圳市南山区科苑路6号航盛科技大厦",
+      "listing": "已上市(688343)",
+      "website": "https://www.intellif.com",
+      "repo": null,
+      "address": "总部：深圳市南山区高新南一道8号创维大厦A座",
       "district": "南山区",
-      "anchor": null,
-      "x": 286.6,
-      "y": 423.2,
+      "anchor": "科技园",
+      "x": 278.5,
+      "y": 393.3,
       "sources": [
-        "ai-shenzhen.md",
-        "bigdata-shenzhen.md",
         "cloud-shenzhen.md",
-        "tech-innovation-shenzhen.md"
+        "ai-shenzhen.md",
+        "tech-innovation-shenzhen.md",
+        "bigdata-shenzhen.md"
       ]
     },
     {
-      "id": "c014",
+      "id": "c1hlw0sd",
       "name": "深圳云盾智慧科技有限公司",
       "abbr": "云盾智慧",
       "industries": [
@@ -474,10 +503,10 @@
       "fields": "云安全、安全运营、等保服务",
       "product": "云安全运营、等保测评、安全咨询",
       "size": "100-300人",
-      "listing": "",
+      "listing": null,
       "website": "https://www.yundunzh.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -487,7 +516,7 @@
       ]
     },
     {
-      "id": "c015",
+      "id": "c0klkcof",
       "name": "深圳市任子行网络技术有限公司",
       "abbr": "任子行",
       "industries": [
@@ -496,11 +525,11 @@
       "founded": "2000年",
       "fields": "网络安全、数据安全、工控安全",
       "product": "网络审计、内容安全、工控安全",
-      "size": "1000-5000人",
+      "size": "任子行网络审计系统、内容安全管理、工控安全监测",
       "listing": "已上市(300311)",
       "website": null,
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -510,36 +539,36 @@
       ]
     },
     {
-      "id": "c016",
+      "id": "c0wwo0t7",
       "name": "深圳市优必选科技股份有限公司",
       "abbr": "优必选",
       "industries": [
+        "robotics",
         "ai",
         "bigdata",
-        "iot",
-        "robotics"
+        "iot"
       ],
       "founded": "2012年",
-      "fields": "智能机器人、AI算法、机器人操作系统",
-      "product": "Alpha系列机器人、悟空机器人、商用服务机器人、Walker人形机器人",
+      "fields": "人形机器人、服务机器人",
+      "product": "Walker人形机器人、Cruzr服务机器人",
       "size": "1000-5000人",
       "listing": "港交所：09880",
       "website": "https://www.ubtrobot.com",
-      "repo": "https://github.com/UBTEDU",
-      "address": "总部：深圳市南山区",
+      "repo": "https://github.com/UBTECH-ROBOTICS",
+      "address": "总部：深圳市南山区学苑大道1001号南山智园C1栋16-20楼",
       "district": "南山区",
-      "anchor": null,
-      "x": 279.1,
-      "y": 465.3,
+      "anchor": "南山智园",
+      "x": 336.4,
+      "y": 325.3,
       "sources": [
+        "robotics-shenzhen.md",
         "ai-shenzhen.md",
         "bigdata-shenzhen.md",
-        "iot-shenzhen.md",
-        "robotics-shenzhen.md"
+        "iot-shenzhen.md"
       ]
     },
     {
-      "id": "c017",
+      "id": "c1rvqg1j",
       "name": "深圳传音控股股份有限公司",
       "abbr": "传音控股",
       "industries": [
@@ -552,7 +581,7 @@
       "listing": "科创板：688036",
       "website": "https://www.transsion.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -562,7 +591,7 @@
       ]
     },
     {
-      "id": "c018",
+      "id": "c1altg79",
       "name": "深圳信立泰药业股份有限公司",
       "abbr": "信立泰",
       "industries": [
@@ -578,14 +607,14 @@
       "address": "总部：深圳市南山区高新技术产业园",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 371.3,
-      "y": 457.1,
+      "x": 393.2,
+      "y": 503.4,
       "sources": [
         "biotech-shenzhen.md"
       ]
     },
     {
-      "id": "c019",
+      "id": "c1ffh292",
       "name": "深圳市信维通信股份有限公司",
       "abbr": "信维通信",
       "industries": [
@@ -598,7 +627,7 @@
       "listing": "深交所：300136",
       "website": "https://www.sunwaycn.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -608,7 +637,7 @@
       ]
     },
     {
-      "id": "c020",
+      "id": "c1tpoqz8",
       "name": "深圳市健康元药业集团股份有限公司",
       "abbr": "健康元",
       "industries": [
@@ -624,14 +653,14 @@
       "address": "总部：深圳市南山区科技南八路2号",
       "district": "南山区",
       "anchor": null,
-      "x": 283.1,
-      "y": 475.7,
+      "x": 333.7,
+      "y": 394.3,
       "sources": [
         "biotech-shenzhen.md"
       ]
     },
     {
-      "id": "c021",
+      "id": "c1s7oic3",
       "name": "深圳市元戎启行科技有限公司",
       "abbr": "元戎启行",
       "industries": [
@@ -643,18 +672,18 @@
       "size": "500-1000人",
       "listing": "未上市",
       "website": "https://www.deeproute.ai",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区科技园",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 325.9,
-      "y": 481.6,
+      "x": 363.8,
+      "y": 535.3,
       "sources": [
         "ai-shenzhen.md"
       ]
     },
     {
-      "id": "c022",
+      "id": "c13akm6v",
       "name": "深圳市先进微电子科技有限公司",
       "abbr": "先进微",
       "industries": [
@@ -667,7 +696,7 @@
       "listing": "未上市",
       "website": "https://www.asmpt.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -677,7 +706,7 @@
       ]
     },
     {
-      "id": "c023",
+      "id": "c132p6wx",
       "name": "深圳市创梦天地科技有限公司",
       "abbr": "创梦天地",
       "industries": [
@@ -691,18 +720,18 @@
       "listing": "港交所：01119.HK",
       "website": "https://www.idreamsky.com",
       "repo": "https://github.com/idreamsky",
-      "address": "总部：深圳市南山区高新南一道8号创维大厦",
+      "address": "总部：深圳市南山区高新南一道8号创维大厦A座7层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 315.1,
-      "y": 481.9,
+      "x": 406.6,
+      "y": 384.8,
       "sources": [
         "internet-shenzhen.md",
         "software-shenzhen.md"
       ]
     },
     {
-      "id": "c024",
+      "id": "c0l42ljt",
       "name": "深圳市创梦天地科技有限公司元宇宙工作室",
       "abbr": "创梦天地",
       "industries": [
@@ -710,7 +739,7 @@
       ],
       "founded": "2021年",
       "fields": "游戏元宇宙、虚拟偶像、数字娱乐",
-      "product": "",
+      "product": "游戏元宇宙平台开发",
       "size": "250+人",
       "listing": "港交所创业板上市(01119.HK)",
       "website": "https://www.ic",
@@ -718,14 +747,37 @@
       "address": "深圳市南山区科技园",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 287.1,
-      "y": 394.0,
+      "x": 312.9,
+      "y": 497.3,
       "sources": [
         "web3-shenzhen.md"
       ]
     },
     {
-      "id": "c025",
+      "id": "c00plnru",
+      "name": "深圳市创梦天地科技有限公司虚拟娱乐事业部",
+      "abbr": "创梦天地科技有限公司",
+      "industries": [
+        "entertainment-tech"
+      ],
+      "founded": "2021年",
+      "fields": "虚拟偶像、数字娱乐、元宇宙、NFT收藏品",
+      "product": "虚拟偶像养成和运营",
+      "size": "1000+人",
+      "listing": "港交所上市公司(1119.HK)",
+      "website": "https://www.ic",
+      "repo": null,
+      "address": "深圳市南山区科技园",
+      "district": "南山区",
+      "anchor": "科技园",
+      "x": 297.1,
+      "y": 446.8,
+      "sources": [
+        "entertainment-tech.md"
+      ]
+    },
+    {
+      "id": "c06aiv8f",
       "name": "深圳市创维数字技术有限公司",
       "abbr": "创维数字",
       "industries": [
@@ -738,7 +790,7 @@
       "listing": "深交所：000810",
       "website": "https://www.skyworth.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -748,7 +800,76 @@
       ]
     },
     {
-      "id": "c026",
+      "id": "c1wmjutz",
+      "name": "深圳前海微众银行股份有限公司",
+      "abbr": "微众银行",
+      "industries": [
+        "fintech"
+      ],
+      "founded": "2014年",
+      "fields": "互联网银行、消费金融",
+      "product": "微粒贷、微车贷、小鹅花钱",
+      "size": "5000-10000人",
+      "listing": "未上市",
+      "website": "https://www.webank.com",
+      "repo": null,
+      "address": "深圳市南山区深南大道9968号",
+      "district": "南山区",
+      "anchor": "福田中心",
+      "x": 468.3,
+      "y": 363.8,
+      "sources": [
+        "fintech-shenzhen.md"
+      ]
+    },
+    {
+      "id": "c083fnvi",
+      "name": "深圳前海微众银行金融科技有限公司",
+      "abbr": "微众区块链",
+      "industries": [
+        "blockchain"
+      ],
+      "founded": "2016年",
+      "fields": "联盟链、分布式身份",
+      "product": "FISCO BCOS、WeDPR隐私保护",
+      "size": "500+人",
+      "listing": "未上市（微众银行子公司）",
+      "website": "https://fisco-bcos.org",
+      "repo": null,
+      "address": null,
+      "district": null,
+      "anchor": null,
+      "x": null,
+      "y": null,
+      "sources": [
+        "blockchain-shenzhen.md"
+      ]
+    },
+    {
+      "id": "c146381v",
+      "name": "深圳市剪映科技有限公司",
+      "abbr": "剪映",
+      "industries": [
+        "entertainment-tech"
+      ],
+      "founded": "2019年",
+      "fields": "视频编辑、内容创作、AI剪辑、特效制作",
+      "product": "剪映视频编辑软件",
+      "size": "2000+人",
+      "listing": null,
+      "website": "https://www.capcut.cn",
+      "repo": null,
+      "address": "深圳市南山区粤海街道",
+      "district": "南山区",
+      "anchor": "科技园",
+      "x": 417.9,
+      "y": 406.3,
+      "sources": [
+        "entertainment-tech.md"
+      ]
+    },
+    {
+      "id": "c1h6koy2",
       "name": "深圳市劲拓自动化设备股份有限公司",
       "abbr": "劲拓股份",
       "industries": [
@@ -761,7 +882,7 @@
       "listing": "深交所：300400",
       "website": "https://www.leadsmt.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -771,71 +892,167 @@
       ]
     },
     {
-      "id": "c027",
-      "name": "华为技术有限公司",
-      "abbr": "华为",
+      "id": "c09t1cma",
+      "name": "华为云计算技术有限公司区块链事业部",
+      "abbr": "华为云区块链服务",
       "industries": [
-        "3c",
-        "bigdata",
-        "blockchain",
-        "cloud",
-        "iot",
-        "security",
-        "smart-manufacturing",
-        "tech-innovation",
         "web3"
       ],
-      "founded": "1987年",
-      "fields": "通信设备、智能手机、笔记本",
-      "product": "华为Mate/P系列手机、MateBook",
-      "size": "200000+人",
-      "listing": "未上市",
-      "website": "https://www.huawei.com",
-      "repo": "https://github.com/huaweicloud",
-      "address": "深圳市龙岗区坂田华为基地",
+      "founded": "2018年",
+      "fields": "区块链BaaS、联盟链、数字人民币",
+      "product": "华为云区块链服务(BCS)",
+      "size": "800+人",
+      "listing": null,
+      "website": "https://www.huaweicloud.com",
+      "repo": null,
+      "address": "深圳市龙岗区华为坂田基地",
       "district": "龙岗区",
       "anchor": "坂田",
-      "x": 514.7,
-      "y": 286.9,
+      "x": 510.9,
+      "y": 282.3,
       "sources": [
-        "3c-shenzhen.md",
-        "bigdata-shenzhen.md",
-        "blockchain-shenzhen.md",
-        "cloud-shenzhen.md",
-        "iot-shenzhen.md",
-        "security-shenzhen.md",
-        "smart-manufacturing-shenzhen.md",
-        "tech-innovation-shenzhen.md",
         "web3-shenzhen.md"
       ]
     },
     {
-      "id": "c028",
-      "name": "深圳市华大基因股份有限公司",
-      "abbr": "华大基因",
+      "id": "c1o7dzkh",
+      "name": "华为云计算技术有限公司",
+      "abbr": "华为云",
       "industries": [
-        "biotech",
-        "blockchain"
+        "cloud",
+        "tech-innovation",
+        "3c",
+        "bigdata",
+        "blockchain",
+        "iot",
+        "smart-manufacturing",
+        "security",
+        "ai"
+      ],
+      "founded": "2017年",
+      "fields": "IaaS、PaaS、SaaS、5G云",
+      "product": "华为云ECS、盘古大模型",
+      "size": "10000+人",
+      "listing": "未上市(华为集团)",
+      "website": "https://www.huaweicloud.com",
+      "repo": "https://github.com/huaweicloud",
+      "address": "深圳",
+      "district": null,
+      "anchor": null,
+      "x": null,
+      "y": null,
+      "sources": [
+        "cloud-shenzhen.md",
+        "tech-innovation-shenzhen.md",
+        "3c-shenzhen.md",
+        "bigdata-shenzhen.md",
+        "blockchain-shenzhen.md",
+        "iot-shenzhen.md",
+        "smart-manufacturing-shenzhen.md",
+        "security-shenzhen.md",
+        "3c-guangzhou.md",
+        "3c-hangzhou.md",
+        "3c-shanghai.md",
+        "ai-guangzhou.md",
+        "bigdata-guangzhou.md"
+      ]
+    },
+    {
+      "id": "c15zxu0w",
+      "name": "华为技术有限公司数字孪生创新中心",
+      "abbr": "华为数字孪生创新中心",
+      "industries": [
+        "digital-twin"
+      ],
+      "founded": "2021年",
+      "fields": "工业数字孪生、园区数字孪生、能源数字孪生",
+      "product": "华为云ROMA数字孪生平台",
+      "size": "1800+人",
+      "listing": null,
+      "website": "https://www.huawei.com/dtwin",
+      "repo": null,
+      "address": "深圳市龙岗区华为总部",
+      "district": "龙岗区",
+      "anchor": null,
+      "x": 627.9,
+      "y": 315.6,
+      "sources": [
+        "digital-twin.md"
+      ]
+    },
+    {
+      "id": "c0cfle83",
+      "name": "华为技术有限公司智慧城市解决方案部",
+      "abbr": "华为技术有限公司智慧",
+      "industries": [
+        "smartcity"
+      ],
+      "founded": "2015年",
+      "fields": "智慧城市IOC、智慧交通、智慧安防、智慧园区",
+      "product": "华为智慧城市运营指挥中心(IOC)",
+      "size": "10000+人",
+      "listing": null,
+      "website": "https://www.huawei.com/smartcity",
+      "repo": null,
+      "address": "深圳市龙岗区华为总部",
+      "district": "龙岗区",
+      "anchor": null,
+      "x": 594.1,
+      "y": 319.1,
+      "sources": [
+        "smartcity.md"
+      ]
+    },
+    {
+      "id": "c1ii1vpb",
+      "name": "华为技术有限公司边缘计算事业部",
+      "abbr": "华为边缘计算有限公司",
+      "industries": [
+        "edge-computing"
+      ],
+      "founded": "2018年",
+      "fields": "边缘计算平台、边缘AI、5G MEC、工业边缘",
+      "product": "华为云Edge平台",
+      "size": "2500+人",
+      "listing": null,
+      "website": "https://www.huawei.com/edge",
+      "repo": null,
+      "address": "深圳市龙岗区华为总部",
+      "district": "龙岗区",
+      "anchor": null,
+      "x": 584.8,
+      "y": 266.3,
+      "sources": [
+        "edge-computing.md"
+      ]
+    },
+    {
+      "id": "c1pu96zr",
+      "name": "深圳华大基因股份有限公司",
+      "abbr": "华大区块链",
+      "industries": [
+        "blockchain",
+        "biotech"
       ],
       "founded": "1999年",
-      "fields": "基因组学、精准医疗、生命科学",
-      "product": "基因测序服务、无创产前检测、肿瘤基因检测",
-      "size": "10000+人",
+      "fields": "基因数据区块链",
+      "product": "基因数据存证、健康数据区块链",
+      "size": "8000+人（集团）",
       "listing": "深交所：300676",
       "website": "https://www.genomics.cn",
       "repo": null,
       "address": "总部：深圳市盐田区北山工业区综合楼",
       "district": "盐田区",
       "anchor": "盐田",
-      "x": 645.6,
-      "y": 393.0,
+      "x": 668.1,
+      "y": 402.9,
       "sources": [
-        "biotech-shenzhen.md",
-        "blockchain-shenzhen.md"
+        "blockchain-shenzhen.md",
+        "biotech-shenzhen.md"
       ]
     },
     {
-      "id": "c029",
+      "id": "c04gdzdr",
       "name": "深圳华大安全科技有限公司",
       "abbr": "华大安全",
       "industries": [
@@ -845,10 +1062,10 @@
       "fields": "移动安全、APP安全、IoT安全",
       "product": "移动应用安全检测、固件安全分析",
       "size": "300-500人",
-      "listing": "",
+      "listing": null,
       "website": "https://www.huadasec.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -858,7 +1075,7 @@
       ]
     },
     {
-      "id": "c030",
+      "id": "c123okfm",
       "name": "深圳华大智造科技股份有限公司",
       "abbr": "华大智造",
       "industries": [
@@ -874,14 +1091,14 @@
       "address": "总部：深圳市盐田区北山道128号华大基因研发中心",
       "district": "盐田区",
       "anchor": "盐田",
-      "x": 620.0,
-      "y": 397.8,
+      "x": 660.2,
+      "y": 438,
       "sources": [
         "biotech-shenzhen.md"
       ]
     },
     {
-      "id": "c031",
+      "id": "c1k3tjms",
       "name": "深圳市华宇软件股份有限公司",
       "abbr": "华宇软件",
       "industries": [
@@ -897,14 +1114,14 @@
       "address": "总部：深圳市南山区科技园高新南一道008号创维大厦B座16层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 288.9,
-      "y": 470.8,
+      "x": 352.5,
+      "y": 328.5,
       "sources": [
         "software-shenzhen.md"
       ]
     },
     {
-      "id": "c032",
+      "id": "c0g49uss",
       "name": "深圳市华星光电技术有限公司",
       "abbr": "华星光电",
       "industries": [
@@ -917,7 +1134,7 @@
       "listing": "深交所：000100（TCL科技）",
       "website": "https://www.csot.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -927,7 +1144,7 @@
       ]
     },
     {
-      "id": "c033",
+      "id": "c18dkk1d",
       "name": "深圳华讯方舟量子科技有限公司",
       "abbr": "华讯方舟量子",
       "industries": [
@@ -935,7 +1152,7 @@
       ],
       "founded": "2021年",
       "fields": "毫米波量子通信、量子雷达",
-      "product": "",
+      "product": "毫米波量子通信系统",
       "size": "120+人",
       "listing": "未上市",
       "website": "http://www.huaxun-quantum.com",
@@ -943,14 +1160,39 @@
       "address": "深圳市龙岗区天安云谷",
       "district": "龙岗区",
       "anchor": "坂田",
-      "x": 497.5,
-      "y": 281.8,
+      "x": 563.3,
+      "y": 261,
       "sources": [
         "quantum-shenzhen.md"
       ]
     },
     {
-      "id": "c034",
+      "id": "c11ji46s",
+      "name": "深圳市南山区小佩网络科技有限公司",
+      "abbr": "小佩网络",
+      "industries": [
+        "internet",
+        "software"
+      ],
+      "founded": "2013年",
+      "fields": "宠物用品、宠物服务、互联网宠物社区",
+      "product": "小佩宠物APP、小佩智能宠物用品",
+      "size": "500-1000人",
+      "listing": "未上市",
+      "website": "https://www.xiaopei.com",
+      "repo": null,
+      "address": "总部：深圳市南山区高新南一道8号创维大厦A座8层",
+      "district": "南山区",
+      "anchor": "科技园",
+      "x": 399.1,
+      "y": 482.5,
+      "sources": [
+        "internet-shenzhen.md",
+        "software-shenzhen.md"
+      ]
+    },
+    {
+      "id": "c1tv71sp",
       "name": "深圳双猴科技有限公司",
       "abbr": "双猴科技",
       "industries": [
@@ -962,18 +1204,18 @@
       "size": "100-300人",
       "listing": "未上市",
       "website": "https://www.shuanghou.com",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区",
       "district": "南山区",
       "anchor": null,
-      "x": 343.9,
-      "y": 473.0,
+      "x": 265.4,
+      "y": 482,
       "sources": [
         "robotics-shenzhen.md"
       ]
     },
     {
-      "id": "c035",
+      "id": "c1kga9a3",
       "name": "深圳市启明星辰信息技术有限公司",
       "abbr": "启明星辰深圳",
       "industries": [
@@ -982,11 +1224,11 @@
       "founded": "1996年",
       "fields": "网络安全、数据安全、云安全",
       "product": "漏洞管理、威胁检测、安全运营",
-      "size": "500-1000人",
+      "size": "启明星辰SOC、天清防火墙、漏洞扫描系统",
       "listing": "已上市(002439)",
       "website": null,
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -996,7 +1238,7 @@
       ]
     },
     {
-      "id": "c036",
+      "id": "c13rfcf4",
       "name": "深圳市四方精创资讯股份有限公司",
       "abbr": "四方精创",
       "industries": [
@@ -1012,14 +1254,14 @@
       "address": "总部：深圳市南山区科技园高新南一道008号创维大厦B座6层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 383.3,
-      "y": 399.2,
+      "x": 374.8,
+      "y": 508,
       "sources": [
         "software-shenzhen.md"
       ]
     },
     {
-      "id": "c037",
+      "id": "c1htissx",
       "name": "国民技术股份有限公司",
       "abbr": "国民技术",
       "industries": [
@@ -1031,18 +1273,18 @@
       "size": "500-1000人",
       "listing": "深交所：300077",
       "website": "https://www.nations.com.cn",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区科技园北区",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 322.9,
-      "y": 367.1,
+      "x": 362.9,
+      "y": 333.2,
       "sources": [
         "semiconductor-shenzhen.md"
       ]
     },
     {
-      "id": "c038",
+      "id": "c076j6st",
       "name": "深圳市土巴兔装饰装修工程有限公司",
       "abbr": "土巴兔",
       "industries": [
@@ -1054,41 +1296,18 @@
       "size": "1000-5000人",
       "listing": "未上市",
       "website": "https://www.to8to.com",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区高新南一道8号创维大厦A座4层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 265.7,
-      "y": 438.5,
+      "x": 274.2,
+      "y": 435.1,
       "sources": [
         "internet-shenzhen.md"
       ]
     },
     {
-      "id": "c039",
-      "name": "深圳市坎德拉科技有限公司",
-      "abbr": "坎德拉",
-      "industries": [
-        "ai"
-      ],
-      "founded": "2016年",
-      "fields": "配送机器人、物流机器人",
-      "product": "阳光配送机器人、智能配送解决方案",
-      "size": "500-1000人",
-      "listing": "未上市",
-      "website": "https://www.candelerobot.com",
-      "repo": "无",
-      "address": "总部：深圳市南山区科技园",
-      "district": "南山区",
-      "anchor": "科技园",
-      "x": 354.1,
-      "y": 492.0,
-      "sources": [
-        "ai-shenzhen.md"
-      ]
-    },
-    {
-      "id": "c040",
+      "id": "c1cgnpbx",
       "name": "深圳坎德拉（深圳）科技创新有限公司",
       "abbr": "坎德拉机器人",
       "industries": [
@@ -1100,18 +1319,41 @@
       "size": "300-500人",
       "listing": "未上市",
       "website": "https://www.candela.cn",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市坪山区",
       "district": "坪山区",
       "anchor": "坪山中心",
-      "x": 741.7,
-      "y": 298.8,
+      "x": 690,
+      "y": 303.7,
       "sources": [
         "robotics-shenzhen.md"
       ]
     },
     {
-      "id": "c041",
+      "id": "c0rq3gnp",
+      "name": "深圳市坎德拉科技有限公司",
+      "abbr": "坎德拉",
+      "industries": [
+        "ai"
+      ],
+      "founded": "2016年",
+      "fields": "配送机器人、物流机器人",
+      "product": "阳光配送机器人、智能配送解决方案",
+      "size": "500-1000人",
+      "listing": "未上市",
+      "website": "https://www.candelerobot.com",
+      "repo": null,
+      "address": "总部：深圳市南山区科技园",
+      "district": "南山区",
+      "anchor": "科技园",
+      "x": 287.3,
+      "y": 365.2,
+      "sources": [
+        "ai-shenzhen.md"
+      ]
+    },
+    {
+      "id": "c0ejmnw7",
       "name": "深圳基本半导体有限公司",
       "abbr": "基本半导体",
       "industries": [
@@ -1123,18 +1365,18 @@
       "size": "200-500人",
       "listing": "未上市",
       "website": "https://www.bassemi.com",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区留仙大道",
       "district": "南山区",
       "anchor": null,
-      "x": 266.7,
-      "y": 427.3,
+      "x": 283.3,
+      "y": 462.6,
       "sources": [
         "semiconductor-shenzhen.md"
       ]
     },
     {
-      "id": "c042",
+      "id": "c0ucjozl",
       "name": "声网科技(深圳)有限公司元宇宙事业部",
       "abbr": "声网科技(深圳)",
       "industries": [
@@ -1142,24 +1384,24 @@
       ],
       "founded": "2020年",
       "fields": "实时音视频、虚拟活动、沉浸式体验",
-      "product": "",
+      "product": "实时音视频通信SDK",
       "size": "300+人",
-      "listing": "",
+      "listing": null,
       "website": "https://www.agora.io",
       "repo": null,
       "address": "深圳市南山区粤海街道",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 394.5,
-      "y": 451.4,
+      "x": 264.3,
+      "y": 382.3,
       "sources": [
         "web3-shenzhen.md"
       ]
     },
     {
-      "id": "c043",
+      "id": "c11vjsvb",
       "name": "大族激光科技产业集团股份有限公司",
-      "abbr": "大族激光",
+      "abbr": "大族激光科技产业集团",
       "industries": [
         "semiconductor",
         "smart-manufacturing"
@@ -1170,56 +1412,79 @@
       "size": "10000+人",
       "listing": "深交所：002008",
       "website": "https://www.hanslaser.com",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区深南大道9988号大族激光科技中心",
       "district": "南山区",
       "anchor": "福田中心",
-      "x": 473.7,
-      "y": 386.7,
+      "x": 405.3,
+      "y": 380.6,
       "sources": [
         "semiconductor-shenzhen.md",
         "smart-manufacturing-shenzhen.md"
       ]
     },
     {
-      "id": "c044",
+      "id": "c09sw107",
       "name": "深圳市大疆创新科技有限公司",
-      "abbr": "大疆",
+      "abbr": "大疆创新",
       "industries": [
-        "3c",
+        "robotics",
         "ai",
         "drone",
         "internet",
+        "tech-innovation",
+        "3c",
         "iot",
-        "robotics",
-        "smart-manufacturing",
-        "tech-innovation"
+        "smart-manufacturing"
       ],
       "founded": "2006年",
-      "fields": "无人机、航拍设备、智能硬件",
-      "product": "大疆Air/Mini系列、Osmo云台",
-      "size": "15000+人",
+      "fields": "消费级无人机、行业无人机",
+      "product": "DJI Mavic、Phantom、行业解决方案",
+      "size": "10000+人",
       "listing": "未上市",
       "website": "https://www.dji.com",
-      "repo": "无",
+      "repo": "https://github.com/dji-sdk",
       "address": "总部：深圳市南山区高新南四道18号创维半导体设计大厦西座14层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 375.9,
-      "y": 482.2,
+      "x": 357.8,
+      "y": 480.8,
       "sources": [
-        "3c-shenzhen.md",
+        "robotics-shenzhen.md",
         "ai-shenzhen.md",
         "drone-shenzhen.md",
         "internet-shenzhen.md",
+        "tech-innovation-shenzhen.md",
+        "3c-shenzhen.md",
         "iot-shenzhen.md",
-        "robotics-shenzhen.md",
-        "smart-manufacturing-shenzhen.md",
-        "tech-innovation-shenzhen.md"
+        "smart-manufacturing-shenzhen.md"
       ]
     },
     {
-      "id": "c045",
+      "id": "c1qmd2qk",
+      "name": "深圳大疆创新科技有限公司农业事业部",
+      "abbr": "大疆创新科技有限公司",
+      "industries": [
+        "agritech"
+      ],
+      "founded": "2015年",
+      "fields": "农业无人机、农业遥感、作物监测、精准喷洒",
+      "product": "农业多旋翼无人机系统",
+      "size": "1500+人",
+      "listing": null,
+      "website": "https://www.dji.com/agriculture",
+      "repo": null,
+      "address": "深圳市南山区西丽街道",
+      "district": "南山区",
+      "anchor": "南山智园",
+      "x": 339.5,
+      "y": 304.2,
+      "sources": [
+        "agritech.md"
+      ]
+    },
+    {
+      "id": "c05p5f58",
       "name": "深圳市大疆百旺科技有限公司",
       "abbr": "大疆百旺",
       "industries": [
@@ -1232,7 +1497,7 @@
       "listing": "未上市",
       "website": "https://www.dji.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -1242,11 +1507,12 @@
       ]
     },
     {
-      "id": "c046",
+      "id": "c1558vhc",
       "name": "深圳市天马微电子股份有限公司",
       "abbr": "天马微电子",
       "industries": [
-        "3c"
+        "3c",
+        "tech-innovation"
       ],
       "founded": "1983年",
       "fields": "显示面板、柔性屏",
@@ -1255,40 +1521,18 @@
       "listing": "深交所：000050",
       "website": "https://www.tianma.cn",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
       "y": null,
       "sources": [
-        "3c-shenzhen.md"
+        "3c-shenzhen.md",
+        "tech-innovation-shenzhen.md"
       ]
     },
     {
-      "id": "c047",
-      "name": "深圳金融科技研究院（央行数字货币研究所深圳）",
-      "abbr": "央行数研所深圳",
-      "industries": [
-        "fintech"
-      ],
-      "founded": "2018年",
-      "fields": "数字人民币",
-      "product": "数字人民币钱包",
-      "size": "500-1000人",
-      "listing": "央行下属机构",
-      "website": "https://www.pbc.gov.cn",
-      "repo": "无",
-      "address": "深圳市福田区",
-      "district": "福田区",
-      "anchor": null,
-      "x": 456.4,
-      "y": 461.8,
-      "sources": [
-        "fintech-shenzhen.md"
-      ]
-    },
-    {
-      "id": "c048",
+      "id": "c12wkjew",
       "name": "深圳市奥比中光科技股份有限公司",
       "abbr": "奥比中光",
       "industries": [
@@ -1305,15 +1549,15 @@
       "address": "总部：深圳市南山区高新南一道008号创维大厦A座12楼",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 295.4,
-      "y": 491.9,
+      "x": 248,
+      "y": 398.4,
       "sources": [
         "ai-shenzhen.md",
         "iot-shenzhen.md"
       ]
     },
     {
-      "id": "c049",
+      "id": "c1fxzk5z",
       "name": "深圳威胁猎人科技有限公司",
       "abbr": "威胁猎人",
       "industries": [
@@ -1323,10 +1567,10 @@
       "fields": "业务安全、反欺诈、API安全",
       "product": "业务风控、API安全监测、黑产情报",
       "size": "100-300人",
-      "listing": "",
+      "listing": null,
       "website": "https://www.threathunter.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -1336,7 +1580,7 @@
       ]
     },
     {
-      "id": "c050",
+      "id": "c18ckrzy",
       "name": "深圳市安恒信息技术有限公司",
       "abbr": "安恒信息深圳",
       "industries": [
@@ -1345,11 +1589,11 @@
       "founded": "2007年",
       "fields": "网络安全、数据安全、云安全",
       "product": "漏洞管理、数据保护、云安全",
-      "size": "500-1000人",
+      "size": "明鉴漏洞扫描、数据安全卫士、云安全平台",
       "listing": "已上市(688023)",
       "website": null,
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -1359,7 +1603,7 @@
       ]
     },
     {
-      "id": "c051",
+      "id": "c0t0gl44",
       "name": "深圳市安络科技有限公司",
       "abbr": "安络科技",
       "industries": [
@@ -1368,11 +1612,11 @@
       "founded": "1999年",
       "fields": "网络安全、数据安全、移动安全",
       "product": "网络安全、数据安全、移动安全",
-      "size": "500-1000人",
+      "size": "安络网络安全产品、数据安全解决方案、移动安全服务",
       "listing": "未上市",
       "website": null,
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -1382,7 +1626,7 @@
       ]
     },
     {
-      "id": "c052",
+      "id": "c1juqf4j",
       "name": "深圳市安诺机器人有限公司",
       "abbr": "安诺机器人",
       "industries": [
@@ -1394,18 +1638,18 @@
       "size": "50-100人",
       "listing": "未上市",
       "website": "https://www.annorobot.com",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市宝安区",
       "district": "宝安区",
       "anchor": null,
-      "x": 172.6,
-      "y": 299.9,
+      "x": 192.8,
+      "y": 306.6,
       "sources": [
         "robotics-shenzhen.md"
       ]
     },
     {
-      "id": "c053",
+      "id": "c14vvg3z",
       "name": "深圳市宝兰德软件股份有限公司",
       "abbr": "宝兰德",
       "industries": [
@@ -1421,108 +1665,14 @@
       "address": "总部：深圳市南山区科技园高新南一道008号创维大厦B座13层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 402.3,
-      "y": 432.2,
+      "x": 389,
+      "y": 358.1,
       "sources": [
         "software-shenzhen.md"
       ]
     },
     {
-      "id": "c054",
-      "name": "深圳市富满微电子集团股份有限公司",
-      "abbr": "富满微",
-      "industries": [
-        "semiconductor"
-      ],
-      "founded": "2001年",
-      "fields": "模拟IC、电源管理、LED驱动",
-      "product": "LED驱动芯片、电源管理IC、MOSFET",
-      "size": "500-1000人",
-      "listing": "深交所：300671",
-      "website": "https://www.superchip.cn",
-      "repo": "无",
-      "address": "总部：深圳市南山区科技园",
-      "district": "南山区",
-      "anchor": "科技园",
-      "x": 399.4,
-      "y": 454.6,
-      "sources": [
-        "semiconductor-shenzhen.md"
-      ]
-    },
-    {
-      "id": "c055",
-      "name": "深圳市寒武纪科技股份有限公司",
-      "abbr": "寒武纪",
-      "industries": [
-        "tech-innovation"
-      ],
-      "founded": "2016年",
-      "fields": "AI芯片、人工智能",
-      "product": "思元系列AI芯片",
-      "size": "1000-5000人",
-      "listing": "科创板：688256",
-      "website": "https://www.cambricon.com",
-      "repo": null,
-      "address": "",
-      "district": null,
-      "anchor": null,
-      "x": null,
-      "y": null,
-      "sources": [
-        "tech-innovation-shenzhen.md"
-      ]
-    },
-    {
-      "id": "c056",
-      "name": "深圳市南山区小佩网络科技有限公司",
-      "abbr": "小佩网络",
-      "industries": [
-        "internet",
-        "software"
-      ],
-      "founded": "2013年",
-      "fields": "宠物用品、宠物服务、互联网宠物社区",
-      "product": "小佩宠物APP、小佩智能宠物用品",
-      "size": "500-1000人",
-      "listing": "未上市",
-      "website": "https://www.xiaopei.com",
-      "repo": "无",
-      "address": "总部：深圳市南山区高新南一道8号创维大厦A座8层",
-      "district": "南山区",
-      "anchor": "科技园",
-      "x": 357.0,
-      "y": 376.6,
-      "sources": [
-        "internet-shenzhen.md",
-        "software-shenzhen.md"
-      ]
-    },
-    {
-      "id": "c057",
-      "name": "深圳市小赢科技有限责任公司",
-      "abbr": "小赢科技",
-      "industries": [
-        "internet"
-      ],
-      "founded": "2014年",
-      "fields": "互联网金融、消费信贷",
-      "product": "小赢卡贷、小赢理财",
-      "size": "1000-5000人",
-      "listing": "纽交所：XYF",
-      "website": "https://www.xiaoying.com",
-      "repo": "无",
-      "address": "总部：深圳市南山区高新南一道8号创维大厦B座11层",
-      "district": "南山区",
-      "anchor": "科技园",
-      "x": 255.5,
-      "y": 421.1,
-      "sources": [
-        "internet-shenzhen.md"
-      ]
-    },
-    {
-      "id": "c058",
+      "id": "c1gp6cvo",
       "name": "富士康工业互联网股份有限公司",
       "abbr": "工业富联",
       "industries": [
@@ -1535,7 +1685,7 @@
       "listing": "上交所：601138",
       "website": "https://www.fii-foxconn.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -1545,7 +1695,76 @@
       ]
     },
     {
-      "id": "c059",
+      "id": "c0yx7oga",
+      "name": "深圳市富满微电子集团股份有限公司",
+      "abbr": "富满微",
+      "industries": [
+        "semiconductor"
+      ],
+      "founded": "2001年",
+      "fields": "模拟IC、电源管理、LED驱动",
+      "product": "LED驱动芯片、电源管理IC、MOSFET",
+      "size": "500-1000人",
+      "listing": "深交所：300671",
+      "website": "https://www.superchip.cn",
+      "repo": null,
+      "address": "总部：深圳市南山区科技园",
+      "district": "南山区",
+      "anchor": "科技园",
+      "x": 336.5,
+      "y": 346.8,
+      "sources": [
+        "semiconductor-shenzhen.md"
+      ]
+    },
+    {
+      "id": "c0b0eurb",
+      "name": "深圳市寒武纪科技股份有限公司",
+      "abbr": "寒武纪",
+      "industries": [
+        "tech-innovation"
+      ],
+      "founded": "2016年",
+      "fields": "AI芯片、人工智能",
+      "product": "思元系列AI芯片",
+      "size": "1000-5000人",
+      "listing": "科创板：688256",
+      "website": "https://www.cambricon.com",
+      "repo": null,
+      "address": null,
+      "district": null,
+      "anchor": null,
+      "x": null,
+      "y": null,
+      "sources": [
+        "tech-innovation-shenzhen.md"
+      ]
+    },
+    {
+      "id": "c0bv122e",
+      "name": "深圳市小赢科技有限责任公司",
+      "abbr": "小赢科技",
+      "industries": [
+        "internet"
+      ],
+      "founded": "2014年",
+      "fields": "互联网金融、消费信贷",
+      "product": "小赢卡贷、小赢理财",
+      "size": "1000-5000人",
+      "listing": "纽交所：XYF",
+      "website": "https://www.xiaoying.com",
+      "repo": null,
+      "address": "总部：深圳市南山区高新南一道8号创维大厦B座11层",
+      "district": "南山区",
+      "anchor": "科技园",
+      "x": 377.5,
+      "y": 469.2,
+      "sources": [
+        "internet-shenzhen.md"
+      ]
+    },
+    {
+      "id": "c0ku0iba",
       "name": "深圳市工匠社科技有限公司",
       "abbr": "工匠社",
       "industries": [
@@ -1557,18 +1776,18 @@
       "size": "100-300人",
       "listing": "未上市",
       "website": "https://www.gjs.so",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区",
       "district": "南山区",
       "anchor": null,
-      "x": 283.7,
-      "y": 403.2,
+      "x": 285.8,
+      "y": 417,
       "sources": [
         "robotics-shenzhen.md"
       ]
     },
     {
-      "id": "c060",
+      "id": "c1qez9gs",
       "name": "平安养老保险股份有限公司",
       "abbr": "平安养老",
       "industries": [
@@ -1580,18 +1799,112 @@
       "size": "5000-10000人",
       "listing": "平安集团子公司",
       "website": "https://www.pingan.com/pension",
-      "repo": "无",
+      "repo": null,
       "address": "深圳市福田区",
       "district": "福田区",
       "anchor": null,
-      "x": 435.1,
-      "y": 417.0,
+      "x": 452.9,
+      "y": 365.7,
       "sources": [
         "fintech-shenzhen.md"
       ]
     },
     {
-      "id": "c061",
+      "id": "c1xlxtev",
+      "name": "平安壹账通银行（香港）/金融壹账通",
+      "abbr": "金融壹账通",
+      "industries": [
+        "fintech"
+      ],
+      "founded": "2015年",
+      "fields": "金融科技输出、数字化银行",
+      "product": "Gamma平台、区块链贸易融资",
+      "size": "5000-10000人",
+      "listing": "纽交所：OCFT",
+      "website": "https://www.oneconnectft.com",
+      "repo": null,
+      "address": "深圳市福田区益田路6009号新世界中心",
+      "district": "福田区",
+      "anchor": "福田中心",
+      "x": 463.9,
+      "y": 359.5,
+      "sources": [
+        "fintech-shenzhen.md"
+      ]
+    },
+    {
+      "id": "c1on3j2u",
+      "name": "平安科技（深圳）有限公司",
+      "abbr": "平安科技",
+      "industries": [
+        "fintech",
+        "bigdata"
+      ],
+      "founded": "2008年",
+      "fields": "金融AI、金融云",
+      "product": "平安云、AI风控",
+      "size": "10000+人",
+      "listing": "平安集团：601318/2318.HK",
+      "website": "https://www.pingan.com",
+      "repo": null,
+      "address": "深圳市福田区福华三路星河发展中心",
+      "district": "福田区",
+      "anchor": null,
+      "x": 422.1,
+      "y": 448.3,
+      "sources": [
+        "fintech-shenzhen.md",
+        "bigdata-shenzhen.md"
+      ]
+    },
+    {
+      "id": "c1ugda7s",
+      "name": "平安科技(深圳)有限公司区块链事业部",
+      "abbr": "平安科技区块链实验室",
+      "industries": [
+        "web3"
+      ],
+      "founded": "2016年",
+      "fields": "金融科技、区块链、数字货币",
+      "product": "平安区块链平台",
+      "size": "600+人",
+      "listing": null,
+      "website": "https://www.pingan.com",
+      "repo": null,
+      "address": "深圳市福田区平安金融中心",
+      "district": "福田区",
+      "anchor": null,
+      "x": 485,
+      "y": 372.8,
+      "sources": [
+        "web3-shenzhen.md"
+      ]
+    },
+    {
+      "id": "c0yym2mf",
+      "name": "平安证券股份有限公司",
+      "abbr": "平安证券",
+      "industries": [
+        "fintech"
+      ],
+      "founded": "1991年",
+      "fields": "证券、互联网券商",
+      "product": "平安证券APP",
+      "size": "5000-10000人",
+      "listing": "平安集团子公司",
+      "website": "https://stock.pingan.com",
+      "repo": null,
+      "address": "深圳市福田区益田路5033号",
+      "district": "福田区",
+      "anchor": "福田中心",
+      "x": 408.3,
+      "y": 439.1,
+      "sources": [
+        "fintech-shenzhen.md"
+      ]
+    },
+    {
+      "id": "c0ik0l99",
       "name": "深圳市平安金融科技咨询有限公司",
       "abbr": "平安区块链",
       "industries": [
@@ -1604,7 +1917,7 @@
       "listing": "未上市（平安集团子公司）",
       "website": "https://blockchain.pingan.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -1614,55 +1927,7 @@
       ]
     },
     {
-      "id": "c062",
-      "name": "平安科技（深圳）有限公司",
-      "abbr": "平安科技",
-      "industries": [
-        "bigdata",
-        "fintech"
-      ],
-      "founded": "2008年",
-      "fields": "金融大数据、AI、云计算",
-      "product": "平安云、金融大数据平台",
-      "size": "12000+人",
-      "listing": "未上市（平安集团子公司）",
-      "website": "https://tech.pingan.com",
-      "repo": "无",
-      "address": "深圳市福田区福华三路星河发展中心",
-      "district": "福田区",
-      "anchor": null,
-      "x": 486.9,
-      "y": 412.0,
-      "sources": [
-        "bigdata-shenzhen.md",
-        "fintech-shenzhen.md"
-      ]
-    },
-    {
-      "id": "c063",
-      "name": "平安证券股份有限公司",
-      "abbr": "平安证券",
-      "industries": [
-        "fintech"
-      ],
-      "founded": "1991年",
-      "fields": "证券、互联网券商",
-      "product": "平安证券APP",
-      "size": "5000-10000人",
-      "listing": "平安集团子公司",
-      "website": "https://stock.pingan.com",
-      "repo": "无",
-      "address": "深圳市福田区益田路5033号",
-      "district": "福田区",
-      "anchor": "福田中心",
-      "x": 404.3,
-      "y": 393.3,
-      "sources": [
-        "fintech-shenzhen.md"
-      ]
-    },
-    {
-      "id": "c064",
+      "id": "c0l5r0nw",
       "name": "平安银行股份有限公司",
       "abbr": "平安银行",
       "industries": [
@@ -1674,18 +1939,18 @@
       "size": "10000+人",
       "listing": "深交所：000001",
       "website": "https://bank.pingan.com",
-      "repo": "无",
+      "repo": null,
       "address": "深圳市福田区福华三路星河发展中心",
       "district": "福田区",
       "anchor": null,
-      "x": 425.1,
-      "y": 393.3,
+      "x": 470.8,
+      "y": 448.4,
       "sources": [
         "fintech-shenzhen.md"
       ]
     },
     {
-      "id": "c065",
+      "id": "c0ivukui",
       "name": "深圳市广和通无线股份有限公司",
       "abbr": "广和通",
       "industries": [
@@ -1698,7 +1963,7 @@
       "listing": "深交所：300638",
       "website": "https://www.fibocom.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -1708,11 +1973,12 @@
       ]
     },
     {
-      "id": "c066",
+      "id": "c0cznqdo",
       "name": "深圳康佳集团股份有限公司",
       "abbr": "康佳",
       "industries": [
-        "3c"
+        "3c",
+        "tech-innovation"
       ],
       "founded": "1980年",
       "fields": "智能电视、消费电子",
@@ -1721,17 +1987,18 @@
       "listing": "深交所：000016",
       "website": "https://www.konka.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
       "y": null,
       "sources": [
-        "3c-shenzhen.md"
+        "3c-shenzhen.md",
+        "tech-innovation-shenzhen.md"
       ]
     },
     {
-      "id": "c067",
+      "id": "c0y1059c",
       "name": "深圳康泰生物制品股份有限公司",
       "abbr": "康泰生物",
       "industries": [
@@ -1747,14 +2014,14 @@
       "address": "总部：深圳市光明区光明街道碧眼社区",
       "district": "光明区",
       "anchor": "光明中心",
-      "x": 272.5,
-      "y": 129.4,
+      "x": 265.1,
+      "y": 146.6,
       "sources": [
         "biotech-shenzhen.md"
       ]
     },
     {
-      "id": "c068",
+      "id": "c1fpxaa3",
       "name": "深圳开源互联网安全技术有限公司",
       "abbr": "开源网安",
       "industries": [
@@ -1764,10 +2031,10 @@
       "fields": "代码审计、安全开发、DevSecOps",
       "product": "代码安全审计、安全开发培训、SDL咨询",
       "size": "300-500人",
-      "listing": "",
+      "listing": null,
       "website": "https://www.sectrend.com.cn",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -1777,7 +2044,7 @@
       ]
     },
     {
-      "id": "c069",
+      "id": "c1ea3tqk",
       "name": "深圳市开立生物医疗科技股份有限公司",
       "abbr": "开立医疗",
       "industries": [
@@ -1793,108 +2060,40 @@
       "address": "总部：深圳市南山区高新技术产业园",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 257.2,
-      "y": 452.7,
+      "x": 424.9,
+      "y": 460.4,
       "sources": [
         "biotech-shenzhen.md"
       ]
     },
     {
-      "id": "c070",
-      "name": "深圳前海微众银行金融科技有限公司",
-      "abbr": "微众区块链",
-      "industries": [
-        "blockchain"
-      ],
-      "founded": "2016年",
-      "fields": "联盟链、分布式身份",
-      "product": "FISCO BCOS、WeDPR隐私保护",
-      "size": "500+人",
-      "listing": "未上市（微众银行子公司）",
-      "website": "https://fisco-bcos.org",
-      "repo": null,
-      "address": "",
-      "district": null,
-      "anchor": null,
-      "x": null,
-      "y": null,
-      "sources": [
-        "blockchain-shenzhen.md"
-      ]
-    },
-    {
-      "id": "c071",
+      "id": "c1yxgrbj",
       "name": "深圳市微众银行股份有限公司",
       "abbr": "微众银行",
       "industries": [
-        "blockchain",
-        "internet"
+        "internet",
+        "blockchain"
       ],
       "founded": "2014年",
-      "fields": "金融区块链、联盟链",
-      "product": "FISCO BCOS（开源联盟链）、WeIdentity",
-      "size": "3000+人",
+      "fields": "互联网银行、金融科技",
+      "product": "微粒贷、微众银行APP、微业贷",
+      "size": "1000-5000人",
       "listing": "未上市",
       "website": "https://www.webank.com",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区高新南一道8号创维大厦A座11层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 406.5,
-      "y": 417.4,
+      "x": 390.6,
+      "y": 332.9,
       "sources": [
+        "internet-shenzhen.md",
         "blockchain-shenzhen.md",
-        "internet-shenzhen.md"
+        "blockchain-guangzhou.md"
       ]
     },
     {
-      "id": "c072",
-      "name": "深圳前海微众银行股份有限公司",
-      "abbr": "微众银行",
-      "industries": [
-        "fintech"
-      ],
-      "founded": "2014年",
-      "fields": "互联网银行、消费金融",
-      "product": "微粒贷、微车贷、小鹅花钱",
-      "size": "5000-10000人",
-      "listing": "未上市",
-      "website": "https://www.webank.com",
-      "repo": "无",
-      "address": "深圳市南山区深南大道9968号",
-      "district": "南山区",
-      "anchor": "福田中心",
-      "x": 440.2,
-      "y": 441.6,
-      "sources": [
-        "fintech-shenzhen.md"
-      ]
-    },
-    {
-      "id": "c073",
-      "name": "腾讯微保（深圳）保险代理有限公司",
-      "abbr": "微保",
-      "industries": [
-        "fintech"
-      ],
-      "founded": "2017年",
-      "fields": "互联网保险",
-      "product": "微保小程序",
-      "size": "500-1000人",
-      "listing": "腾讯子公司",
-      "website": "https://weinsure.qq.com",
-      "repo": "无",
-      "address": "深圳市南山区腾讯滨海大厦",
-      "district": "南山区",
-      "anchor": "深圳湾",
-      "x": 370.7,
-      "y": 512.0,
-      "sources": [
-        "fintech-shenzhen.md"
-      ]
-    },
-    {
-      "id": "c074",
+      "id": "c1wby9q4",
       "name": "深圳市德赛电池科技股份有限公司",
       "abbr": "德赛电池",
       "industries": [
@@ -1910,14 +2109,14 @@
       "address": "深圳市南山区高新区北区朗山路德赛大厦",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 384.3,
-      "y": 487.1,
+      "x": 428.7,
+      "y": 486.5,
       "sources": [
         "battery-shenzhen.md"
       ]
     },
     {
-      "id": "c075",
+      "id": "c1789huw",
       "name": "深圳快付通信息技术有限公司",
       "abbr": "快付通",
       "industries": [
@@ -1929,18 +2128,18 @@
       "size": "100-500人",
       "listing": "未上市",
       "website": "https://www.qftpay.com",
-      "repo": "无",
+      "repo": null,
       "address": "深圳市南山区",
       "district": "南山区",
       "anchor": null,
-      "x": 359.4,
-      "y": 429.5,
+      "x": 272.4,
+      "y": 409.4,
       "sources": [
         "fintech-shenzhen.md"
       ]
     },
     {
-      "id": "c076",
+      "id": "c1gewk8c",
       "name": "深圳市怡亚通供应链股份有限公司",
       "abbr": "怡亚通",
       "industries": [
@@ -1953,7 +2152,7 @@
       "listing": "深交所：002183",
       "website": "https://www.yiayaton.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -1963,7 +2162,7 @@
       ]
     },
     {
-      "id": "c077",
+      "id": "c046pguj",
       "name": "深圳市房多多网络科技有限公司",
       "abbr": "房多多",
       "industries": [
@@ -1975,18 +2174,18 @@
       "size": "1000-5000人",
       "listing": "纳斯达克：DUO",
       "website": "https://www.fangdd.com",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区高新南一道8号创维大厦A座5层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 253.3,
-      "y": 407.2,
+      "x": 359,
+      "y": 390,
       "sources": [
         "internet-shenzhen.md"
       ]
     },
     {
-      "id": "c078",
+      "id": "c0qtm372",
       "name": "拉卡拉支付股份有限公司",
       "abbr": "拉卡拉",
       "industries": [
@@ -1998,18 +2197,18 @@
       "size": "5000-10000人",
       "listing": "创业板：300773",
       "website": "https://www.lakala.com",
-      "repo": "无",
+      "repo": null,
       "address": "深圳市南山区高新南一道飞亚达大厦",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 286.9,
-      "y": 498.8,
+      "x": 262.6,
+      "y": 394.2,
       "sources": [
         "fintech-shenzhen.md"
       ]
     },
     {
-      "id": "c079",
+      "id": "c0qeruwb",
       "name": "深圳市拓邦股份有限公司",
       "abbr": "拓邦股份",
       "industries": [
@@ -2025,14 +2224,14 @@
       "address": "总部：深圳市龙华区大浪街道拓邦工业园",
       "district": "龙华区",
       "anchor": "龙华中心",
-      "x": 421.3,
-      "y": 184.1,
+      "x": 401.1,
+      "y": 197.6,
       "sources": [
         "new-energy-shenzhen.md"
       ]
     },
     {
-      "id": "c080",
+      "id": "c0l7vzqt",
       "name": "招商银行股份有限公司",
       "abbr": "招商银行",
       "industries": [
@@ -2044,18 +2243,18 @@
       "size": "10000+人",
       "listing": "上交所：600036／港交所：3968",
       "website": "https://www.cmbchina.com",
-      "repo": "无",
+      "repo": null,
       "address": "深圳市福田区深南大道7088号招商银行大厦",
       "district": "福田区",
       "anchor": "福田中心",
-      "x": 440.2,
-      "y": 363.4,
+      "x": 467.3,
+      "y": 380.5,
       "sources": [
         "fintech-shenzhen.md"
       ]
     },
     {
-      "id": "c081",
+      "id": "c08ceb26",
       "name": "招联消费金融有限公司",
       "abbr": "招联金融",
       "industries": [
@@ -2067,18 +2266,18 @@
       "size": "1000-5000人",
       "listing": "招行+联通合资",
       "website": "https://www.mucfc.com",
-      "repo": "无",
+      "repo": null,
       "address": "深圳市福田区深南大道6011号",
       "district": "福田区",
       "anchor": "福田中心",
-      "x": 417.4,
-      "y": 369.0,
+      "x": 451.4,
+      "y": 441.4,
       "sources": [
         "fintech-shenzhen.md"
       ]
     },
     {
-      "id": "c082",
+      "id": "c0tk2z9f",
       "name": "招银云创（深圳）信息技术有限公司",
       "abbr": "招银云创",
       "industries": [
@@ -2090,18 +2289,18 @@
       "size": "1000-5000人",
       "listing": "招行子公司",
       "website": "https://www.cmbcloud.com",
-      "repo": "无",
+      "repo": null,
       "address": "深圳市福田区深南大道7088号招商银行大厦",
       "district": "福田区",
       "anchor": "福田中心",
-      "x": 446.4,
-      "y": 358.3,
+      "x": 405.3,
+      "y": 390.9,
       "sources": [
         "fintech-shenzhen.md"
       ]
     },
     {
-      "id": "c083",
+      "id": "c1oipr58",
       "name": "深圳市新产业生物医学工程股份有限公司",
       "abbr": "新产业生物",
       "industries": [
@@ -2117,14 +2316,14 @@
       "address": "总部：深圳市南山区高新技术产业园",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 313.4,
-      "y": 349.3,
+      "x": 231.2,
+      "y": 472,
       "sources": [
         "biotech-shenzhen.md"
       ]
     },
     {
-      "id": "c084",
+      "id": "c0vc5x5y",
       "name": "深圳市新宙邦科技股份有限公司",
       "abbr": "新宙邦",
       "industries": [
@@ -2140,14 +2339,14 @@
       "address": "总部：深圳市南山区蛇口望海路南海意库2栋",
       "district": "南山区",
       "anchor": "蛇口",
-      "x": 271.4,
-      "y": 515.0,
+      "x": 291.9,
+      "y": 480.6,
       "sources": [
         "new-materials-shenzhen.md"
       ]
     },
     {
-      "id": "c085",
+      "id": "c0ndg856",
       "name": "深圳市日海智能科技股份有限公司",
       "abbr": "日海智能",
       "industries": [
@@ -2160,7 +2359,7 @@
       "listing": "深交所：002313",
       "website": "https://www.sunseasiot.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -2170,7 +2369,7 @@
       ]
     },
     {
-      "id": "c086",
+      "id": "c1uuhjrr",
       "name": "深圳市明微电子股份有限公司",
       "abbr": "明微电子",
       "industries": [
@@ -2182,18 +2381,18 @@
       "size": "500-1000人",
       "listing": "科创板：688699",
       "website": "https://www.sunmoon.com.cn",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区高新技术产业园",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 408.6,
-      "y": 401.9,
+      "x": 434,
+      "y": 474,
       "sources": [
         "semiconductor-shenzhen.md"
       ]
     },
     {
-      "id": "c087",
+      "id": "c00ajm59",
       "name": "深圳市易事特集团股份有限公司",
       "abbr": "易事特",
       "industries": [
@@ -2209,14 +2408,14 @@
       "address": "深圳市松岗街道沙浦围社区创业二路易事特产业园",
       "district": "宝安区",
       "anchor": "松岗",
-      "x": 188.4,
-      "y": 170.9,
+      "x": 187.2,
+      "y": 173,
       "sources": [
         "battery-shenzhen.md"
       ]
     },
     {
-      "id": "c088",
+      "id": "c073y0l8",
       "name": "深圳市星源材质科技股份有限公司",
       "abbr": "星源材质",
       "industries": [
@@ -2232,14 +2431,14 @@
       "address": "深圳市南山区粤海街道科苑路15号科兴科学园A3栋",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 282.8,
-      "y": 359.8,
+      "x": 283,
+      "y": 456.4,
       "sources": [
         "ev-shenzhen.md"
       ]
     },
     {
-      "id": "c089",
+      "id": "c1q7xn74",
       "name": "深圳市普元信息技术股份有限公司",
       "abbr": "普元信息",
       "industries": [
@@ -2255,14 +2454,14 @@
       "address": "总部：深圳市南山区科技园高新南一道008号创维大厦B座15层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 396.1,
-      "y": 484.6,
+      "x": 259.6,
+      "y": 346.8,
       "sources": [
         "software-shenzhen.md"
       ]
     },
     {
-      "id": "c090",
+      "id": "c1wa2f4k",
       "name": "深圳市普宙科技有限公司",
       "abbr": "普宙科技",
       "industries": [
@@ -2278,20 +2477,20 @@
       "address": "深圳市南山区西丽街道留仙洞6号",
       "district": "南山区",
       "anchor": "留仙洞",
-      "x": 297.1,
-      "y": 381.4,
+      "x": 331.2,
+      "y": 373.5,
       "sources": [
         "drone-shenzhen.md"
       ]
     },
     {
-      "id": "c091",
+      "id": "c19bpr1o",
       "name": "深圳市普渡科技有限公司",
       "abbr": "普渡科技",
       "industries": [
         "ai",
-        "iot",
-        "robotics"
+        "robotics",
+        "iot"
       ],
       "founded": "2016年",
       "fields": "服务机器人、配送机器人",
@@ -2299,20 +2498,20 @@
       "size": "1000-5000人",
       "listing": "未上市",
       "website": "https://www.pudutech.com",
-      "repo": "无",
-      "address": "总部：深圳市南山区",
+      "repo": null,
+      "address": "总部：深圳市南山区粤海街道高新南九道59号北科大厦",
       "district": "南山区",
-      "anchor": null,
-      "x": 260.9,
-      "y": 422.6,
+      "anchor": "科技园",
+      "x": 423,
+      "y": 416.6,
       "sources": [
         "ai-shenzhen.md",
-        "iot-shenzhen.md",
-        "robotics-shenzhen.md"
+        "robotics-shenzhen.md",
+        "iot-shenzhen.md"
       ]
     },
     {
-      "id": "c092",
+      "id": "c0od32ot",
       "name": "深圳市有方科技股份有限公司",
       "abbr": "有方科技",
       "industries": [
@@ -2325,7 +2524,7 @@
       "listing": "科创板：688159",
       "website": "https://www.neoway.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -2335,7 +2534,7 @@
       ]
     },
     {
-      "id": "c093",
+      "id": "c0wksn9u",
       "name": "深圳本源量子计算科技有限公司",
       "abbr": "本源量子计算",
       "industries": [
@@ -2343,7 +2542,7 @@
       ],
       "founded": "2020年",
       "fields": "超导量子计算、量子软件、量子云平台",
-      "product": "",
+      "product": "超导量子处理器芯片",
       "size": "180+人",
       "listing": "未上市",
       "website": "https://www.origin-q.com",
@@ -2351,14 +2550,14 @@
       "address": "深圳市宝安区桃花源科技创新园",
       "district": "宝安区",
       "anchor": "石岩",
-      "x": 293.6,
-      "y": 200.7,
+      "x": 276.7,
+      "y": 203.3,
       "sources": [
         "quantum-shenzhen.md"
       ]
     },
     {
-      "id": "c094",
+      "id": "c114025n",
       "name": "深圳杰思安全科技有限公司",
       "abbr": "杰思安全",
       "industries": [
@@ -2368,10 +2567,10 @@
       "fields": "终端安全、EDR运营、安全响应",
       "product": "EDR运营服务、威胁狩猎、应急响应",
       "size": "100-300人",
-      "listing": "",
+      "listing": null,
       "website": "https://www.jesecurity.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -2381,7 +2580,7 @@
       ]
     },
     {
-      "id": "c095",
+      "id": "c13hjsls",
       "name": "深圳市柔宇科技有限公司",
       "abbr": "柔宇科技",
       "industries": [
@@ -2394,7 +2593,7 @@
       "listing": "未上市",
       "website": "https://www.royole.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -2404,7 +2603,7 @@
       ]
     },
     {
-      "id": "c096",
+      "id": "c0hr1d7p",
       "name": "深圳市格林美股份有限公司",
       "abbr": "格林美",
       "industries": [
@@ -2421,19 +2620,20 @@
       "address": "总部：深圳市宝安区宝城31区东南工业区E栋",
       "district": "宝安区",
       "anchor": null,
-      "x": 143.0,
-      "y": 280.7,
+      "x": 165.4,
+      "y": 297.6,
       "sources": [
         "new-energy-shenzhen.md",
         "new-materials-shenzhen.md"
       ]
     },
     {
-      "id": "c097",
+      "id": "c03or8k0",
       "name": "深圳市梆梆安全科技有限公司",
       "abbr": "梆梆安全",
       "industries": [
-        "internet"
+        "internet",
+        "software"
       ],
       "founded": "2010年",
       "fields": "移动安全、网络安全、IoT安全",
@@ -2445,14 +2645,15 @@
       "address": "总部：深圳市南山区高新南一道8号创维大厦B座9层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 324.9,
-      "y": 516.7,
+      "x": 361.5,
+      "y": 399.3,
       "sources": [
-        "internet-shenzhen.md"
+        "internet-shenzhen.md",
+        "software-shenzhen.md"
       ]
     },
     {
-      "id": "c098",
+      "id": "c027ceio",
       "name": "深圳市欣旺达电子股份有限公司",
       "abbr": "欣旺达",
       "industries": [
@@ -2469,15 +2670,15 @@
       "address": "总部：深圳市宝安区石岩街道石龙社区工业二路1号",
       "district": "宝安区",
       "anchor": "石岩",
-      "x": 318.3,
-      "y": 199.9,
+      "x": 294.2,
+      "y": 212.8,
       "sources": [
         "battery-shenzhen.md",
         "new-energy-shenzhen.md"
       ]
     },
     {
-      "id": "c099",
+      "id": "c0vtbtxs",
       "name": "深圳市欣锐科技股份有限公司",
       "abbr": "欣锐科技",
       "industries": [
@@ -2493,14 +2694,14 @@
       "address": "深圳市宝安区石岩街道塘头一号路8号",
       "district": "宝安区",
       "anchor": "石岩",
-      "x": 294.2,
-      "y": 191.6,
+      "x": 275.6,
+      "y": 252.7,
       "sources": [
         "ev-shenzhen.md"
       ]
     },
     {
-      "id": "c100",
+      "id": "c0ij9yzg",
       "name": "深圳市欧菲光集团股份有限公司",
       "abbr": "欧菲光",
       "industries": [
@@ -2513,7 +2714,7 @@
       "listing": "深交所：002456",
       "website": "https://www.ofilm.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -2523,7 +2724,7 @@
       ]
     },
     {
-      "id": "c101",
+      "id": "c1oxkt2m",
       "name": "深圳市正弦电气股份有限公司",
       "abbr": "正弦电气",
       "industries": [
@@ -2539,43 +2740,14 @@
       "address": "深圳市龙华区大浪街道同胜社区上横朗工业区6栋",
       "district": "龙华区",
       "anchor": "龙华中心",
-      "x": 418.3,
-      "y": 169.8,
+      "x": 461.7,
+      "y": 235.4,
       "sources": [
         "automation-shenzhen.md"
       ]
     },
     {
-      "id": "c102",
-      "name": "深圳市比亚迪股份有限公司",
-      "abbr": "比亚迪",
-      "industries": [
-        "ev",
-        "new-energy",
-        "smart-manufacturing",
-        "tech-innovation"
-      ],
-      "founded": "1995年",
-      "fields": "新能源汽车、电池、轨道交通",
-      "product": "比亚迪汉、比亚迪唐、比亚迪刀片电池、云巴",
-      "size": "900000+人",
-      "listing": "深交所：002594",
-      "website": "https://www.byd.com",
-      "repo": null,
-      "address": "总部：深圳市坪山区比亚迪路3009号",
-      "district": "坪山区",
-      "anchor": "坪山中心",
-      "x": 758.1,
-      "y": 294.2,
-      "sources": [
-        "ev-shenzhen.md",
-        "new-energy-shenzhen.md",
-        "smart-manufacturing-shenzhen.md",
-        "tech-innovation-shenzhen.md"
-      ]
-    },
-    {
-      "id": "c103",
+      "id": "c1q2u5ix",
       "name": "比亚迪半导体股份有限公司",
       "abbr": "比亚迪半导体",
       "industries": [
@@ -2587,18 +2759,47 @@
       "size": "5000-10000人",
       "listing": "未上市（比亚迪子公司）",
       "website": "https://www.bydmicro.com",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市坪山区比亚迪路3009号",
       "district": "坪山区",
       "anchor": "坪山中心",
-      "x": 707.2,
-      "y": 330.4,
+      "x": 750.4,
+      "y": 331.3,
       "sources": [
         "semiconductor-shenzhen.md"
       ]
     },
     {
-      "id": "c104",
+      "id": "c0hjl0hw",
+      "name": "深圳市比亚迪股份有限公司",
+      "abbr": "比亚迪",
+      "industries": [
+        "ev",
+        "new-energy",
+        "tech-innovation",
+        "smart-manufacturing"
+      ],
+      "founded": "1995年",
+      "fields": "新能源汽车、电池、轨道交通",
+      "product": "比亚迪汉、比亚迪唐、比亚迪刀片电池、云巴",
+      "size": "900000+人",
+      "listing": "深交所：002594",
+      "website": "https://www.byd.com",
+      "repo": null,
+      "address": "总部：深圳市坪山区比亚迪路3009号",
+      "district": "坪山区",
+      "anchor": "坪山中心",
+      "x": 703.6,
+      "y": 294.1,
+      "sources": [
+        "ev-shenzhen.md",
+        "new-energy-shenzhen.md",
+        "tech-innovation-shenzhen.md",
+        "smart-manufacturing-shenzhen.md"
+      ]
+    },
+    {
+      "id": "c1crzi5s",
       "name": "深圳市比克电池有限公司",
       "abbr": "比克电池",
       "industries": [
@@ -2614,14 +2815,14 @@
       "address": "深圳市龙岗区葵涌比克工业园",
       "district": "龙岗区",
       "anchor": "大鹏",
-      "x": 749.0,
-      "y": 410.2,
+      "x": 767.7,
+      "y": 442.4,
       "sources": [
         "battery-shenzhen.md"
       ]
     },
     {
-      "id": "c105",
+      "id": "c0u8olqr",
       "name": "深圳市汇川技术股份有限公司",
       "abbr": "汇川技术",
       "industries": [
@@ -2639,8 +2840,8 @@
       "address": "深圳市宝安区福海街道新田大道71号汇川技术总部",
       "district": "宝安区",
       "anchor": "福永",
-      "x": 192.5,
-      "y": 242.5,
+      "x": 182,
+      "y": 293.4,
       "sources": [
         "automation-shenzhen.md",
         "ev-shenzhen.md",
@@ -2648,34 +2849,34 @@
       ]
     },
     {
-      "id": "c106",
+      "id": "c1v8vi8a",
       "name": "深圳市汇顶科技股份有限公司",
       "abbr": "汇顶科技",
       "industries": [
-        "3c",
         "semiconductor",
-        "tech-innovation"
+        "tech-innovation",
+        "3c"
       ],
       "founded": "2002年",
-      "fields": "芯片设计、触控芯片",
-      "product": "指纹识别芯片、触控芯片",
-      "size": "3000+人",
+      "fields": "生物识别芯片、触控芯片",
+      "product": "屏下指纹芯片、触控IC、健康传感器",
+      "size": "1000-5000人",
       "listing": "上交所：603160",
       "website": "https://www.goodix.com",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区科技南十路深圳航天科技创新研究院",
       "district": "南山区",
       "anchor": null,
-      "x": 365.0,
-      "y": 434.2,
+      "x": 369.2,
+      "y": 436.5,
       "sources": [
-        "3c-shenzhen.md",
         "semiconductor-shenzhen.md",
-        "tech-innovation-shenzhen.md"
+        "tech-innovation-shenzhen.md",
+        "3c-shenzhen.md"
       ]
     },
     {
-      "id": "c107",
+      "id": "c1652ibj",
       "name": "深圳市沃特新材料股份有限公司",
       "abbr": "沃特股份",
       "industries": [
@@ -2691,14 +2892,14 @@
       "address": "总部：深圳市龙华区观湖街道樟坑径社区",
       "district": "龙华区",
       "anchor": "龙华中心",
-      "x": 403.4,
-      "y": 182.0,
+      "x": 414.9,
+      "y": 161.4,
       "sources": [
         "new-materials-shenzhen.md"
       ]
     },
     {
-      "id": "c108",
+      "id": "c04brbgb",
       "name": "深圳沛顿科技有限公司",
       "abbr": "沛顿科技",
       "industries": [
@@ -2710,20 +2911,20 @@
       "size": "1000-5000人",
       "listing": "未上市",
       "website": "https://www.payton-tech.com",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市龙华区观澜街道",
       "district": "龙华区",
       "anchor": "龙华中心",
-      "x": 409.8,
-      "y": 165.5,
+      "x": 432.6,
+      "y": 175.7,
       "sources": [
         "semiconductor-shenzhen.md"
       ]
     },
     {
-      "id": "c109",
+      "id": "c0a7kn9l",
       "name": "深圳市海思半导体有限公司",
-      "abbr": "海思半导体",
+      "abbr": "海思半导体(华为)",
       "industries": [
         "semiconductor",
         "tech-innovation"
@@ -2734,19 +2935,19 @@
       "size": "10000+人",
       "listing": "未上市（华为全资子公司）",
       "website": "https://www.hisilicon.com",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市龙岗区坂田华为基地",
       "district": "龙岗区",
       "anchor": "坂田",
-      "x": 516.4,
-      "y": 307.1,
+      "x": 521,
+      "y": 303.2,
       "sources": [
         "semiconductor-shenzhen.md",
         "tech-innovation-shenzhen.md"
       ]
     },
     {
-      "id": "c110",
+      "id": "c1btsut0",
       "name": "深圳市海普瑞药业集团股份有限公司",
       "abbr": "海普瑞",
       "industries": [
@@ -2762,14 +2963,14 @@
       "address": "总部：深圳市南山区高新技术产业园",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 361.8,
-      "y": 511.9,
+      "x": 279.9,
+      "y": 345,
       "sources": [
         "biotech-shenzhen.md"
       ]
     },
     {
-      "id": "c111",
+      "id": "c0ylzpyc",
       "name": "深圳海绵安全科技有限公司",
       "abbr": "海绵安全",
       "industries": [
@@ -2779,10 +2980,10 @@
       "fields": "红蓝对抗、攻防演练、渗透测试",
       "product": "红蓝对抗、实战攻防、安全评估",
       "size": "100-300人",
-      "listing": "",
+      "listing": null,
       "website": "https://www.seasponge.cn",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -2792,7 +2993,7 @@
       ]
     },
     {
-      "id": "c112",
+      "id": "c1kwtrpk",
       "name": "深信服科技股份有限公司",
       "abbr": "深信服",
       "industries": [
@@ -2810,8 +3011,8 @@
       "address": "深圳市南山区学苑大道1001号深信服大厦",
       "district": "南山区",
       "anchor": "南山智园",
-      "x": 348.7,
-      "y": 327.0,
+      "x": 341.1,
+      "y": 382,
       "sources": [
         "cloud-shenzhen.md",
         "cybersecurity-shenzhen.md",
@@ -2819,30 +3020,7 @@
       ]
     },
     {
-      "id": "c113",
-      "name": "深圳市银联金融网络有限公司",
-      "abbr": "深银联",
-      "industries": [
-        "fintech"
-      ],
-      "founded": "1996年",
-      "fields": "支付清算、金融外包",
-      "product": "支付清算服务",
-      "size": "500-1000人",
-      "listing": "未上市",
-      "website": "https://www.sya.com.cn",
-      "repo": "无",
-      "address": "深圳市福田区",
-      "district": "福田区",
-      "anchor": null,
-      "x": 492.8,
-      "y": 446.8,
-      "sources": [
-        "fintech-shenzhen.md"
-      ]
-    },
-    {
-      "id": "c114",
+      "id": "c0vidbwi",
       "name": "深圳市点我达网络科技有限公司",
       "abbr": "点我达",
       "industries": [
@@ -2854,18 +3032,18 @@
       "size": "1000-5000人",
       "listing": "未上市",
       "website": "https://www.dianwoda.com",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区高新南一道8号创维大厦B座10层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 416.8,
-      "y": 449.4,
+      "x": 248.4,
+      "y": 418.6,
       "sources": [
         "internet-shenzhen.md"
       ]
     },
     {
-      "id": "c115",
+      "id": "c0qhlqde",
       "name": "深圳市珍爱网信息技术有限公司",
       "abbr": "珍爱网",
       "industries": [
@@ -2877,22 +3055,23 @@
       "size": "1000-5000人",
       "listing": "未上市",
       "website": "https://www.zhenai.com",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区高新南一道8号创维大厦A座6层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 248.5,
-      "y": 391.8,
+      "x": 361.8,
+      "y": 362.1,
       "sources": [
         "internet-shenzhen.md"
       ]
     },
     {
-      "id": "c116",
+      "id": "c00j39ud",
       "name": "深圳市研祥智能科技股份有限公司",
       "abbr": "研祥智能",
       "industries": [
-        "smart-manufacturing"
+        "smart-manufacturing",
+        "tech-innovation"
       ],
       "founded": "1993年",
       "fields": "工业计算机、嵌入式系统",
@@ -2901,17 +3080,18 @@
       "listing": "港交所：02308",
       "website": "https://www.evoc.cn",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
       "y": null,
       "sources": [
-        "smart-manufacturing-shenzhen.md"
+        "smart-manufacturing-shenzhen.md",
+        "tech-innovation-shenzhen.md"
       ]
     },
     {
-      "id": "c117",
+      "id": "c04bozve",
       "name": "深圳市硕贝德科技股份有限公司",
       "abbr": "硕贝德",
       "industries": [
@@ -2924,7 +3104,7 @@
       "listing": "深交所：300322",
       "website": "https://www.speedway-tech.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -2934,7 +3114,7 @@
       ]
     },
     {
-      "id": "c118",
+      "id": "c0ey3m80",
       "name": "深圳市碳云智能科技有限公司",
       "abbr": "碳云智能",
       "industries": [
@@ -2950,14 +3130,14 @@
       "address": "总部：深圳市南山区粤海街道",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 403.0,
-      "y": 484.3,
+      "x": 391.3,
+      "y": 408.8,
       "sources": [
         "biotech-shenzhen.md"
       ]
     },
     {
-      "id": "c119",
+      "id": "c00mq8cw",
       "name": "深圳市神州数码融信软件有限公司",
       "abbr": "神州数码融信",
       "industries": [
@@ -2973,14 +3153,14 @@
       "address": "总部：深圳市南山区科技园高新南一道008号创维大厦B座8层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 253.6,
-      "y": 481.3,
+      "x": 312.1,
+      "y": 403.5,
       "sources": [
         "software-shenzhen.md"
       ]
     },
     {
-      "id": "c120",
+      "id": "c0ogx9cg",
       "name": "深圳市禾望电气股份有限公司",
       "abbr": "禾望电气",
       "industries": [
@@ -2997,15 +3177,15 @@
       "address": "总部：深圳市南山区桃源街道平山一路世外桃源创意产业园B栋",
       "district": "南山区",
       "anchor": null,
-      "x": 272.3,
-      "y": 489.0,
+      "x": 292.4,
+      "y": 404.7,
       "sources": [
         "automation-shenzhen.md",
         "new-energy-shenzhen.md"
       ]
     },
     {
-      "id": "c121",
+      "id": "c1t1jrzz",
       "name": "深圳市科士达科技股份有限公司",
       "abbr": "科士达",
       "industries": [
@@ -3021,14 +3201,14 @@
       "address": "深圳市南山区高新区北区朗山路科士达科技园",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 266.0,
-      "y": 497.5,
+      "x": 395,
+      "y": 338.5,
       "sources": [
         "battery-shenzhen.md"
       ]
     },
     {
-      "id": "c122",
+      "id": "c1n3qme3",
       "name": "深圳市科恩科技有限公司",
       "abbr": "科恩科技",
       "industries": [
@@ -3037,11 +3217,11 @@
       "founded": "2008年",
       "fields": "网络安全、终端安全、云安全",
       "product": "终端安全、网络安全、云安全",
-      "size": "500-1000人",
+      "size": "科恩终端安全管理系统、网络安全监测、云安全解决方案",
       "listing": "未上市",
       "website": null,
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -3051,7 +3231,7 @@
       ]
     },
     {
-      "id": "c123",
+      "id": "c1f9wkdz",
       "name": "深圳市科比特航空科技有限公司",
       "abbr": "科比特",
       "industries": [
@@ -3067,14 +3247,14 @@
       "address": "深圳市龙华区清泉路硅谷动力龙华园4号楼",
       "district": "龙华区",
       "anchor": "龙华中心",
-      "x": 394.2,
-      "y": 191.1,
+      "x": 470.5,
+      "y": 224.7,
       "sources": [
         "drone-shenzhen.md"
       ]
     },
     {
-      "id": "c124",
+      "id": "c1hx6uei",
       "name": "深圳市科达利实业股份有限公司",
       "abbr": "科达利",
       "industries": [
@@ -3091,15 +3271,15 @@
       "address": "总部：深圳市宝安区松岗街道松岗大道30号",
       "district": "宝安区",
       "anchor": "松岗",
-      "x": 229.3,
-      "y": 202.9,
+      "x": 227.7,
+      "y": 159.4,
       "sources": [
         "new-energy-shenzhen.md",
         "new-materials-shenzhen.md"
       ]
     },
     {
-      "id": "c125",
+      "id": "c14bxbqh",
       "name": "深圳市科陆电子科技股份有限公司",
       "abbr": "科陆电子",
       "industries": [
@@ -3115,14 +3295,14 @@
       "address": "总部：深圳市南山区高新技术产业园北区朗山路16号",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 324.4,
-      "y": 523.8,
+      "x": 331.6,
+      "y": 338,
       "sources": [
         "new-energy-shenzhen.md"
       ]
     },
     {
-      "id": "c126",
+      "id": "c0ib1vhn",
       "name": "深圳竹云科技有限公司",
       "abbr": "竹云科技",
       "industries": [
@@ -3132,10 +3312,10 @@
       "fields": "IAM、零信任、身份安全",
       "product": "统一身份管理、零信任架构咨询",
       "size": "500-1000人",
-      "listing": "",
+      "listing": null,
       "website": "https://www.bamboocloud.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -3145,7 +3325,7 @@
       ]
     },
     {
-      "id": "c127",
+      "id": "c0ouhbfa",
       "name": "深圳第二量子科技有限公司",
       "abbr": "第二量子",
       "industries": [
@@ -3153,7 +3333,7 @@
       ],
       "founded": "2019年",
       "fields": "量子通信设备、量子网络、量子安全",
-      "product": "",
+      "product": "量子密钥分发终端设备",
       "size": "150+人",
       "listing": "未上市",
       "website": "http://www.second-quantum.com",
@@ -3161,14 +3341,14 @@
       "address": "深圳市福田区深科技城",
       "district": "福田区",
       "anchor": null,
-      "x": 474.6,
-      "y": 450.8,
+      "x": 493.9,
+      "y": 402.8,
       "sources": [
         "quantum-shenzhen.md"
       ]
     },
     {
-      "id": "c128",
+      "id": "c1a3s12f",
       "name": "深圳市绿盟科技有限公司",
       "abbr": "绿盟科技",
       "industries": [
@@ -3185,15 +3365,15 @@
       "address": "深圳市南山区科技园(深圳分公司)",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 246.3,
-      "y": 474.8,
+      "x": 310.9,
+      "y": 337,
       "sources": [
         "cloud-shenzhen.md",
         "security-shenzhen.md"
       ]
     },
     {
-      "id": "c129",
+      "id": "c1mrrfu6",
       "name": "深圳市美亚柏科信息股份有限公司",
       "abbr": "美亚柏科",
       "industries": [
@@ -3209,14 +3389,14 @@
       "address": "总部：深圳市南山区科技园高新南一道008号创维大厦B座17层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 274.3,
-      "y": 508.1,
+      "x": 241.6,
+      "y": 489.4,
       "sources": [
         "software-shenzhen.md"
       ]
     },
     {
-      "id": "c130",
+      "id": "c16hq41s",
       "name": "深圳市美格智能技术股份有限公司",
       "abbr": "美格智能",
       "industries": [
@@ -3229,7 +3409,7 @@
       "listing": "深交所：002881",
       "website": "https://www.meigsmart.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -3239,7 +3419,7 @@
       ]
     },
     {
-      "id": "c131",
+      "id": "c1l9764z",
       "name": "深圳市翔丰华科技股份有限公司",
       "abbr": "翔丰华",
       "industries": [
@@ -3255,14 +3435,14 @@
       "address": "深圳市坪山区坑梓街道秀新社区兰景北路6号",
       "district": "坪山区",
       "anchor": "坪山中心",
-      "x": 756.6,
-      "y": 323.7,
+      "x": 749.3,
+      "y": 326.9,
       "sources": [
         "battery-shenzhen.md"
       ]
     },
     {
-      "id": "c132",
+      "id": "c1pqx0se",
       "name": "深圳市翰宇药业股份有限公司",
       "abbr": "翰宇药业",
       "industries": [
@@ -3278,14 +3458,14 @@
       "address": "总部：深圳市南山区高新技术产业园",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 273.5,
-      "y": 351.3,
+      "x": 436,
+      "y": 408.2,
       "sources": [
         "biotech-shenzhen.md"
       ]
     },
     {
-      "id": "c133",
+      "id": "c0kij33c",
       "name": "深圳市联软科技有限公司",
       "abbr": "联软科技",
       "industries": [
@@ -3294,11 +3474,11 @@
       "founded": "2003年",
       "fields": "网络安全、终端安全、数据安全",
       "product": "终端安全、数据安全、网络安全",
-      "size": "1000-5000人",
+      "size": "联软终端安全管理系统、数据泄露防护、网络安全监测",
       "listing": "未上市",
       "website": null,
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -3308,44 +3488,180 @@
       ]
     },
     {
-      "id": "c134",
-      "name": "深圳市腾讯计算机系统有限公司",
-      "abbr": "腾讯",
+      "id": "c1pegqbm",
+      "name": "腾讯微保（深圳）保险代理有限公司",
+      "abbr": "微保",
       "industries": [
-        "bigdata",
-        "blockchain",
+        "fintech"
+      ],
+      "founded": "2017年",
+      "fields": "互联网保险",
+      "product": "微保小程序",
+      "size": "500-1000人",
+      "listing": "腾讯子公司",
+      "website": "https://weinsure.qq.com",
+      "repo": null,
+      "address": "深圳市南山区腾讯滨海大厦",
+      "district": "南山区",
+      "anchor": "深圳湾",
+      "x": 351.7,
+      "y": 522.2,
+      "sources": [
+        "fintech-shenzhen.md"
+      ]
+    },
+    {
+      "id": "c05ok1w7",
+      "name": "腾讯科技(深圳)有限公司数字孪生实验室",
+      "abbr": "腾讯数字孪生实验室",
+      "industries": [
+        "digital-twin"
+      ],
+      "founded": "2019年",
+      "fields": "城市数字孪生、建筑数字孪生、游戏数字孪生",
+      "product": "腾讯数字孪生平台TwinCity",
+      "size": "1500+人",
+      "listing": null,
+      "website": "https://twin.tencent.com",
+      "repo": null,
+      "address": "深圳市南山区腾讯滨海大厦",
+      "district": "南山区",
+      "anchor": "深圳湾",
+      "x": 385.3,
+      "y": 450.9,
+      "sources": [
+        "digital-twin.md"
+      ]
+    },
+    {
+      "id": "c0y3d76p",
+      "name": "腾讯科技(深圳)有限公司智慧城市建设事业群",
+      "abbr": "腾讯科技(深圳)有限",
+      "industries": [
+        "smartcity"
+      ],
+      "founded": "2017年",
+      "fields": "WeCity未来城市、智慧民生、智慧产业、城市数字底座",
+      "product": "WeCity未来城市平台",
+      "size": "6000+人",
+      "listing": null,
+      "website": "https://www.tencent.com/wecity",
+      "repo": null,
+      "address": "深圳市南山区腾讯滨海大厦",
+      "district": "南山区",
+      "anchor": "深圳湾",
+      "x": 385.3,
+      "y": 445.5,
+      "sources": [
+        "smartcity.md"
+      ]
+    },
+    {
+      "id": "c001a56i",
+      "name": "腾讯科技(深圳)有限公司边缘计算实验室",
+      "abbr": "腾讯边缘计算实验室",
+      "industries": [
+        "edge-computing"
+      ],
+      "founded": "2020年",
+      "fields": "边缘计算平台、游戏边缘、视频边缘、AI边缘",
+      "product": "腾讯云TencentEdge平台",
+      "size": "1200+人",
+      "listing": null,
+      "website": "https://edge.tencent.com",
+      "repo": null,
+      "address": "深圳市南山区腾讯滨海大厦",
+      "district": "南山区",
+      "anchor": "深圳湾",
+      "x": 355.7,
+      "y": 491.6,
+      "sources": [
+        "edge-computing.md"
+      ]
+    },
+    {
+      "id": "c10q9vtj",
+      "name": "深圳市腾讯计算机系统有限公司",
+      "abbr": "腾讯云",
+      "industries": [
         "cloud",
         "fintech",
         "internet",
-        "iot",
         "tech-innovation",
-        "web3"
+        "bigdata",
+        "blockchain",
+        "iot"
       ],
       "founded": "1998年",
-      "fields": "大数据、云计算、互联网",
-      "product": "腾讯云大数据平台、微信生态数据服务",
-      "size": "100000+人",
-      "listing": "港交所：00700",
-      "website": "https://www.tencent.com",
+      "fields": "IaaS、PaaS、SaaS、AI",
+      "product": "腾讯云服务器、混元大模型",
+      "size": "10000+人",
+      "listing": "已上市(00700.HK)",
+      "website": "https://cloud.tencent.com",
       "repo": "https://github.com/TencentCloud",
       "address": "总部：深圳市南山区海天二路33号腾讯滨海大厦",
       "district": "南山区",
       "anchor": "深圳湾",
-      "x": 407.3,
-      "y": 490.9,
+      "x": 369.1,
+      "y": 439.3,
       "sources": [
-        "bigdata-shenzhen.md",
-        "blockchain-shenzhen.md",
         "cloud-shenzhen.md",
         "fintech-shenzhen.md",
         "internet-shenzhen.md",
-        "iot-shenzhen.md",
         "tech-innovation-shenzhen.md",
+        "bigdata-shenzhen.md",
+        "blockchain-shenzhen.md",
+        "iot-shenzhen.md"
+      ]
+    },
+    {
+      "id": "c1vuwf1f",
+      "name": "深圳市腾讯计算机系统有限公司互动娱乐事业群",
+      "abbr": "腾讯互娱事业群",
+      "industries": [
+        "entertainment-tech"
+      ],
+      "founded": "2003年",
+      "fields": "网络游戏、电竞、视频、音乐、文学、动漫",
+      "product": "王者荣耀等热门游戏",
+      "size": "30000+人",
+      "listing": null,
+      "website": "https://www.tencent.com/gaming",
+      "repo": null,
+      "address": "深圳市南山区腾讯滨海大厦",
+      "district": "南山区",
+      "anchor": "深圳湾",
+      "x": 415.8,
+      "y": 507.5,
+      "sources": [
+        "entertainment-tech.md"
+      ]
+    },
+    {
+      "id": "c13tltlh",
+      "name": "深圳市腾讯计算机系统有限公司数字藏品事业部",
+      "abbr": "腾讯幻核数字藏品平台",
+      "industries": [
+        "web3"
+      ],
+      "founded": "2021年",
+      "fields": "数字藏品、NFT、区块链游戏",
+      "product": "幻核数字藏品发行平台",
+      "size": "500+人",
+      "listing": null,
+      "website": "https://www.huanhe.art",
+      "repo": null,
+      "address": "深圳市南山区腾讯滨海大厦",
+      "district": "南山区",
+      "anchor": "深圳湾",
+      "x": 384.2,
+      "y": 522.3,
+      "sources": [
         "web3-shenzhen.md"
       ]
     },
     {
-      "id": "c135",
+      "id": "c1h5a4ks",
       "name": "腾讯金融科技（财付通）",
       "abbr": "腾讯金融科技",
       "industries": [
@@ -3357,18 +3673,18 @@
       "size": "10000+人",
       "listing": "腾讯控股：0700.HK",
       "website": "https://www.tenpay.com",
-      "repo": "无",
+      "repo": null,
       "address": "深圳市南山区科技园腾讯大厦",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 370.5,
-      "y": 341.0,
+      "x": 232.6,
+      "y": 458.2,
       "sources": [
         "fintech-shenzhen.md"
       ]
     },
     {
-      "id": "c136",
+      "id": "c1b9qwkw",
       "name": "深圳市航盛电子股份有限公司",
       "abbr": "航盛电子",
       "industries": [
@@ -3384,14 +3700,14 @@
       "address": "深圳市南山区科苑路6号航盛科技大厦",
       "district": "南山区",
       "anchor": null,
-      "x": 271.5,
-      "y": 490.8,
+      "x": 353.9,
+      "y": 476.3,
       "sources": [
         "ev-shenzhen.md"
       ]
     },
     {
-      "id": "c137",
+      "id": "c100ce4h",
       "name": "深圳市芯海科技股份有限公司",
       "abbr": "芯海科技",
       "industries": [
@@ -3403,18 +3719,18 @@
       "size": "500-1000人",
       "listing": "科创板：688595",
       "website": "https://www.chipsea.com",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区科技园南区",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 398.5,
-      "y": 359.0,
+      "x": 404.5,
+      "y": 389.9,
       "sources": [
         "semiconductor-shenzhen.md"
       ]
     },
     {
-      "id": "c138",
+      "id": "c1e7zq3l",
       "name": "深圳市英威腾电气股份有限公司",
       "abbr": "英威腾",
       "industries": [
@@ -3431,15 +3747,15 @@
       "address": "深圳市光明区马田街道松白路英威腾光明科技大厦",
       "district": "光明区",
       "anchor": "光明中心",
-      "x": 258.4,
-      "y": 162.8,
+      "x": 248,
+      "y": 144.3,
       "sources": [
         "automation-shenzhen.md",
         "smart-manufacturing-shenzhen.md"
       ]
     },
     {
-      "id": "c139",
+      "id": "c043kty1",
       "name": "深圳英集芯科技股份有限公司",
       "abbr": "英集芯",
       "industries": [
@@ -3451,18 +3767,18 @@
       "size": "200-500人",
       "listing": "科创板：688209",
       "website": "https://www.injoinic.com",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区科技园",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 401.3,
-      "y": 360.4,
+      "x": 293.9,
+      "y": 459.9,
       "sources": [
         "semiconductor-shenzhen.md"
       ]
     },
     {
-      "id": "c140",
+      "id": "c1k5mgsu",
       "name": "深圳市蓝凌软件股份有限公司",
       "abbr": "蓝凌软件",
       "industries": [
@@ -3474,18 +3790,18 @@
       "size": "1000-5000人",
       "listing": "未上市",
       "website": "https://www.landray.com.cn",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区科技园",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 242.7,
-      "y": 380.2,
+      "x": 428.4,
+      "y": 393.7,
       "sources": [
         "software-shenzhen.md"
       ]
     },
     {
-      "id": "c141",
+      "id": "c02hwd4v",
       "name": "深圳市蓝海华腾技术股份有限公司",
       "abbr": "蓝海华腾",
       "industries": [
@@ -3502,15 +3818,15 @@
       "address": "深圳市南山区南山大道1175号新绿岛大厦",
       "district": "南山区",
       "anchor": null,
-      "x": 366.5,
-      "y": 469.5,
+      "x": 316.1,
+      "y": 464,
       "sources": [
         "ev-shenzhen.md",
         "smart-manufacturing-shenzhen.md"
       ]
     },
     {
-      "id": "c142",
+      "id": "c1tk03qs",
       "name": "深圳市贝特瑞新能源材料股份有限公司",
       "abbr": "贝特瑞",
       "industries": [
@@ -3528,8 +3844,8 @@
       "address": "总部：深圳市光明区公明街道李松蓢社区第三工业区6号",
       "district": "光明区",
       "anchor": "光明中心",
-      "x": 312.7,
-      "y": 120.5,
+      "x": 297,
+      "y": 106,
       "sources": [
         "battery-shenzhen.md",
         "new-energy-shenzhen.md",
@@ -3537,7 +3853,7 @@
       ]
     },
     {
-      "id": "c143",
+      "id": "c1bf3x4g",
       "name": "深圳市货拉拉科技有限公司",
       "abbr": "货拉拉",
       "industries": [
@@ -3549,18 +3865,18 @@
       "size": "5000+人",
       "listing": "未上市",
       "website": "https://www.huolala.cn",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区科技园",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 362.9,
-      "y": 525.9,
+      "x": 285.5,
+      "y": 342.9,
       "sources": [
         "internet-shenzhen.md"
       ]
     },
     {
-      "id": "c144",
+      "id": "c0bajk6e",
       "name": "深圳市赛门铁克信息科技有限公司",
       "abbr": "赛门铁克深圳",
       "industries": [
@@ -3569,11 +3885,11 @@
       "founded": "1998年",
       "fields": "网络安全、终端安全、云安全",
       "product": "终端安全、网络安全、云安全",
-      "size": "1000-5000人",
+      "size": "赛门铁克杀毒软件、防火墙、云安全服务",
       "listing": "已被收购",
       "website": null,
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -3583,7 +3899,7 @@
       ]
     },
     {
-      "id": "c145",
+      "id": "c1adbri5",
       "name": "深圳市赢时胜信息技术股份有限公司",
       "abbr": "赢时胜",
       "industries": [
@@ -3595,18 +3911,18 @@
       "size": "1000-5000人",
       "listing": "深交所：300377",
       "website": "https://www.yss.com.cn",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区科技园",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 395.9,
-      "y": 508.2,
+      "x": 425.7,
+      "y": 423.9,
       "sources": [
         "software-shenzhen.md"
       ]
     },
     {
-      "id": "c146",
+      "id": "c0o3s4gl",
       "name": "深圳市越疆科技有限公司",
       "abbr": "越疆科技",
       "industries": [
@@ -3622,45 +3938,14 @@
       "address": "总部：深圳市南山区",
       "district": "南山区",
       "anchor": null,
-      "x": 357.8,
-      "y": 403.6,
+      "x": 344.3,
+      "y": 422.9,
       "sources": [
         "robotics-shenzhen.md"
       ]
     },
     {
-      "id": "c147",
-      "name": "深圳市迅雷网络技术有限公司",
-      "abbr": "迅雷",
-      "industries": [
-        "bigdata",
-        "blockchain",
-        "cloud",
-        "internet",
-        "software"
-      ],
-      "founded": "2003年",
-      "fields": "分布式计算、大数据、区块链",
-      "product": "迅雷云计算、分布式存储",
-      "size": "1500+人",
-      "listing": "纳斯达克：XNET",
-      "website": "https://www.xunlei.com",
-      "repo": "https://github.com/Xunlei",
-      "address": "总部：深圳市南山区高新南一道8号创维大厦A座12层",
-      "district": "南山区",
-      "anchor": "科技园",
-      "x": 284.5,
-      "y": 336.5,
-      "sources": [
-        "bigdata-shenzhen.md",
-        "blockchain-shenzhen.md",
-        "cloud-shenzhen.md",
-        "internet-shenzhen.md",
-        "software-shenzhen.md"
-      ]
-    },
-    {
-      "id": "c148",
+      "id": "c0ua3omf",
       "name": "深圳市迅雷大数据信息服务有限公司",
       "abbr": "迅雷大数据",
       "industries": [
@@ -3676,22 +3961,54 @@
       "address": "总部：深圳市南山区高新南一道8号创维大厦B座12层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 424.5,
-      "y": 388.6,
+      "x": 325,
+      "y": 350.2,
       "sources": [
         "internet-shenzhen.md"
       ]
     },
     {
-      "id": "c149",
+      "id": "c0ac6noo",
+      "name": "深圳市迅雷网络技术有限公司",
+      "abbr": "迅雷",
+      "industries": [
+        "cloud",
+        "internet",
+        "software",
+        "bigdata",
+        "blockchain"
+      ],
+      "founded": "2003年",
+      "fields": "云计算、下载、区块链",
+      "product": "迅雷云、网心云",
+      "size": "1000-5000人",
+      "listing": "已上市(XNET)",
+      "website": "https://www.xunlei.com",
+      "repo": "https://github.com/Xunlei",
+      "address": "总部：深圳市南山区高新南一道8号创维大厦A座12层",
+      "district": "南山区",
+      "anchor": "科技园",
+      "x": 322.7,
+      "y": 370.6,
+      "sources": [
+        "cloud-shenzhen.md",
+        "internet-shenzhen.md",
+        "software-shenzhen.md",
+        "bigdata-shenzhen.md",
+        "blockchain-shenzhen.md"
+      ]
+    },
+    {
+      "id": "c0spn5qb",
       "name": "深圳迈瑞生物医疗电子股份有限公司",
       "abbr": "迈瑞医疗",
       "industries": [
-        "biotech"
+        "biotech",
+        "tech-innovation"
       ],
       "founded": "1991年",
       "fields": "医疗器械、体外诊断、医学影像",
-      "product": "监护仪、呼吸机、体外诊断试剂、超声设备",
+      "product": "医疗监护设备、体外诊断设备",
       "size": "18000+人",
       "listing": "深交所：300760",
       "website": "https://www.mindray.com",
@@ -3699,14 +4016,15 @@
       "address": "总部：深圳市南山区高新技术产业园",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 232.6,
-      "y": 391.3,
+      "x": 296.3,
+      "y": 358.8,
       "sources": [
-        "biotech-shenzhen.md"
+        "biotech-shenzhen.md",
+        "tech-innovation-shenzhen.md"
       ]
     },
     {
-      "id": "c150",
+      "id": "c1uaikab",
       "name": "深圳市道通智能航空技术股份有限公司",
       "abbr": "道通智能",
       "industries": [
@@ -3722,14 +4040,14 @@
       "address": "深圳市南山区科技南十路深圳湾科技生态园",
       "district": "南山区",
       "anchor": "深圳湾",
-      "x": 407.9,
-      "y": 460.7,
+      "x": 413.2,
+      "y": 452.8,
       "sources": [
         "drone-shenzhen.md"
       ]
     },
     {
-      "id": "c151",
+      "id": "c1i5m2qd",
       "name": "深圳市酷开网络科技股份有限公司",
       "abbr": "酷开网络",
       "industries": [
@@ -3742,19 +4060,19 @@
       "size": "1000-5000人",
       "listing": "未上市",
       "website": "https://www.coocaa.com",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区高新南一道8号创维大厦",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 224.4,
-      "y": 424.9,
+      "x": 227.3,
+      "y": 439.4,
       "sources": [
         "internet-shenzhen.md",
         "software-shenzhen.md"
       ]
     },
     {
-      "id": "c152",
+      "id": "c16xfk55",
       "name": "深圳量子精密仪器有限公司",
       "abbr": "量子精密仪器",
       "industries": [
@@ -3762,7 +4080,7 @@
       ],
       "founded": "2020年",
       "fields": "量子传感器、精密测量、量子计量",
-      "product": "",
+      "product": "量子磁力仪产品",
       "size": "100+人",
       "listing": "未上市",
       "website": "http://www.quantum-precision.com",
@@ -3770,14 +4088,14 @@
       "address": "深圳市光明区科学城",
       "district": "光明区",
       "anchor": "光明中心",
-      "x": 280.8,
-      "y": 104.4,
+      "x": 257.9,
+      "y": 162,
       "sources": [
         "quantum-shenzhen.md"
       ]
     },
     {
-      "id": "c153",
+      "id": "c0026t6z",
       "name": "深圳量旋科技有限公司",
       "abbr": "量旋",
       "industries": [
@@ -3785,7 +4103,7 @@
       ],
       "founded": "2018年",
       "fields": "核磁共振量子计算、量子芯片、量子控制",
-      "product": "",
+      "product": "桌面式核磁共振量子计算机",
       "size": "250+人",
       "listing": "未上市",
       "website": "https://www.spinq.cn",
@@ -3793,14 +4111,39 @@
       "address": "深圳市南山区粤海街道",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 251.9,
-      "y": 357.5,
+      "x": 341.1,
+      "y": 413.4,
       "sources": [
         "quantum-shenzhen.md"
       ]
     },
     {
-      "id": "c154",
+      "id": "c0np9bxz",
+      "name": "金蝶软件（中国）有限公司",
+      "abbr": "金蝶软件",
+      "industries": [
+        "software",
+        "tech-innovation"
+      ],
+      "founded": "1993年",
+      "fields": "企业管理软件、ERP、SaaS",
+      "product": "金蝶云·星空、金蝶云·苍穹、金蝶K/3",
+      "size": "10000+人",
+      "listing": "港交所：0268.HK",
+      "website": "https://www.kingdee.com",
+      "repo": "https://github.com/kingdee",
+      "address": "总部：深圳市南山区科技园科技南十二路2号金蝶软件园",
+      "district": "南山区",
+      "anchor": "科技园",
+      "x": 313,
+      "y": 361.2,
+      "sources": [
+        "software-shenzhen.md",
+        "tech-innovation-shenzhen.md"
+      ]
+    },
+    {
+      "id": "c06ehr4q",
       "name": "深圳市金蝶软件有限公司",
       "abbr": "金蝶",
       "industries": [
@@ -3814,7 +4157,7 @@
       "listing": "港交所：0268",
       "website": "https://www.kingdee.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -3825,55 +4168,30 @@
       ]
     },
     {
-      "id": "c155",
-      "name": "金蝶软件（中国）有限公司",
-      "abbr": "金蝶软件",
-      "industries": [
-        "software",
-        "web3"
-      ],
-      "founded": "1993年",
-      "fields": "企业管理软件、ERP、SaaS",
-      "product": "金蝶云·星空、金蝶云·苍穹、金蝶K/3",
-      "size": "10000+人",
-      "listing": "港交所：0268.HK",
-      "website": "https://www.kingdee.com",
-      "repo": "https://github.com/kingdee",
-      "address": "深圳市福田区平安金融中心",
-      "district": "福田区",
-      "anchor": null,
-      "x": 421.4,
-      "y": 443.4,
-      "sources": [
-        "software-shenzhen.md",
-        "web3-shenzhen.md"
-      ]
-    },
-    {
-      "id": "c156",
-      "name": "平安壹账通银行（香港）/金融壹账通",
-      "abbr": "金融壹账通",
+      "id": "c1eojr09",
+      "name": "深圳金融科技研究院（央行数字货币研究所深圳）",
+      "abbr": "央行数研所深圳",
       "industries": [
         "fintech"
       ],
-      "founded": "2015年",
-      "fields": "金融科技输出、数字化银行",
-      "product": "Gamma平台、区块链贸易融资",
-      "size": "5000-10000人",
-      "listing": "纽交所：OCFT",
-      "website": "https://www.oneconnectft.com",
-      "repo": "无",
-      "address": "深圳市福田区益田路6009号新世界中心",
+      "founded": "2018年",
+      "fields": "数字人民币",
+      "product": "数字人民币钱包",
+      "size": "500-1000人",
+      "listing": "央行下属机构",
+      "website": "https://www.pbc.gov.cn",
+      "repo": null,
+      "address": "深圳市福田区",
       "district": "福田区",
-      "anchor": "福田中心",
-      "x": 434.2,
-      "y": 449.3,
+      "anchor": null,
+      "x": 499,
+      "y": 416.8,
       "sources": [
         "fintech-shenzhen.md"
       ]
     },
     {
-      "id": "c157",
+      "id": "c1samqv1",
       "name": "深圳市金证科技股份有限公司",
       "abbr": "金证科技",
       "industries": [
@@ -3889,14 +4207,14 @@
       "address": "总部：深圳市南山区科技园高新南一道008号创维大厦B座5层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 228.4,
-      "y": 395.4,
+      "x": 440.8,
+      "y": 441.1,
       "sources": [
         "software-shenzhen.md"
       ]
     },
     {
-      "id": "c158",
+      "id": "c0lg8kp4",
       "name": "银盛支付服务股份有限公司",
       "abbr": "银盛支付",
       "industries": [
@@ -3908,18 +4226,41 @@
       "size": "1000-5000人",
       "listing": "未上市",
       "website": "https://www.ysepay.com",
-      "repo": "无",
+      "repo": null,
       "address": "深圳市福田区益田路6009号",
       "district": "福田区",
       "anchor": "福田中心",
-      "x": 398.1,
-      "y": 383.3,
+      "x": 476.4,
+      "y": 383.9,
       "sources": [
         "fintech-shenzhen.md"
       ]
     },
     {
-      "id": "c159",
+      "id": "c0kzrvyl",
+      "name": "深圳市银联金融网络有限公司",
+      "abbr": "深银联",
+      "industries": [
+        "fintech"
+      ],
+      "founded": "1996年",
+      "fields": "支付清算、金融外包",
+      "product": "支付清算服务",
+      "size": "500-1000人",
+      "listing": "未上市",
+      "website": "https://www.sya.com.cn",
+      "repo": null,
+      "address": "深圳市福田区",
+      "district": "福田区",
+      "anchor": null,
+      "x": 461.9,
+      "y": 383.8,
+      "sources": [
+        "fintech-shenzhen.md"
+      ]
+    },
+    {
+      "id": "c10gv784",
       "name": "深圳链安科技有限公司",
       "abbr": "链安科技",
       "industries": [
@@ -3929,10 +4270,10 @@
       "fields": "区块链安全、智能合约审计",
       "product": "智能合约审计、区块链安全检测",
       "size": "50-100人",
-      "listing": "",
+      "listing": null,
       "website": "https://www.lianantech.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -3942,7 +4283,7 @@
       ]
     },
     {
-      "id": "c160",
+      "id": "c073jnbr",
       "name": "深圳市镁伽科技有限公司",
       "abbr": "镁伽科技",
       "industries": [
@@ -3954,18 +4295,18 @@
       "size": "500-1000人",
       "listing": "未上市",
       "website": "https://www.megarobo.tech",
-      "repo": "无",
+      "repo": null,
       "address": "总部：深圳市南山区科技园",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 221.8,
-      "y": 429.1,
+      "x": 381.4,
+      "y": 423.6,
       "sources": [
         "ai-shenzhen.md"
       ]
     },
     {
-      "id": "c161",
+      "id": "c1g0huka",
       "name": "深圳市长亮科技股份有限公司",
       "abbr": "长亮科技",
       "industries": [
@@ -3981,14 +4322,14 @@
       "address": "总部：深圳市南山区科技园高新南一道008号创维大厦B座7层",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 426.2,
-      "y": 481.3,
+      "x": 430.3,
+      "y": 423.7,
       "sources": [
         "software-shenzhen.md"
       ]
     },
     {
-      "id": "c162",
+      "id": "c0qtgls8",
       "name": "深圳市长盈精密技术股份有限公司",
       "abbr": "长盈精密",
       "industries": [
@@ -3997,7 +4338,7 @@
       ],
       "founded": "2001年",
       "fields": "精密结构件、连接器、智能制造",
-      "product": "手机精密结构件、连接器、散热模组",
+      "product": "精密结构件、自动化设备",
       "size": "30000+人",
       "listing": "深交所：300115",
       "website": "https://www.everwin.com.cn",
@@ -4005,15 +4346,15 @@
       "address": "总部：深圳市宝安区福永街道桥头社区富桥工业三区",
       "district": "宝安区",
       "anchor": "福永",
-      "x": 185.5,
-      "y": 293.9,
+      "x": 177,
+      "y": 245.3,
       "sources": [
         "new-materials-shenzhen.md",
         "smart-manufacturing-shenzhen.md"
       ]
     },
     {
-      "id": "c163",
+      "id": "c0ij9hav",
       "name": "深圳市零度智控（ZEROTECH）科技有限公司",
       "abbr": "零度智控",
       "industries": [
@@ -4029,14 +4370,14 @@
       "address": "深圳市南山区高新南七道12号惠恒大厦",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 221.0,
-      "y": 443.3,
+      "x": 282.1,
+      "y": 381.8,
       "sources": [
         "drone-shenzhen.md"
       ]
     },
     {
-      "id": "c164",
+      "id": "c14em348",
       "name": "深圳市雷赛智能控制股份有限公司",
       "abbr": "雷赛智能",
       "industries": [
@@ -4052,14 +4393,14 @@
       "address": "深圳市南山区学苑大道1001号南山智园A2栋",
       "district": "南山区",
       "anchor": "南山智园",
-      "x": 344.8,
-      "y": 376.6,
+      "x": 311.7,
+      "y": 330,
       "sources": [
         "automation-shenzhen.md"
       ]
     },
     {
-      "id": "c165",
+      "id": "c08ae12o",
       "name": "顺丰控股（顺丰金融）",
       "abbr": "顺丰金融",
       "industries": [
@@ -4071,18 +4412,18 @@
       "size": "5000-10000人",
       "listing": "顺丰控股：002352",
       "website": "https://www.sf-financial.com",
-      "repo": "无",
+      "repo": null,
       "address": "深圳市福田区新洲十一街万基商务大厦",
       "district": "福田区",
       "anchor": null,
-      "x": 465.8,
-      "y": 465.6,
+      "x": 448.2,
+      "y": 433.8,
       "sources": [
         "fintech-shenzhen.md"
       ]
     },
     {
-      "id": "c166",
+      "id": "c0lsyppp",
       "name": "深圳市顺络电子股份有限公司",
       "abbr": "顺络电子",
       "industries": [
@@ -4099,15 +4440,15 @@
       "address": "总部：深圳市龙华区观澜街道大富工业区顺络观澜工业园",
       "district": "龙华区",
       "anchor": "龙华中心",
-      "x": 439.8,
-      "y": 148.2,
+      "x": 453.3,
+      "y": 166.9,
       "sources": [
         "3c-shenzhen.md",
         "new-materials-shenzhen.md"
       ]
     },
     {
-      "id": "c167",
+      "id": "c1d6184x",
       "name": "深圳市高巨创新科技开发有限公司",
       "abbr": "高巨创新",
       "industries": [
@@ -4120,19 +4461,19 @@
       "size": "500-999人",
       "listing": "未上市",
       "website": "https://www.gj-tech.cn",
-      "repo": "无",
-      "address": "总部：深圳市龙岗区",
-      "district": "龙岗区",
-      "anchor": null,
-      "x": 581.5,
-      "y": 307.6,
+      "repo": null,
+      "address": "深圳市宝安区石岩街道水田社区石龙仔工业区",
+      "district": "宝安区",
+      "anchor": "石岩",
+      "x": 332.7,
+      "y": 256.4,
       "sources": [
         "drone-shenzhen.md",
         "robotics-shenzhen.md"
       ]
     },
     {
-      "id": "c168",
+      "id": "c0ngjz41",
       "name": "深圳市高新兴科技集团股份有限公司",
       "abbr": "高新兴",
       "industries": [
@@ -4145,7 +4486,7 @@
       "listing": "深交所：300098",
       "website": "https://www.gosuncn.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -4155,7 +4496,7 @@
       ]
     },
     {
-      "id": "c169",
+      "id": "c0p4u5wk",
       "name": "深圳市麦捷科技股份有限公司",
       "abbr": "麦捷科技",
       "industries": [
@@ -4168,7 +4509,7 @@
       "listing": "深交所：300319",
       "website": "https://www.maijie-tech.com",
       "repo": null,
-      "address": "",
+      "address": null,
       "district": null,
       "anchor": null,
       "x": null,
@@ -4178,7 +4519,7 @@
       ]
     },
     {
-      "id": "c170",
+      "id": "c0nr0ku5",
       "name": "深圳市麦格米特电气股份有限公司",
       "abbr": "麦格米特",
       "industries": [
@@ -4194,8 +4535,8 @@
       "address": "深圳市南山区高新区北区朗山路28号麦格米特大厦",
       "district": "南山区",
       "anchor": "科技园",
-      "x": 285.7,
-      "y": 328.7,
+      "x": 279.5,
+      "y": 378.2,
       "sources": [
         "automation-shenzhen.md"
       ]

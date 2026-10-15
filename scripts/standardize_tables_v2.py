@@ -205,7 +205,7 @@ if __name__ == '__main__':
                         help='项目根目录')
     parser.add_argument('--dry-run', '-n', action='store_true',
                         help='仅预览')
-    parser.add_argument('--dir', '-d', default='industry',
+    parser.add_argument('--dir', '-d', default='docs/industry',
                         help='子目录')
 
     args = parser.parse_args()

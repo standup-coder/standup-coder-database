@@ -9,6 +9,11 @@ const path = require('path');
 const DATA_DIR = path.join(__dirname, '../..');
 const OUTPUT_DIR = path.join(__dirname, '../public/data');
 
+// 语料根：语料搬到 docs/ 后指向 docs/，否则回落仓库根（与 shared/pipeline/paths.mjs 同一口径）
+const CONTENT_ROOT = fs.existsSync(path.join(DATA_DIR, 'docs', 'industry'))
+  ? path.join(DATA_DIR, 'docs')
+  : DATA_DIR;
+
 // 榜单配置
 const RANKING_CONFIGS = [
   {
@@ -81,7 +86,7 @@ function parseTableLine(line, headers) {
 }
 
 function parseRankingFile(config) {
-  const filePath = path.join(DATA_DIR, config.file);
+  const filePath = path.join(CONTENT_ROOT, config.file);
   if (!fs.existsSync(filePath)) {
     console.log(`  Warning: ${config.file} not found`);
     return null;
@@ -159,6 +164,8 @@ function parseRankingFile(config) {
   
   return {
     ...config,
+    // 溯源路径按仓库根记录，语料搬迁后仍是可直接打开的真实路径
+    file: path.relative(DATA_DIR, filePath),
     items,
     count: items.length,
   };

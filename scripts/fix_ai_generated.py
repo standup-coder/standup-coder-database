@@ -18,8 +18,10 @@ import re
 import argparse
 from pathlib import Path
 
-# 需跳过的目录（非内容文件）
-SKIP_DIRS = {'console', 'node_modules', '.git', 'scripts', 'docs', '.zcode', '.claude', '.qoder', '.trae'}
+# 需跳过的目录（非内容文件）。语料搬到 docs/ 后只排除 docs 下的元文档目录。
+SKIP_DIRS = {'console', 'node_modules', '.git', 'scripts',
+             'reports', 'project-assessments',
+             '.zcode', '.claude', '.qoder', '.trae'}
 
 
 def should_skip(file_path: str, base: str = None) -> bool:

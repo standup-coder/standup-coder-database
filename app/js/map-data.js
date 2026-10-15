@@ -1,6 +1,6 @@
 /* 深圳卡通地图静态数据：11 区轮廓（卡通示意，非精确地理边界）+ 商圈锚点。
  * 坐标系 viewBox 0 0 1000 760，x 向东、y 向南；
- * 锚点坐标与 scripts/build_app_data.py 中 ANCHORS 保持一致。 */
+ * 锚点坐标与 app/scripts/build-app-data.mjs 中 ANCHORS 保持一致。 */
 window.APP_MAP = {
   viewBox: { w: 1000, h: 760 },
 
@@ -29,7 +29,7 @@ window.APP_MAP = {
       d: "M 688 395 C 705 378, 730 375, 752 388 C 775 400, 792 420, 800 445 C 808 470, 800 495, 778 505 C 758 514, 738 505, 728 488 C 718 472, 702 462, 690 450 C 678 438, 672 412, 688 395 Z" },
   ],
 
-  // 商圈锚点（与 build_app_data.py ANCHORS 同值）
+  // 商圈锚点（与 build-app-data.mjs 的 ANCHORS 同值，构建时断言比对）
   anchors: {
     "留仙洞": { x: 312, y: 368 }, "南山智园": { x: 340, y: 345 },
     "深圳湾": { x: 372, y: 480 }, "蛇口": { x: 282, y: 498 },

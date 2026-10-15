@@ -45,7 +45,7 @@ app-publishing-guide/
 - [订阅与内购](./subscription.md) - IAP/订阅制
 
 ### 用户增长
-- [ASO 优化](./aso.md) - App Store 搜索优化
+- [ASO 优化](../monetization/aso.md) - App Store 搜索优化
 
 ## 快速导航
 
