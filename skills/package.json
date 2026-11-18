@@ -18,11 +18,13 @@
     "web:build": "node tools/web/build.js",
     "pull:top": "node tools/import/pull-top.js",
     "role:fit": "node tools/role-fit.js",
+    "agentic:check": "node tools/agentic-corpus-check.mjs",
     "lint": "eslint . --ext .js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/standup-coder/skills-database.git"
+    "url": "https://github.com/standup-coder/standup-coder-database.git",
+    "directory": "skills"
   },
   "keywords": [
     "skills",
@@ -37,9 +39,9 @@
   "author": "Skills Database Contributors",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/standup-coder/skills-database/issues"
+    "url": "https://github.com/standup-coder/standup-coder-database/issues"
   },
-  "homepage": "https://standup-coder.github.io/skills-database/",
+  "homepage": "https://standup-coder.github.io/standup-coder-database/",
   "devDependencies": {
     "eslint": "^9.39.4"
   },

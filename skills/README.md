@@ -1,6 +1,8 @@
 # Skills Database
 
 > **本地化的职业技能学习与挑选平台 · Personal SkillHub**
+>
+> **并入说明**：本库已并入 `standup-coder-database`，作为 `skills/` 模块维护（原 `standup-coder/skills-database` 仓库归档）。以下命令均在 `skills/` 目录内执行；在仓库根执行时改用 `npm --prefix skills run <script>`。
 
 一个**以 Markdown 为唯一真值**的本地技能资料库——把外部权威 skill 资源（mcpmarket、skills-sh、anthropics/skills、qoder-community、VoltAgent/awesome-agent-skills 等）按职业技能领域整理成可学习、可挑选、可沉淀的目录。
 
@@ -18,7 +20,7 @@
 # 1. 浏览目录(三种方式任选)
 open catalog/_index.md                              # 直接读 MD
 open tools/web/index.html                           # 静态浏览站(含搜索/筛选)
-# 或访问 GitHub Pages 在线版(见下方链接)
+# 或访问 GitHub Pages 在线版:https://standup-coder.github.io/standup-coder-database/
 
 # 2. 跑一次归类/索引/浏览站构建
 npm run import:classify                              # sources → catalog
@@ -36,7 +38,7 @@ $EDITOR personal/picked.md                           # 在 personal/ 标记想�
 ## 📚 目录结构
 
 ```
-skills-database/
+skills/
 ├── catalog/                       # 【主】按领域分类的 skills MD(454 条)
 │   ├── _index.md                  # 总索引
 │   ├── roles/                     # 27 个职业角色(含成长线索引)
@@ -64,6 +66,10 @@ skills-database/
 │   └── _global_index.md           # 跨站点采集总览
 │
 ├── personal/                      # 【本地】个人挑选状态(默认 .gitignore)
+│
+├── agentic/                       # Agent 协作开发语料 + SKILL.md（原 agentic-newbee 并入）
+│   ├── corpus/                    # prompts / workflows / transcripts / checklists
+│   └── skills/                    # 标准 SKILL.md 格式的 Agent Skills
 │
 ├── tools/                         # 工具集(非核心)
 │   ├── import/                    # 归类、JSON→MD、索引刷新、校验

@@ -83,14 +83,35 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 - **docs/management/** - 技术管理知识体系（26个文件，专业分类）
 - **docs/super-individual/** - 超级个体与OPC一人公司知识体系（58个文件，全面覆盖OPC速查手册、OPC完全指南、OPC政策红利、AI Agent工作流、Vibe Coding、OPC全球化扩张、OPC案例研究、OPC融资指南、OPC增长营销、OPC产品设计、OPC数据驱动、OPC心理健康、工商注册、自媒体、AI工具链、个人IP、自由职业、数字产品、财税合规、副业规划、程序员技能蒸馏）
 
+- **skills/** - 职业技能库：470+ 条岗位技能目录、27 个角色成长线、Agent 协作战语料（原 skills-database 与 agentic-newbee 并入）
+
 ## 目录结构说明
 
 > **路径说明**：以下所有模块目录都位于 `docs/` 下（如 `docs/industry/`、`docs/rankings/`）。
 > 早期仓库根直接铺这些内容目录，现已整体搬迁到 `docs/`；根目录只留产品入口 README、
-> `shared/`（公用数据层）、`console/`、`app/`、`GTM/`、`scripts/`，以及按形态区分的
+> `shared/`（公用数据层）、`console/`、`app/`、`GTM/`、`scripts/`、`skills/`（职业技能子库），以及按形态区分的
 > `mini-app/`、`web-app/`、`mac-app/`、`win-app/`。引用旧根路径的地址一律加 `docs/` 前缀。
 > 三种取数方式共用 `shared/`：`cd console && npm run data`（重建 `shared/data/dist/`）、
 > `npm run data:sync`（同步给控制台）、`node app/scripts/build-app-data.mjs --check`（深圳地图）。
+
+### 职业技能库 (skills/)
+把「学什么技能 / 怎么和 agent 一起干活」从外部权威 skills hub 整理成可检索的 Markdown 目录，由原 `skills-database` 与 `agentic-newbee` 两个仓库并入。
+
+- **skills/catalog/** - 470+ 条岗位技能目录（16 个领域、27 个角色成长线）
+- **skills/sources/** - 原始采集与来源溯源档案（anthropic / mcpmarket / skills-sh / qoder / voltagent）
+- **skills/agentic/** - Agent 协作开发语料（prompts / workflows / transcripts / checklists）与 6 个可装载的 SKILL.md
+- **skills/tools/web/index.html** - 零依赖离线浏览站（搜索 / 领域筛选 / 学习闭环）
+
+维护命令（在 `skills/` 下执行，或在根目录加 `npm --prefix skills run`）：
+
+```bash
+cd skills
+npm run import:validate   # catalog 引用 / frontmatter / 重复 id 校验
+npm run agentic:check     # agentic 语料与 SKILL.md 校验
+npm run web:build         # 重建离线浏览站
+```
+
+**入口**：[skills/README.md](skills/README.md) · **技能索引**：[skills/catalog/_index.md](skills/catalog/_index.md) · **Agent 新手村**：[skills/agentic/README.md](skills/agentic/README.md)
 
 ### 权威企业榜单 (docs/rankings/)
 收录中国最具影响力的权威企业排行榜，包括财富中国500强、福布斯中国富豪榜等国家级榜单，为投资者、研究人员、商业决策者提供权威参考。

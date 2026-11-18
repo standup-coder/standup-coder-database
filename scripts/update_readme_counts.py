@@ -25,7 +25,7 @@ CONTENT_ROOT = ROOT / "docs" if (ROOT / "docs" / "industry").is_dir() else ROOT
 # 校验/统计时跳过的非内容目录（docs 下的元文档，语料目录不在其中）
 SKIP = {"console", "app", "node_modules", ".git", "scripts",
         "reports", "project-assessments",
-        ".github", ".qoder", ".zcode", ".claude", ".trae"}
+        ".github", ".qoder", ".zcode", ".claude", ".trae", "skills"}
 
 
 def count_md(path: str) -> int:
