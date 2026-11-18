@@ -1,0 +1,162 @@
+{
+  "started_at": "2026-11-12T02:50:39+00:00",
+  "finished_at": "2026-11-12T02:52:16+00:00",
+  "anchor_date": "2026-11-12",
+  "out_dir": "/Users/allengaller/Documents/GitHub/standup-coder/standup-coder-database/data/hongkong/2026-11",
+  "delay_seconds": 0.2,
+  "sources": {
+    "talent.com": {
+      "type": "aggregator",
+      "keywords": [
+        "devops",
+        "devsecops",
+        "site reliability engineer",
+        "sre",
+        "production support",
+        "platform engineer",
+        "cloud engineer",
+        "cloud infrastructure",
+        "infrastructure engineer",
+        "data centre",
+        "AI engineer",
+        "machine learning engineer",
+        "machine learning",
+        "mlops",
+        "llm",
+        "llm engineer",
+        "genai",
+        "AI platform",
+        "IT engineer",
+        "IT infrastructure",
+        "IT operations",
+        "system engineer",
+        "IT support"
+      ],
+      "pages_per_keyword": 4,
+      "accessible": true
+    },
+    "cpjobs.com": {
+      "type": "job_board",
+      "keywords": [
+        "devops",
+        "cloud engineer",
+        "cloud infrastructure",
+        "AI engineer",
+        "artificial intelligence",
+        "machine learning engineer",
+        "IT infrastructure",
+        "system engineer",
+        "platform engineer",
+        "production support",
+        "data centre",
+        "Linux"
+      ],
+      "pages_per_query": 2,
+      "accessible": true
+    },
+    "jobs.gov.hk": {
+      "type": "government job portal (Labour Department)",
+      "listing": "https://www1.jobs.gov.hk/0/en/jobseeker/jobsearch/quickview/jobtype/5/",
+      "pages": 12,
+      "sort": "post_dt_desc",
+      "accessible": true,
+      "note": "电脑及资讯科技空缺；薪资、雇主、地区、语言要求均为结构化字段。",
+      "keyword_search": [
+        "SRE",
+        "site reliability",
+        "production support",
+        "DevOps",
+        "DevSecOps",
+        "AI",
+        "AI engineer",
+        "machine learning",
+        "LLM",
+        "algorithm",
+        "cloud",
+        "cloud engineer",
+        "platform",
+        "infrastructure",
+        "data centre"
+      ],
+      "keyword_note": "用公开高级搜索补漏 IT 分类之外的相关岗位；POST 需要 ASP.NET token，单线程限速。"
+    },
+    "michaelpage.com.hk": {
+      "type": "recruiter",
+      "listing": "https://www.michaelpage.com.hk/jobs/it",
+      "pages": 10,
+      "accessible": true
+    },
+    "ctgoodjobs.hk": {
+      "type": "job_board",
+      "accessible": false,
+      "reason": "Human Verification / HTTP 405，未绕过"
+    },
+    "hk.jobsdb.com": {
+      "type": "job_board",
+      "accessible": false,
+      "reason": "Cloudflare 安全验证，未绕过"
+    },
+    "hk.indeed.com": {
+      "type": "aggregator",
+      "accessible": false,
+      "reason": "HTTP 403"
+    },
+    "efinancialcareers.hk": {
+      "type": "finance job board",
+      "accessible": true,
+      "access_method": "browser-assisted public pages (VPN required from mainland; no login bypass)",
+      "cards": 90,
+      "relevant": 11,
+      "details": 11,
+      "note": "Technology category first 90 cards loaded via Show more; 11 relevant titles selected and detail pages fetched in-browser."
+    },
+    "linkedin.com/jobs": {
+      "type": "network job board",
+      "accessible": false,
+      "reason": "HTTP 451 / 需登录"
+    }
+  },
+  "counts": {
+    "cards_total": 1715,
+    "cards_deduped": 1090,
+    "relevant_cards": 255,
+    "details_fetched": 242,
+    "by_source": {
+      "talent.com": {
+        "cards": 486,
+        "relevant": 114
+      },
+      "cpjobs.com": {
+        "cards": 14,
+        "relevant": 7
+      },
+      "jobs.gov.hk": {
+        "cards": 310,
+        "relevant": 92
+      },
+      "michaelpage.com.hk": {
+        "cards": 280,
+        "relevant": 42
+      }
+    }
+  },
+  "errors": [
+    {
+      "url": "https://www.michaelpage.com.hk/job-detail/senior-architect-cloud-architecture/ref/jn-082026-7090441",
+      "status": "410"
+    }
+  ],
+  "notes": [
+    "只抓公开列表/详情页，不绕过登录、Cloudflare 或地区限制。",
+    "Talent.com 是聚合器，同一岗位可能在不同来源重复出现。",
+    "Michael Page 为猎头，雇主通常不披露，company 字段统一记为 Confidential。",
+    "薪资为广告原文解析，缺失不代表无薪；月薪归一化仅用于样本比较。"
+  ],
+  "supplementary_counts": {
+    "efinancialcareers.hk": {
+      "cards": 90,
+      "relevant": 11,
+      "details": 11
+    }
+  }
+}

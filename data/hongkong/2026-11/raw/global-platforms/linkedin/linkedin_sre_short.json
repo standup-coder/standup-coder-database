@@ -1,0 +1,426 @@
+{
+  "cards": [
+    {
+      "company": "Tyk",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-08-15",
+      "title": "Site Reliability Engineer - APAC",
+      "url": "https://hk.linkedin.com/jobs/view/site-reliability-engineer-apac-at-tyk-4465064875"
+    },
+    {
+      "company": "Millennium",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-11",
+      "title": "Platform / Site Reliability Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/platform-site-reliability-engineer-at-millennium-4473752613"
+    },
+    {
+      "company": "GFT Technologies APAC & GCC",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-09",
+      "title": "Senior Site Reliability Engineer (SRE)",
+      "url": "https://hk.linkedin.com/jobs/view/senior-site-reliability-engineer-sre-at-gft-technologies-apac-gcc-4488837457"
+    },
+    {
+      "company": "可迪付 (KodyPay)",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-16",
+      "title": "SRE/DevOps/Platform Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/sre-devops-platform-engineer-at-kody-4480344354"
+    },
+    {
+      "company": "Peak3",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-20",
+      "title": "SRE",
+      "url": "https://hk.linkedin.com/jobs/view/sre-at-peak3-4480446712"
+    },
+    {
+      "company": "Reap",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-07",
+      "title": "Senior Site Reliability Engineer (APAC)",
+      "url": "https://hk.linkedin.com/jobs/view/senior-site-reliability-engineer-apac-at-reap-4475429219"
+    },
+    {
+      "company": "Jefferies",
+      "location": "香港特别行政区",
+      "posted": "2026-10-26",
+      "title": "Site Reliable Engineer (SRE) for Equity Trading Platform",
+      "url": "https://hk.linkedin.com/jobs/view/site-reliable-engineer-sre-for-equity-trading-platform-at-jefferies-4401576978"
+    },
+    {
+      "company": "Selby Jennings",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-01",
+      "title": "Core Site Reliability Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/core-site-reliability-engineer-at-selby-jennings-4450235007"
+    },
+    {
+      "company": "NLS Executive Search",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-06",
+      "title": "Site Reliability Engineer - Global Financial Institution - Hong Kong",
+      "url": "https://hk.linkedin.com/jobs/view/site-reliability-engineer-global-financial-institution-hong-kong-at-nls-executive-search-4469654246"
+    },
+    {
+      "company": "CITIC Securities International",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-09",
+      "title": "Sr. Manager, Site Reliability & Innovation, IT",
+      "url": "https://hk.linkedin.com/jobs/view/sr-manager-site-reliability-innovation-it-at-citic-securities-international-4487676331"
+    },
+    {
+      "company": "法国巴黎银行",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-09",
+      "title": "Senior Linux Engineer / SRE",
+      "url": "https://hk.linkedin.com/jobs/view/senior-linux-engineer-sre-at-bnp-paribas-4487675913"
+    },
+    {
+      "company": "Anchorpoint",
+      "location": "香港特别行政区",
+      "posted": "2026-10-15",
+      "title": "Production Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/production-engineer-at-anchorpoint-4479118505"
+    },
+    {
+      "company": "Horizon Trading Solutions",
+      "location": "香港特别行政区",
+      "posted": "2026-11-03",
+      "title": "Senior Site Reliability Engineer (SRE) / Managed Services Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/senior-site-reliability-engineer-sre-managed-services-engineer-at-horizon-trading-solutions-4486877643"
+    },
+    {
+      "company": "Wizpresso 濃說",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-02",
+      "title": "DevOps and Site Reliability Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/devops-and-site-reliability-engineer-at-wizpresso-%E6%BF%83%E8%AA%AA-4473120488"
+    },
+    {
+      "company": "Canonical",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-10",
+      "title": "Senior Site Reliability / Gitops Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/senior-site-reliability-gitops-engineer-at-canonical-4489632650"
+    },
+    {
+      "company": "SearchApi",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-06-29",
+      "title": "Senior Infrastructure Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/senior-infrastructure-engineer-at-searchapi-4434487461"
+    },
+    {
+      "company": "GFT Technologies APAC & GCC",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-11",
+      "title": "Senior DevOps Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/senior-devops-engineer-at-gft-technologies-apac-gcc-4489971360"
+    },
+    {
+      "company": "国泰君安国际 Guotai Junan International",
+      "location": "香港特别行政区 上环",
+      "posted": "2026-11-09",
+      "title": "DevOps / Operations Development Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/devops-operations-development-engineer-at-%E5%9B%BD%E6%B3%B0%E5%90%9B%E5%AE%89%E5%9B%BD%E9%99%85-guotai-junan-international-4462783683"
+    },
+    {
+      "company": "Rock Bund Capital",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-23",
+      "title": "Senior Infrastructure & Reliability Engineer (AWS & Low Latency Trading Platform)",
+      "url": "https://hk.linkedin.com/jobs/view/senior-infrastructure-reliability-engineer-aws-low-latency-trading-platform-at-rock-bund-capital-4480647208"
+    },
+    {
+      "company": "法国兴业银行",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-09",
+      "title": "Market Access Devops Support - Global Market Activities",
+      "url": "https://hk.linkedin.com/jobs/view/market-access-devops-support-global-market-activities-at-societe-generale-4480948953"
+    },
+    {
+      "company": "Gravitas Recruitment Group (Global) Ltd",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-09",
+      "title": "Site Reliability Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/site-reliability-engineer-at-gravitas-recruitment-group-global-ltd-4487655847"
+    },
+    {
+      "company": "RedotPay",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-13",
+      "title": "DevOps / SRE Lead",
+      "url": "https://hk.linkedin.com/jobs/view/devops-sre-lead-at-redotpay-4455704476"
+    },
+    {
+      "company": "Canonical",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-11",
+      "title": "Senior Site Reliability Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/senior-site-reliability-engineer-at-canonical-4487870351"
+    },
+    {
+      "company": "Hunter Bond",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-10",
+      "title": "Site Reliability Engineer: $1,000,000 + (Elite Trading Firm)",
+      "url": "https://hk.linkedin.com/jobs/view/site-reliability-engineer-%241-000-000-%2B-elite-trading-firm-at-hunter-bond-4487808854"
+    },
+    {
+      "company": "RedotPay",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-12",
+      "title": "Head of Infrastructure SRE",
+      "url": "https://hk.linkedin.com/jobs/view/head-of-infrastructure-sre-at-redotpay-4478381832"
+    },
+    {
+      "company": "Schonfeld",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-21",
+      "title": "AI Platform Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/ai-platform-engineer-at-schonfeld-4482122009"
+    },
+    {
+      "company": "Futu Holdings Limited",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-22",
+      "title": "2027 Fresh Grad Hire - SRE Engineer (System Operation and Maintenance Focus)",
+      "url": "https://hk.linkedin.com/jobs/view/2027-fresh-grad-hire-sre-engineer-system-operation-and-maintenance-focus-at-futu-holdings-limited-4479491260"
+    },
+    {
+      "company": "Balyasny Asset Management L.P.",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-14",
+      "title": "Trading Platform Engineer, Systematic Technology",
+      "url": "https://hk.linkedin.com/jobs/view/trading-platform-engineer-systematic-technology-at-balyasny-asset-management-l-p-4464170028"
+    },
+    {
+      "company": "摩根士丹利",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-09",
+      "title": "Reliability & Production Engineer, Vice President",
+      "url": "https://hk.linkedin.com/jobs/view/reliability-production-engineer-vice-president-at-morgan-stanley-4487686068"
+    },
+    {
+      "company": "Prudential Hong Kong",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-10",
+      "title": "Senior Officer, Infrastructure & Service Management",
+      "url": "https://hk.linkedin.com/jobs/view/senior-officer-infrastructure-service-management-at-prudential-hong-kong-4489412000"
+    },
+    {
+      "company": "香港交易所",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-03",
+      "title": "Senior Cloud Services Engineer - Associate - Cloud Platform Services - 12month contract",
+      "url": "https://hk.linkedin.com/jobs/view/senior-cloud-services-engineer-associate-cloud-platform-services-12month-contract-at-hong-kong-exchanges-and-clearing-limited-hkex-4486876002"
+    },
+    {
+      "company": "Susquehanna International Group",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-27",
+      "title": "Trading Systems Devops Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/trading-systems-devops-engineer-at-susquehanna-international-group-4481880545"
+    },
+    {
+      "company": "stakefish",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-04",
+      "title": "(f2pool) DevOps Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/f2pool-devops-engineer-at-stakefish-4475387155"
+    },
+    {
+      "company": "Alpaca",
+      "location": "香港特别行政区",
+      "posted": "2026-11-10",
+      "title": "Senior DevOps Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/senior-devops-engineer-at-alpaca-4489418051"
+    },
+    {
+      "company": "Jump Trading",
+      "location": "香港特别行政区 中西區",
+      "posted": "2026-11-10",
+      "title": "Cloud Systems Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/cloud-systems-engineer-at-jump-trading-4487458551"
+    },
+    {
+      "company": "Datago Technology Limited",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-27",
+      "title": "Operations & DevOps Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/operations-devops-engineer-at-datago-technology-limited-4466174398"
+    },
+    {
+      "company": "TEKsystems",
+      "location": "香港特别行政区",
+      "posted": "2026-11-04",
+      "title": "Production Support Engineer / SRE",
+      "url": "https://hk.linkedin.com/jobs/view/production-support-engineer-sre-at-teksystems-4479278042"
+    },
+    {
+      "company": "Susquehanna International Group",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-26",
+      "title": "Senior Production Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/senior-production-engineer-at-susquehanna-international-group-4481409871"
+    },
+    {
+      "company": "Selby Jennings",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-29",
+      "title": "Trading Systems Reliability Engineer - C++",
+      "url": "https://hk.linkedin.com/jobs/view/trading-systems-reliability-engineer-c%2B%2B-at-selby-jennings-4459637555"
+    },
+    {
+      "company": "Options Technology",
+      "location": "香港特别行政区",
+      "posted": "2026-08-26",
+      "title": "Platform Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/platform-engineer-at-options-technology-4457986404"
+    },
+    {
+      "company": "Tower Research Capital",
+      "location": "香港特别行政区",
+      "posted": "2026-11-08",
+      "title": "Reliability Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/reliability-engineer-at-tower-research-capital-4427196374"
+    },
+    {
+      "company": "Captar Partners",
+      "location": "香港特别行政区",
+      "posted": "2026-10-07",
+      "title": "SRE/ DevOps Lead- Financial Services",
+      "url": "https://hk.linkedin.com/jobs/view/sre-devops-lead-financial-services-at-captar-partners-4475415504"
+    },
+    {
+      "company": "Crypto.com",
+      "location": "香港特别行政区",
+      "posted": "2026-11-01",
+      "title": "Senior DevOps Engineer (Trading Platform)",
+      "url": "https://hk.linkedin.com/jobs/view/senior-devops-engineer-trading-platform-at-crypto-com-4466900619"
+    },
+    {
+      "company": "OKX",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-22",
+      "title": "Infrastructure Stability Architect (Senior Staff Engineer)",
+      "url": "https://hk.linkedin.com/jobs/view/infrastructure-stability-architect-senior-staff-engineer-at-okx-4423938463"
+    },
+    {
+      "company": "印孚瑟斯",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-20",
+      "title": "Cloud Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/cloud-engineer-at-infosys-4478630685"
+    },
+    {
+      "company": "dtcpay",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-25",
+      "title": "Senior Platform Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/senior-platform-engineer-at-dtcpay-4481067991"
+    },
+    {
+      "company": "Binance",
+      "location": "香港特别行政区 中西區",
+      "posted": "2026-10-26",
+      "title": "Techops Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/techops-engineer-at-binance-4482931399"
+    },
+    {
+      "company": "Omnichat",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-05",
+      "title": "(Senior) DevOps Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/senior-devops-engineer-at-omnichat-4486700023"
+    },
+    {
+      "company": "香港交易所",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-02",
+      "title": "Vice President, Cloud Operations",
+      "url": "https://hk.linkedin.com/jobs/view/vice-president-cloud-operations-at-hong-kong-exchanges-and-clearing-limited-hkex-4486119678"
+    },
+    {
+      "company": "联想",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-09",
+      "title": "[LPS] System Specialist (Kubernetes)",
+      "url": "https://hk.linkedin.com/jobs/view/lps-system-specialist-kubernetes-at-lenovo-4487903447"
+    },
+    {
+      "company": "Cathay Pacific",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-07",
+      "title": "Platform Ops Lead (24-month Contract)",
+      "url": "https://hk.linkedin.com/jobs/view/platform-ops-lead-24-month-contract-at-cathay-pacific-4488739012"
+    },
+    {
+      "company": "Pinpoint Asia",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-23",
+      "title": "Senior Linux Servers/ Cloud Infra Engineer - Leading Securities Firm - J12678",
+      "url": "https://hk.linkedin.com/jobs/view/senior-linux-servers-cloud-infra-engineer-leading-securities-firm-j12678-at-pinpoint-asia-4481661472"
+    },
+    {
+      "company": "CITIC Securities International",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-10-27",
+      "title": "Support Manager, Wealth Management, IT",
+      "url": "https://hk.linkedin.com/jobs/view/support-manager-wealth-management-it-at-citic-securities-international-4446741239"
+    },
+    {
+      "company": "LPS",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-09",
+      "title": "[LPS] Senior System Specialist (Kubernetes)",
+      "url": "https://hk.linkedin.com/jobs/view/lps-senior-system-specialist-kubernetes-at-lps-4487902559"
+    },
+    {
+      "company": "Nomura",
+      "location": "香港特别行政区 中环",
+      "posted": "2026-09-29",
+      "title": "Associate, Linux Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/associate-linux-engineer-at-nomura-4471713901"
+    },
+    {
+      "company": "NLS Executive Search",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-10",
+      "title": "Production Support Lead - Global Hedge Fund - Hong Kong",
+      "url": "https://hk.linkedin.com/jobs/view/production-support-lead-global-hedge-fund-hong-kong-at-nls-executive-search-4484812829"
+    },
+    {
+      "company": "LPS",
+      "location": "香港特别行政区 香港",
+      "posted": "2026-11-04",
+      "title": "[LPS] Senior Systems Specialist / System Specialist (Kubernetes)",
+      "url": "https://hk.linkedin.com/jobs/view/lps-senior-systems-specialist-system-specialist-kubernetes-at-lps-4459767666"
+    },
+    {
+      "company": "Ampd Energy",
+      "location": "香港特别行政区",
+      "posted": "2026-08-05",
+      "title": "Senior Software Engineer - Platform & Data Infrastructure",
+      "url": "https://hk.linkedin.com/jobs/view/senior-software-engineer-platform-data-infrastructure-at-ampd-energy-4449400953"
+    },
+    {
+      "company": "BAH Partners",
+      "location": "香港特别行政区",
+      "posted": "2026-10-22",
+      "title": "REMOTE: Lead Infrastructure / SRE Engineer | AWS",
+      "url": "https://hk.linkedin.com/jobs/view/remote-lead-infrastructure-sre-engineer-aws-at-bah-partners-4481307759"
+    },
+    {
+      "company": "MoneyHero Group (Nasdaq: MNY)",
+      "location": "香港特别行政区 中西區",
+      "posted": "2026-11-09",
+      "title": "Senior Staff, Platform Engineer",
+      "url": "https://hk.linkedin.com/jobs/view/senior-staff-platform-engineer-at-moneyhero-group-nasdaq-mny-4470917265"
+    }
+  ],
+  "count": 60,
+  "keyword": "SRE"
+}

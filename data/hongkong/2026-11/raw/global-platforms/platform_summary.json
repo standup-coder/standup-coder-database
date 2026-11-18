@@ -1,0 +1,299 @@
+{
+  "period": "2026-11",
+  "generated_at": "2026-11-12T06:22:59+00:00",
+  "anchor_date": "2026-11-12",
+  "note": "独立平台样本，不并入核心 235 条；LinkedIn 无薪资/详情，Wellfound 为 USD，Randstad 薪资 period 有异常。",
+  "platforms": {
+    "linkedin.com": {
+      "platform": "linkedin.com",
+      "access": "可访问（VPN + 浏览器；公开岗位搜索，无需登录）",
+      "cards": 480,
+      "unique": 243,
+      "relevant": 171,
+      "families": {
+        "AI": 66,
+        "Cloud/Infra": 17,
+        "DevOps": 26,
+        "SRE": 32,
+        "IT Support/Ops": 30
+      },
+      "top_companies": [
+        [
+          "Selby Jennings",
+          7
+        ],
+        [
+          "ConnectedGroup",
+          5
+        ],
+        [
+          "Hays",
+          5
+        ],
+        [
+          "Futu Holdings Limited",
+          4
+        ],
+        [
+          "Intact",
+          4
+        ],
+        [
+          "BAH Partners",
+          4
+        ],
+        [
+          "TEKsystems",
+          4
+        ],
+        [
+          "OKX",
+          3
+        ],
+        [
+          "Millennium",
+          3
+        ],
+        [
+          "RedotPay",
+          3
+        ],
+        [
+          "NLS Executive Search",
+          3
+        ],
+        [
+          "Manulife",
+          2
+        ],
+        [
+          "Madison Pearl",
+          2
+        ],
+        [
+          "Capco",
+          2
+        ],
+        [
+          "TCL Corporate Research(HK) Co., Ltd",
+          2
+        ]
+      ],
+      "top_titles": [
+        [
+          "AI Engineer",
+          4
+        ],
+        [
+          "Senior DevOps Engineer",
+          4
+        ],
+        [
+          "Senior AI Engineer",
+          3
+        ],
+        [
+          "Machine Learning Engineer",
+          3
+        ],
+        [
+          "Cloud Engineer",
+          3
+        ],
+        [
+          "AI Developer II",
+          2
+        ],
+        [
+          "Artificial Intelligence Engineer",
+          2
+        ],
+        [
+          "Algorithm Engineer",
+          2
+        ],
+        [
+          "LLM Engineer",
+          2
+        ],
+        [
+          "Senior Infrastructure Engineer",
+          2
+        ],
+        [
+          "Platform Engineer",
+          2
+        ],
+        [
+          "AI Platform Engineer (AI DevOps Engineer) Large Finance",
+          2
+        ],
+        [
+          "Data Scientist",
+          2
+        ],
+        [
+          "2027 Fresh Grad Hire - AI Algorithm Engineer",
+          1
+        ],
+        [
+          "Senior AI Developer",
+          1
+        ]
+      ],
+      "with_salary": 0,
+      "with_description": 0,
+      "sample_url": "https://hk.linkedin.com/jobs/view/2027-fresh-grad-hire-ai-algorithm-engineer-at-futu-holdings-limited-4482279480"
+    },
+    "wellfound.com": {
+      "platform": "wellfound.com",
+      "access": "可访问（公开页面，启动/Web3 岗位）",
+      "cards": 56,
+      "unique": 55,
+      "relevant": 6,
+      "families": {
+        "DevOps": 2,
+        "AI": 4
+      },
+      "top_companies": [
+        [
+          "everything",
+          1
+        ],
+        [
+          "SnagR",
+          1
+        ],
+        [
+          "basil & friends",
+          1
+        ],
+        [
+          "TakeX",
+          1
+        ],
+        [
+          "Auros",
+          1
+        ],
+        [
+          "Hmlet",
+          1
+        ]
+      ],
+      "top_titles": [
+        [
+          "DevOps Engineer",
+          1
+        ],
+        [
+          "Data Scientist",
+          1
+        ],
+        [
+          "Founding AI Engineer, Generative Digital Twins",
+          1
+        ],
+        [
+          "Head of AI Engineering — Founding Tech Team — TakeX",
+          1
+        ],
+        [
+          "Senior DevOps Engineer",
+          1
+        ],
+        [
+          "Senior AI Engineer",
+          1
+        ]
+      ],
+      "with_salary": 3,
+      "with_description": 6,
+      "sample_url": "https://wellfound.com/jobs/5034611-devops-engineer"
+    },
+    "randstad.com.hk": {
+      "platform": "randstad.com.hk",
+      "access": "可访问（公开页面，IT 分类 46 个岗位）",
+      "cards": 46,
+      "unique": 46,
+      "relevant": 11,
+      "families": {
+        "DevOps": 2,
+        "AI": 5,
+        "IT Management": 3,
+        "IT Support/Ops": 1
+      },
+      "top_companies": [
+        [
+          "Randstad Hong Kong (client confidential)",
+          11
+        ]
+      ],
+      "top_titles": [
+        [
+          "(senior) devops engineer",
+          1
+        ],
+        [
+          "lead ai platform architect - multi-agent systems & llm (hk)",
+          1
+        ],
+        [
+          "machine learning engineer - mlops & generative ai (hong kong)",
+          1
+        ],
+        [
+          "machine learning engineering manager - mlops & genai",
+          1
+        ],
+        [
+          "senior llm engineer / ai engineer - rag & agentic workflows",
+          1
+        ],
+        [
+          "assistant it manager (infrastructure+trade application support)",
+          1
+        ],
+        [
+          "head of it - manufacturing sector (70k - 90k)",
+          1
+        ],
+        [
+          "ai developer - generative ai & automation (hong kong)",
+          1
+        ],
+        [
+          "devops engineer - global logistics enterprise (hong kong)",
+          1
+        ],
+        [
+          "it specialist (up to 40k/monthly)",
+          1
+        ],
+        [
+          "assistant it manager -  freight forwarding company",
+          1
+        ]
+      ],
+      "with_salary": 9,
+      "with_description": 11,
+      "sample_url": "https://www.randstad.com.hk/jobs/senior-devops-engineer_hong-kong_47714803/"
+    }
+  },
+  "platform_access": {
+    "linkedin.com": "可访问（VPN + 浏览器；公开岗位搜索，无需登录）",
+    "wellfound.com": "可访问（公开页面，启动/Web3 岗位）",
+    "randstad.com.hk": "可访问（公开页面，IT 分类 46 个岗位）",
+    "efinancialcareers.hk": "可访问（VPN + 浏览器；已并入核心样本 11 条）",
+    "indeed.com": "不可访问（Cloudflare Human Verification）",
+    "glassdoor.com": "不可访问（bot detection / 登录）",
+    "robertwalters.com.hk": "不可访问（PerimeterX bot detection）",
+    "adzuna.com.hk": "不可访问（ERR_CONNECTION_CLOSED）",
+    "jobsdb.com": "不可访问（Cloudflare）",
+    "ctgoodjobs.hk": "不可访问（Human Verification / 405）",
+    "hays.com.hk": "部分可用（搜索页受 robots 限制，未系统抽样）",
+    "recruit.net": "不可访问（Cloudflare / 403）",
+    "jooble.org": "不可访问（403）",
+    "jobrapido.com.hk": "不可访问（403）"
+  }
+}

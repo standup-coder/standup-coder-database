@@ -1,0 +1,1795 @@
+{
+  "period": "2026-11",
+  "anchor_date": "2026-11-12",
+  "sample": {
+    "ads": 235,
+    "unique_title_company": 228,
+    "unique_titles": 206,
+    "salary_coverage": 109,
+    "salary_coverage_pct": 46.4,
+    "raw_details": 254,
+    "raw_details_success": 253,
+    "details_fetched": 235
+  },
+  "source_mix": {
+    "cpjobs.com": 7,
+    "jobs.gov.hk": 62,
+    "michaelpage.com.hk": 41,
+    "talent.com": 114,
+    "efinancialcareers.hk": 11
+  },
+  "source_profile": [
+    {
+      "source": "cpjobs.com",
+      "ads": 7,
+      "salary_n": 6,
+      "median": 42500,
+      "top_family": [
+        "Cloud/Infra",
+        4
+      ],
+      "careers": [
+        [
+          "Cloud/Infra",
+          4
+        ],
+        [
+          "DevOps",
+          2
+        ],
+        [
+          "AI",
+          1
+        ]
+      ]
+    },
+    {
+      "source": "efinancialcareers.hk",
+      "ads": 11,
+      "salary_n": 2,
+      "median": 145833,
+      "top_family": [
+        "Cloud/Infra",
+        4
+      ],
+      "careers": [
+        [
+          "Cloud/Infra",
+          4
+        ],
+        [
+          "IT Management",
+          4
+        ],
+        [
+          "IT Support/Ops",
+          1
+        ]
+      ]
+    },
+    {
+      "source": "jobs.gov.hk",
+      "ads": 62,
+      "salary_n": 57,
+      "median": 20000,
+      "top_family": [
+        "IT Support/Ops",
+        37
+      ],
+      "careers": [
+        [
+          "IT Support/Ops",
+          37
+        ],
+        [
+          "Cloud/Infra",
+          18
+        ],
+        [
+          "AI",
+          5
+        ]
+      ]
+    },
+    {
+      "source": "michaelpage.com.hk",
+      "ads": 41,
+      "salary_n": 39,
+      "median": 56250,
+      "top_family": [
+        "AI",
+        18
+      ],
+      "careers": [
+        [
+          "AI",
+          18
+        ],
+        [
+          "IT Management",
+          10
+        ],
+        [
+          "Cloud/Infra",
+          7
+        ]
+      ]
+    },
+    {
+      "source": "talent.com",
+      "ads": 114,
+      "salary_n": 0,
+      "median": null,
+      "top_family": [
+        "AI",
+        53
+      ],
+      "careers": [
+        [
+          "AI",
+          53
+        ],
+        [
+          "Cloud/Infra",
+          23
+        ],
+        [
+          "IT Support/Ops",
+          13
+        ]
+      ]
+    }
+  ],
+  "family_counts": {
+    "Cloud/Infra": 56,
+    "DevOps": 15,
+    "AI": 78,
+    "IT Support/Ops": 55,
+    "SRE": 14,
+    "IT Management": 17
+  },
+  "family_salary": [
+    {
+      "name": "IT Management",
+      "total": 17,
+      "n": 11,
+      "median": 77083,
+      "p25": 66666,
+      "p75": 125000,
+      "min": 40000,
+      "max": 208334
+    },
+    {
+      "name": "AI",
+      "total": 78,
+      "n": 25,
+      "median": 62500,
+      "p25": 45000,
+      "p75": 80000,
+      "min": 40000,
+      "max": 92500
+    },
+    {
+      "name": "SRE",
+      "total": 14,
+      "n": 2,
+      "median": 51458,
+      "p25": 49688,
+      "p75": 53229,
+      "min": 47917,
+      "max": 55000
+    },
+    {
+      "name": "DevOps",
+      "total": 15,
+      "n": 4,
+      "median": 38750,
+      "p25": 33500,
+      "p75": 44375,
+      "min": 21500,
+      "max": 57500
+    },
+    {
+      "name": "Cloud/Infra",
+      "total": 56,
+      "n": 26,
+      "median": 33833,
+      "p25": 25000,
+      "p75": 50000,
+      "min": 15000,
+      "max": 64000
+    },
+    {
+      "name": "IT Support/Ops",
+      "total": 55,
+      "n": 36,
+      "median": 18000,
+      "p25": 16725,
+      "p75": 24500,
+      "min": 11500,
+      "max": 47500
+    }
+  ],
+  "salary_overall": {
+    "n": 104,
+    "median": 39000,
+    "p25": 20000,
+    "p75": 56562,
+    "min": 11500,
+    "max": 208334
+  },
+  "seniority_counts": {
+    "Lead": 10,
+    "Mid/Unspecified": 152,
+    "Senior": 24,
+    "Junior": 17,
+    "Manager": 18,
+    "Leadership": 14
+  },
+  "seniority_salary": [
+    {
+      "name": "Leadership",
+      "total": 14,
+      "n": 6,
+      "median": 119167,
+      "p25": 80937,
+      "p75": 177083,
+      "min": 77083,
+      "max": 208334
+    },
+    {
+      "name": "Manager",
+      "total": 18,
+      "n": 8,
+      "median": 77083,
+      "p25": 59438,
+      "p75": 89688,
+      "min": 51500,
+      "max": 104167
+    },
+    {
+      "name": "Lead",
+      "total": 10,
+      "n": 5,
+      "median": 64000,
+      "p25": 57500,
+      "p75": 74000,
+      "min": 18000,
+      "max": 75000
+    },
+    {
+      "name": "Mid/Unspecified",
+      "total": 152,
+      "n": 65,
+      "median": 37500,
+      "p25": 21500,
+      "p75": 50000,
+      "min": 11500,
+      "max": 85000
+    },
+    {
+      "name": "Senior",
+      "total": 24,
+      "n": 7,
+      "median": 36666,
+      "p25": 25000,
+      "p75": 47500,
+      "min": 22000,
+      "max": 62500
+    },
+    {
+      "name": "Junior",
+      "total": 17,
+      "n": 13,
+      "median": 16800,
+      "p25": 14500,
+      "p75": 18500,
+      "min": 13000,
+      "max": 30000
+    }
+  ],
+  "sector_counts": {
+    "Recruiter / agency (end client undisclosed)": 79,
+    "Other / commercial": 63,
+    "Bank / financial services": 29,
+    "IT services / consulting / SI": 25,
+    "Undisclosed employer": 3,
+    "Technology vendor / cloud / telecom": 19,
+    "Insurance": 13,
+    "Web3 / digital assets": 4
+  },
+  "sector_salary": [
+    {
+      "name": "Undisclosed employer",
+      "total": 3,
+      "n": 1,
+      "median": 55000,
+      "p25": 55000,
+      "p75": 55000,
+      "min": 55000,
+      "max": 55000
+    },
+    {
+      "name": "Recruiter / agency (end client undisclosed)",
+      "total": 79,
+      "n": 59,
+      "median": 50000,
+      "p25": 37500,
+      "p75": 74500,
+      "min": 16000,
+      "max": 208334
+    },
+    {
+      "name": "Other / commercial",
+      "total": 63,
+      "n": 37,
+      "median": 21500,
+      "p25": 17000,
+      "p75": 31500,
+      "min": 11500,
+      "max": 80000
+    },
+    {
+      "name": "Bank / financial services",
+      "total": 29,
+      "n": 2,
+      "median": 19000,
+      "p25": 18500,
+      "p75": 19500,
+      "min": 18000,
+      "max": 20000
+    },
+    {
+      "name": "IT services / consulting / SI",
+      "total": 25,
+      "n": 5,
+      "median": 18000,
+      "p25": 16500,
+      "p75": 22000,
+      "min": 13000,
+      "max": 26000
+    },
+    {
+      "name": "Technology vendor / cloud / telecom",
+      "total": 19,
+      "n": 0
+    },
+    {
+      "name": "Insurance",
+      "total": 13,
+      "n": 0
+    },
+    {
+      "name": "Web3 / digital assets",
+      "total": 4,
+      "n": 0
+    }
+  ],
+  "employment_counts": {
+    "Full Time": 6,
+    "Permanent": 59,
+    "Unspecified": 152,
+    "Contract": 13,
+    "Part-time": 2,
+    "Full-time": 3
+  },
+  "location_counts": {
+    "Hong Kong": 74,
+    "Hong Kong, Hong Kong": 11,
+    "Hong Kong, Hong Kong SAR, Hong Kong": 11,
+    "Hong Kong, Hong Kong, HK": 10,
+    "Anywhere in H.K.": 8,
+    "H.K. Island,Kln. Peninsula": 6,
+    "Kwai Chung": 5,
+    "Hong Kong, CH": 5,
+    "Hong Kong, CN": 5,
+    "Tsuen Wan": 4,
+    "East Tsim Sha Tsui": 4,
+    "Kowloon": 4,
+    "Science Park": 3,
+    "Kwun Tong": 3,
+    "Fotan": 3
+  },
+  "top_employers": [
+    [
+      "IO TECH SOLUTIONS LIMITED",
+      7
+    ],
+    [
+      "PRIMETECH TECHNOLOGY LIMITED",
+      5
+    ],
+    [
+      "Jane Street",
+      5
+    ],
+    [
+      "China Mobile Hong Kong Co. Ltd.",
+      5
+    ],
+    [
+      "Millennium Management",
+      5
+    ],
+    [
+      "moomoo",
+      5
+    ],
+    [
+      "Lenovo",
+      5
+    ],
+    [
+      "OLLOBOT ROBOTICS LIMITED",
+      4
+    ],
+    [
+      "Crypto.com",
+      4
+    ],
+    [
+      "Intact Financial Corporation",
+      3
+    ],
+    [
+      "Capco",
+      3
+    ],
+    [
+      "Accenture Global",
+      3
+    ],
+    [
+      "Hong Kong Exchanges and Clearing Limited",
+      3
+    ],
+    [
+      "HONG KONG GOODFIELD ARTIFICIAL INTELLIGENCE LIMITED",
+      2
+    ],
+    [
+      "ACAO (HK) LIMITED",
+      2
+    ],
+    [
+      "CENTALINE DATA TECHNOLOGY LIMITED",
+      2
+    ],
+    [
+      "X SQUARE ROBOT HK LIMITED",
+      2
+    ],
+    [
+      "Bosch Group",
+      2
+    ],
+    [
+      "Axiom Technologies",
+      2
+    ],
+    [
+      "Polymer Capital Hong Kong",
+      2
+    ]
+  ],
+  "agencies": [
+    [
+      "Confidential employer (via Michael Page)",
+      41
+    ],
+    [
+      "CL Technical Services Ltd.",
+      6
+    ],
+    [
+      "Mandurah Consultancy",
+      6
+    ],
+    [
+      "CL SMART SOURCING LIMITED",
+      4
+    ],
+    [
+      "TWO WINGS CONSULTING SERVICE LIMITED",
+      4
+    ],
+    [
+      "Hyphen Connect",
+      4
+    ],
+    [
+      "CL TECHNICAL SERVICES LIMITED",
+      3
+    ],
+    [
+      "Flintex Consulting Pte Ltd",
+      3
+    ],
+    [
+      "Oxford Knight",
+      2
+    ],
+    [
+      "EBRO EXECUTIVE SEARCH LIMITED",
+      1
+    ],
+    [
+      "JOB EXPRESS RECRUITMENT AGENCY LIMITED",
+      1
+    ],
+    [
+      "ConnectedGroup Limited",
+      1
+    ]
+  ],
+  "skills_overall": [
+    [
+      "English",
+      125
+    ],
+    [
+      "Cantonese",
+      87
+    ],
+    [
+      "Mandarin",
+      84
+    ],
+    [
+      "Python",
+      74
+    ],
+    [
+      "Docker",
+      45
+    ],
+    [
+      "Linux",
+      45
+    ],
+    [
+      "Kubernetes",
+      41
+    ],
+    [
+      "AWS",
+      40
+    ],
+    [
+      "Azure",
+      38
+    ],
+    [
+      "LLM",
+      36
+    ],
+    [
+      "SQL",
+      32
+    ],
+    [
+      "RAG",
+      28
+    ],
+    [
+      "Terraform",
+      23
+    ],
+    [
+      "MLOps",
+      22
+    ],
+    [
+      "Java",
+      19
+    ],
+    [
+      "Observability",
+      19
+    ],
+    [
+      "GCP",
+      19
+    ],
+    [
+      "On-call",
+      17
+    ],
+    [
+      "Incident Management",
+      17
+    ],
+    [
+      "Vector DB",
+      17
+    ],
+    [
+      "Shell/Bash",
+      16
+    ],
+    [
+      "LangChain",
+      13
+    ],
+    [
+      "Ansible",
+      11
+    ],
+    [
+      "PyTorch",
+      10
+    ],
+    [
+      "Databricks",
+      10
+    ],
+    [
+      "TensorFlow",
+      9
+    ],
+    [
+      "scikit-learn",
+      9
+    ],
+    [
+      "Oracle DB",
+      8
+    ],
+    [
+      "NLP",
+      8
+    ],
+    [
+      "Grafana",
+      8
+    ]
+  ],
+  "skills_by_family": {
+    "Cloud/Infra": [
+      [
+        "English",
+        34
+      ],
+      [
+        "Cantonese",
+        26
+      ],
+      [
+        "Mandarin",
+        24
+      ],
+      [
+        "Linux",
+        20
+      ],
+      [
+        "AWS",
+        12
+      ],
+      [
+        "Docker",
+        8
+      ],
+      [
+        "Azure",
+        7
+      ],
+      [
+        "Python",
+        6
+      ],
+      [
+        "On-call",
+        5
+      ],
+      [
+        "Oracle DB",
+        5
+      ],
+      [
+        "Kubernetes",
+        4
+      ],
+      [
+        "Java",
+        4
+      ]
+    ],
+    "DevOps": [
+      [
+        "Kubernetes",
+        10
+      ],
+      [
+        "Terraform",
+        9
+      ],
+      [
+        "Docker",
+        8
+      ],
+      [
+        "Linux",
+        6
+      ],
+      [
+        "English",
+        6
+      ],
+      [
+        "Python",
+        5
+      ],
+      [
+        "GCP",
+        5
+      ],
+      [
+        "Java",
+        4
+      ],
+      [
+        "Ansible",
+        4
+      ],
+      [
+        "Shell/Bash",
+        3
+      ],
+      [
+        "DevSecOps",
+        3
+      ],
+      [
+        "Mandarin",
+        3
+      ]
+    ],
+    "AI": [
+      [
+        "Python",
+        53
+      ],
+      [
+        "LLM",
+        32
+      ],
+      [
+        "RAG",
+        27
+      ],
+      [
+        "English",
+        26
+      ],
+      [
+        "Docker",
+        25
+      ],
+      [
+        "SQL",
+        24
+      ],
+      [
+        "Azure",
+        21
+      ],
+      [
+        "MLOps",
+        21
+      ],
+      [
+        "Kubernetes",
+        19
+      ],
+      [
+        "AWS",
+        17
+      ],
+      [
+        "Vector DB",
+        17
+      ],
+      [
+        "Mandarin",
+        14
+      ]
+    ],
+    "IT Support/Ops": [
+      [
+        "English",
+        44
+      ],
+      [
+        "Cantonese",
+        41
+      ],
+      [
+        "Mandarin",
+        35
+      ],
+      [
+        "Linux",
+        4
+      ],
+      [
+        "Incident Management",
+        3
+      ],
+      [
+        "Azure",
+        3
+      ],
+      [
+        "SLA/SLO",
+        2
+      ],
+      [
+        "On-call",
+        2
+      ],
+      [
+        "Python",
+        2
+      ],
+      [
+        "Oracle DB",
+        1
+      ],
+      [
+        "MySQL",
+        1
+      ],
+      [
+        "Shell/Bash",
+        1
+      ]
+    ],
+    "SRE": [
+      [
+        "Linux",
+        11
+      ],
+      [
+        "Kubernetes",
+        8
+      ],
+      [
+        "Incident Management",
+        8
+      ],
+      [
+        "Python",
+        8
+      ],
+      [
+        "AWS",
+        7
+      ],
+      [
+        "Observability",
+        7
+      ],
+      [
+        "Shell/Bash",
+        6
+      ],
+      [
+        "English",
+        5
+      ],
+      [
+        "Grafana",
+        5
+      ],
+      [
+        "Datadog",
+        4
+      ],
+      [
+        "SQL",
+        4
+      ],
+      [
+        "On-call",
+        4
+      ]
+    ],
+    "IT Management": [
+      [
+        "English",
+        10
+      ],
+      [
+        "Cantonese",
+        6
+      ],
+      [
+        "Mandarin",
+        5
+      ],
+      [
+        "Oracle DB",
+        2
+      ],
+      [
+        "Azure",
+        1
+      ],
+      [
+        "IAM",
+        1
+      ],
+      [
+        "LLM",
+        1
+      ],
+      [
+        "MLOps",
+        1
+      ],
+      [
+        "Incident Management",
+        1
+      ],
+      [
+        "Docker",
+        1
+      ],
+      [
+        "Ansible",
+        1
+      ],
+      [
+        "Linux",
+        1
+      ]
+    ]
+  },
+  "language_counts": {
+    "cantonese": 87,
+    "mandarin": 84,
+    "english": 125
+  },
+  "language_examples": [
+    {
+      "title": "Cloud & Infrastructure Architect/Lead Infrastructure Engineer (over $60K)",
+      "company": "CL Technical Services Ltd.",
+      "notes": {
+        "english": "Good written English and experience preparing technical documentation and tender documents."
+      }
+    },
+    {
+      "title": "Application Support & Cloud Systems Engineer (J2EE, Python)",
+      "company": "CL Technical Services Ltd.",
+      "notes": {
+        "english": "Key responsibilities Support system implementation and on-going maintenance for delivering new and enhanced applications and e-services Liaise with users on requirements gathering and acceptance testing Perform quality r"
+      }
+    },
+    {
+      "title": "AI Engineer (Tsim Sha Tsui, over $40K)",
+      "company": "CL Technical Services Ltd.",
+      "notes": {
+        "english": "Good spoken and written English and Chinese."
+      }
+    },
+    {
+      "title": "IT Infrastructure Engineer",
+      "company": "EBRO EXECUTIVE SEARCH LIMITED",
+      "notes": {
+        "cantonese": "Bonus Requirements Degree in IT or a related field 3–5 years of hands-on experience in IT infrastructure Solid expertise in firewall, networking, server/system administration, and virtualization Familiar with IT security",
+        "english": "Bonus Requirements Degree in IT or a related field 3–5 years of hands-on experience in IT infrastructure Solid expertise in firewall, networking, server/system administration, and virtualization Familiar with IT security"
+      }
+    },
+    {
+      "title": "Data Centre & Infrastructure Engineer / IT Operations Engineer (over $40K)",
+      "company": "CL Technical Services Ltd.",
+      "notes": {
+        "cantonese": "Good written Chinese and English, with fluent spoken Cantonese and English.",
+        "english": "Good written Chinese and English, with fluent spoken Cantonese and English."
+      }
+    },
+    {
+      "title": "(Sr.)IT Technical Support/IT Officer/System Engineer(EA)",
+      "company": "WIN PARADISE LIMITED",
+      "notes": {
+        "cantonese": "Fluent Cantonese ;",
+        "mandarin": "Fluent Putonghua ;",
+        "english": "Fluent English ;"
+      }
+    },
+    {
+      "title": "Algorithm Engineer",
+      "company": "QUANTUM BAY INNOVATIONS LIMITED",
+      "notes": {
+        "cantonese": "Fluent Cantonese ;",
+        "mandarin": "Fluent Putonghua ;",
+        "english": "Fluent English ;"
+      }
+    },
+    {
+      "title": "Assistant Venue Operations and IT Officer",
+      "company": "香港中華文化促進中心有限公司",
+      "notes": {
+        "cantonese": "Fluent Cantonese ;",
+        "english": "Fluent English ;"
+      }
+    },
+    {
+      "title": "Chef AI Engineer",
+      "company": "HONG KONG GOODFIELD ARTIFICIAL INTELLIGENCE LIMITED",
+      "notes": {
+        "cantonese": "Fluent Cantonese ;",
+        "mandarin": "Fluent Putonghua ;",
+        "english": "Fluent English ;"
+      }
+    },
+    {
+      "title": "Cloud Infrastructure Engineer",
+      "company": "CL TECHNICAL SERVICES LIMITED",
+      "notes": {
+        "cantonese": "Fluent Cantonese preferred;",
+        "mandarin": "Fluent Putonghua preferred;",
+        "english": "Fluent English preferred;"
+      }
+    },
+    {
+      "title": "Computer Technician/Trainee",
+      "company": "CYBER WORLD CREATIONS (HK) LIMITED",
+      "notes": {
+        "cantonese": "Fluent Cantonese ;",
+        "mandarin": "Fair Putonghua preferred;",
+        "english": "Fair English ;"
+      }
+    },
+    {
+      "title": "Contract Computer Technician/Trainee (EA)",
+      "company": "STA PACIFIC",
+      "notes": {
+        "cantonese": "Fluent Cantonese preferred;",
+        "mandarin": "Fair Putonghua ;",
+        "english": "Fair English ;"
+      }
+    },
+    {
+      "title": "Core Network Engineer (Signaling)",
+      "company": "OLLOBOT ROBOTICS LIMITED",
+      "notes": {
+        "cantonese": "Fair Cantonese ;",
+        "mandarin": "Fair Putonghua ;",
+        "english": "Fair English ;"
+      }
+    },
+    {
+      "title": "Desktop Support Specialist(EA)",
+      "company": "CL SMART SOURCING LIMITED",
+      "notes": {
+        "cantonese": "Fluent Cantonese preferred;",
+        "mandarin": "Fluent Putonghua preferred;",
+        "english": "Fluent English preferred;"
+      }
+    },
+    {
+      "title": "DevOps / SecOps Engineer",
+      "company": "HAAME TECH LIMITED",
+      "notes": {
+        "cantonese": "Fluent Cantonese ;",
+        "mandarin": "Fluent Putonghua ;",
+        "english": "Fluent English ;"
+      }
+    }
+  ],
+  "visa_counts": {},
+  "visa_examples": [],
+  "freshness": {
+    "15-30d": 53,
+    "<=7d": 44,
+    "8-14d": 21,
+    ">30d": 76,
+    "unknown": 41
+  },
+  "funnel": {
+    "talent.com": {
+      "cards": 486,
+      "relevant": 114
+    },
+    "cpjobs.com": {
+      "cards": 14,
+      "relevant": 7
+    },
+    "jobs.gov.hk": {
+      "cards": 310,
+      "relevant": 92
+    },
+    "michaelpage.com.hk": {
+      "cards": 280,
+      "relevant": 42
+    }
+  },
+  "excluded_reasons": [
+    [
+      "no positive match",
+      470
+    ],
+    [
+      "excluded:project manager",
+      50
+    ],
+    [
+      "excluded:business analyst",
+      30
+    ],
+    [
+      "excluded:software engineer",
+      24
+    ],
+    [
+      "excluded:\\bbusiness\\b",
+      19
+    ],
+    [
+      "excluded:data engineer",
+      18
+    ],
+    [
+      "excluded:\\bsales\\b",
+      16
+    ],
+    [
+      "excluded:\\bproduct\\b",
+      14
+    ],
+    [
+      "excluded:system analyst",
+      12
+    ],
+    [
+      "excluded:full[- ]stack",
+      11
+    ],
+    [
+      "excluded:data analyst",
+      10
+    ],
+    [
+      "excluded:\\bdesigner\\b",
+      10
+    ],
+    [
+      "excluded:product manager",
+      9
+    ],
+    [
+      "excluded:investment",
+      8
+    ],
+    [
+      "excluded:mechanical",
+      7
+    ],
+    [
+      "excluded:\\bqa\\b",
+      7
+    ],
+    [
+      "excluded:\\bclerk\\b",
+      7
+    ],
+    [
+      "excluded:security engineer",
+      6
+    ],
+    [
+      "excluded:project engineer",
+      6
+    ],
+    [
+      "excluded:civil",
+      6
+    ]
+  ],
+  "recent_samples": [
+    {
+      "title": "Network System Engineer",
+      "company": "COSMACT LIMITED",
+      "family": "Cloud/Infra",
+      "salary": "$20,000 - $32,000 per month (Depends on working experience), with Overtime Time-off in lieu, Performance Award and Project Bonus, Mon to Fri: 9:00AM-7:00PM, 5 working days per week, 9 working hours pe",
+      "posted": "2026-11-12",
+      "source": "jobs.gov.hk",
+      "url": "https://www1.jobs.gov.hk/0/en/jobseeker/jobCard/?order=OE52ZU4xYkdKK2hwSmdPejdMRjdTWVQveXJYUkZnWWxoYXFMRlJNQ2V4dz0%3D&from=quickview&cd=5&for=jobtype"
+    },
+    {
+      "title": "Data Centre & Infrastructure Engineer / IT Operations Engineer (over $40K)",
+      "company": "CL Technical Services Ltd.",
+      "family": "Cloud/Infra",
+      "salary": "Tsimshatsui • HK$40,000 – HK$50,000 / Monthly • 1 day ago",
+      "posted": "2026-11-11",
+      "source": "cpjobs.com",
+      "url": "https://www.cpjobs.com/hk/en/job/cl-technical-services-ltd-4282790"
+    },
+    {
+      "title": "IT Assistant/ Technician",
+      "company": "NEWSOFT NETWORK SYS COMPANY",
+      "family": "IT Support/Ops",
+      "salary": "$17,000 - $20,000 per month, Mon to Fri: 9:00AM-6:00PM, 5 working days per week",
+      "posted": "2026-11-11",
+      "source": "jobs.gov.hk",
+      "url": "https://www1.jobs.gov.hk/0/en/jobseeker/jobCard/?order=Q2NPMlRPdU5GK2pocC9UeW9EQk1DYzNXNCtoMWtKUVN3UjNvRTBpZUVIMD0%3D&from=quickview&cd=5&for=jobtype"
+    },
+    {
+      "title": "Helpdesk _Deskside Support Engineer_HK",
+      "company": "Talent Source Global",
+      "family": "IT Support/Ops",
+      "salary": "",
+      "posted": "2026-11-11",
+      "source": "talent.com",
+      "url": "https://hk.talent.com/view?id=645596375096034557"
+    },
+    {
+      "title": "Helpdesk _Deskside Support Engineer_HK",
+      "company": "Talent Source Global",
+      "family": "IT Support/Ops",
+      "salary": "",
+      "posted": "2026-11-11",
+      "source": "talent.com",
+      "url": "https://hk.talent.com/view?id=645596903472826898"
+    },
+    {
+      "title": "Technical Support Officer I",
+      "company": "Lenovo",
+      "family": "IT Support/Ops",
+      "salary": "",
+      "posted": "2026-11-11",
+      "source": "talent.com",
+      "url": "https://hk.talent.com/view?id=571979804953087906"
+    },
+    {
+      "title": "IT Infrastructure & Business Technology Engineer",
+      "company": "ConnectedGroup Limited",
+      "family": "Cloud/Infra",
+      "salary": "",
+      "posted": "2026-11-11",
+      "source": "efinancialcareers.hk",
+      "url": "https://www.efinancialcareers.hk/jobs-Hong_Kong-Hong_Kong-IT_Infrastructure__Business_Technology_Engineer.id24951835"
+    },
+    {
+      "title": "Deputy CTO (AI native Wealth Mgt Firm/up to HKD 3M)",
+      "company": "PERSOL Hong Kong Limited",
+      "family": "IT Management",
+      "salary": "HK$2m - HK$3m",
+      "posted": "2026-11-11",
+      "source": "efinancialcareers.hk",
+      "url": "https://www.efinancialcareers.hk/jobs-Hong_Kong-Hong_Kong-Deputy_CTO_AI_native_Wealth_Mgt_Firmup_to_HKD_3M.id24682701"
+    },
+    {
+      "title": "Systems Engineer (Mainframe) - Associate - Critical Services Support - IT - 12 months Contract",
+      "company": "Hong Kong Exchanges and Clearing Limited",
+      "family": "Cloud/Infra",
+      "salary": "",
+      "posted": "2026-11-11",
+      "source": "efinancialcareers.hk",
+      "url": "https://www.efinancialcareers.hk/jobs-Hong_Kong-Hong_Kong-Systems_Engineer_Mainframe_-_Associate_-_Critical_Services_Support_-_IT_-_12_months_Contract.id24955048"
+    },
+    {
+      "title": "Manager, IT Services",
+      "company": "Dah Sing Financial Group",
+      "family": "IT Management",
+      "salary": "",
+      "posted": "2026-11-11",
+      "source": "efinancialcareers.hk",
+      "url": "https://www.efinancialcareers.hk/jobs-Hong_Kong-Hong_Kong-Manager_IT_Services.id24304608"
+    },
+    {
+      "title": "AI Engineer - Global AI Fintech Firm - Hong Kong",
+      "company": "NLS",
+      "family": "AI",
+      "salary": "Up to HKD 1,000,000 per annum",
+      "posted": "2026-11-11",
+      "source": "efinancialcareers.hk",
+      "url": "https://www.efinancialcareers.hk/jobs-Hong_Kong-Hong_Kong-AI_Engineer_-_Global_AI_Fintech_Firm_-_Hong_Kong.id24166477"
+    },
+    {
+      "title": "Vice President - IT Service Operation Management Lead - Technology Service Management",
+      "company": "Hong Kong Exchanges and Clearing Limited",
+      "family": "IT Management",
+      "salary": "",
+      "posted": "2026-11-11",
+      "source": "efinancialcareers.hk",
+      "url": "https://www.efinancialcareers.hk/jobs-Hong_Kong-Hong_Kong-Vice_President_-_IT_Service_Operation_Management_Lead_-_Technology_Service_Management.id24970059"
+    },
+    {
+      "title": "IT Infrastructure Engineer",
+      "company": "EBRO EXECUTIVE SEARCH LIMITED",
+      "family": "Cloud/Infra",
+      "salary": "",
+      "posted": "2026-11-10",
+      "source": "cpjobs.com",
+      "url": "https://www.cpjobs.com/hk/en/job/ebro-executive-search-limited-4239909"
+    },
+    {
+      "title": "Chef AI Engineer",
+      "company": "HONG KONG GOODFIELD ARTIFICIAL INTELLIGENCE LIMITED",
+      "family": "AI",
+      "salary": "Basic Salary with Allowance around $35,000 - $45,000 per month (Depends on experience), Mon to Fri: 9:00AM-6:00PM, 5 working days per week, 8 working hours per day",
+      "posted": "2026-11-10",
+      "source": "jobs.gov.hk",
+      "url": "https://www1.jobs.gov.hk/0/en/jobseeker/jobCard/?order=N0xBYU1xaUNxWXJaN1czTENNWXJJS0g4UHhQNEF2RWFCUDFHeFJxcWRvTT0%3D&from=quickview&cd=5&for=jobtype"
+    },
+    {
+      "title": "Engineer (Computer)",
+      "company": "HONG KONG GOODFIELD ARTIFICIAL INTELLIGENCE LIMITED",
+      "family": "IT Support/Ops",
+      "salary": "$18,000 - $30,000 per month(depends on experience), Mon to Fri: 9:00AM-6:00PM, 5 working days per week, 8 working hours per day",
+      "posted": "2026-11-10",
+      "source": "jobs.gov.hk",
+      "url": "https://www1.jobs.gov.hk/0/en/jobseeker/jobCard/?order=N0xBYU1xaUNxWW9HUU5JSC90OHJHY2VLT0tFSEV5dksvYTB2QURnM1dmUT0%3D&from=quickview&cd=5&for=jobtype"
+    },
+    {
+      "title": "IT Support Technician (Part Time)",
+      "company": "IT-SOLDIERS SOLUTION LIMITED",
+      "family": "IT Support/Ops",
+      "salary": "$50 - $60 per hour",
+      "posted": "2026-11-10",
+      "source": "jobs.gov.hk",
+      "url": "https://www1.jobs.gov.hk/0/en/jobseeker/jobCard/?order=N0xBYU1xaUNxWXJFOSs1TXJza3ZLR0RKZitTQUttZ2dXN3luVGVGZGtWOD0%3D&from=quickview&cd=5&for=jobtype"
+    },
+    {
+      "title": "System Engineer",
+      "company": "SKY NET SYSTEM ENGINEERING COMPANY LIMITED",
+      "family": "Cloud/Infra",
+      "salary": "$16,500 - $21,500 per month, with Discretionary Bonus, 車船津貼及獎金, Mon to Fri: 10:00AM-6:00PM and Sat: 10:00AM-4:30PM, 5 - 6 working days per week, long / short week schedule",
+      "posted": "2026-11-10",
+      "source": "jobs.gov.hk",
+      "url": "https://www1.jobs.gov.hk/0/en/jobseeker/jobCard/?order=Q2NPMlRPdU5GK2dhR1NGWElYSEFyOWliVE1ERlBSR1VKVHUrK1F0RDNjbz0%3D&from=quickview&cd=5&for=jobtype"
+    },
+    {
+      "title": "[LPS] AI Data Center Infrastructure Engineer/ Manager",
+      "company": "Lenovo",
+      "family": "Cloud/Infra",
+      "salary": "",
+      "posted": "2026-11-10",
+      "source": "talent.com",
+      "url": "https://hk.talent.com/view?id=645567663233572872"
+    },
+    {
+      "title": "Helpdesk Support Analyst | Buy-Side Technology | Hong Kong",
+      "company": "BAH Partners",
+      "family": "IT Support/Ops",
+      "salary": "",
+      "posted": "2026-11-10",
+      "source": "efinancialcareers.hk",
+      "url": "https://www.efinancialcareers.hk/jobs-Hong_Kong-Hong_Kong-Helpdesk_Support_Analyst__Buy-Side_Technology__Hong_Kong.id24986420"
+    },
+    {
+      "title": "Technology - Technical/ Solution Architect",
+      "company": "Accenture",
+      "family": "Cloud/Infra",
+      "salary": "",
+      "posted": "2026-11-10",
+      "source": "efinancialcareers.hk",
+      "url": "https://www.efinancialcareers.hk/jobs-Hong_Kong-Hong_Kong-Technology_-_Technical_Solution_Architect.id24810409"
+    }
+  ],
+  "top_salary_samples": [
+    {
+      "title": "Deputy CTO (AI native Wealth Mgt Firm/up to HKD 3M)",
+      "company": "PERSOL Hong Kong Limited",
+      "family": "IT Management",
+      "seniority": "Leadership",
+      "salary": "HK$2m - HK$3m",
+      "monthly_mid": 208334,
+      "source": "efinancialcareers.hk",
+      "url": "https://www.efinancialcareers.hk/jobs-Hong_Kong-Hong_Kong-Deputy_CTO_AI_native_Wealth_Mgt_Firmup_to_HKD_3M.id24682701"
+    },
+    {
+      "title": "CIO - leading Insurance backed Asset Management company",
+      "company": "Confidential employer (via Michael Page)",
+      "family": "IT Management",
+      "seniority": "Leadership",
+      "salary": "HK$2,000,000 - HK$2,500,000 per year",
+      "monthly_mid": 187500,
+      "source": "michaelpage.com.hk",
+      "url": "https://www.michaelpage.com.hk/job-detail/cio-leading-insurance-backed-asset-management-company/ref/jn-102026-7122498"
+    },
+    {
+      "title": "Regional IT Director (All-round & Security) - Global FS Firm",
+      "company": "Confidential employer (via Michael Page)",
+      "family": "IT Management",
+      "seniority": "Leadership",
+      "salary": "HK$1,500,000 - HK$2,000,000 per year",
+      "monthly_mid": 145834,
+      "source": "michaelpage.com.hk",
+      "url": "https://www.michaelpage.com.hk/job-detail/regional-it-director-all-round-security-global-fs-firm/ref/jn-042025-6715545"
+    },
+    {
+      "title": "Senior IT Manager (Oracle ERP)",
+      "company": "Confidential employer (via Michael Page)",
+      "family": "IT Management",
+      "seniority": "Manager",
+      "salary": "HK$1,100,000 - HK$1,400,000 per year",
+      "monthly_mid": 104167,
+      "source": "michaelpage.com.hk",
+      "url": "https://www.michaelpage.com.hk/job-detail/senior-it-manager-oracle-erp/ref/jn-102026-7131381"
+    },
+    {
+      "title": "Head of Data Science",
+      "company": "Confidential employer (via Michael Page)",
+      "family": "AI",
+      "seniority": "Leadership",
+      "salary": "HK$85,000 - HK$100,000 per month",
+      "monthly_mid": 92500,
+      "source": "michaelpage.com.hk",
+      "url": "https://www.michaelpage.com.hk/job-detail/head-data-science/ref/jn-082026-7091462"
+    },
+    {
+      "title": "AI Lead/ Manager- Insurance 80-100k",
+      "company": "Confidential employer (via Michael Page)",
+      "family": "AI",
+      "seniority": "Manager",
+      "salary": "HK$80,000 - HK$100,000 per month (HK$960,000 - HK$1,200,000 per year)",
+      "monthly_mid": 90000,
+      "source": "michaelpage.com.hk",
+      "url": "https://www.michaelpage.com.hk/job-detail/ai-lead-manager-insurance-80-100k/ref/jn-122025-6905969"
+    },
+    {
+      "title": "Senior IT Manager (AI Solutions & Adoption)",
+      "company": "Confidential employer (via Michael Page)",
+      "family": "AI",
+      "seniority": "Manager",
+      "salary": "HK$950,000 - HK$1,200,000 per year",
+      "monthly_mid": 89584,
+      "source": "michaelpage.com.hk",
+      "url": "https://www.michaelpage.com.hk/job-detail/senior-it-manager-ai-solutions-adoption/ref/jn-082026-7084307"
+    },
+    {
+      "title": "AI Platform Architect (GEO, SEO, AI Search Optimization)",
+      "company": "Confidential employer (via Michael Page)",
+      "family": "AI",
+      "seniority": "Mid/Unspecified",
+      "salary": "HK$80,000 - HK$90,000 per month (HK$960,000 - HK$1,080,000 per year)",
+      "monthly_mid": 85000,
+      "source": "michaelpage.com.hk",
+      "url": "https://www.michaelpage.com.hk/job-detail/ai-platform-architect-geo-seo-ai-search-optimization/ref/jn-092026-7103789"
+    },
+    {
+      "title": "AI Engineer - Global AI Fintech Firm - Hong Kong",
+      "company": "NLS",
+      "family": "AI",
+      "seniority": "Mid/Unspecified",
+      "salary": "Up to HKD 1,000,000 per annum",
+      "monthly_mid": 83333,
+      "source": "efinancialcareers.hk",
+      "url": "https://www.efinancialcareers.hk/jobs-Hong_Kong-Hong_Kong-AI_Engineer_-_Global_AI_Fintech_Firm_-_Hong_Kong.id24166477"
+    },
+    {
+      "title": "Multimodal Algorithm Engineer",
+      "company": "X SQUARE ROBOT HK LIMITED",
+      "family": "AI",
+      "seniority": "Mid/Unspecified",
+      "salary": "$60,000 - $100,000 per month (depends on qualification and exp.), with Overtime Time-off in lieu, Mon to Fri: 9:00AM-6:30PM, 5 working days per week, (Master's degree or above pref.)",
+      "monthly_mid": 80000,
+      "source": "jobs.gov.hk",
+      "url": "https://www1.jobs.gov.hk/0/en/jobseeker/jobCard/?order=T2VUZmdDRWhsYWxIdVNwV0JLUGVVNGtodzRYVzVwVUVrY0pEY05keTZuRT0%3D&from=quickview&cd=5&for=jobtype"
+    },
+    {
+      "title": "World Model Algorithm Engineer",
+      "company": "X SQUARE ROBOT HK LIMITED",
+      "family": "AI",
+      "seniority": "Mid/Unspecified",
+      "salary": "$60,000 - $100,000 per month (depends on qualification and exp.), with Overtime Time-off in lieu and Double Pay, Mon to Fri: 9:00AM-6:30PM, 5 working days per week, (Master's degree or above pref.)",
+      "monthly_mid": 80000,
+      "source": "jobs.gov.hk",
+      "url": "https://www1.jobs.gov.hk/0/en/jobseeker/jobCard/?order=T2VUZmdDRWhsYWtSeHo0cjErTE9YZFdVeFhXL1BVWXJMRWU3Y3pqRnRMbz0%3D&from=quickview&cd=5&for=jobtype"
+    },
+    {
+      "title": "Global CIO",
+      "company": "Confidential employer (via Michael Page)",
+      "family": "IT Management",
+      "seniority": "Leadership",
+      "salary": "HK$850,000 - HK$1,000,000 per year",
+      "monthly_mid": 77083,
+      "source": "michaelpage.com.hk",
+      "url": "https://www.michaelpage.com.hk/job-detail/global-cio/ref/jn-092026-7099922"
+    },
+    {
+      "title": "IT Manager (Infrastructure & Application)",
+      "company": "Confidential employer (via Michael Page)",
+      "family": "IT Management",
+      "seniority": "Manager",
+      "salary": "HK$850,000 - HK$1,000,000 per year",
+      "monthly_mid": 77083,
+      "source": "michaelpage.com.hk",
+      "url": "https://www.michaelpage.com.hk/job-detail/it-manager-infrastructure-application/ref/jn-092026-7110206"
+    },
+    {
+      "title": "SVP/ VP, IT PMO & IT Governance - Bank/ Permanent/ Bonus",
+      "company": "Confidential employer (via Michael Page)",
+      "family": "IT Management",
+      "seniority": "Leadership",
+      "salary": "HK$850,000 - HK$1,000,000 per year",
+      "monthly_mid": 77083,
+      "source": "michaelpage.com.hk",
+      "url": "https://www.michaelpage.com.hk/job-detail/svp-vp-it-pmo-it-governance-bank-permanent-bonus/ref/jn-102026-7122295"
+    },
+    {
+      "title": "Senior IT Manager (Modern Infrastructure, Regional Scope)",
+      "company": "Confidential employer (via Michael Page)",
+      "family": "IT Management",
+      "seniority": "Manager",
+      "salary": "HK$850,000 - HK$1,000,000 per year",
+      "monthly_mid": 77083,
+      "source": "michaelpage.com.hk",
+      "url": "https://www.michaelpage.com.hk/job-detail/senior-it-manager-modern-infrastructure-regional-scope/ref/jn-092026-7095184"
+    }
+  ],
+  "dropped": {
+    "count": 19,
+    "non_hk": 19,
+    "examples": [
+      {
+        "title": "AI Agent Engineer",
+        "company": "RISKSIS TECHNOLOGY LIMITED",
+        "reason": "non-HK location: Shenzhen"
+      },
+      {
+        "title": "AI Application Engineer",
+        "company": "SP INFINITE TECHNOLOGY LIMITED",
+        "reason": "non-HK location: Shenzhen"
+      },
+      {
+        "title": "AI Consultant Trainee",
+        "company": "IVC SOLUTIONS LIMITED",
+        "reason": "non-HK location: Shenzhen"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "ISBIM LIMITED",
+        "reason": "non-HK location: Shenzhen"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "VINCENT MEDICAL MANUFACTURING CO., LIMITED",
+        "reason": "non-HK location: Dongguan"
+      },
+      {
+        "title": "AI Engineer / Machine Learning Engineer",
+        "company": "HAILSTONE AI INNOVATIONS LIMITED",
+        "reason": "non-HK location: Shenzhen"
+      },
+      {
+        "title": "AI工程師",
+        "company": "OBLUE INTERNATIONAL CO., LIMITED",
+        "reason": "non-HK location: Shenzhen"
+      },
+      {
+        "title": "Algorithm Engineer",
+        "company": "SONUS HONG KONG LIMITED",
+        "reason": "non-HK location: Shenzhen"
+      },
+      {
+        "title": "Assistant, AI Agent Developing",
+        "company": "KERRY PROPERTIES BUSINESS SERVICES LIMITED",
+        "reason": "non-HK location: Shenzhen"
+      },
+      {
+        "title": "Data Science Research Specialist/Manager/Manageress",
+        "company": "TENCENT MOBILITY LIMITED",
+        "reason": "non-HK location: Shenzhen"
+      },
+      {
+        "title": "IT Assistant",
+        "company": "CHARMING PRINTING LIMITED",
+        "reason": "non-HK location: Huizhou"
+      },
+      {
+        "title": "IT Engineer",
+        "company": "MANPOWER SERVICES (HONG KONG) LIMITED",
+        "reason": "non-HK location: Shenzhen"
+      },
+      {
+        "title": "IT Support",
+        "company": "KARRIE INDUSTRIAL CO LTD",
+        "reason": "non-HK location: Dongguan"
+      },
+      {
+        "title": "IT Support Assistant",
+        "company": "I SUNDAY TRAVEL LIMITED",
+        "reason": "non-HK location: Shenzhen"
+      },
+      {
+        "title": "IT Technician",
+        "company": "HM INVESTMENT CONSULTANT LIMITED",
+        "reason": "non-HK location: Shenzhen"
+      },
+      {
+        "title": "Technical Operations (SRE) Specialist/Manager/Manageress",
+        "company": "TENCENT MOBILITY LIMITED",
+        "reason": "non-HK location: Shenzhen"
+      },
+      {
+        "title": "算法工程師（具身智慧方向）",
+        "company": "JD NEW ORBIT TECHNOLOGY (HONG KONG) LIMITED",
+        "reason": "non-HK location: Shenzhen"
+      },
+      {
+        "title": "算法工程師（無人機導航控制方向）",
+        "company": "JD LOGISTICS HOLDING LIMITED",
+        "reason": "non-HK location: Shenzhen"
+      },
+      {
+        "title": "Group Chief Information Officer",
+        "company": "Confidential employer (via Michael Page)",
+        "reason": "non-HK location: Shēnzhèn Shì"
+      }
+    ]
+  },
+  "limitations": [
+    "样本来自公开列表，不代表全量在招岗位；JobsDB / CTgoodjobs / Indeed / eFinancialCareers / LinkedIn 未能访问（验证/登录/地区限制）。",
+    "Talent.com 为聚合器，可能与其他来源重复；招聘广告数不等于空缺数。",
+    "Michael Page 为猎头，雇主不披露；雇主结构分析对猎头岗位按 Unknown 处理。",
+    "薪资字段缺失较多，薪酬统计仅基于明确披露薪资的子样本，存在选择偏差。",
+    "相对发布日期按抓取日换算，可能有一日误差；部分来源不提供发布日期。"
+  ],
+  "manifest": {
+    "started_at": "2026-11-12T02:50:39+00:00",
+    "finished_at": "2026-11-12T02:52:16+00:00",
+    "anchor_date": "2026-11-12",
+    "out_dir": "/Users/allengaller/Documents/GitHub/standup-coder/standup-coder-database/data/hongkong/2026-11",
+    "delay_seconds": 0.2,
+    "sources": {
+      "talent.com": {
+        "type": "aggregator",
+        "keywords": [
+          "devops",
+          "devsecops",
+          "site reliability engineer",
+          "sre",
+          "production support",
+          "platform engineer",
+          "cloud engineer",
+          "cloud infrastructure",
+          "infrastructure engineer",
+          "data centre",
+          "AI engineer",
+          "machine learning engineer",
+          "machine learning",
+          "mlops",
+          "llm",
+          "llm engineer",
+          "genai",
+          "AI platform",
+          "IT engineer",
+          "IT infrastructure",
+          "IT operations",
+          "system engineer",
+          "IT support"
+        ],
+        "pages_per_keyword": 4,
+        "accessible": true
+      },
+      "cpjobs.com": {
+        "type": "job_board",
+        "keywords": [
+          "devops",
+          "cloud engineer",
+          "cloud infrastructure",
+          "AI engineer",
+          "artificial intelligence",
+          "machine learning engineer",
+          "IT infrastructure",
+          "system engineer",
+          "platform engineer",
+          "production support",
+          "data centre",
+          "Linux"
+        ],
+        "pages_per_query": 2,
+        "accessible": true
+      },
+      "jobs.gov.hk": {
+        "type": "government job portal (Labour Department)",
+        "listing": "https://www1.jobs.gov.hk/0/en/jobseeker/jobsearch/quickview/jobtype/5/",
+        "pages": 12,
+        "sort": "post_dt_desc",
+        "accessible": true,
+        "note": "电脑及资讯科技空缺；薪资、雇主、地区、语言要求均为结构化字段。",
+        "keyword_search": [
+          "SRE",
+          "site reliability",
+          "production support",
+          "DevOps",
+          "DevSecOps",
+          "AI",
+          "AI engineer",
+          "machine learning",
+          "LLM",
+          "algorithm",
+          "cloud",
+          "cloud engineer",
+          "platform",
+          "infrastructure",
+          "data centre"
+        ],
+        "keyword_note": "用公开高级搜索补漏 IT 分类之外的相关岗位；POST 需要 ASP.NET token，单线程限速。"
+      },
+      "michaelpage.com.hk": {
+        "type": "recruiter",
+        "listing": "https://www.michaelpage.com.hk/jobs/it",
+        "pages": 10,
+        "accessible": true
+      },
+      "ctgoodjobs.hk": {
+        "type": "job_board",
+        "accessible": false,
+        "reason": "Human Verification / HTTP 405，未绕过"
+      },
+      "hk.jobsdb.com": {
+        "type": "job_board",
+        "accessible": false,
+        "reason": "Cloudflare 安全验证，未绕过"
+      },
+      "hk.indeed.com": {
+        "type": "aggregator",
+        "accessible": false,
+        "reason": "HTTP 403"
+      },
+      "efinancialcareers.hk": {
+        "type": "finance job board",
+        "accessible": true,
+        "access_method": "browser-assisted public pages (VPN required from mainland; no login bypass)",
+        "cards": 90,
+        "relevant": 11,
+        "details": 11,
+        "note": "Technology category first 90 cards loaded via Show more; 11 relevant titles selected and detail pages fetched in-browser."
+      },
+      "linkedin.com/jobs": {
+        "type": "network job board",
+        "accessible": false,
+        "reason": "HTTP 451 / 需登录"
+      }
+    },
+    "counts": {
+      "cards_total": 1715,
+      "cards_deduped": 1090,
+      "relevant_cards": 255,
+      "details_fetched": 242,
+      "by_source": {
+        "talent.com": {
+          "cards": 486,
+          "relevant": 114
+        },
+        "cpjobs.com": {
+          "cards": 14,
+          "relevant": 7
+        },
+        "jobs.gov.hk": {
+          "cards": 310,
+          "relevant": 92
+        },
+        "michaelpage.com.hk": {
+          "cards": 280,
+          "relevant": 42
+        }
+      }
+    },
+    "errors": [
+      {
+        "url": "https://www.michaelpage.com.hk/job-detail/senior-architect-cloud-architecture/ref/jn-082026-7090441",
+        "status": "410"
+      }
+    ],
+    "notes": [
+      "只抓公开列表/详情页，不绕过登录、Cloudflare 或地区限制。",
+      "Talent.com 是聚合器，同一岗位可能在不同来源重复出现。",
+      "Michael Page 为猎头，雇主通常不披露，company 字段统一记为 Confidential。",
+      "薪资为广告原文解析，缺失不代表无薪；月薪归一化仅用于样本比较。"
+    ],
+    "supplementary_counts": {
+      "efinancialcareers.hk": {
+        "cards": 90,
+        "relevant": 11,
+        "details": 11
+      }
+    }
+  }
+}

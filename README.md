@@ -24,7 +24,7 @@ aiGenerated: true
 ---
 
 ## 项目介绍
-Standup Coder Database 是一个全面的企业清单和IT岗位信息数据库项目，采用清晰的文件夹结构组织各类权威企业榜单、行业信息以及IT技术岗位详细信息。项目包含权威榜单、行业清单、专题榜单、投资信息、技术活动、求职招聘、法律实务、IT岗位JD、超级个体等九大类别，覆盖全国多个城市的科技企业，以及财富500强、专精特新、独角兽等国家级/国际级权威榜单，同时提供全球IT技术岗位的详细JD信息和真实案例，以及面向超级个体和OPC（One Person Company，一人公司）的工商注册、自媒体运营、AI工具链、个人IP、自由职业、数字产品、财税合规、副业规划、AI Agent工作流、OPC政策红利、全球化扩张等全方位实操指南，旨在为程序员、运维人员、行业研究者、投资者、求职者、独立创业者、OPC创业者等提供有价值的**参考资料**。
+Standup Coder Database 是一个全面的企业清单和IT岗位信息数据库项目，采用清晰的文件夹结构组织各类权威企业榜单、行业信息以及IT技术岗位详细信息。项目包含权威榜单、行业清单、专题榜单、投资信息、技术活动、求职招聘、法律实务、IT岗位JD、香港专题、超级个体等十大类别，覆盖全国多个城市及香港的科技企业，以及财富500强、专精特新、独角兽等国家级/国际级权威榜单，同时提供全球IT技术岗位的详细JD信息和真实案例，以及面向超级个体和OPC（One Person Company，一人公司）的工商注册、自媒体运营、AI工具链、个人IP、自由职业、数字产品、财税合规、副业规划、AI Agent工作流、OPC政策红利、全球化扩张等全方位实操指南，旨在为程序员、运维人员、行业研究者、投资者、求职者、独立创业者、OPC创业者等提供有价值的**参考资料**。
 
 ### 🚀 Web 控制台
 项目配套提供了一个现代化的 Web 控制台，支持多维度查询和数据可视化：
@@ -80,6 +80,8 @@ python3 -m http.server 8765   # 打开 http://localhost:8765/app/index.html
 - **docs/legal/** - 法律实务指南（7个文件）
 - **docs/legal-international/** - 国际法律实务指南（9个文件）
 - **docs/jobs/** - IT技术岗位JD信息（61个文件，含真实案例）
+- **docs/hongkong/** - 香港 IT 求职专题（7篇，含 2026-11 真实岗位样本与全球平台抽样）
+- **data/hongkong/** - 香港岗位原始/清洗数据（搜索卡片、详情、CSV、统计）
 - **docs/management/** - 技术管理知识体系（26个文件，专业分类）
 - **docs/super-individual/** - 超级个体与OPC一人公司知识体系（58个文件，全面覆盖OPC速查手册、OPC完全指南、OPC政策红利、AI Agent工作流、Vibe Coding、OPC全球化扩张、OPC案例研究、OPC融资指南、OPC增长营销、OPC产品设计、OPC数据驱动、OPC心理健康、工商注册、自媒体、AI工具链、个人IP、自由职业、数字产品、财税合规、副业规划、程序员技能蒸馏）
 
@@ -144,6 +146,20 @@ npm run web:build         # 重建离线浏览站
 **覆盖国家和地区**：美国、欧洲、印度、日本、韩国、加拿大、英国、德国
 
 **覆盖行业**：人工智能、大数据、区块链、物联网、智能制造、新能源、新材料、生物技术、3C电子、云计算、网络安全、互联网、软件
+
+### 香港 IT 求职专题 (docs/hongkong/)
+
+用一轮真实公开招聘数据补齐香港 IT / SRE / AI / DevOps 的市场认知，不再用内地 JD 外推。数据抓取日 2026-11-12，来源包括 jobs.gov.hk、Talent.com HK、CPjobs、Michael Page，以及 VPN 后浏览器辅助抓取的 eFinancialCareers；共 1,180 条去重卡片、254 条详情记录（253 条成功），清洗后 **235 条香港岗位**，其中 **104 条有全职月薪**。
+
+**覆盖内容**：
+- 香港 IT 就业市场总览：金融/保险/科技厂商/IT 服务/Web3/政府/初创的雇主结构与招聘文化
+- SRE / DevOps / AI 岗位地图：标题变体、技能要求、薪酬区间、转入路径
+- 薪酬与雇主清单：HKD 月薪、来源偏差、猎头/代理、谈薪要点
+- 求职渠道与签证指南：JobsDB/CTgoodjobs/CPjobs/LinkedIn/eFinancialCareers、IANG/TTPS/QMAS/GEP/ASMTP/TechTAS
+- 全球招聘平台香港机会：LinkedIn 480 卡片/171 条相关、Wellfound 56 卡片/6 条、Randstad IT 46 条/11 条，以及平台可达性清单
+- 数据方法与口径：抓取方法、字段、限制与复现命令
+
+**入口**：[docs/hongkong/README.md](docs/hongkong/README.md) · **数据**：[data/hongkong/2026-11/analysis.md](data/hongkong/2026-11/analysis.md) · **季度复跑骨架**：[data/hongkong/trend.md](data/hongkong/trend.md)
 
 ### IT外包公司清单 (docs/outsourcing/)
 收录国内主要的IT外包服务提供商，涵盖金融、电信、政府、制造业等多个行业的IT服务外包企业，为需要IT外包服务的企业和项目经理提供权威的供应商参考信息。

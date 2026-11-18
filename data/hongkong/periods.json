@@ -1,0 +1,226 @@
+{
+  "dataset": "hongkong-it-jobs",
+  "updated_at": "2026-11-12",
+  "periods": [
+    {
+      "period": "2026-11",
+      "path": "2026-11",
+      "scraped_at": "2026-11-12",
+      "ads": 235,
+      "salary_coverage": 109,
+      "salary_coverage_pct": 46.4,
+      "full_time_salary_n": 104,
+      "salary_median": 39000,
+      "salary_p25": 20000,
+      "salary_p75": 56562,
+      "family_counts": {
+        "Cloud/Infra": 56,
+        "DevOps": 15,
+        "AI": 78,
+        "IT Support/Ops": 55,
+        "SRE": 14,
+        "IT Management": 17
+      },
+      "family_salary": {
+        "IT Management": {
+          "name": "IT Management",
+          "total": 17,
+          "n": 11,
+          "median": 77083,
+          "p25": 66666,
+          "p75": 125000,
+          "min": 40000,
+          "max": 208334
+        },
+        "AI": {
+          "name": "AI",
+          "total": 78,
+          "n": 25,
+          "median": 62500,
+          "p25": 45000,
+          "p75": 80000,
+          "min": 40000,
+          "max": 92500
+        },
+        "SRE": {
+          "name": "SRE",
+          "total": 14,
+          "n": 2,
+          "median": 51458,
+          "p25": 49688,
+          "p75": 53229,
+          "min": 47917,
+          "max": 55000
+        },
+        "DevOps": {
+          "name": "DevOps",
+          "total": 15,
+          "n": 4,
+          "median": 38750,
+          "p25": 33500,
+          "p75": 44375,
+          "min": 21500,
+          "max": 57500
+        },
+        "Cloud/Infra": {
+          "name": "Cloud/Infra",
+          "total": 56,
+          "n": 26,
+          "median": 33833,
+          "p25": 25000,
+          "p75": 50000,
+          "min": 15000,
+          "max": 64000
+        },
+        "IT Support/Ops": {
+          "name": "IT Support/Ops",
+          "total": 55,
+          "n": 36,
+          "median": 18000,
+          "p25": 16725,
+          "p75": 24500,
+          "min": 11500,
+          "max": 47500
+        }
+      },
+      "source_profile": [
+        {
+          "source": "cpjobs.com",
+          "ads": 7,
+          "salary_n": 6,
+          "median": 42500,
+          "top_family": [
+            "Cloud/Infra",
+            4
+          ],
+          "careers": [
+            [
+              "Cloud/Infra",
+              4
+            ],
+            [
+              "DevOps",
+              2
+            ],
+            [
+              "AI",
+              1
+            ]
+          ]
+        },
+        {
+          "source": "efinancialcareers.hk",
+          "ads": 11,
+          "salary_n": 2,
+          "median": 145833,
+          "top_family": [
+            "Cloud/Infra",
+            4
+          ],
+          "careers": [
+            [
+              "Cloud/Infra",
+              4
+            ],
+            [
+              "IT Management",
+              4
+            ],
+            [
+              "IT Support/Ops",
+              1
+            ]
+          ]
+        },
+        {
+          "source": "jobs.gov.hk",
+          "ads": 62,
+          "salary_n": 57,
+          "median": 20000,
+          "top_family": [
+            "IT Support/Ops",
+            37
+          ],
+          "careers": [
+            [
+              "IT Support/Ops",
+              37
+            ],
+            [
+              "Cloud/Infra",
+              18
+            ],
+            [
+              "AI",
+              5
+            ]
+          ]
+        },
+        {
+          "source": "michaelpage.com.hk",
+          "ads": 41,
+          "salary_n": 39,
+          "median": 56250,
+          "top_family": [
+            "AI",
+            18
+          ],
+          "careers": [
+            [
+              "AI",
+              18
+            ],
+            [
+              "IT Management",
+              10
+            ],
+            [
+              "Cloud/Infra",
+              7
+            ]
+          ]
+        },
+        {
+          "source": "talent.com",
+          "ads": 114,
+          "salary_n": 0,
+          "median": null,
+          "top_family": [
+            "AI",
+            53
+          ],
+          "careers": [
+            [
+              "AI",
+              53
+            ],
+            [
+              "Cloud/Infra",
+              23
+            ],
+            [
+              "IT Support/Ops",
+              13
+            ]
+          ]
+        }
+      ],
+      "language_counts": {
+        "cantonese": 87,
+        "mandarin": 84,
+        "english": 125
+      },
+      "sector_counts": {
+        "Recruiter / agency (end client undisclosed)": 79,
+        "Other / commercial": 63,
+        "Bank / financial services": 29,
+        "IT services / consulting / SI": 25,
+        "Undisclosed employer": 3,
+        "Technology vendor / cloud / telecom": 19,
+        "Insurance": 13,
+        "Web3 / digital assets": 4
+      }
+    }
+  ],
+  "note": "Only 1 period = baseline, not a trend. Re-run quarterly to append."
+}
