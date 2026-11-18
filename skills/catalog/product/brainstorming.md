@@ -1,0 +1,58 @@
+---
+type: external
+source: qoder-community
+sourceUrl: https://qoder-community.pages.dev/zh/skills/brainstorming
+title: 头脑风暴
+nameZh: 头脑风暴
+category: 生产力
+tags: ["生产力","creativity","ideas","thinking","innovation"]
+rank: 9
+id: brainstorming
+domain: product
+domainLabel: 产品
+catalogSource: qoder
+catalogFile: 头脑风暴.md
+catalogAddedAt: 2026-07-26
+---
+
+# 头脑风暴
+
+> 生成和探索创意想法，突破思维障碍
+
+## 概述
+
+生成和探索创意想法，突破思维障碍
+
+### 示例
+
+```
+我需要为 Qoder 进行新功能头脑风暴：
+背景：- 目标用户：独立开发者- 现有功能：代码生成、补全、重构- 竞争优势：需要独特卖点
+请使用 "Yes, and..." 方法扩展想法，生成 15 个潜在的新功能概念。
+```
+
+## 使用场景
+
+- 产品功能头脑风暴
+- 解决方案探索
+- 创意项目启动
+- 问题重新定义
+- 团队创意协作
+
+## 能力说明
+
+- **发散思维**：生成大量想法
+- **联想扩展**：从一个想法延伸
+- **逆向思维**：反向探索可能性
+- **跨领域启发**：借鉴其他领域
+
+## 风险与注意事项
+
+- 先追求数量，再追求质量
+- 暂缓判断，充分发散
+- 鼓励疯狂的想法
+- 记录所有想法
+
+## 参考链接
+
+- 原文：https://qoder-community.pages.dev/zh/skills/brainstorming

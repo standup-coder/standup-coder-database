@@ -1,0 +1,56 @@
+---
+type: external
+source: qoder-community
+sourceUrl: https://qoder-community.pages.dev/zh/skills/test-driven-development
+title: 测试驱动开发
+nameZh: 测试驱动开发
+category: 开发
+tags: ["开发","testing","tdd","quality","methodology"]
+rank: 8
+id: test-driven-development
+domain: testing
+domainLabel: 测试
+catalogSource: qoder
+catalogFile: 测试驱动开发.md
+catalogAddedAt: 2026-07-26
+---
+
+# 测试驱动开发
+
+> 先写测试再实现代码的开发方法论，产出更可靠和可维护的软件
+
+## 概述
+
+先写测试再实现代码的开发方法论，产出更可靠和可维护的软件
+
+### 示例
+
+```
+我需要实现一个用户注册功能，要求：- 用户名 3-20 个字符- 有效的邮箱格式- 密码至少 8 位，包含数字和字母
+请先帮我编写测试用例，然后实现功能。
+```
+
+## 使用场景
+
+- 新功能开发前的测试规划
+- 重构时确保行为不变
+- 修复 Bug 前编写复现测试
+- 提高代码覆盖率和质量
+- 团队代码审查标准化
+
+## 能力说明
+
+- **测试先行**：在实现前定义预期行为
+- **红-绿-重构**：遵循 TDD 循环
+- **边界覆盖**：识别和测试边界情况
+- **可测试设计**：编写易于测试的代码结构
+
+## 风险与注意事项
+
+- 测试应该独立且可重复
+- 避免测试实现细节，测试行为
+- 保持测试简单易读
+
+## 参考链接
+
+- 原文：https://qoder-community.pages.dev/zh/skills/test-driven-development

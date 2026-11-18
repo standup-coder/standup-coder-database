@@ -1,0 +1,61 @@
+---
+type: external
+source: qoder-community
+sourceUrl: https://qoder-community.pages.dev/zh/skills/static-analysis
+title: 静态分析
+nameZh: 静态分析
+category: 开发
+tags: ["开发","analysis","security","code-quality","vulnerabilities"]
+rank: 31
+id: static-analysis
+domain: security
+domainLabel: 安全
+catalogSource: qoder
+catalogFile: 静态分析.md
+catalogAddedAt: 2026-07-26
+---
+
+# 静态分析
+
+> 代码静态分析技能，识别安全漏洞、代码异味和质量问题
+
+## 概述
+
+代码静态分析技能，识别安全漏洞、代码异味和质量问题
+
+### 示例
+
+```
+请对这段代码进行静态安全分析：
+```javascriptconst user = req.query.user;const query = `SELECT * FROM users WHERE name = '${user}'`;db.query(query);
+```
+识别：
+- 安全漏洞
+- 严重程度
+- 修复建议
+- 安全的替代实现
+```
+
+## 使用场景
+
+- 安全漏洞检测
+- 代码质量审查
+- 依赖安全检查
+- CI/CD 集成检查
+- 合规性验证
+
+## 能力说明
+
+- **漏洞检测**：SQL 注入、XSS 等
+- **代码规范**：最佳实践检查
+- **依赖分析**：第三方库安全性
+- **报告生成**：清晰的问题报告
+
+## 风险与注意事项
+
+- 静态分析有局限性- 结合动态测试使用- 优先处理高风险漏洞- 定期更新规则库
+```
+
+## 参考链接
+
+- 原文：https://qoder-community.pages.dev/zh/skills/static-analysis

@@ -1,0 +1,112 @@
+{
+  "generated": "2026-06-01T00:00:00.000Z",
+  "previousGenerated": "2026-05-23T18:38:53.542Z",
+  "changelog": {
+    "2026-06-01": {
+      "added.roles": ["ai-agent-engineer"],
+      "added.atomicSkills": [
+        "mcp-server-development",
+        "agent-evaluation",
+        "prompt-engineering-advanced",
+        "rag-pipeline-design"
+      ],
+      "notes": "2026-06 第五轮扩充：新增 AI Agent Engineer 岗位（2026 新兴角色）及 4 个示范级原子技能（MCP 服务器开发/Agent 评估/高级提示工程/RAG 架构设计），全部含双语、完整 schema、constraints、errors 与 learning 节。"
+    }
+  },
+  "newGapsIdentified": {
+    "missing.compositeSkills": [
+      {
+        "id": "agentic-system-design",
+        "priority": "P0",
+        "reason": "ai-agent-engineer 岗位引用了 agent-orchestration-design 复合技能，但尚无专门面向 Agentic 系统整体设计（拓扑选择/状态管理/安全边界）的复合技能"
+      },
+      {
+        "id": "mcp-integration",
+        "priority": "P1",
+        "reason": "MCP 工具链集成（服务器开发 + 客户端配置 + 测试验证）目前分散在原子技能中，缺少端到端复合技能"
+      }
+    ],
+    "missing.atomicSkills": [
+      {
+        "id": "context-window-management",
+        "priority": "P1",
+        "reason": "长上下文管理（压缩/摘要/滑动窗口）是 Agent 工程核心但尚无专属原子技能"
+      },
+      {
+        "id": "agent-memory-design",
+        "priority": "P1",
+        "reason": "Agent 记忆系统设计（短期/长期/外部记忆）尚无专属原子技能"
+      }
+    ]
+  },
+  "summary": {
+    "missing.nameZh": 0,
+    "missing.descriptionZh": 0,
+    "missing.constraints": 10,
+    "missing.errors": 12,
+    "unknown.skillRef": 0,
+    "empty.inputSchema": 8,
+    "empty.outputSchema": 8,
+    "missing.learning": 7
+  },
+  "buckets": {
+    "missing.nameZh": [],
+    "missing.descriptionZh": [],
+    "missing.constraints": [
+      "analyze-code",
+      "api-call",
+      "api-request",
+      "git-diff",
+      "http-request",
+      "log-parser",
+      "run-linter",
+      "run-tests",
+      "search-code",
+      "write-comment"
+    ],
+    "missing.errors": [
+      "analyze-code",
+      "api-call",
+      "api-request",
+      "database-query",
+      "git-diff",
+      "http-request",
+      "log-parser",
+      "run-linter",
+      "run-tests",
+      "search-code",
+      "write-comment",
+      "write-file"
+    ],
+    "unknown.skillRef": [],
+    "empty.inputSchema": [
+      "analyze-code",
+      "api-request",
+      "git-diff",
+      "log-parser",
+      "run-linter",
+      "run-tests",
+      "search-code",
+      "write-comment"
+    ],
+    "empty.outputSchema": [
+      "analyze-code",
+      "api-request",
+      "git-diff",
+      "log-parser",
+      "run-linter",
+      "run-tests",
+      "search-code",
+      "write-comment"
+    ],
+    "missing.learning": [
+      "api-request",
+      "git-diff",
+      "http-request",
+      "log-parser",
+      "run-linter",
+      "search-code",
+      "write-comment"
+    ]
+  }
+}

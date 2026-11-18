@@ -1,0 +1,94 @@
+[
+  {
+    "id": "anthropic",
+    "name": "Anthropic 官方 Skills",
+    "region": "us",
+    "desc": "Anthropic 官方 SKILL.md 仓库,文档/创意/工具类技能",
+    "home": "https://github.com/anthropics/skills",
+    "fetch": { "type": "github", "repo": "anthropics/skills", "path": "skills" },
+    "browser": true,
+    "sourceDir": "anthropic"
+  },
+  {
+    "id": "skills-sh",
+    "name": "skills.sh",
+    "region": "us",
+    "desc": "英文技能市场,All-Time installs 热门榜",
+    "home": "https://www.skills.sh/",
+    "fetch": { "type": "html", "url": "https://www.skills.sh/" },
+    "browser": false,
+    "sourceDir": "skills-sh"
+  },
+  {
+    "id": "voltagent",
+    "name": "VoltAgent / awesome-agent-skills",
+    "region": "us",
+    "desc": "聚合 1497+ 技能的全类型 awesome 清单",
+    "home": "https://github.com/VoltAgent/awesome-agent-skills",
+    "fetch": { "type": "github", "repo": "VoltAgent/awesome-agent-skills" },
+    "browser": true,
+    "sourceDir": "voltagent"
+  },
+  {
+    "id": "mattpocock",
+    "name": "mattpocock/skills",
+    "region": "us",
+    "desc": "工程实践方法论套件(deep modules、代码库设计等)",
+    "home": "https://github.com/mattpocock/skills",
+    "fetch": { "type": "github", "repo": "mattpocock/skills" },
+    "browser": true,
+    "sourceDir": null
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI 官方 Skills",
+    "region": "us",
+    "desc": "OpenAI 官方技能仓库",
+    "home": "https://github.com/openai/skills",
+    "fetch": { "type": "github", "repo": "openai/skills" },
+    "browser": true,
+    "sourceDir": null
+  },
+  {
+    "id": "qoder",
+    "name": "qoder-community",
+    "region": "cn",
+    "desc": "中文社区技能站(原创中文技能,徽章权重排序)",
+    "home": "https://qoder-community.pages.dev/zh/skills/",
+    "fetch": { "type": "html", "url": "https://qoder-community.pages.dev/zh/skills/" },
+    "browser": false,
+    "sourceDir": "qoder"
+  },
+  {
+    "id": "mcpmarket",
+    "name": "mcpmarket",
+    "region": "cn",
+    "desc": "中文 MCP/Skills 市场,Claude Code 生态强垂直",
+    "home": "https://mcpmarket.com/zh/tools/skills",
+    "fetch": { "type": "html", "url": "https://mcpmarket.com/zh/tools/skills" },
+    "browser": false,
+    "sourceDir": "mcpmarket"
+  },
+  {
+    "id": "trae",
+    "name": "TRAE(字节跳动)",
+    "region": "cn",
+    "desc": "官方不维护公开 skills 库(TRAE Skills 基于开放标准,可从 GitHub 导入),此为官方技能文档入口",
+    "home": "https://docs.trae.ai/ide/skills",
+    "mirror": "https://www.trae.ai/",
+    "fetch": null,
+    "browser": false,
+    "sourceDir": null
+  },
+  {
+    "id": "workbuddy",
+    "name": "WorkBuddy(腾讯)",
+    "region": "cn",
+    "desc": "官方 skills 仅在 App 内 Skill Marketplace 分发;镜像 infometa/workbuddyskills 收录市场 skills(非官方)",
+    "home": "https://www.workbuddy.ai/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market",
+    "mirror": "https://github.com/infometa/workbuddyskills",
+    "fetch": { "type": "github", "repo": "infometa/workbuddyskills", "path": "skills" },
+    "browser": true,
+    "sourceDir": null
+  }
+]

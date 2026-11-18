@@ -1,0 +1,54 @@
+{
+  "generated": "2026-05-23",
+  "purpose": "三层覆盖度诊断后剩余的 P1/P2 知识点 backlog，供后续手填、LLM 批量预生成或社区共建",
+  "summary": {
+    "P1": 28,
+    "P2": 13
+  },
+  "items": [
+    { "id": "solution-architect", "kind": "role", "domain": "presales", "priority": "P1", "rationale": "ToB 售前方案场景" },
+    { "id": "ux-researcher", "kind": "role", "domain": "design", "priority": "P1", "rationale": "用研单独成岗，区别于 ui-ux-designer" },
+    { "id": "qa-engineer", "kind": "role", "domain": "qa", "priority": "P1", "rationale": "手工/探索测试，与 qa-automation 互补" },
+    { "id": "release-engineer", "kind": "role", "domain": "ops", "priority": "P2", "rationale": "大型项目发版与版本管理专岗" },
+
+    { "id": "prototype-iteration", "kind": "composite", "domain": "design", "priority": "P1", "rationale": "ui-ux-designer 第三个复合技能" },
+    { "id": "app-performance-optimization", "kind": "composite", "domain": "mobile", "priority": "P1", "rationale": "mobile-developer 第三个复合技能" },
+    { "id": "support-playbook", "kind": "composite", "domain": "customer-success", "priority": "P1", "rationale": "客服标准动作手册" },
+    { "id": "seo-strategy", "kind": "composite", "domain": "marketing", "priority": "P1", "rationale": "marketing-manager 第二复合技能" },
+    { "id": "brand-launch", "kind": "composite", "domain": "marketing", "priority": "P1", "rationale": "marketing-manager 第三复合技能" },
+    { "id": "tech-debt-triage", "kind": "composite", "domain": "engineering-management", "priority": "P1", "rationale": "技术债盘点流程" },
+    { "id": "oncall-rotation-setup", "kind": "composite", "domain": "ops", "priority": "P1", "rationale": "On-call 排班与升级机制" },
+    { "id": "e2e-test-strategy", "kind": "composite", "domain": "qa", "priority": "P1", "rationale": "qa-automation 复合技能扩充" },
+    { "id": "test-pyramid-build", "kind": "composite", "domain": "qa", "priority": "P1", "rationale": "qa-automation 复合技能扩充" },
+    { "id": "microservices-design", "kind": "composite", "domain": "backend", "priority": "P1", "rationale": "backend-architect 必备复合技能" },
+    { "id": "event-driven-architecture", "kind": "composite", "domain": "backend", "priority": "P1", "rationale": "backend-architect 必备复合技能" },
+
+    { "id": "saga-pattern", "kind": "atomic", "domain": "microservices", "priority": "P1", "rationale": "分布式事务方案" },
+    { "id": "nosql-modeling", "kind": "atomic", "domain": "database", "priority": "P1", "rationale": "MongoDB/DynamoDB 数据建模" },
+    { "id": "index-design", "kind": "atomic", "domain": "database", "priority": "P1", "rationale": "查询性能与索引覆盖" },
+    { "id": "cache-strategy", "kind": "atomic", "domain": "database", "priority": "P1", "rationale": "Redis/CDN 缓存策略" },
+    { "id": "db-migration", "kind": "atomic", "domain": "database", "priority": "P1", "rationale": "在线 schema 演进" },
+    { "id": "ddd-modeling", "kind": "atomic", "domain": "ddd", "priority": "P1", "rationale": "领域驱动建模" },
+    { "id": "event-sourcing", "kind": "atomic", "domain": "ddd", "priority": "P1", "rationale": "事件溯源" },
+    { "id": "cqrs", "kind": "atomic", "domain": "ddd", "priority": "P1", "rationale": "命令/查询职责分离" },
+    { "id": "web-performance-audit", "kind": "atomic", "domain": "frontend", "priority": "P1", "rationale": "Lighthouse / Core Web Vitals" },
+    { "id": "accessibility-audit", "kind": "atomic", "domain": "frontend", "priority": "P1", "rationale": "WCAG 审计" },
+    { "id": "micro-frontend", "kind": "atomic", "domain": "frontend", "priority": "P1", "rationale": "Module Federation 方案" },
+    { "id": "data-lineage", "kind": "atomic", "domain": "data-governance", "priority": "P1", "rationale": "数据血缘" },
+    { "id": "data-catalog", "kind": "atomic", "domain": "data-governance", "priority": "P1", "rationale": "元数据目录" },
+
+    { "id": "i18n-strategy", "kind": "atomic", "domain": "i18n", "priority": "P2", "rationale": "国际化方案" },
+    { "id": "wcag-compliance", "kind": "atomic", "domain": "a11y", "priority": "P2", "rationale": "可访问性合规" },
+    { "id": "internal-developer-platform", "kind": "atomic", "domain": "platform", "priority": "P2", "rationale": "Backstage / IDP 设计" },
+    { "id": "golden-path-design", "kind": "atomic", "domain": "platform", "priority": "P2", "rationale": "黄金路径模板" },
+    { "id": "code-review-protocol", "kind": "atomic", "domain": "collab", "priority": "P2", "rationale": "Code Review 协议规范" },
+    { "id": "commit-convention", "kind": "atomic", "domain": "collab", "priority": "P2", "rationale": "Conventional Commits" },
+    { "id": "branching-strategy", "kind": "atomic", "domain": "collab", "priority": "P2", "rationale": "Git Flow / Trunk-based" },
+    { "id": "api-doc-writing", "kind": "atomic", "domain": "docs", "priority": "P2", "rationale": "API 文档编写" },
+    { "id": "adr-writing", "kind": "atomic", "domain": "docs", "priority": "P2", "rationale": "Architecture Decision Record" },
+    { "id": "runbook-template", "kind": "atomic", "domain": "docs", "priority": "P2", "rationale": "运维手册模板" },
+    { "id": "product-metrics", "kind": "atomic", "domain": "product", "priority": "P2", "rationale": "AARRR / North Star Metric" },
+    { "id": "jobs-to-be-done", "kind": "atomic", "domain": "product", "priority": "P2", "rationale": "JTBD 框架" },
+    { "id": "user-journey-mapping", "kind": "atomic", "domain": "design", "priority": "P2", "rationale": "用户旅程地图" }
+  ]
+}

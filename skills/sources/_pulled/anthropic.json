@@ -1,0 +1,124 @@
+{
+  "hub": "anthropic",
+  "name": "Anthropic 官方 Skills",
+  "region": "us",
+  "fetchedAt": "2026-11-09T10:54:58.574Z",
+  "fetchType": "github",
+  "count": 19,
+  "entries": [
+    {
+      "rank": 1,
+      "id": "academy-guide",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/academy-guide",
+      "type": "dir"
+    },
+    {
+      "rank": 2,
+      "id": "algorithmic-art",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art",
+      "type": "dir"
+    },
+    {
+      "rank": 3,
+      "id": "brand-guidelines",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/brand-guidelines",
+      "type": "dir"
+    },
+    {
+      "rank": 4,
+      "id": "canvas-design",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/canvas-design",
+      "type": "dir"
+    },
+    {
+      "rank": 5,
+      "id": "claude-api",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/claude-api",
+      "type": "dir"
+    },
+    {
+      "rank": 6,
+      "id": "discernment-nudge",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/discernment-nudge",
+      "type": "dir"
+    },
+    {
+      "rank": 7,
+      "id": "doc-coauthoring",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring",
+      "type": "dir"
+    },
+    {
+      "rank": 8,
+      "id": "docx",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/docx",
+      "type": "dir"
+    },
+    {
+      "rank": 9,
+      "id": "frontend-design",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
+      "type": "dir"
+    },
+    {
+      "rank": 10,
+      "id": "internal-comms",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/internal-comms",
+      "type": "dir"
+    },
+    {
+      "rank": 11,
+      "id": "mcp-builder",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder",
+      "type": "dir"
+    },
+    {
+      "rank": 12,
+      "id": "pdf",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/pdf",
+      "type": "dir"
+    },
+    {
+      "rank": 13,
+      "id": "pptx",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/pptx",
+      "type": "dir"
+    },
+    {
+      "rank": 14,
+      "id": "skill-creator",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
+      "type": "dir"
+    },
+    {
+      "rank": 15,
+      "id": "slack-gif-creator",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator",
+      "type": "dir"
+    },
+    {
+      "rank": 16,
+      "id": "theme-factory",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/theme-factory",
+      "type": "dir"
+    },
+    {
+      "rank": 17,
+      "id": "web-artifacts-builder",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder",
+      "type": "dir"
+    },
+    {
+      "rank": 18,
+      "id": "webapp-testing",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
+      "type": "dir"
+    },
+    {
+      "rank": 19,
+      "id": "xlsx",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
+      "type": "dir"
+    }
+  ]
+}

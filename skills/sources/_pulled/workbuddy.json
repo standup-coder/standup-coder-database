@@ -1,0 +1,1780 @@
+{
+  "hub": "workbuddy",
+  "name": "WorkBuddy(腾讯)",
+  "region": "cn",
+  "fetchedAt": "2026-11-09T10:55:00.398Z",
+  "fetchType": "github",
+  "count": 295,
+  "entries": [
+    {
+      "rank": 1,
+      "id": "12306-train-assistant",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/12306-train-assistant",
+      "type": "dir"
+    },
+    {
+      "rank": 2,
+      "id": "12306",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/12306",
+      "type": "dir"
+    },
+    {
+      "rank": 3,
+      "id": "a-stock-data",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/a-stock-data",
+      "type": "dir"
+    },
+    {
+      "rank": 4,
+      "id": "academic-translation",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/academic-translation",
+      "type": "dir"
+    },
+    {
+      "rank": 5,
+      "id": "academic-tutor",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/academic-tutor",
+      "type": "dir"
+    },
+    {
+      "rank": 6,
+      "id": "admapix",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/admapix",
+      "type": "dir"
+    },
+    {
+      "rank": 7,
+      "id": "agent-browser-core",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/agent-browser-core",
+      "type": "dir"
+    },
+    {
+      "rank": 8,
+      "id": "agent-mail",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/agent-mail",
+      "type": "dir"
+    },
+    {
+      "rank": 9,
+      "id": "agent-mbti",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/agent-mbti",
+      "type": "dir"
+    },
+    {
+      "rank": 10,
+      "id": "agent-team-orchestration",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/agent-team-orchestration",
+      "type": "dir"
+    },
+    {
+      "rank": 11,
+      "id": "ai-shifu-course-creator",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/ai-shifu-course-creator",
+      "type": "dir"
+    },
+    {
+      "rank": 12,
+      "id": "aihot",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/aihot",
+      "type": "dir"
+    },
+    {
+      "rank": 13,
+      "id": "airbnb",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/airbnb",
+      "type": "dir"
+    },
+    {
+      "rank": 14,
+      "id": "airchina-travel-assistant",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/airchina-travel-assistant",
+      "type": "dir"
+    },
+    {
+      "rank": 15,
+      "id": "andonq",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/andonq",
+      "type": "dir"
+    },
+    {
+      "rank": 16,
+      "id": "android-native-dev",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/android-native-dev",
+      "type": "dir"
+    },
+    {
+      "rank": 17,
+      "id": "anti-distill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/anti-distill",
+      "type": "dir"
+    },
+    {
+      "rank": 18,
+      "id": "api-gateway",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/api-gateway",
+      "type": "dir"
+    },
+    {
+      "rank": 19,
+      "id": "apple-notes",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/apple-notes",
+      "type": "dir"
+    },
+    {
+      "rank": 20,
+      "id": "apple-reminders",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/apple-reminders",
+      "type": "dir"
+    },
+    {
+      "rank": 21,
+      "id": "arxiv-reader",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/arxiv-reader",
+      "type": "dir"
+    },
+    {
+      "rank": 22,
+      "id": "arxiv-watcher",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/arxiv-watcher",
+      "type": "dir"
+    },
+    {
+      "rank": 23,
+      "id": "autoresearch",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/autoresearch",
+      "type": "dir"
+    },
+    {
+      "rank": 24,
+      "id": "aviation-weather",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/aviation-weather",
+      "type": "dir"
+    },
+    {
+      "rank": 25,
+      "id": "aviationstack-flight-tracker",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/aviationstack-flight-tracker",
+      "type": "dir"
+    },
+    {
+      "rank": 26,
+      "id": "awesome-design-md",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/awesome-design-md",
+      "type": "dir"
+    },
+    {
+      "rank": 27,
+      "id": "baidu-drive",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/baidu-drive",
+      "type": "dir"
+    },
+    {
+      "rank": 28,
+      "id": "blogwatcher",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/blogwatcher",
+      "type": "dir"
+    },
+    {
+      "rank": 29,
+      "id": "boss-skills",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/boss-skills",
+      "type": "dir"
+    },
+    {
+      "rank": 30,
+      "id": "brand-guidelines",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/brand-guidelines",
+      "type": "dir"
+    },
+    {
+      "rank": 31,
+      "id": "browser-cash",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/browser-cash",
+      "type": "dir"
+    },
+    {
+      "rank": 32,
+      "id": "browser-use",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/browser-use",
+      "type": "dir"
+    },
+    {
+      "rank": 33,
+      "id": "browser",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/browser",
+      "type": "dir"
+    },
+    {
+      "rank": 34,
+      "id": "browserwing",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/browserwing",
+      "type": "dir"
+    },
+    {
+      "rank": 35,
+      "id": "caldav-calendar",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/caldav-calendar",
+      "type": "dir"
+    },
+    {
+      "rank": 36,
+      "id": "cangjie-skill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/cangjie-skill",
+      "type": "dir"
+    },
+    {
+      "rank": 37,
+      "id": "canvas-design",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/canvas-design",
+      "type": "dir"
+    },
+    {
+      "rank": 38,
+      "id": "capability-evolver",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/capability-evolver",
+      "type": "dir"
+    },
+    {
+      "rank": 39,
+      "id": "caveman",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/caveman",
+      "type": "dir"
+    },
+    {
+      "rank": 40,
+      "id": "charity-finance-assistant",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/charity-finance-assistant",
+      "type": "dir"
+    },
+    {
+      "rank": 41,
+      "id": "charity-writing-assistant",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/charity-writing-assistant",
+      "type": "dir"
+    },
+    {
+      "rank": 42,
+      "id": "citation-manager",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/citation-manager",
+      "type": "dir"
+    },
+    {
+      "rank": 43,
+      "id": "clawbrowser",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/clawbrowser",
+      "type": "dir"
+    },
+    {
+      "rank": 44,
+      "id": "cli-anything-hub",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/cli-anything-hub",
+      "type": "dir"
+    },
+    {
+      "rank": 45,
+      "id": "cloudbase",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/cloudbase",
+      "type": "dir"
+    },
+    {
+      "rank": 46,
+      "id": "cloudflare-worker-builder",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/cloudflare-worker-builder",
+      "type": "dir"
+    },
+    {
+      "rank": 47,
+      "id": "cloudflare",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/cloudflare",
+      "type": "dir"
+    },
+    {
+      "rank": 48,
+      "id": "cloudq",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/cloudq",
+      "type": "dir"
+    },
+    {
+      "rank": 49,
+      "id": "cn-ecommerce-search",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/cn-ecommerce-search",
+      "type": "dir"
+    },
+    {
+      "rank": 50,
+      "id": "cnb-skill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/cnb-skill",
+      "type": "dir"
+    },
+    {
+      "rank": 51,
+      "id": "colleague-skill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/colleague-skill",
+      "type": "dir"
+    },
+    {
+      "rank": 52,
+      "id": "content-factory",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/content-factory",
+      "type": "dir"
+    },
+    {
+      "rank": 53,
+      "id": "content-ops",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/content-ops",
+      "type": "dir"
+    },
+    {
+      "rank": 54,
+      "id": "content-repurposer",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/content-repurposer",
+      "type": "dir"
+    },
+    {
+      "rank": 55,
+      "id": "conversion-ops",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/conversion-ops",
+      "type": "dir"
+    },
+    {
+      "rank": 56,
+      "id": "cos-vectors",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/cos-vectors",
+      "type": "dir"
+    },
+    {
+      "rank": 57,
+      "id": "crash-expert-skill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/crash-expert-skill",
+      "type": "dir"
+    },
+    {
+      "rank": 58,
+      "id": "ctrip-wendao",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/ctrip-wendao",
+      "type": "dir"
+    },
+    {
+      "rank": 59,
+      "id": "darwin-skill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/darwin-skill",
+      "type": "dir"
+    },
+    {
+      "rank": 60,
+      "id": "deck-generator",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/deck-generator",
+      "type": "dir"
+    },
+    {
+      "rank": 61,
+      "id": "deep-research",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/deep-research",
+      "type": "dir"
+    },
+    {
+      "rank": 62,
+      "id": "diagnose",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/diagnose",
+      "type": "dir"
+    },
+    {
+      "rank": 63,
+      "id": "didi-ride-skill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/didi-ride-skill",
+      "type": "dir"
+    },
+    {
+      "rank": 64,
+      "id": "dingtalk-unified",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/dingtalk-unified",
+      "type": "dir"
+    },
+    {
+      "rank": 65,
+      "id": "earnings-tracker",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/earnings-tracker",
+      "type": "dir"
+    },
+    {
+      "rank": 66,
+      "id": "ecommerce-copywriter",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/ecommerce-copywriter",
+      "type": "dir"
+    },
+    {
+      "rank": 67,
+      "id": "ecomseer",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/ecomseer",
+      "type": "dir"
+    },
+    {
+      "rank": 68,
+      "id": "edgeone-pages-deploy",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/edgeone-pages-deploy",
+      "type": "dir"
+    },
+    {
+      "rank": 69,
+      "id": "edgeone",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/edgeone",
+      "type": "dir"
+    },
+    {
+      "rank": 70,
+      "id": "education",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/education",
+      "type": "dir"
+    },
+    {
+      "rank": 71,
+      "id": "email-daily-summary",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/email-daily-summary",
+      "type": "dir"
+    },
+    {
+      "rank": 72,
+      "id": "email-skill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/email-skill",
+      "type": "dir"
+    },
+    {
+      "rank": 73,
+      "id": "english-exam-writing-reviewer",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/english-exam-writing-reviewer",
+      "type": "dir"
+    },
+    {
+      "rank": 74,
+      "id": "english-intensive-reader",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/english-intensive-reader",
+      "type": "dir"
+    },
+    {
+      "rank": 75,
+      "id": "excalidraw-diagram",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/excalidraw-diagram",
+      "type": "dir"
+    },
+    {
+      "rank": 76,
+      "id": "fadada-document-sign",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/fadada-document-sign",
+      "type": "dir"
+    },
+    {
+      "rank": 77,
+      "id": "fbs-bookwriter",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/fbs-bookwriter",
+      "type": "dir"
+    },
+    {
+      "rank": 78,
+      "id": "finance-ops",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/finance-ops",
+      "type": "dir"
+    },
+    {
+      "rank": 79,
+      "id": "fintech-engineer",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/fintech-engineer",
+      "type": "dir"
+    },
+    {
+      "rank": 80,
+      "id": "flight-tracker",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/flight-tracker",
+      "type": "dir"
+    },
+    {
+      "rank": 81,
+      "id": "flights-search",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/flights-search",
+      "type": "dir"
+    },
+    {
+      "rank": 82,
+      "id": "flutter-dev",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/flutter-dev",
+      "type": "dir"
+    },
+    {
+      "rank": 83,
+      "id": "flyai",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/flyai",
+      "type": "dir"
+    },
+    {
+      "rank": 84,
+      "id": "football-bayes",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/football-bayes",
+      "type": "dir"
+    },
+    {
+      "rank": 85,
+      "id": "frontend-dev",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/frontend-dev",
+      "type": "dir"
+    },
+    {
+      "rank": 86,
+      "id": "fullstack-dev",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/fullstack-dev",
+      "type": "dir"
+    },
+    {
+      "rank": 87,
+      "id": "futuapi",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/futuapi",
+      "type": "dir"
+    },
+    {
+      "rank": 88,
+      "id": "gif-sticker-maker",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/gif-sticker-maker",
+      "type": "dir"
+    },
+    {
+      "rank": 89,
+      "id": "gifgrep",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/gifgrep",
+      "type": "dir"
+    },
+    {
+      "rank": 90,
+      "id": "github-ai-trends",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/github-ai-trends",
+      "type": "dir"
+    },
+    {
+      "rank": 91,
+      "id": "github-pages-auto-deploy",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/github-pages-auto-deploy",
+      "type": "dir"
+    },
+    {
+      "rank": 92,
+      "id": "github-trending-cn",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/github-trending-cn",
+      "type": "dir"
+    },
+    {
+      "rank": 93,
+      "id": "github",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/github",
+      "type": "dir"
+    },
+    {
+      "rank": 94,
+      "id": "globepilot-ai-agent-2",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/globepilot-ai-agent-2",
+      "type": "dir"
+    },
+    {
+      "rank": 95,
+      "id": "gmail",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/gmail",
+      "type": "dir"
+    },
+    {
+      "rank": 96,
+      "id": "goal-tracker",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/goal-tracker",
+      "type": "dir"
+    },
+    {
+      "rank": 97,
+      "id": "gog",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/gog",
+      "type": "dir"
+    },
+    {
+      "rank": 98,
+      "id": "grill-me",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/grill-me",
+      "type": "dir"
+    },
+    {
+      "rank": 99,
+      "id": "growth-engine",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/growth-engine",
+      "type": "dir"
+    },
+    {
+      "rank": 100,
+      "id": "gsap-animation-assistant",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/gsap-animation-assistant",
+      "type": "dir"
+    },
+    {
+      "rank": 101,
+      "id": "guizang-ppt-skill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/guizang-ppt-skill",
+      "type": "dir"
+    },
+    {
+      "rank": 102,
+      "id": "habit-tracker",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/habit-tracker",
+      "type": "dir"
+    },
+    {
+      "rank": 103,
+      "id": "haina-shopping-assistant",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/haina-shopping-assistant",
+      "type": "dir"
+    },
+    {
+      "rank": 104,
+      "id": "handoff",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/handoff",
+      "type": "dir"
+    },
+    {
+      "rank": 105,
+      "id": "healthcheck",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/healthcheck",
+      "type": "dir"
+    },
+    {
+      "rank": 106,
+      "id": "himalaya",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/himalaya",
+      "type": "dir"
+    },
+    {
+      "rank": 107,
+      "id": "html-deploy",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/html-deploy",
+      "type": "dir"
+    },
+    {
+      "rank": 108,
+      "id": "humanizer",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/humanizer",
+      "type": "dir"
+    },
+    {
+      "rank": 109,
+      "id": "idea-validator",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/idea-validator",
+      "type": "dir"
+    },
+    {
+      "rank": 110,
+      "id": "ima-skills",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/ima-skills",
+      "type": "dir"
+    },
+    {
+      "rank": 111,
+      "id": "imap-smtp-email",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/imap-smtp-email",
+      "type": "dir"
+    },
+    {
+      "rank": 112,
+      "id": "impeccable",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/impeccable",
+      "type": "dir"
+    },
+    {
+      "rank": 113,
+      "id": "imsg",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/imsg",
+      "type": "dir"
+    },
+    {
+      "rank": 114,
+      "id": "infographic-maker",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/infographic-maker",
+      "type": "dir"
+    },
+    {
+      "rank": 115,
+      "id": "install-futu-opend",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/install-futu-opend",
+      "type": "dir"
+    },
+    {
+      "rank": 116,
+      "id": "ios-application-dev",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/ios-application-dev",
+      "type": "dir"
+    },
+    {
+      "rank": 117,
+      "id": "jiaozhen-factcheck",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/jiaozhen-factcheck",
+      "type": "dir"
+    },
+    {
+      "rank": 118,
+      "id": "jinshuju",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/jinshuju",
+      "type": "dir"
+    },
+    {
+      "rank": 119,
+      "id": "kdocs",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/kdocs",
+      "type": "dir"
+    },
+    {
+      "rank": 120,
+      "id": "khazix-writer",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/khazix-writer",
+      "type": "dir"
+    },
+    {
+      "rank": 121,
+      "id": "knowledge-framework-builder",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/knowledge-framework-builder",
+      "type": "dir"
+    },
+    {
+      "rank": 122,
+      "id": "landing-page-generator",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/landing-page-generator",
+      "type": "dir"
+    },
+    {
+      "rank": 123,
+      "id": "lark-unified",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/lark-unified",
+      "type": "dir"
+    },
+    {
+      "rank": 124,
+      "id": "legal-logic-analysis",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/legal-logic-analysis",
+      "type": "dir"
+    },
+    {
+      "rank": 125,
+      "id": "lexiang-knowledge-base",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/lexiang-knowledge-base",
+      "type": "dir"
+    },
+    {
+      "rank": 126,
+      "id": "libtv-skill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/libtv-skill",
+      "type": "dir"
+    },
+    {
+      "rank": 127,
+      "id": "lingxi-financialsearch-skill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/lingxi-financialsearch-skill",
+      "type": "dir"
+    },
+    {
+      "rank": 128,
+      "id": "llm-wiki",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/llm-wiki",
+      "type": "dir"
+    },
+    {
+      "rank": 129,
+      "id": "macro-monitor",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/macro-monitor",
+      "type": "dir"
+    },
+    {
+      "rank": 130,
+      "id": "market-researcher",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/market-researcher",
+      "type": "dir"
+    },
+    {
+      "rank": 131,
+      "id": "marketing-skills",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/marketing-skills",
+      "type": "dir"
+    },
+    {
+      "rank": 132,
+      "id": "markitdown-skill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/markitdown-skill",
+      "type": "dir"
+    },
+    {
+      "rank": 133,
+      "id": "material-organizer",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/material-organizer",
+      "type": "dir"
+    },
+    {
+      "rank": 134,
+      "id": "mcdonald-assistant",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/mcdonald-assistant",
+      "type": "dir"
+    },
+    {
+      "rank": 135,
+      "id": "mcp-builder",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/mcp-builder",
+      "type": "dir"
+    },
+    {
+      "rank": 136,
+      "id": "mcporter",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/mcporter",
+      "type": "dir"
+    },
+    {
+      "rank": 137,
+      "id": "md-to-pdf-cjk",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/md-to-pdf-cjk",
+      "type": "dir"
+    },
+    {
+      "rank": 138,
+      "id": "meituan-coupon-workbuddy",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/meituan-coupon-workbuddy",
+      "type": "dir"
+    },
+    {
+      "rank": 139,
+      "id": "meituan-huisheng-coupon",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/meituan-huisheng-coupon",
+      "type": "dir"
+    },
+    {
+      "rank": 140,
+      "id": "migraq",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/migraq",
+      "type": "dir"
+    },
+    {
+      "rank": 141,
+      "id": "minimax-docx",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/minimax-docx",
+      "type": "dir"
+    },
+    {
+      "rank": 142,
+      "id": "minimax-pdf",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/minimax-pdf",
+      "type": "dir"
+    },
+    {
+      "rank": 143,
+      "id": "minimax-xlsx",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/minimax-xlsx",
+      "type": "dir"
+    },
+    {
+      "rank": 144,
+      "id": "model-usage",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/model-usage",
+      "type": "dir"
+    },
+    {
+      "rank": 145,
+      "id": "multi-search-engine",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/multi-search-engine",
+      "type": "dir"
+    },
+    {
+      "rank": 146,
+      "id": "my-novel-writer",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/my-novel-writer",
+      "type": "dir"
+    },
+    {
+      "rank": 147,
+      "id": "nano-banana-pro",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/nano-banana-pro",
+      "type": "dir"
+    },
+    {
+      "rank": 148,
+      "id": "nano-pdf",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/nano-pdf",
+      "type": "dir"
+    },
+    {
+      "rank": 149,
+      "id": "neodata-financial-search",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/neodata-financial-search",
+      "type": "dir"
+    },
+    {
+      "rank": 150,
+      "id": "netlify-deploy",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/netlify-deploy",
+      "type": "dir"
+    },
+    {
+      "rank": 151,
+      "id": "news-summary",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/news-summary",
+      "type": "dir"
+    },
+    {
+      "rank": 152,
+      "id": "note-organizer",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/note-organizer",
+      "type": "dir"
+    },
+    {
+      "rank": 153,
+      "id": "notebooklm-studio",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/notebooklm-studio",
+      "type": "dir"
+    },
+    {
+      "rank": 154,
+      "id": "notion",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/notion",
+      "type": "dir"
+    },
+    {
+      "rank": 155,
+      "id": "novel-writer",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/novel-writer",
+      "type": "dir"
+    },
+    {
+      "rank": 156,
+      "id": "novel-writing",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/novel-writing",
+      "type": "dir"
+    },
+    {
+      "rank": 157,
+      "id": "novel",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/novel",
+      "type": "dir"
+    },
+    {
+      "rank": 158,
+      "id": "nuwa-skill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/nuwa-skill",
+      "type": "dir"
+    },
+    {
+      "rank": 159,
+      "id": "obsidian",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/obsidian",
+      "type": "dir"
+    },
+    {
+      "rank": 160,
+      "id": "open-lesson",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/open-lesson",
+      "type": "dir"
+    },
+    {
+      "rank": 161,
+      "id": "open-novel-writing",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/open-novel-writing",
+      "type": "dir"
+    },
+    {
+      "rank": 162,
+      "id": "openai-image-gen",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/openai-image-gen",
+      "type": "dir"
+    },
+    {
+      "rank": 163,
+      "id": "openai-whisper-api",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/openai-whisper-api",
+      "type": "dir"
+    },
+    {
+      "rank": 164,
+      "id": "openai-whisper",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/openai-whisper",
+      "type": "dir"
+    },
+    {
+      "rank": 165,
+      "id": "openclaw-assets-to-workbuddy",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/openclaw-assets-to-workbuddy",
+      "type": "dir"
+    },
+    {
+      "rank": 166,
+      "id": "oracle",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/oracle",
+      "type": "dir"
+    },
+    {
+      "rank": 167,
+      "id": "outbound-engine",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/outbound-engine",
+      "type": "dir"
+    },
+    {
+      "rank": 168,
+      "id": "ozon-1688-uploader",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/ozon-1688-uploader",
+      "type": "dir"
+    },
+    {
+      "rank": 169,
+      "id": "paper-quick-reader",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/paper-quick-reader",
+      "type": "dir"
+    },
+    {
+      "rank": 170,
+      "id": "pdfkit-py",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/pdfkit-py",
+      "type": "dir"
+    },
+    {
+      "rank": 171,
+      "id": "peekaboo",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/peekaboo",
+      "type": "dir"
+    },
+    {
+      "rank": 172,
+      "id": "perplexity",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/perplexity",
+      "type": "dir"
+    },
+    {
+      "rank": 173,
+      "id": "plan-tracker",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/plan-tracker",
+      "type": "dir"
+    },
+    {
+      "rank": 174,
+      "id": "playwright-browser-automation",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/playwright-browser-automation",
+      "type": "dir"
+    },
+    {
+      "rank": 175,
+      "id": "playwright-scraper-skill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/playwright-scraper-skill",
+      "type": "dir"
+    },
+    {
+      "rank": 176,
+      "id": "podcast-ops",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/podcast-ops",
+      "type": "dir"
+    },
+    {
+      "rank": 177,
+      "id": "porteden-email",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/porteden-email",
+      "type": "dir"
+    },
+    {
+      "rank": 178,
+      "id": "pptx-generator",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/pptx-generator",
+      "type": "dir"
+    },
+    {
+      "rank": 179,
+      "id": "price-history",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/price-history",
+      "type": "dir"
+    },
+    {
+      "rank": 180,
+      "id": "product-showcase-site",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/product-showcase-site",
+      "type": "dir"
+    },
+    {
+      "rank": 181,
+      "id": "promo-creator-skills",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/promo-creator-skills",
+      "type": "dir"
+    },
+    {
+      "rank": 182,
+      "id": "prompt-engineering-expert",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/prompt-engineering-expert",
+      "type": "dir"
+    },
+    {
+      "rank": 183,
+      "id": "qcc-company",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/qcc-company",
+      "type": "dir"
+    },
+    {
+      "rank": 184,
+      "id": "qmd",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/qmd",
+      "type": "dir"
+    },
+    {
+      "rank": 185,
+      "id": "qq-email",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/qq-email",
+      "type": "dir"
+    },
+    {
+      "rank": 186,
+      "id": "qqmusic",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/qqmusic",
+      "type": "dir"
+    },
+    {
+      "rank": 187,
+      "id": "react-native-dev",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/react-native-dev",
+      "type": "dir"
+    },
+    {
+      "rank": 188,
+      "id": "remotion-video-toolkit",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/remotion-video-toolkit",
+      "type": "dir"
+    },
+    {
+      "rank": 189,
+      "id": "responsiveness-check",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/responsiveness-check",
+      "type": "dir"
+    },
+    {
+      "rank": 190,
+      "id": "resume-assistant",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/resume-assistant",
+      "type": "dir"
+    },
+    {
+      "rank": 191,
+      "id": "revenue-intelligence",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/revenue-intelligence",
+      "type": "dir"
+    },
+    {
+      "rank": 192,
+      "id": "sag",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/sag",
+      "type": "dir"
+    },
+    {
+      "rank": 193,
+      "id": "sales-pipeline",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/sales-pipeline",
+      "type": "dir"
+    },
+    {
+      "rank": 194,
+      "id": "sales-playbook",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/sales-playbook",
+      "type": "dir"
+    },
+    {
+      "rank": 195,
+      "id": "seo-ops",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/seo-ops",
+      "type": "dir"
+    },
+    {
+      "rank": 196,
+      "id": "setup-pre-commit",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/setup-pre-commit",
+      "type": "dir"
+    },
+    {
+      "rank": 197,
+      "id": "shader-dev",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/shader-dev",
+      "type": "dir"
+    },
+    {
+      "rank": 198,
+      "id": "shippage",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/shippage",
+      "type": "dir"
+    },
+    {
+      "rank": 199,
+      "id": "shopify-admin-api",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/shopify-admin-api",
+      "type": "dir"
+    },
+    {
+      "rank": 200,
+      "id": "shopping-price-drop-coupon-scout",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/shopping-price-drop-coupon-scout",
+      "type": "dir"
+    },
+    {
+      "rank": 201,
+      "id": "sino-drug-instructions-search",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/sino-drug-instructions-search",
+      "type": "dir"
+    },
+    {
+      "rank": 202,
+      "id": "skill-creator",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/skill-creator",
+      "type": "dir"
+    },
+    {
+      "rank": 203,
+      "id": "skill-scanner",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/skill-scanner",
+      "type": "dir"
+    },
+    {
+      "rank": 204,
+      "id": "skill-vetter",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/skill-vetter",
+      "type": "dir"
+    },
+    {
+      "rank": 205,
+      "id": "skills-security-check",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/skills-security-check",
+      "type": "dir"
+    },
+    {
+      "rank": 206,
+      "id": "skyline",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/skyline",
+      "type": "dir"
+    },
+    {
+      "rank": 207,
+      "id": "smart-page",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/smart-page",
+      "type": "dir"
+    },
+    {
+      "rank": 208,
+      "id": "smooth-browser",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/smooth-browser",
+      "type": "dir"
+    },
+    {
+      "rank": 209,
+      "id": "songsee",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/songsee",
+      "type": "dir"
+    },
+    {
+      "rank": 210,
+      "id": "stagehand-browser-cli",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/stagehand-browser-cli",
+      "type": "dir"
+    },
+    {
+      "rank": 211,
+      "id": "static-app",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/static-app",
+      "type": "dir"
+    },
+    {
+      "rank": 212,
+      "id": "stealth-browser",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/stealth-browser",
+      "type": "dir"
+    },
+    {
+      "rank": 213,
+      "id": "stock-analysis",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/stock-analysis",
+      "type": "dir"
+    },
+    {
+      "rank": 214,
+      "id": "stock-analyzer",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/stock-analyzer",
+      "type": "dir"
+    },
+    {
+      "rank": 215,
+      "id": "study-planner",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/study-planner",
+      "type": "dir"
+    },
+    {
+      "rank": 216,
+      "id": "summarize",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/summarize",
+      "type": "dir"
+    },
+    {
+      "rank": 217,
+      "id": "taobao",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/taobao",
+      "type": "dir"
+    },
+    {
+      "rank": 218,
+      "id": "tapd-openapi",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tapd-openapi",
+      "type": "dir"
+    },
+    {
+      "rank": 219,
+      "id": "task-alignment",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/task-alignment",
+      "type": "dir"
+    },
+    {
+      "rank": 220,
+      "id": "task-implement",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/task-implement",
+      "type": "dir"
+    },
+    {
+      "rank": 221,
+      "id": "tavily",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tavily",
+      "type": "dir"
+    },
+    {
+      "rank": 222,
+      "id": "tdd",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tdd",
+      "type": "dir"
+    },
+    {
+      "rank": 223,
+      "id": "tdesign-miniprogram",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tdesign-miniprogram",
+      "type": "dir"
+    },
+    {
+      "rank": 224,
+      "id": "teachany",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/teachany",
+      "type": "dir"
+    },
+    {
+      "rank": 225,
+      "id": "team-ops",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/team-ops",
+      "type": "dir"
+    },
+    {
+      "rank": 226,
+      "id": "tencent-campus-recruit",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencent-campus-recruit",
+      "type": "dir"
+    },
+    {
+      "rank": 227,
+      "id": "tencent-docs",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencent-docs",
+      "type": "dir"
+    },
+    {
+      "rank": 228,
+      "id": "tencent-esign-contract",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencent-esign-contract",
+      "type": "dir"
+    },
+    {
+      "rank": 229,
+      "id": "tencent-meeting-skill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencent-meeting-skill",
+      "type": "dir"
+    },
+    {
+      "rank": 230,
+      "id": "tencent-music-campus-recruit",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencent-music-campus-recruit",
+      "type": "dir"
+    },
+    {
+      "rank": 231,
+      "id": "tencent-musician-skills",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencent-musician-skills",
+      "type": "dir"
+    },
+    {
+      "rank": 232,
+      "id": "tencent-news",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencent-news",
+      "type": "dir"
+    },
+    {
+      "rank": 233,
+      "id": "tencent-rumor-refuter",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencent-rumor-refuter",
+      "type": "dir"
+    },
+    {
+      "rank": 234,
+      "id": "tencent-ssv-techforgood",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencent-ssv-techforgood",
+      "type": "dir"
+    },
+    {
+      "rank": 235,
+      "id": "tencent-survey",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencent-survey",
+      "type": "dir"
+    },
+    {
+      "rank": 236,
+      "id": "tencent-weather",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencent-weather",
+      "type": "dir"
+    },
+    {
+      "rank": 237,
+      "id": "tencent-yuanbao-gaokao-regional-passing-scores",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencent-yuanbao-gaokao-regional-passing-scores",
+      "type": "dir"
+    },
+    {
+      "rank": 238,
+      "id": "tencent-yuanbao-gaokao-score-to-rank-lookup",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencent-yuanbao-gaokao-score-to-rank-lookup",
+      "type": "dir"
+    },
+    {
+      "rank": 239,
+      "id": "tencent-yuanbao-standard-search",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencent-yuanbao-standard-search",
+      "type": "dir"
+    },
+    {
+      "rank": 240,
+      "id": "tencent-yunzhi",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencent-yunzhi",
+      "type": "dir"
+    },
+    {
+      "rank": 241,
+      "id": "tencentcloud-cls",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencentcloud-cls",
+      "type": "dir"
+    },
+    {
+      "rank": 242,
+      "id": "tencentcloud-cos",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencentcloud-cos",
+      "type": "dir"
+    },
+    {
+      "rank": 243,
+      "id": "tencentcloud-ocr-extractdocagent",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencentcloud-ocr-extractdocagent",
+      "type": "dir"
+    },
+    {
+      "rank": 244,
+      "id": "tencentcloud-ocr-general",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencentcloud-ocr-general",
+      "type": "dir"
+    },
+    {
+      "rank": 245,
+      "id": "tencentcloud-ocr-questionmarkagent",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencentcloud-ocr-questionmarkagent",
+      "type": "dir"
+    },
+    {
+      "rank": 246,
+      "id": "tencentcloud-ocr-recognizetableaccurate",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencentcloud-ocr-recognizetableaccurate",
+      "type": "dir"
+    },
+    {
+      "rank": 247,
+      "id": "tencentcloud-ocr",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencentcloud-ocr",
+      "type": "dir"
+    },
+    {
+      "rank": 248,
+      "id": "tencentmap-lbs-skill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencentmap-lbs-skill",
+      "type": "dir"
+    },
+    {
+      "rank": 249,
+      "id": "tencentmap-map-assistant",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencentmap-map-assistant",
+      "type": "dir"
+    },
+    {
+      "rank": 250,
+      "id": "tencentos-expert",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tencentos-expert",
+      "type": "dir"
+    },
+    {
+      "rank": 251,
+      "id": "the-entrepreneurship-handbook",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/the-entrepreneurship-handbook",
+      "type": "dir"
+    },
+    {
+      "rank": 252,
+      "id": "things-mac",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/things-mac",
+      "type": "dir"
+    },
+    {
+      "rank": 253,
+      "id": "tmux",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tmux",
+      "type": "dir"
+    },
+    {
+      "rank": 254,
+      "id": "travel-cn",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/travel-cn",
+      "type": "dir"
+    },
+    {
+      "rank": 255,
+      "id": "travel-planning",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/travel-planning",
+      "type": "dir"
+    },
+    {
+      "rank": 256,
+      "id": "trello",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/trello",
+      "type": "dir"
+    },
+    {
+      "rank": 257,
+      "id": "trip-planner-generator",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/trip-planner-generator",
+      "type": "dir"
+    },
+    {
+      "rank": 258,
+      "id": "tutor-skills",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/tutor-skills",
+      "type": "dir"
+    },
+    {
+      "rank": 259,
+      "id": "university-applications",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/university-applications",
+      "type": "dir"
+    },
+    {
+      "rank": 260,
+      "id": "us-stock-analysis",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/us-stock-analysis",
+      "type": "dir"
+    },
+    {
+      "rank": 261,
+      "id": "vercel-deploy",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/vercel-deploy",
+      "type": "dir"
+    },
+    {
+      "rank": 262,
+      "id": "video-frames",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/video-frames",
+      "type": "dir"
+    },
+    {
+      "rank": 263,
+      "id": "vip-skill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/vip-skill",
+      "type": "dir"
+    },
+    {
+      "rank": 264,
+      "id": "wacli",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/wacli",
+      "type": "dir"
+    },
+    {
+      "rank": 265,
+      "id": "weather-open-meteo",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/weather-open-meteo",
+      "type": "dir"
+    },
+    {
+      "rank": 266,
+      "id": "weather",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/weather",
+      "type": "dir"
+    },
+    {
+      "rank": 267,
+      "id": "web-access",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/web-access",
+      "type": "dir"
+    },
+    {
+      "rank": 268,
+      "id": "web-deploy-github",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/web-deploy-github",
+      "type": "dir"
+    },
+    {
+      "rank": 269,
+      "id": "web-deploy",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/web-deploy",
+      "type": "dir"
+    },
+    {
+      "rank": 270,
+      "id": "web-performance-audit",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/web-performance-audit",
+      "type": "dir"
+    },
+    {
+      "rank": 271,
+      "id": "web-scraper",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/web-scraper",
+      "type": "dir"
+    },
+    {
+      "rank": 272,
+      "id": "web-search-exa",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/web-search-exa",
+      "type": "dir"
+    },
+    {
+      "rank": 273,
+      "id": "wechat-article-pro",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/wechat-article-pro",
+      "type": "dir"
+    },
+    {
+      "rank": 274,
+      "id": "wechat-article-search",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/wechat-article-search",
+      "type": "dir"
+    },
+    {
+      "rank": 275,
+      "id": "wechat-miniprogram",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/wechat-miniprogram",
+      "type": "dir"
+    },
+    {
+      "rank": 276,
+      "id": "wechat-publisher",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/wechat-publisher",
+      "type": "dir"
+    },
+    {
+      "rank": 277,
+      "id": "wechat-viral-topic",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/wechat-viral-topic",
+      "type": "dir"
+    },
+    {
+      "rank": 278,
+      "id": "wechatpay-basic-payment",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/wechatpay-basic-payment",
+      "type": "dir"
+    },
+    {
+      "rank": 279,
+      "id": "wechatpay-product-coupon",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/wechatpay-product-coupon",
+      "type": "dir"
+    },
+    {
+      "rank": 280,
+      "id": "wecom-unified",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/wecom-unified",
+      "type": "dir"
+    },
+    {
+      "rank": 281,
+      "id": "wecom-weisheng-scrm",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/wecom-weisheng-scrm",
+      "type": "dir"
+    },
+    {
+      "rank": 282,
+      "id": "weiyun",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/weiyun",
+      "type": "dir"
+    },
+    {
+      "rank": 283,
+      "id": "weread-skills",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/weread-skills",
+      "type": "dir"
+    },
+    {
+      "rank": 284,
+      "id": "westock-data",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/westock-data",
+      "type": "dir"
+    },
+    {
+      "rank": 285,
+      "id": "westockdata",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/westockdata",
+      "type": "dir"
+    },
+    {
+      "rank": 286,
+      "id": "workbuddy-asset-migration",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/workbuddy-asset-migration",
+      "type": "dir"
+    },
+    {
+      "rank": 287,
+      "id": "workrally",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/workrally",
+      "type": "dir"
+    },
+    {
+      "rank": 288,
+      "id": "x-longform-post",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/x-longform-post",
+      "type": "dir"
+    },
+    {
+      "rank": 289,
+      "id": "xiaobai-coach",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/xiaobai-coach",
+      "type": "dir"
+    },
+    {
+      "rank": 290,
+      "id": "xiaojia-free-marketing-pack",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/xiaojia-free-marketing-pack",
+      "type": "dir"
+    },
+    {
+      "rank": 291,
+      "id": "xurl",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/xurl",
+      "type": "dir"
+    },
+    {
+      "rank": 292,
+      "id": "yingmi-skill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/yingmi-skill",
+      "type": "dir"
+    },
+    {
+      "rank": 293,
+      "id": "yourself-skill",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/yourself-skill",
+      "type": "dir"
+    },
+    {
+      "rank": 294,
+      "id": "yt-competitive-analysis",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/yt-competitive-analysis",
+      "type": "dir"
+    },
+    {
+      "rank": 295,
+      "id": "zoom-out",
+      "url": "https://github.com/infometa/workbuddyskills/tree/main/skills/zoom-out",
+      "type": "dir"
+    }
+  ]
+}

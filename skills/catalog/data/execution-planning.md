@@ -1,0 +1,57 @@
+---
+type: external
+source: qoder-community
+sourceUrl: https://qoder-community.pages.dev/zh/skills/executing-plans
+title: 执行计划
+nameZh: 执行计划
+category: 开发
+tags: ["开发","execution","tracking","management"]
+rank: 19
+id: execution-planning
+domain: data
+domainLabel: 数据
+catalogSource: qoder
+catalogFile: 执行计划.md
+catalogAddedAt: 2026-07-26
+---
+
+# 执行计划
+
+> 实施和执行战略计划，跟踪进度并调整执行策略
+
+## 概述
+
+实施和执行战略计划，跟踪进度并调整执行策略
+
+### 示例
+
+```
+我有以下计划需要执行：1. 设计数据库架构（已完成）2. 实现 API 端点（进行中）3. 编写测试用例（待开始）4. 部署到测试环境（待开始）
+请帮我：- 继续执行第 2 步- 识别潜在阻碍- 建议下一步行动
+```
+
+## 使用场景
+
+- 按计划执行项目
+- 跟踪任务完成状态
+- 处理执行障碍
+- 调整执行策略
+- 生成进度报告
+
+## 能力说明
+
+- **任务执行**：按计划完成任务
+- **进度跟踪**：监控完成情况
+- **问题解决**：处理执行障碍
+- **计划调整**：根据情况修改计划
+
+## 风险与注意事项
+
+- 保持计划和执行同步
+- 及时沟通进度和问题
+- 灵活应对变化
+- 完成后做回顾
+
+## 参考链接
+
+- 原文：https://qoder-community.pages.dev/zh/skills/executing-plans

@@ -1,0 +1,40 @@
+{
+  "title": "GTM 落地页 · 视觉世界选择",
+  "question": "抽签服务不可达，本轮为降级抽签（无挑战者卡）。抽签指派了「年度技能普查」——保留它、选备选，或重抽。",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "The Annual Skill Census · 年度技能普查",
+      "kicker": "THE ROLL",
+      "lineage": "印刷统计年鉴 / 瑞士数据海报",
+      "thesis": "把库的真实数字做成一张统计海报：454 条技能、16 领域、27 角色、5 来源——证据本身就是设计。",
+      "palette": ["#f4f2ec", "#141414", "#1f50c8", "#e04b1f"],
+      "materials": ["表格体巨型数字", "细线网格", "印刷条形图", "纸基底"],
+      "viewport": "顶部刊物式刊头，下方巨型「454」占据首屏过半，16 领域分布化作一排横向条带图。",
+      "risk": "排版不够狠时会滑向平淡的企业年报感，靠巨量数字与真实数据密度撑住。"
+    },
+    {
+      "id": "model-pick",
+      "label": "The Card Catalogue · 馆藏卡片目录",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "图书馆卡片目录柜 + 入藏登记簿",
+      "thesis": "每条技能都是一张可盖章、可溯源的入藏登记卡——把「每条都有出处」做成可见的实物。",
+      "palette": ["#efe6d2", "#1c1a17", "#b2231f", "#8a6d3b"],
+      "materials": ["打字机目录卡", "橡皮章日期戳", "抽屉标签", "黄铜件"],
+      "viewport": "首屏是卡片目录柜墙与一张拉出的入藏卡：品名「Skills Database」，盖着来源章与日期章。",
+      "risk": "最贴合产品的方向也最熟悉；一旦做成怀旧古董就输了，必须读作仍在运转的系统。"
+    }
+  ],
+  "canon": true,
+  "canonCard": {
+    "label": "类别标准 · 标准答案",
+    "thesis": "这个类别永远会交付的标准 dev-tool 落地页，但以完整工艺执行。",
+    "palette": ["#fafafa", "#111318", "#3b6cf0"],
+    "materials": ["干净的网格", "圆角卡片", "平滑渐变"],
+    "viewport": "居中大标题 + 副标题 + 两个 CTA 按钮，下方三列特性网格。",
+    "risk": "设计上就与其他产品无法区分。"
+  },
+  "reroll": { "registers": ["safer", "bolder"] },
+  "steer": true,
+  "buildPath": { "value": "comp", "toggle": true }
+}

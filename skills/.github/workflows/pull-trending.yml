@@ -1,0 +1,49 @@
+name: Pull trending skills
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * 1'  # 每周一 03:00 UTC
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pull-trending
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Pull trending lists (GitHub + HTML sources)
+        run: node tools/import/pull-top.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Rebuild web site
+        run: npm run web:build
+
+      - name: Commit pulled snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sources/_pulled tools/web/index.html
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore(data): 拉取全球 skills hub 最新榜单快照"
+            git push
+          fi

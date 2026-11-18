@@ -1,0 +1,226 @@
+{
+  "hub": "skills-sh",
+  "name": "skills.sh",
+  "region": "us",
+  "fetchedAt": "2026-11-09T10:54:58.779Z",
+  "fetchType": "html",
+  "count": 36,
+  "entries": [
+    {
+      "rank": 1,
+      "id": "Packs",
+      "url": "https://www.skills.sh/packs",
+      "type": "link"
+    },
+    {
+      "rank": 2,
+      "id": "Topics",
+      "url": "https://www.skills.sh/topic",
+      "type": "link"
+    },
+    {
+      "rank": 3,
+      "id": "Official",
+      "url": "https://www.skills.sh/official",
+      "type": "link"
+    },
+    {
+      "rank": 4,
+      "id": "Audits",
+      "url": "https://www.skills.sh/audits",
+      "type": "link"
+    },
+    {
+      "rank": 5,
+      "id": "All Time (1,292,103)",
+      "url": "https://www.skills.sh/",
+      "type": "link"
+    },
+    {
+      "rank": 6,
+      "id": "Trending (24h)",
+      "url": "https://www.skills.sh/trending",
+      "type": "link"
+    },
+    {
+      "rank": 7,
+      "id": "Hot",
+      "url": "https://www.skills.sh/hot",
+      "type": "link"
+    },
+    {
+      "rank": 8,
+      "id": "React",
+      "url": "https://www.skills.sh/topic/react",
+      "type": "link"
+    },
+    {
+      "rank": 9,
+      "id": "Next.js",
+      "url": "https://www.skills.sh/topic/nextjs",
+      "type": "link"
+    },
+    {
+      "rank": 10,
+      "id": "Design &amp; UI",
+      "url": "https://www.skills.sh/topic/design",
+      "type": "link"
+    },
+    {
+      "rank": 11,
+      "id": "Mobile",
+      "url": "https://www.skills.sh/topic/mobile",
+      "type": "link"
+    },
+    {
+      "rank": 12,
+      "id": "Agent workflows",
+      "url": "https://www.skills.sh/topic/agent-workflows",
+      "type": "link"
+    },
+    {
+      "rank": 13,
+      "id": "Databases",
+      "url": "https://www.skills.sh/topic/databases",
+      "type": "link"
+    },
+    {
+      "rank": 14,
+      "id": "Testing",
+      "url": "https://www.skills.sh/topic/testing",
+      "type": "link"
+    },
+    {
+      "rank": 15,
+      "id": "Marketing",
+      "url": "https://www.skills.sh/topic/marketing",
+      "type": "link"
+    },
+    {
+      "rank": 16,
+      "id": "Claude Code",
+      "url": "https://www.skills.sh/agent/claude-code",
+      "type": "link"
+    },
+    {
+      "rank": 17,
+      "id": "Cursor",
+      "url": "https://www.skills.sh/agent/cursor",
+      "type": "link"
+    },
+    {
+      "rank": 18,
+      "id": "Codex",
+      "url": "https://www.skills.sh/agent/codex",
+      "type": "link"
+    },
+    {
+      "rank": 19,
+      "id": "GitHub Copilot",
+      "url": "https://www.skills.sh/agent/github-copilot",
+      "type": "link"
+    },
+    {
+      "rank": 20,
+      "id": "Windsurf",
+      "url": "https://www.skills.sh/agent/windsurf",
+      "type": "link"
+    },
+    {
+      "rank": 21,
+      "id": "Gemini",
+      "url": "https://www.skills.sh/agent/gemini",
+      "type": "link"
+    },
+    {
+      "rank": 22,
+      "id": "Cline",
+      "url": "https://www.skills.sh/agent/cline",
+      "type": "link"
+    },
+    {
+      "rank": 23,
+      "id": "AMP",
+      "url": "https://www.skills.sh/agent/amp",
+      "type": "link"
+    },
+    {
+      "rank": 24,
+      "id": "Antigravity",
+      "url": "https://www.skills.sh/agent/antigravity",
+      "type": "link"
+    },
+    {
+      "rank": 25,
+      "id": "OpenClaw",
+      "url": "https://www.skills.sh/agent/clawdbot",
+      "type": "link"
+    },
+    {
+      "rank": 26,
+      "id": "All agents →",
+      "url": "https://www.skills.sh/agent",
+      "type": "link"
+    },
+    {
+      "rank": 27,
+      "id": "Overview",
+      "url": "https://www.skills.sh/docs",
+      "type": "link"
+    },
+    {
+      "rank": 28,
+      "id": "CLI",
+      "url": "https://www.skills.sh/docs/cli",
+      "type": "link"
+    },
+    {
+      "rank": 29,
+      "id": "Customize pages",
+      "url": "https://www.skills.sh/docs/customize",
+      "type": "link"
+    },
+    {
+      "rank": 30,
+      "id": "API",
+      "url": "https://www.skills.sh/docs/api",
+      "type": "link"
+    },
+    {
+      "rank": 31,
+      "id": "FAQ",
+      "url": "https://www.skills.sh/docs/faq",
+      "type": "link"
+    },
+    {
+      "rank": 32,
+      "id": "Contact",
+      "url": "https://www.skills.sh/contact",
+      "type": "link"
+    },
+    {
+      "rank": 33,
+      "id": "Privacy",
+      "url": "https://www.skills.sh/privacy",
+      "type": "link"
+    },
+    {
+      "rank": 34,
+      "id": "Terms",
+      "url": "https://www.skills.sh/terms",
+      "type": "link"
+    },
+    {
+      "rank": 35,
+      "id": "GitHub",
+      "url": "https://github.com/vercel-labs/skills",
+      "type": "link"
+    },
+    {
+      "rank": 36,
+      "id": "Vercel",
+      "url": "https://vercel.com/",
+      "type": "link"
+    }
+  ]
+}

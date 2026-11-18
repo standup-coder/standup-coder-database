@@ -1,0 +1,55 @@
+{
+  "name": "skills-database",
+  "version": "3.1.0",
+  "description": "本地化的职业技能学习与挑选平台 · Markdown 驱动的 SkillHub",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "import:classify": "node tools/import/classify.js",
+    "import:classify:dry": "node tools/import/classify.js --dry",
+    "import:json-to-md": "node tools/import/json-to-md.js",
+    "import:json-to-md:dry": "node tools/import/json-to-md.js --dry",
+    "import:regenerate": "node tools/import/regenerate-indices.js",
+    "import:validate": "node tools/import/validate-refs.js",
+    "import:fix-links": "node tools/import/fix-links.js",
+    "import:fix-links:dry": "node tools/import/fix-links.js --dry",
+    "import:fix-metadata": "node tools/import/fix-metadata.js",
+    "import:fix-metadata:dry": "node tools/import/fix-metadata.js --dry",
+    "web:build": "node tools/web/build.js",
+    "pull:top": "node tools/import/pull-top.js",
+    "role:fit": "node tools/role-fit.js",
+    "lint": "eslint . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/standup-coder/skills-database.git"
+  },
+  "keywords": [
+    "skills",
+    "skillhub",
+    "job-competencies",
+    "learning",
+    "markdown",
+    "knowledge-base",
+    "developer-tools",
+    "career-development"
+  ],
+  "author": "Skills Database Contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/standup-coder/skills-database/issues"
+  },
+  "homepage": "https://standup-coder.github.io/skills-database/",
+  "devDependencies": {
+    "eslint": "^9.39.4"
+  },
+  "files": [
+    "catalog/",
+    "sources/",
+    "templates/",
+    "tools/",
+    "README.md",
+    "CLAUDE.md",
+    "LICENSE"
+  ]
+}

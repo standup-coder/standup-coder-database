@@ -1,0 +1,262 @@
+{
+  "hub": "mcpmarket",
+  "name": "mcpmarket",
+  "region": "cn",
+  "fetchedAt": "2026-11-09T10:55:00.170Z",
+  "fetchType": "html",
+  "count": 42,
+  "entries": [
+    {
+      "rank": 1,
+      "id": "出售技能",
+      "url": "https://mcpmarket.com/zh/sell",
+      "type": "link"
+    },
+    {
+      "rank": 2,
+      "id": "全部",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories",
+      "type": "link"
+    },
+    {
+      "rank": 3,
+      "id": "生产力与工作流",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/productivity-workflow",
+      "type": "link"
+    },
+    {
+      "rank": 4,
+      "id": "安全与测试",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/security-testing",
+      "type": "link"
+    },
+    {
+      "rank": 5,
+      "id": "数据科学与机器学习",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/data-science-ml",
+      "type": "link"
+    },
+    {
+      "rank": 6,
+      "id": "开发者工具",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/developer-tools",
+      "type": "link"
+    },
+    {
+      "rank": 7,
+      "id": "设计工具",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/design-tools",
+      "type": "link"
+    },
+    {
+      "rank": 8,
+      "id": "协作工具",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/collaboration-tools",
+      "type": "link"
+    },
+    {
+      "rank": 9,
+      "id": "API 开发",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/api-development",
+      "type": "link"
+    },
+    {
+      "rank": 10,
+      "id": "学习与文档",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/learning-documentation",
+      "type": "link"
+    },
+    {
+      "rank": 11,
+      "id": "营销自动化",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/marketing-automation",
+      "type": "link"
+    },
+    {
+      "rank": 12,
+      "id": "部署与 DevOps",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/deployment-devops",
+      "type": "link"
+    },
+    {
+      "rank": 13,
+      "id": "分析与监控",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/analytics-monitoring",
+      "type": "link"
+    },
+    {
+      "rank": 14,
+      "id": "内容管理",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/content-management",
+      "type": "link"
+    },
+    {
+      "rank": 15,
+      "id": "云基础设施",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/cloud-infrastructure",
+      "type": "link"
+    },
+    {
+      "rank": 16,
+      "id": "数据库管理",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/database-management",
+      "type": "link"
+    },
+    {
+      "rank": 17,
+      "id": "Mobile Development",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/mobile-development",
+      "type": "link"
+    },
+    {
+      "rank": 18,
+      "id": "电子商务解决方案",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/e-commerce-solutions",
+      "type": "link"
+    },
+    {
+      "rank": 19,
+      "id": "网络抓取与数据收集",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/web-scraping-data-collection",
+      "type": "link"
+    },
+    {
+      "rank": 20,
+      "id": "社交媒体管理",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/social-media-management",
+      "type": "link"
+    },
+    {
+      "rank": 21,
+      "id": "游戏开发",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/game-development",
+      "type": "link"
+    },
+    {
+      "rank": 22,
+      "id": "浏览器自动化",
+      "url": "https://mcpmarket.com/zh/tools/skills/categories/browser-automation",
+      "type": "link"
+    },
+    {
+      "rank": 23,
+      "id": "开始使用",
+      "url": "https://app.mcpmarket.com/signup",
+      "type": "link"
+    },
+    {
+      "rank": 24,
+      "id": "MCP 搜索",
+      "url": "https://mcpmarket.com/zh/search",
+      "type": "link"
+    },
+    {
+      "rank": 25,
+      "id": "MCP 服务器",
+      "url": "https://mcpmarket.com/zh/server",
+      "type": "link"
+    },
+    {
+      "rank": 26,
+      "id": "MCP 客户端",
+      "url": "https://mcpmarket.com/zh/client",
+      "type": "link"
+    },
+    {
+      "rank": 27,
+      "id": "Claude 技能",
+      "url": "https://mcpmarket.com/zh/tools/skills",
+      "type": "link"
+    },
+    {
+      "rank": 28,
+      "id": "MCP Market Hub",
+      "url": "https://mcpmarket.com/zh/hub",
+      "type": "link"
+    },
+    {
+      "rank": 29,
+      "id": "分类",
+      "url": "https://mcpmarket.com/zh/categories",
+      "type": "link"
+    },
+    {
+      "rank": 30,
+      "id": "什么是 MCP 服务器?",
+      "url": "https://mcpmarket.com/zh/what-is-an-mcp-server",
+      "type": "link"
+    },
+    {
+      "rank": 31,
+      "id": "什么是 WebMCP?",
+      "url": "https://mcpmarket.com/zh/what-is-webmcp",
+      "type": "link"
+    },
+    {
+      "rank": 32,
+      "id": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/",
+      "type": "link"
+    },
+    {
+      "rank": 33,
+      "id": "今日热门 MCP",
+      "url": "https://mcpmarket.com/zh/daily",
+      "type": "link"
+    },
+    {
+      "rank": 34,
+      "id": "今日热门 Claude 技能",
+      "url": "https://mcpmarket.com/zh/daily/skills",
+      "type": "link"
+    },
+    {
+      "rank": 35,
+      "id": "Claude 技能 Top 100",
+      "url": "https://mcpmarket.com/zh/tools/skills/leaderboard",
+      "type": "link"
+    },
+    {
+      "rank": 36,
+      "id": "MCP 服务器 Top 100",
+      "url": "https://mcpmarket.com/zh/leaderboards",
+      "type": "link"
+    },
+    {
+      "rank": 37,
+      "id": "新闻",
+      "url": "https://mcpmarket.com/zh/news",
+      "type": "link"
+    },
+    {
+      "rank": 38,
+      "id": "提交",
+      "url": "https://mcpmarket.com/zh/submit",
+      "type": "link"
+    },
+    {
+      "rank": 39,
+      "id": "与我们合作投放广告",
+      "url": "https://mcpmarket.com/zh/advertise",
+      "type": "link"
+    },
+    {
+      "rank": 40,
+      "id": "联系我们",
+      "url": "mailto:support@mcpmarket.com",
+      "type": "link"
+    },
+    {
+      "rank": 41,
+      "id": "Privacy",
+      "url": "https://mcpmarket.com/zh/privacy",
+      "type": "link"
+    },
+    {
+      "rank": 42,
+      "id": "Terms",
+      "url": "https://mcpmarket.com/zh/terms",
+      "type": "link"
+    }
+  ]
+}

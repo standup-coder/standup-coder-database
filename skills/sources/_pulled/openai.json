@@ -1,0 +1,22 @@
+{
+  "hub": "openai",
+  "name": "OpenAI 官方 Skills",
+  "region": "us",
+  "fetchedAt": "2026-11-09T10:54:59.674Z",
+  "fetchType": "github",
+  "count": 2,
+  "entries": [
+    {
+      "rank": 1,
+      "id": ".curated",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated",
+      "type": "dir"
+    },
+    {
+      "rank": 2,
+      "id": ".system",
+      "url": "https://github.com/openai/skills/tree/main/skills/.system",
+      "type": "dir"
+    }
+  ]
+}

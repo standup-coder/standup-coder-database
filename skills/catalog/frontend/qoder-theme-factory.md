@@ -1,0 +1,58 @@
+---
+type: external
+source: qoder-community
+sourceUrl: https://qoder-community.pages.dev/zh/skills/theme-factory
+title: 主题工厂
+nameZh: 主题工厂
+category: 设计
+tags: ["设计","theme","styling","branding","design-system"]
+rank: 33
+id: qoder-theme-factory
+duplicateOf: theme-factory
+domain: frontend
+domainLabel: 前端
+catalogSource: qoder
+catalogFile: 主题工厂.md
+catalogAddedAt: 2026-07-26
+---
+
+# 主题工厂
+
+> 为各种产物应用专业主题的工具包，包括幻灯片、文档、报告和落地页
+
+## 概述
+
+为各种产物应用专业主题的工具包，包括幻灯片、文档、报告和落地页
+
+### 示例
+
+```
+请为这份报告应用企业蓝主题：- 主色：深蓝色- 强调色：金色- 字体：专业商务风格- 保持原有内容结构
+或者，为产品发布生成一个科技主题。
+```
+
+## 使用场景
+
+- 为演示文稿应用品牌主题
+- 统一文档视觉风格
+- 快速切换主题
+- 生成自定义主题
+- 保持品牌一致性
+
+## 能力说明
+
+- **预设主题**：10+ 专业主题
+- **自定义主题**：根据需求生成
+- **一键应用**：快速更改样式
+- **多格式支持**：幻灯片、文档、网页
+
+## 风险与注意事项
+
+- 选择与内容匹配的主题
+- 保持主题使用的一致性
+- 可基于预设进行微调
+- 考虑受众和场合
+
+## 参考链接
+
+- 原文：https://qoder-community.pages.dev/zh/skills/theme-factory

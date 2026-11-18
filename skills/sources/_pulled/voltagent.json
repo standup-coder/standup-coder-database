@@ -1,0 +1,310 @@
+{
+  "hub": "voltagent",
+  "name": "VoltAgent / awesome-agent-skills",
+  "region": "us",
+  "fetchedAt": "2026-11-09T10:54:59.350Z",
+  "fetchType": "github",
+  "count": 50,
+  "entries": [
+    {
+      "rank": 1,
+      "id": "![Awesome",
+      "url": "https://awesome.re/badge.svg",
+      "type": "readme-link"
+    },
+    {
+      "rank": 2,
+      "id": "Skills Count",
+      "url": "https://img.shields.io/badge/Skills-1497+-blue?style=flat-square",
+      "type": "readme-link"
+    },
+    {
+      "rank": 3,
+      "id": "Last Update",
+      "url": "https://img.shields.io/github/last-commit/VoltAgent/awesome-agent-skills?label=Last%20update&style=flat-square",
+      "type": "readme-link"
+    },
+    {
+      "rank": 4,
+      "id": "![Discord",
+      "url": "https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2",
+      "type": "readme-link"
+    },
+    {
+      "rank": 5,
+      "id": "![Official MCP Servers",
+      "url": "https://img.shields.io/badge/Official-MCP%20Servers-c2410c?style=flat-square&logo=github&logoColor=white&labelColor=24292f",
+      "type": "readme-link"
+    },
+    {
+      "rank": 6,
+      "id": "TestMu AI (formerly LambdaTest)",
+      "url": "https://www.testmuai.com",
+      "type": "readme-link"
+    },
+    {
+      "rank": 7,
+      "id": "Crawlbase",
+      "url": "https://crawlbase.com/?utm_source=awesome-agent-skills&utm_medium=sponsorship&utm_campaign=voltagent_2026q3&utm_content=readme_listing",
+      "type": "readme-link"
+    },
+    {
+      "rank": 8,
+      "id": "SerpApi",
+      "url": "https://serpapi.com/awesome-agent-skills",
+      "type": "readme-link"
+    },
+    {
+      "rank": 9,
+      "id": "EveryFeed",
+      "url": "https://everyfeed.ai/",
+      "type": "readme-link"
+    },
+    {
+      "rank": 10,
+      "id": "anthropics/docx",
+      "url": "https://officialskills.sh/anthropics/skills/docx",
+      "type": "readme-link"
+    },
+    {
+      "rank": 11,
+      "id": "anthropics/doc-coauthoring",
+      "url": "https://officialskills.sh/anthropics/skills/doc-coauthoring",
+      "type": "readme-link"
+    },
+    {
+      "rank": 12,
+      "id": "anthropics/pptx",
+      "url": "https://officialskills.sh/anthropics/skills/pptx",
+      "type": "readme-link"
+    },
+    {
+      "rank": 13,
+      "id": "anthropics/xlsx",
+      "url": "https://officialskills.sh/anthropics/skills/xlsx",
+      "type": "readme-link"
+    },
+    {
+      "rank": 14,
+      "id": "anthropics/pdf",
+      "url": "https://officialskills.sh/anthropics/skills/pdf",
+      "type": "readme-link"
+    },
+    {
+      "rank": 15,
+      "id": "anthropics/algorithmic-art",
+      "url": "https://officialskills.sh/anthropics/skills/algorithmic-art",
+      "type": "readme-link"
+    },
+    {
+      "rank": 16,
+      "id": "anthropics/canvas-design",
+      "url": "https://officialskills.sh/anthropics/skills/canvas-design",
+      "type": "readme-link"
+    },
+    {
+      "rank": 17,
+      "id": "anthropics/frontend-design",
+      "url": "https://officialskills.sh/anthropics/skills/frontend-design",
+      "type": "readme-link"
+    },
+    {
+      "rank": 18,
+      "id": "anthropics/slack-gif-creator",
+      "url": "https://officialskills.sh/anthropics/skills/slack-gif-creator",
+      "type": "readme-link"
+    },
+    {
+      "rank": 19,
+      "id": "anthropics/theme-factory",
+      "url": "https://officialskills.sh/anthropics/skills/theme-factory",
+      "type": "readme-link"
+    },
+    {
+      "rank": 20,
+      "id": "anthropics/web-artifacts-builder",
+      "url": "https://officialskills.sh/anthropics/skills/web-artifacts-builder",
+      "type": "readme-link"
+    },
+    {
+      "rank": 21,
+      "id": "anthropics/mcp-builder",
+      "url": "https://officialskills.sh/anthropics/skills/mcp-builder",
+      "type": "readme-link"
+    },
+    {
+      "rank": 22,
+      "id": "anthropics/webapp-testing",
+      "url": "https://officialskills.sh/anthropics/skills/webapp-testing",
+      "type": "readme-link"
+    },
+    {
+      "rank": 23,
+      "id": "anthropics/brand-guidelines",
+      "url": "https://officialskills.sh/anthropics/skills/brand-guidelines",
+      "type": "readme-link"
+    },
+    {
+      "rank": 24,
+      "id": "anthropics/internal-comms",
+      "url": "https://officialskills.sh/anthropics/skills/internal-comms",
+      "type": "readme-link"
+    },
+    {
+      "rank": 25,
+      "id": "anthropics/skill-creator",
+      "url": "https://officialskills.sh/anthropics/skills/skill-creator",
+      "type": "readme-link"
+    },
+    {
+      "rank": 26,
+      "id": "anthropics/template",
+      "url": "https://officialskills.sh/anthropics/skills/template",
+      "type": "readme-link"
+    },
+    {
+      "rank": 27,
+      "id": "voltagent/create-voltagent",
+      "url": "https://officialskills.sh/voltagent/skills/create-voltagent",
+      "type": "readme-link"
+    },
+    {
+      "rank": 28,
+      "id": "voltagent/voltagent-best-practices",
+      "url": "https://officialskills.sh/voltagent/skills/voltagent-best-practices",
+      "type": "readme-link"
+    },
+    {
+      "rank": 29,
+      "id": "voltagent/voltagent-core-reference",
+      "url": "https://officialskills.sh/voltagent/skills/voltagent-core-reference",
+      "type": "readme-link"
+    },
+    {
+      "rank": 30,
+      "id": "voltagent/voltagent-docs-bundle",
+      "url": "https://officialskills.sh/voltagent/skills/voltagent-docs-bundle",
+      "type": "readme-link"
+    },
+    {
+      "rank": 31,
+      "id": "serpapi/serpapi-web-search",
+      "url": "https://officialskills.sh/serpapi/skills/serpapi-web-search",
+      "type": "readme-link"
+    },
+    {
+      "rank": 32,
+      "id": "serpapi/agent-usability-test",
+      "url": "https://officialskills.sh/serpapi/skills/agent-usability-test",
+      "type": "readme-link"
+    },
+    {
+      "rank": 33,
+      "id": "serpapi/serpapi-search-tools-python",
+      "url": "https://github.com/serpapi/serpapi-search-tools-python",
+      "type": "readme-link"
+    },
+    {
+      "rank": 34,
+      "id": "serpapi/serpapi-cli",
+      "url": "https://github.com/serpapi/serpapi-cli",
+      "type": "readme-link"
+    },
+    {
+      "rank": 35,
+      "id": "crawlbase/crawl-html",
+      "url": "https://officialskills.sh/crawlbase/skills/crawl-html",
+      "type": "readme-link"
+    },
+    {
+      "rank": 36,
+      "id": "crawlbase/crawl-markdown",
+      "url": "https://officialskills.sh/crawlbase/skills/crawl-markdown",
+      "type": "readme-link"
+    },
+    {
+      "rank": 37,
+      "id": "crawlbase/crawl-screenshot",
+      "url": "https://officialskills.sh/crawlbase/skills/crawl-screenshot",
+      "type": "readme-link"
+    },
+    {
+      "rank": 38,
+      "id": "crawlbase/storage-get",
+      "url": "https://officialskills.sh/crawlbase/skills/storage-get",
+      "type": "readme-link"
+    },
+    {
+      "rank": 39,
+      "id": "crawlbase/storage-list",
+      "url": "https://officialskills.sh/crawlbase/skills/storage-list",
+      "type": "readme-link"
+    },
+    {
+      "rank": 40,
+      "id": "crawlbase/storage-bulk-get",
+      "url": "https://officialskills.sh/crawlbase/skills/storage-bulk-get",
+      "type": "readme-link"
+    },
+    {
+      "rank": 41,
+      "id": "crawlbase/storage-count",
+      "url": "https://officialskills.sh/crawlbase/skills/storage-count",
+      "type": "readme-link"
+    },
+    {
+      "rank": 42,
+      "id": "crawlbase/storage-delete",
+      "url": "https://officialskills.sh/crawlbase/skills/storage-delete",
+      "type": "readme-link"
+    },
+    {
+      "rank": 43,
+      "id": "crawlbase/storage-bulk-delete",
+      "url": "https://officialskills.sh/crawlbase/skills/storage-bulk-delete",
+      "type": "readme-link"
+    },
+    {
+      "rank": 44,
+      "id": "crawlbase/crawlbase-mcp",
+      "url": "https://github.com/crawlbase/crawlbase-mcp",
+      "type": "readme-link"
+    },
+    {
+      "rank": 45,
+      "id": "crawlbase/langchain-crawlbase",
+      "url": "https://github.com/crawlbase/langchain-crawlbase",
+      "type": "readme-link"
+    },
+    {
+      "rank": 46,
+      "id": "crawlbase/n8n-nodes-crawlbase",
+      "url": "https://github.com/crawlbase/n8n-nodes-crawlbase",
+      "type": "readme-link"
+    },
+    {
+      "rank": 47,
+      "id": "testmu-ai/api-skill",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/api-skill",
+      "type": "readme-link"
+    },
+    {
+      "rank": 48,
+      "id": "testmu-ai/appium-skill",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/appium-skill",
+      "type": "readme-link"
+    },
+    {
+      "rank": 49,
+      "id": "testmu-ai/behat-skill",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/behat-skill",
+      "type": "readme-link"
+    },
+    {
+      "rank": 50,
+      "id": "testmu-ai/behave-skill",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/behave-skill",
+      "type": "readme-link"
+    }
+  ]
+}

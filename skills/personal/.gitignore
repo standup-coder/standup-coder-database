@@ -1,0 +1,9 @@
+# personal/ 默认不入版本控制
+# 取消注释下行可选择性追踪你的状态
+# !.gitkeep
+# !picked.md
+# !in-progress.md
+# !learned.md
+*
+!.gitignore
+!README.md

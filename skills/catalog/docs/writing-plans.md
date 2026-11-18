@@ -1,0 +1,58 @@
+---
+type: external
+source: qoder-community
+sourceUrl: https://qoder-community.pages.dev/zh/skills/writing-plans
+title: 编写计划
+nameZh: 编写计划
+category: 开发
+tags: ["开发","planning","strategy","documentation"]
+rank: 18
+id: writing-plans
+domain: docs
+domainLabel: 文档
+catalogSource: qoder
+catalogFile: 编写计划.md
+catalogAddedAt: 2026-07-26
+---
+
+# 编写计划
+
+> 创建项目计划和策略文档，帮助清晰定义目标、步骤和预期结果
+
+## 概述
+
+创建项目计划和策略文档，帮助清晰定义目标、步骤和预期结果
+
+### 示例
+
+```
+请帮我创建用户认证系统重构计划：
+目标：从旧的 session 认证迁移到 JWT约束：不能影响现有用户时间：4 周
+包含：目标、分阶段任务、风险和应对措施。
+```
+
+## 使用场景
+
+- 创建项目实施计划
+- 编写技术方案文档
+- 规划产品路线图
+- 起草战略计划
+- 定义里程碑和交付物
+
+## 能力说明
+
+- **目标定义**：清晰的目标陈述
+- **任务分解**：将目标分解为可执行步骤
+- **时间规划**：合理的时间安排
+- **风险识别**：预见潜在问题
+
+## 风险与注意事项
+
+- 计划应该可执行，不要太抽象
+- 考虑依赖关系
+- 留出缓冲时间
+- 定期回顾和调整
+
+## 参考链接
+
+- 原文：https://qoder-community.pages.dev/zh/skills/writing-plans

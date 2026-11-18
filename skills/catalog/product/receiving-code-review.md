@@ -1,0 +1,57 @@
+---
+type: external
+source: qoder-community
+sourceUrl: https://qoder-community.pages.dev/zh/skills/receiving-code-review
+title: 接收代码审查
+nameZh: 接收代码审查
+category: 开发
+tags: ["开发","code-review","collaboration","feedback"]
+rank: 38
+id: receiving-code-review
+domain: product
+domainLabel: 产品
+catalogSource: qoder
+catalogFile: 接收代码审查.md
+catalogAddedAt: 2026-07-26
+---
+
+# 接收代码审查
+
+> 处理和整合代码审查反馈的最佳实践
+
+## 概述
+
+处理和整合代码审查反馈的最佳实践
+
+### 示例
+
+```
+我收到了以下代码审查评论：1. "这个函数太长了，建议拆分"2. "错误处理可以更健壮"3. "考虑使用策略模式"
+请帮我分析这些反馈并制定改进计划。
+```
+
+## 使用场景
+
+- 处理 PR 审查评论
+- 理解和回应反馈
+- 决定是否采纳建议
+- 与审查者有效沟通
+- 将反馈转化为改进
+
+## 能力说明
+
+- **积极态度**：以学习心态接受反馈
+- **理解意图**：确保理解审查者意图
+- **有效回应**：清晰回应每条评论
+- **实施改进**：将反馈转化为代码改进
+
+## 风险与注意事项
+
+- 对事不对人
+- 不懂就问，不要猜测
+- 感谢审查者的时间
+- 保持专业和礼貌
+
+## 参考链接
+
+- 原文：https://qoder-community.pages.dev/zh/skills/receiving-code-review

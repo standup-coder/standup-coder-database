@@ -1,0 +1,54 @@
+---
+type: external
+source: qoder-community
+sourceUrl: https://qoder-community.pages.dev/zh/skills/requesting-code-review
+title: 请求代码审查
+nameZh: 请求代码审查
+category: 开发
+tags: ["开发","code-review","collaboration","pr"]
+rank: 39
+id: requesting-code-review
+domain: testing
+domainLabel: 测试
+catalogSource: qoder
+catalogFile: 请求代码审查.md
+catalogAddedAt: 2026-07-26
+---
+
+# 请求代码审查
+
+> 请求代码审查的最佳实践，帮助审查者高效完成审查
+
+## 概述
+
+请求代码审查的最佳实践，帮助审查者高效完成审查
+
+### 示例
+
+- `我正在提交订单系统重构的 PR，请帮我：1. 写清晰的 PR 描述2. 列出主要变更点3. 解释设计决策的原因4. 提供测试验证步骤5. 指出需要重点审查的代码`
+
+## 使用场景
+
+- 提交 PR 并请求审查
+- 为审查者准备上下文
+- 引导审查者关注重点
+- 减少审查者认知负担
+- 加快审查流程
+
+## 能力说明
+
+- **PR 描述**：清晰的变更说明
+- **上下文提供**：背景信息和设计决策
+- **审查引导**：指出需要注意的地方
+- **测试说明**：如何验证变更
+
+## 风险与注意事项
+
+- 保持 PR 大小合理（建议 < 400 行）
+- 先自己审查一遍
+- 提供足够的上下文
+- 明确审查紧急程度
+
+## 参考链接
+
+- 原文：https://qoder-community.pages.dev/zh/skills/requesting-code-review

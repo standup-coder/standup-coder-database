@@ -1,0 +1,40 @@
+{
+  "hub": "mattpocock",
+  "name": "mattpocock/skills",
+  "region": "us",
+  "fetchedAt": "2026-11-09T10:54:59.491Z",
+  "fetchType": "github",
+  "count": 5,
+  "entries": [
+    {
+      "rank": 1,
+      "id": "deprecated",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/deprecated",
+      "type": "dir"
+    },
+    {
+      "rank": 2,
+      "id": "engineering",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering",
+      "type": "dir"
+    },
+    {
+      "rank": 3,
+      "id": "in-progress",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/in-progress",
+      "type": "dir"
+    },
+    {
+      "rank": 4,
+      "id": "misc",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/misc",
+      "type": "dir"
+    },
+    {
+      "rank": 5,
+      "id": "productivity",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/productivity",
+      "type": "dir"
+    }
+  ]
+}
