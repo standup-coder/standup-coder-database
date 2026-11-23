@@ -2,7 +2,7 @@
   "hub": "skills-sh",
   "name": "skills.sh",
   "region": "us",
-  "fetchedAt": "2026-11-09T10:54:58.779Z",
+  "fetchedAt": "2026-11-23T11:36:05.203Z",
   "fetchType": "html",
   "count": 36,
   "entries": [
@@ -32,7 +32,7 @@
     },
     {
       "rank": 5,
-      "id": "All Time (1,292,103)",
+      "id": "All Time (1,517,210)",
       "url": "https://www.skills.sh/",
       "type": "link"
     },
