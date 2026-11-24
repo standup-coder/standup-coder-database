@@ -67,6 +67,11 @@ LLM 单独调用只能"回答问题";Agent 让它"完成任务"。本角色负�
 | [code-review](../backend/code-review.md) | 审查代码质量与安全风险 |
 | [api-call](../security/api-call.md) | 正确、安全地调用外部 API |
 | [run-tests](../testing/run-tests.md) | 建立测试基线,防止回归 |
+| [agent-memory-design](../ai-ml/agent-memory-design.md) | 设计 Agent 记忆分层、写入/检索与压缩策略 |
+| [context-window-management](../ai-ml/context-window-management.md) | 管理上下文预算,做裁剪、摘要与缓存 |
+| [guardrails-safety](../ai-ml/guardrails-safety.md) | 设计输入输出护栏,防范注入、越权与数据泄漏 |
+| [read-file](../productivity/read-file.md) | 读取指定路径的文件内容 |
+| [write-file](../productivity/write-file.md) | 将内容写入指定路径的文件 |
 
 ## 前置知识
 
