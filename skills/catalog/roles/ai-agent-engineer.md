@@ -13,7 +13,7 @@ experience: 3+ years(含 1+ 年 Agent/LLM 系统生产经验)
 education: CS / SE / 相关领域
 responsibilities: 架构多 Agent 系统拓扑 | 开发与维护 MCP 服务器 | 设计高级系统提示与思维链策略 | 构建生产 RAG 管道 | 建立 Agent 评估体系 | 实现 Agent 可观测性 | 协作防范 Agentic 安全威胁
 mainSkills: agent-orchestration-design, llm-app-development
-atomicSkills: agent-orchestration, mcp-server-development, agent-evaluation, prompt-engineering-advanced, rag-pipeline-design, tool-use-design, llm-evaluation, embeddings-design, vector-search, system-design, code-review, read-file, write-file, api-call, run-tests
+atomicSkills: agent-orchestration, mcp-server-development, agent-evaluation, agent-memory-design, context-window-management, guardrails-safety, prompt-engineering-advanced, rag-pipeline-design, tool-use-design, llm-evaluation, embeddings-design, vector-search, system-design, code-review, read-file, write-file, api-call, run-tests
 ---
 
 # AI Agent 工程师
