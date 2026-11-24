@@ -8,6 +8,10 @@ on:
       - 'skills/sources/**'
       - 'skills/tools/web/**'
       - '.github/workflows/deploy-skills.yml'
+  # 定时任务用 GITHUB_TOKEN 推送不会触发 push 事件，拉取成功后在这里补一次部署
+  workflow_run:
+    workflows: ["Pull trending skills"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -21,6 +25,8 @@ concurrency:
 
 jobs:
   build:
+    # workflow_run 触发的运行仅在拉取工作流成功时部署
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     defaults:
       run:
