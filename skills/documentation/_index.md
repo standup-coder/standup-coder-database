@@ -14,6 +14,22 @@
 | [GROWTH_PATH_DESIGN_2026-07.md](./GROWTH_PATH_DESIGN_2026-07.md) | 成长路径设计:role 晋升线与技能依赖 | 设计稿,已实现为 roles 成长线索引 |
 | [PRODUCT-GTM-PLAN.md](./PRODUCT-GTM-PLAN.md) | GTM 说服页的产品定位与约束 | 已实现,见 [`tools/gtm/`](../tools/gtm/) |
 
+## 岗位技能映射图(静态导出,assets/)
+
+`catalog/roles/_index.append.md` 中各成长线的 Mermaid 图谱静态导出版(SVG,2026-11-25 生成),供不支持 Mermaid 渲染的文档/网页直接引用。数据真值仍在 `catalog/` 各 role 的 `mainSkills` / `atomicSkills`;catalog 更新后需重新导出。
+
+| 图 | 覆盖岗位 |
+|---|---|
+| [frontend-role-skill-graph.svg](./assets/frontend-role-skill-graph.svg) | frontend-developer → senior-frontend-dev |
+| [backend-role-skill-graph.svg](./assets/backend-role-skill-graph.svg) | backend-developer → backend-architect |
+| [data-role-skill-graph.svg](./assets/data-role-skill-graph.svg) | data-analyst → data-scientist → ai-ml-engineer |
+| [ai-role-skill-graph.svg](./assets/ai-role-skill-graph.svg) | ai-ml-engineer → ai-agent-engineer |
+| [devops-role-skill-graph.svg](./assets/devops-role-skill-graph.svg) | devops-engineer → sre / platform / release(三叉) |
+| [security-role-skill-graph.svg](./assets/security-role-skill-graph.svg) | security-engineer → cloud-security-engineer |
+| [qa-role-skill-graph.svg](./assets/qa-role-skill-graph.svg) | qa-automation → 测试架构 / DevOps 转型 |
+
+> 导出命令:`awk` 提取 `_index.md` 中的 mermaid 块后用 `mmdc -i <块> -o <svg> -b white` 渲染。
+
 ## 历史档案(archive/)
 
 SDK / 三层 JSON 时代(2026-05 ~ 2026-07 上旬)的过程记录,仅作历史追溯,内容描述的目录结构已不存在:
